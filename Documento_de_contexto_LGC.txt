@@ -1,0 +1,201 @@
+<contexto_fundacional>
+
+  <memoria_semantica>
+
+    <proyecto>
+      - Nombre: La Gran Crisis
+      - Dominio: lagrancrisis.com
+      - Tagline: Los datos no entran en pánico
+      - Definición: Retrodiario web automatizado y estático de curación macroeconómica, financiera y política (AR y Global) con validación estricta de fuentes.
+    </proyecto>
+
+    <hipotesis_arquitectura>
+      - Validada: Infraestructura 100% gratuita, asíncrona y estática. Resistencia alta a fallos con costos operativos cercanos a cero.
+    </hipotesis_arquitectura>
+
+    <stack_tecnologico>
+      - Scraping y lógica: Python (feedparser, requests)
+      - LLM: Gemini 2.5 flash-lite primario, fallback a Gemini 2.5 flash
+      - Templating: Jinja2 3.1.6
+      - Dependencias actualizadas (30/04/2026): feedparser 6.0.12, google-genai 1.74.0,
+        Jinja2 3.1.6, cryptography 47.0.0, pydantic 2.13.3, python-dotenv 1.2.2,
+        tzdata 2026.2, certifi 2026.4.22, grpcio-status 1.80.0, google-auth 2.50.0
+      - isort 8.0.1 instalado en venv y fijado en requirements.txt
+      - Publicación: docs estático + GitHub Pages
+      - Runtime local operativo:
+        - modo intradía (--accumulate)
+        - modo cierre (--close)
+        - locks por modo
+        - logs separados por modo
+      - Orquestación editorial activa:
+        - Paso A factual
+        - Paso B Redactor + Editor por chunks
+        - Paso D síntesis global
+        - Paso E Juez
+      - Hardening LLM:
+        - parser robusto (objeto/lista, saneo, quote repair)
+        - reparación JSON automática post-falla de parseo
+        - métrica crítica: llm_json_parse_unrecovered_total
+        - métricas observacionales: parse total, repair attempts, repair success
+      - Observabilidad operativa:
+        - pipeline_metrics diario
+        - daily_review diario
+        - health_check diario de outputs
+        - intraday_guard horario (frescura + códigos de rechazo scheduler)
+      - Automatización local Task Scheduler:
+        - LGC-IntradayAccumulate
+        - LGC-DailyClose
+        - LGC-Review (05:30)
+        - LGC-UpdateHoja (05:35)
+        - LGC-HealthCheck
+        - LGC-IntradayGuard
+        - LGC-PostCloseSchedulerAudit (07:00, diaria)
+      - Ajustes de estabilidad scheduler:
+        - ejecución permitida en batería
+        - no detener al pasar a batería
+        - start when available
+      - Gestión documental reciente:
+        - placeholders de faltante documentado para 2026-04-25 y 2026-04-26
+        - índice con etiqueta visual Faltante documentado
+      - Separación visual Argentina / Internacional (30/04/2026):
+        - Campo is_argentina propagado en 4 puntos de main.py (builder functions)
+        - _is_argentina_article() infiere por source_category, URL (.com.ar, .gob.ar) y source_name
+        - template diario.html.j2 dividido en dos <section class="news-group">:
+            Argentina: {% for item in noticias_destacadas if item.is_argentina %}
+            Internacional: {% for item in noticias_destacadas if not item.is_argentina %}
+        - builder.py: _enrich_is_argentina() como fallback on-the-fly para data.json viejos
+          (infiere por URL y tokens estrictos de source_name; evita falsos positivos de medios)
+        - CSS: columnas aplicadas por .news-group (no en .news-feed global)
+          .news-group + .news-group separado con border-top: 3px double + margin
+          .news-group > h2 con column-span: all
+          look-financial y look-historic corregidos para apuntar a .news-group
+        - Re-render masivo de los 28 días de abril 2026 con nuevo template (28/28 OK)
+      - Ingesta RSS (fetch_rss.py):
+        - Normalización UTC-aware: _to_utc() evita recortes por comparación naive/aware
+        - max_entries_per_source configurable (default 40); antes fijo en 10
+        - hours_back configurable vía LGC_FEED_HOURS_BACK (default 48h)
+        - max entries vía LGC_FEED_MAX_ENTRIES_PER_SOURCE (default 40)
+        - Helper _get_env_int() con fallback seguro en main.py
+      - Fuentes argentinas (sources.json) — URLs corregidas (30/04/2026):
+        - El Cronista: finanzas.xml (42 entries)
+        - La Nación Economía: arc/outboundfeeds/rss/category/economia (98 entries)
+        - Infobae Economía: arc/outboundfeeds/rss/category/economia (100 entries)
+        - Perfil Economía: /feed/economia (70 entries)
+        - BCRA / Casa Rosada / MinEconomía → argentina.gob.ar/rss.xml
+        - INDEC y Boletín Oficial: pendiente (sirven HTML, no RSS válido)
+      - Parser de fechas (fetch_rss.py + backfill_april_2026.py):
+        - Regex "DD de Mes de YYYY" y "Mes YYYY" para feeds sin metadatos (ej. FIEL)
+        - Eliminado fallback datetime.now() para FIEL (evitaba fechas falsas)
+    </stack_tecnologico>
+
+    <directrices_editoriales>
+      - Anti-ruido estricto
+      - Síntesis causal Top-Down y Bottom-Up
+      - Cero alucinación: solo hechos de RSS procesado
+      - Español obligatorio
+      - Continuidad narrativa entre días
+      - Summary por noticia 500-1000 caracteres
+      - Cobertura forzada del universo no-ruido
+    </directrices_editoriales>
+
+    <restricciones_legales>
+      - Prohibido asesoramiento financiero
+      - Solo información factual verificada
+    </restricciones_legales>
+
+  </memoria_semantica>
+
+  <memoria_episodica>
+
+    <fases_del_mvp>
+      - Fase 1: completada (pipeline local funcional)
+      - Fase 1-bis: completada (cobertura/español/métricas/hardening)
+      - Fase 1-ter: completada (robustez parseo + debug hygiene)
+      - Fase 2: en curso (validación local pre-Actions con monitoreo automático)
+      - Fase 3: pendiente (GitHub Actions)
+    </fases_del_mvp>
+
+    <decisiones_tomadas>
+      - Se consolidó operación local con acumulado intradía + cierre único diario.
+      - Se corrigieron tareas locales y se eliminaron rechazos por condiciones de energía.
+      - Se agregó guardia horaria de intradía para detección temprana.
+      - Se implementó health check diario automático de artefactos esperados.
+      - Se automatizó revisión diaria y actualización de hoja operativa.
+      - Se auditó raw vs docs para 24-27/04:
+        - 24 y 27 válidos
+        - 25 y 26 faltante documentado (sin reconstrucción artificial)
+      - Se actualizó índice para mostrar etiqueta de faltante documentado.
+      - Se endureció KPI operativo de parse:
+        - crítico: no recuperados
+        - observacional: parse total
+      - Validación reciente:
+        - corrida controlada exitosa con:
+          - llm_json_parse_failures_total > 0
+          - llm_json_parse_unrecovered_total = 0
+          - checklist diario 10/10 OK
+      - Sesión 30/04/2026 — Auditoría completa del repositorio:
+        - Diagnóstico: is_argentina MISSING en data.json pre-existentes → fallback en builder OK
+        - Diagnóstico: CSS multicolumna en .news-feed desdibujaba el corte de secciones → movido a .news-group
+        - Diagnóstico: isort no instalado en venv → instalado + fijado en requirements.txt
+        - Auditoría imports src/: 6 archivos corregidos por isort (solo orden, sin cambios funcionales)
+        - Auditoría tareas Windows: 7 LGC-* todas en Ready, LastResult vacío (primer día del Operational log)
+        - Auditoría outputs 28/28: todos con index.html + data.json presentes
+        - Auditoría HTML 28/28: todas las páginas con secciones Argentina + Internacional
+        - CSS static/ ↔ docs/static/ sincronizados (MD5 idéntico)
+        - Dependencias actualizadas (ver stack_tecnologico)
+      - Sesión 30/04/2026 — Diagnóstico y corrección de fuentes argentinas:
+        - Causa raíz: 7 de 12 endpoints RSS argentinos devolvían 404 o 0 entries.
+        - Resultado anterior: solo entraba Ámbito Financiero (~10 artículos/día).
+        - URLs corregidas en sources.json (detalle en stack_tecnologico).
+        - Backfill histórico #1 abril 2026: 23/23 días OK con pipeline LLM completo.
+        - Backfill histórico #2 abril 2026: 27/27 días OK con fuentes corregidas.
+        - Corrida de prueba 30/04: 154 descargadas → 146 publicadas, cobertura 94.81%.
+        - Parser de fechas mejorado para feeds sin metadatos (FIEL y similares).
+        - Ajuste de producción: ingesta UTC-aware, max 40 entries/fuente, ventana 48h.
+    </decisiones_tomadas>
+
+    <proximo_hito>
+      - Completar 3 días consecutivos de cierre local exitoso post-hardening.
+      - Validar estabilidad de:
+        - locks
+        - scheduler
+        - health_check
+        - intraday_guard
+      - Recién después activar GitHub Actions con cron 05:00 ART + test de summaries obligatorio.
+    </proximo_hito>
+
+    <solucion_de_problemas_comunes>
+      - Si una tarea intradía no corre:
+        - revisar estado de tareas LGC
+        - revisar intraday.lock (stale lock)
+        - revisar intraday.log
+        - validar intraday_guard en logs/health
+      - Si falla parseo LLM:
+        - revisar parse_unrecovered (crítico)
+        - revisar debug_response y failed responses en raw/YYYY-MM-DD/debug
+        - no bloquear operación por parse recuperado
+      - Si falta publicación diaria:
+        - correr health_check
+        - revisar close.log y artefactos en raw/docs del día
+        - registrar incidente en hoja operativa
+      - Si las secciones Argentina/Internacional no se ven separadas en el HTML:
+        - verificar que .news-feed no tenga column-count (solo .news-group lo tiene)
+        - ejecutar re-render: python -c "from src.builder import render_daily_page; ..."
+        - si data.json no tiene is_argentina: _enrich_is_argentina() en builder lo infiere automáticamente
+        - si falsos positivos en Argentina (noticias internacionales mal clasificadas):
+          revisar tokens de source_name en _enrich_is_argentina y fuentes sin .com.ar en URL
+      - Si una fuente argentina no aparece en raw.json:
+        - verificar URL con requests.get(url, timeout=30) + feedparser.parse()
+        - revisar status HTTP y len(feed.entries)
+        - comparar contra tabla de URLs activas en stack_tecnologico
+        - si devuelve 0 entries con 200 OK: el sitio sirve HTML (ej. INDEC), no tiene solución directa sin scraping
+        - actualizar sources.json con URL activa y relanzar
+      - Si el volumen por día es bajo (< 30 artículos con todas las fuentes activas):
+        - verificar LGC_FEED_MAX_ENTRIES_PER_SOURCE (default 40)
+        - verificar LGC_FEED_HOURS_BACK (default 48)
+        - revisar si alguna fuente nueva expiró o cambió su endpoint
+    </solucion_de_problemas_comunes>
+
+  </memoria_episodica>
+
+</contexto_fundacional>

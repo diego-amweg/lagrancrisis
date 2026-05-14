@@ -1,0 +1,117 @@
+{
+  "date": "2026-04-11",
+  "resumen_ejecutivo": "Al 11 de abril de 2026, la economía argentina enfrenta tensiones estructurales derivadas de un tipo de cambio apreciado, inflación al alza y una persistente caída en el poder adquisitivo de los salarios, según advierten informes del sector financiero citados por Ámbito Financiero. El economista Camilo Tiscornia, de C&T Consultores, calificó como insostenible que la inflación supere la evolución del dólar, aunque proyectó una desaceleración de precios para el mes de abril. En el ámbito bancario local, las entidades financieras han incrementado las tasas de interés para plazos fijos digitales con el fin de incentivar la liquidez y reducir costos operativos. A nivel internacional, la Reserva Federal de los Estados Unidos reportó hitos regulatorios significativos, incluyendo la finalización de acciones de supervisión contra Goldman Sachs y Crédit Agricole, así como la aprobación de una exención regulatoria para Morgan Stanley Bank bajo la sección 23A de la Ley de la Reserva Federal.",
+  "sections": {
+    "mercados_argentina": [
+      {
+        "headline": "Bancos incentivan plazos fijos digitales con mejores tasas de interés",
+        "summary": "Entidades financieras buscan fomentar operaciones digitales para reducir costos operativos, ofreciendo rendimientos competitivos para inversiones como depósitos de $400.000 a 30 días.",
+        "impact": "BAJO",
+        "asset_relevance": [
+          "MERCADO_LOCAL"
+        ],
+        "source_name": "Ámbito Financiero",
+        "source_url": "https://www.ambito.com/economia/plazo-fijo-cuanta-ganancia-se-obtiene-al-invertir-400000-30-dias-n6265214",
+        "status": "VALIDADO",
+        "verified": true
+      }
+    ],
+    "mercados_internacionales": [],
+    "financieras_argentina": [
+      {
+        "headline": "Falta de financiamiento y dólar atrasado tensionan el modelo económico",
+        "summary": "Un informe del sector financiero advierte que la falta de crédito y la apreciación cambiaria ponen en riesgo la sostenibilidad del esquema de Milei.",
+        "impact": "ALTO",
+        "asset_relevance": [
+          "DÓLAR",
+          "BONOS"
+        ],
+        "source_name": "Ámbito Financiero",
+        "source_url": "https://www.ambito.com/economia/dolar-atrasado-inflacion-al-alza-y-caida-salarios-advieren-una-anomalia-que-tensiona-el-modelo-javier-milei-n6265404",
+        "status": "VALIDADO",
+        "verified": true
+      }
+    ],
+    "financieras_mundo": [
+      {
+        "headline": "Fed finaliza acciones de supervisión contra Goldman Sachs y Crédit Agricole",
+        "summary": "La Reserva Federal anunció el cese de medidas de cumplimiento forzoso contra Goldman Sachs, Crédit Agricole y Mega International Commercial Bank.",
+        "impact": "MEDIO",
+        "asset_relevance": [
+          "MERCADO_INTERNACIONAL"
+        ],
+        "source_name": "Federal Reserve",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
+        "status": "OFICIAL",
+        "verified": true
+      },
+      {
+        "headline": "Reserva Federal aprueba exención regulatoria clave para Morgan Stanley Bank",
+        "summary": "La Fed y la OCC emitieron hallazgos conjuntos para eximir a Morgan Stanley bajo la sección 23A de la Ley de la Reserva Federal.",
+        "impact": "MEDIO",
+        "asset_relevance": [
+          "MERCADO_INTERNACIONAL"
+        ],
+        "source_name": "Federal Reserve",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260326a.htm",
+        "status": "OFICIAL",
+        "verified": true
+      },
+      {
+        "headline": "Fed aprueba solicitud de Burke & Herbert Financial Services Corp",
+        "summary": "La Junta de la Reserva Federal comunicó la aprobación formal de la solicitud presentada por la entidad Burke & Herbert Financial Services Corp.",
+        "impact": "BAJO",
+        "asset_relevance": [
+          "MERCADO_INTERNACIONAL"
+        ],
+        "source_name": "Federal Reserve",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260410a.htm",
+        "status": "OFICIAL",
+        "verified": true
+      }
+    ],
+    "economicas_argentina": [
+      {
+        "headline": "Tiscornia advierte que inflación superando al dólar es un esquema insostenible",
+        "summary": "El director de C&T Consultores señaló la anomalía de precios ganándole al tipo de cambio, aunque prevé desaceleración inflacionaria para el mes de abril.",
+        "impact": "MEDIO",
+        "asset_relevance": [
+          "DÓLAR"
+        ],
+        "source_name": "Ámbito Financiero",
+        "source_url": "https://www.ambito.com/economia/dura-advertencia-del-economista-camilo-tiscornia-no-es-sostenible-que-la-inflacion-le-gane-al-tipo-cambio-n6265603",
+        "status": "VALIDADO",
+        "verified": true
+      }
+    ],
+    "economicas_mundo": [],
+    "politicas_argentina": [
+      {
+        "headline": "Apreciación cambiaria y caída salarial generan tensiones en el oficialismo",
+        "summary": "La aceleración de precios y el atraso del dólar son señalados como factores que tensionan la sostenibilidad del modelo político-económico de Javier Milei.",
+        "impact": "ALTO",
+        "asset_relevance": [
+          "DÓLAR"
+        ],
+        "source_name": "Ámbito Financiero",
+        "source_url": "https://www.ambito.com/economia/dolar-atrasado-inflacion-al-alza-y-caida-salarios-advieren-una-anomalia-que-tensiona-el-modelo-javier-milei-n6265404",
+        "status": "VALIDADO",
+        "verified": true
+      }
+    ],
+    "politicas_mundo": []
+  },
+  "unverified_claims": [],
+  "missing_official_data": [
+    "Índice oficial de inflación de abril (solo se mencionan anticipos de consultoras privadas)",
+    "Cifras oficiales de caída de salarios reales del INDEC"
+  ],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/dolar-atrasado-inflacion-al-alza-y-caida-salarios-advieren-una-anomalia-que-tensiona-el-modelo-javier-milei-n6265404",
+    "https://www.ambito.com/economia/dura-advertencia-del-economista-camilo-tiscornia-no-es-sostenible-que-la-inflacion-le-gane-al-tipo-cambio-n6265603",
+    "https://www.ambito.com/economia/plazo-fijo-cuanta-ganancia-se-obtiene-al-invertir-400000-30-dias-n6265214",
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20260326a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20260410a.htm"
+  ]
+}

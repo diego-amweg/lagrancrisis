@@ -1,0 +1,147 @@
+{
+  "date": "2026-04-27",
+  "checklist": {
+    "1": {
+      "control": "Captura intradia disponible",
+      "evidencia": "raw/YYYY-MM-DD/intraday_accumulated.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "2": {
+      "control": "Cierre diario ejecutado",
+      "evidencia": "logs/close.log y docs/YYYY/MM/DD/index.html",
+      "estado": "OK",
+      "presente": true
+    },
+    "3": {
+      "control": "data.json generado",
+      "evidencia": "docs/YYYY/MM/DD/data.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "4": {
+      "control": "pipeline_metrics.json generado",
+      "evidencia": "raw/YYYY-MM-DD/pipeline_metrics.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "5": {
+      "control": "judge_report.json generado",
+      "evidencia": "raw/YYYY-MM-DD/judge_report.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "6": {
+      "control": "quality_gate del Juez",
+      "evidencia": "PASS o WARN con plan",
+      "estado": "OK",
+      "valor": "PASS"
+    },
+    "7": {
+      "control": "errores criticos del Juez",
+      "evidencia": "judge_critical_errors_count = 0",
+      "estado": "OK",
+      "valor": 0
+    },
+    "8": {
+      "control": "cobertura de publicacion",
+      "evidencia": "published = selected",
+      "estado": "OK",
+      "selected": 69,
+      "published": 69
+    },
+    "9": {
+      "control": "fallback por item bajo control",
+      "evidencia": "fallback_items_ratio <= 0.20 objetivo",
+      "estado": "OK",
+      "valor": 0.0725
+    },
+    "10": {
+      "control": "parse failures LLM no recuperados bajo control",
+      "evidencia": "llm_json_parse_unrecovered_total = 0 (critico)",
+      "estado": "OK",
+      "valor": {
+        "unrecovered": 0,
+        "raw_total": 2
+      }
+    }
+  },
+  "metrics": {
+    "date": "2026-04-27",
+    "timestamp": "2026-04-27T17:49:13",
+    "downloaded": 75,
+    "selected": 69,
+    "published": 69,
+    "coverage_ratio": 0.92,
+    "fallback_rate": 0.0,
+    "experiment_label": "production",
+    "logical_agents_enabled": true,
+    "prompt_redactor_version": "redactor_v1",
+    "prompt_editor_version": "editor_v1",
+    "prompt_judge_version": "judge_v1",
+    "editorial_chunk_size": 18,
+    "editorial_chunk_count": 4,
+    "editorial_chunks_with_errors": 1,
+    "editorial_autocorrect_runs": 1,
+    "editorial_autocorrect_boosted_runs": 0,
+    "editor_agent_runs": 4,
+    "editor_agent_failed_runs": 0,
+    "fallback_items_count": 5,
+    "fallback_items_ratio": 0.0725,
+    "coverage_forced_count": 0,
+    "coverage_forced_ratio": 0.0,
+    "post_llm_warning_count": 0,
+    "translated_items_count": 22,
+    "judge_quality_gate": "PASS",
+    "judge_weighted_total": 96,
+    "judge_critical_errors_count": 0,
+    "llm_calls_total": 12,
+    "llm_json_parse_failures_total": 2,
+    "llm_json_parse_unrecovered_total": 0,
+    "llm_json_repair_attempts_total": 2,
+    "llm_json_repair_success_total": 2,
+    "llm_model_fallback_activations": 0
+  },
+  "judge": {
+    "quality_gate": "PASS",
+    "scores": {
+      "factual_fidelity": 100,
+      "spanish_quality": 100,
+      "macro_relevance": 95,
+      "clarity_non_repetition": 90,
+      "weighted_total": 96.5
+    },
+    "critical_errors": [],
+    "priority_fixes": [],
+    "sample_findings": [
+      {
+        "id_referencia": "01",
+        "severity": "MEDIA",
+        "issue": "La noticia sobre préstamos personales se normalizó automáticamente al español. Si bien el contenido factual es correcto, se recomienda revisar la fuente original para asegurar la fidelidad completa del matiz y contexto."
+      },
+      {
+        "id_referencia": "16",
+        "severity": "MEDIA",
+        "issue": "La noticia sobre IA y Mag 7 menciona un plan de Irán para reabrir el Estrecho de Ormuz, pero el contenido factual solo indica que \"Iran floats a plan to reopen the Strait of Hormuz\". Se recomienda verificar si esta acción se ha concretado o si es solo una propuesta."
+      },
+      {
+        "id_referencia": "31",
+        "severity": "ALTA",
+        "issue": "La noticia sobre el presunto tirador de Trump tiene información incompleta. El titular indica \"Alleged shooter charged with attempted assassination of Trump\", pero el cuerpo solo menciona \"Cole Allen appears in court as White House blames critics for demonising the president\". Falta el hecho clave del cargo de intento de asesinato."
+      },
+      {
+        "id_referencia": "33",
+        "severity": "MEDIA",
+        "issue": "La noticia sobre Meta en China tiene un titular y un resumen que no se corresponden completamente con el contenido factual. El titular \"Meta's Chinese stumble suggests a declining tolerance for shades of grey\" y el resumen \"Tech-related capital flows have benefited from decades of ambiguity, but AI changes the calculus\" no detallan el 'tropiezo' específico de Meta ni la 'tolerancia decreciente'."
+      },
+      {
+        "id_referencia": "35",
+        "severity": "MEDIA",
+        "issue": "La noticia sobre la derrota de fuerzas rusas en Malí tiene un titular \"Russian forces defeated in Saharan stronghold after wave of attacks\" y un resumen \"Co-ordinated assaults forced Mali's Moscow-backed regime to abandon key city\". Falta el hecho clave de la derrota de las fuerzas rusas, solo se menciona la acción del régimen de Malí."
+      }
+    ]
+  },
+  "ab_data": null,
+  "daily_winner": null,
+  "generated_at": "2026-04-27T17:49:32.137821"
+}

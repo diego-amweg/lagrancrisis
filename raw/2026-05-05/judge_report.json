@@ -1,0 +1,64 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 92,
+    "weighted_total": 95.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "El titular menciona \"baja de Wall Street\", pero el contenido solo indica que los índices de Wall Street cerraron negativos, sin especificar una \"baja\" generalizada."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"suba de bonos\", pero el contenido solo indica que \"los bonos en dólares avanzan en Wall Street\", lo cual es una descripción más precisa."
+    },
+    {
+      "id_referencia": "05",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"aumenta 11,16%\", pero el contenido especifica \"aumenta 11,16%\" en la provincia de Buenos Aires."
+    },
+    {
+      "id_referencia": "06",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"consolidar la baja en mayo\", pero el contenido solo indica \"busca consolidar la baja en mayo\"."
+    },
+    {
+      "id_referencia": "07",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"fuertes contrastes en el consumo\", pero el contenido solo indica \"fuertes contrastes en el consumo\"."
+    },
+    {
+      "id_referencia": "08",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"primer avance mensual del año\", pero el contenido solo indica \"primer avance mensual del año\"."
+    },
+    {
+      "id_referencia": "09",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"desaceleración en abril\", pero el contenido solo indica \"desaceleración en abril\"."
+    },
+    {
+      "id_referencia": "10",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"precio máximo al que puede llegar el dólar\", pero el contenido solo indica \"precio máximo al que puede llegar el dólar\"."
+    },
+    {
+      "id_referencia": "11",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"tasa de interés banco por banco\", pero el contenido solo indica \"tasa de interés banco por banco\"."
+    },
+    {
+      "id_referencia": "12",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"dólar blue cerró en alza\", pero el contenido solo indica \"dólar blue cerró en alza\"."
+    }
+  ]
+}

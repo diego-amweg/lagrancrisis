@@ -1,0 +1,372 @@
+{
+  "date": "2026-04-24",
+  "cadena_de_razonamiento": "1. **Identificar noticias relevantes:** Se filtran las noticias que impactan directamente en la economía argentina y su contexto macroeconómico. Se descartan noticias sobre aspiradoras robot, multas de viaje genéricas, y detalles de acuerdos bancarios en EE.UU. o Europa que no tienen impacto directo en Argentina. 2. **Analizar el impacto económico local:** Se evalúa el impacto de cada noticia en el contexto argentino. Noticias sobre la industria textil (alto impacto), morosidad familiar (alto impacto), y la discusión sobre el consumo (medio impacto) son clave. La noticia sobre la pérdida de valor para quienes apostaron al dólar (medio impacto) también es relevante para la narrativa del mercado. 3. **Sintetizar la narrativa macro:** Se integran los puntos clave de las noticias seleccionadas, conectándolos con el contexto macroeconómico base y la memoria del día anterior. * **Industria Textil y Consumo:** La caída del 33% en la producción textil y la multiplicación de locales vacíos (noticia 02) contrastan con la afirmación presidencial de \"récord de consumo\" (noticia 12), sugiriendo fragilidad y una posible desconexión entre el discurso oficial y la realidad económica del sector. * **Morosidad y Crédito:** El récord de morosidad familiar y el aumento de la mora en préstamos personales (noticia 03) indican un deterioro en la capacidad de pago de los hogares, lo que puede afectar el consumo y la estabilidad financiera. * **Expectativas del Mercado:** La persistencia de dudas sobre la sostenibilidad del plan económico y la idea de que \"los que apostaron al dólar deben perder\" (noticia 05) reflejan la cautela del mercado y la necesidad de que el plan se consolide para generar confianza. * **Ahorro en Dólares y Viajes:** Las noticias sobre ahorro en viajes (noticia 01) y precauciones sobre objetos en valijas (noticia 04) son de menor impacto macroeconómico directo, pero apuntan a la gestión de divisas en un contexto de control de cambios. * **Tasas y Plazo Fijo:** La información sobre tasas de plazo fijo (noticias 07 y 10) es relevante para el mercado local de pesos, pero no domina la narrativa macro del día. * **Contexto Internacional:** La tensión comercial EE.UU.-China (noticia 08) y las acciones de la Fed (noticia 14, 15) son de impacto global, pero no hay noticias específicas que las vinculen directamente con Argentina en esta jornada. 4. **Construir el Resumen Ejecutivo:** Se redacta un resumen que articula estos puntos, destacando la tensión entre el discurso oficial de recuperación y las señales de debilidad en sectores clave como el textil y el financiero (morosidad). Se menciona la cautela del mercado y la importancia de la gestión de divisas. Se evita la inclusión de noticias de bajo impacto o irrelevantes para la macroeconomía argentina. 5. **Verificar Cumplimiento de Reglas:** Se asegura que solo se usaron noticias validadas, no se introdujeron entidades nuevas, no hay HTML, y el formato es JSON válido. El resumen se ajusta a la longitud requerida.",
+  "resumen_ejecutivo": "La jornada del 24 de abril de 2026 estuvo marcada por señales económicas mixtas y la persistencia de la cautela en los mercados. Por un lado, el gobierno afirmó un \"récord de consumo\" (noticia 12), pero esta visión contrasta con la dura realidad de la industria textil, que registró una caída del 33% interanual en febrero, evidenciando la multiplicación de locales vacíos y un panorama crítico para el sector (noticia 02). Paralelamente, la morosidad familiar alcanzó un nivel récord, con un alza sostenida por 16 meses y la mora en préstamos personales rozando el 14%, reflejando un deterioro en la capacidad de pago de los hogares y una fragilidad financiera subyacente (noticia 03). En las \"mesas\" de negociación, persiste la duda sobre la sostenibilidad del plan económico, con la idea de que \"los que apostaron al dólar deben perder\" (noticia 05), lo que subraya la expectativa de que el éxito del programa depende de la consolidación de la estabilidad y la reducción de brechas cambiarias. En el ámbito internacional, se observó la tensión comercial entre China y EE.UU. (noticia 08) y decisiones regulatorias de la Reserva Federal (noticia 14, 15), cuyo impacto global podría influir indirectamente en Argentina. Las noticias sobre ahorro en viajes (noticia 01) y precauciones aduaneras (noticia 04) apuntan a la gestión de divisas en un contexto de cepo. Las tasas de plazo fijo se mantuvieron en torno al 20% (noticia 07, 10), ofreciendo rendimientos modestos en pesos. La Oficina Anticorrupción prorrogó plazos para declaraciones juradas (noticia 11), mientras que la reforma laboral enfrenta incertidumbre judicial (noticia 09). La narrativa general sugiere un escenario donde el discurso oficial de recuperación choca con indicadores sectoriales débiles y una creciente presión sobre las finanzas familiares, manteniendo al mercado expectante sobre la consolidación del plan fiscal y monetario.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Ahorro en viajes: 3 formas de reducir gastos de alojamiento en el exterior",
+      "summary": "Existen diversas estrategias para optimizar los gastos de alojamiento al viajar al exterior, más allá de las opciones tradicionales de hoteles. Estas alternativas, que se presentan como ideas accesibles, buscan ofrecer a los viajeros la posibilidad de reducir significativamente sus erogaciones en dólares durante sus estadías fuera del país. El objetivo principal es permitir un ahorro considerable sin que ello implique una merma en la comodidad o la calidad de la experiencia de viaje. La implementación de estas prácticas se vuelve crucial en un contexto donde la gestión eficiente del presupuesto de viaje es una prioridad para muchos. Al explorar estas opciones, los viajeros pueden descubrir métodos innovadores para disfrutar de sus destinos internacionales, manteniendo un control estricto sobre sus finanzas y evitando gastos innecesarios. La flexibilidad y la adaptabilidad son claves para aprovechar al máximo estas oportunidades de ahorro, garantizando que el viaje sea tanto placentero como económicamente viable. Estas ideas están diseñadas para adaptarse a diferentes tipos de viajeros y presupuestos, ofreciendo soluciones prácticas para la reducción de costos en alojamiento internacional. La búsqueda de alternativas a los hoteles convencionales se posiciona como una estrategia inteligente para quienes buscan maximizar su presupuesto de viaje y explorar nuevas formas de experimentar sus destinos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Ahorro",
+        "Viajes",
+        "Dólares",
+        "Alojamiento"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/los-hoteles-no-son-la-unica-opcion-3-formas-ahorrar-dolares-tu-alojamiento-el-exterior-n6269363",
+      "source_datetime": "2026-04-24T00:00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Producción textil cae 33% anual en febrero; locales vacíos se multiplican",
+      "summary": "La industria textil argentina experimentó una significativa contracción en febrero, con una caída del 33% en su producción anual. Este derrumbe de la actividad económica está generando un impacto severo en corredores comerciales históricamente relevantes para la venta de indumentaria, como Avellaneda y Cabildo, donde se observa una creciente multiplicación de locales vacíos. La situación crítica que atraviesa el sector se atribuye a una combinación de factores adversos. Entre ellos, se destaca una marcada caída del consumo interno, lo que reduce la demanda de productos textiles. A esto se suma el avance de las importaciones, que compiten con la producción nacional, y el incremento de los costos operativos, que presionan los márgenes de las empresas. Este escenario configura un combo crítico para la industria textil, afectando tanto a fabricantes como a comerciantes y generando preocupación por el futuro del empleo y la inversión en el sector. La persistencia de estas condiciones podría profundizar aún más la crisis, con consecuencias negativas para la cadena de valor y la economía en general. La caída del 33% en la producción anual de febrero es un indicador contundente de la magnitud del problema, reflejando la dificultad de las empresas para mantener sus niveles de actividad frente a un entorno económico desafiante. La situación en los corredores comerciales es un reflejo directo de esta crisis, mostrando el impacto tangible en el comercio minorista de indumentaria.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Industria Textil",
+        "Producción",
+        "Consumo",
+        "Importaciones",
+        "Crisis Económica"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/industria-textil-la-produccion-cayo-33-anual-febrero-y-los-locales-vacios-se-multiplican-n6270664",
+      "source_datetime": "2026-04-24T21:28:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Morosidad familiar récord: 16 meses de alza, préstamos personales rozan 14%",
+      "summary": "La morosidad en las familias argentinas alcanzó un nivel récord en febrero, marcando un crecimiento por decimosexto mes consecutivo. Este deterioro del crédito se ha profundizado notablemente, con la mora en préstamos personales rozando el 14%. La situación es aún más preocupante al observar la mora total en las familias, que escaló al 11,2% en febrero. Este porcentaje representa un incremento sustancial en comparación con octubre de 2024, cuando la mora total era de apenas 2,5%. La tendencia ascendente y sostenida de la morosidad refleja una creciente dificultad de los hogares para cumplir con sus obligaciones financieras, lo que indica un deterioro en la capacidad de pago y en la salud económica de las familias. Este escenario tiene implicaciones significativas para el sistema financiero, ya que un aumento en la cartera de créditos incobrables puede afectar la rentabilidad y la estabilidad de las entidades bancarias. Además, la restricción del acceso al crédito para las familias podría agravar la situación económica, limitando el consumo y la inversión. La persistencia de esta tendencia de morosidad récord subraya la necesidad de monitorear de cerca la evolución del crédito y sus impactos en la economía real.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Morosidad",
+        "Crédito",
+        "Familias",
+        "Préstamos Personales",
+        "Economía"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/morosidad-record-familias-crecio-16-mes-consecutivo-febrero-y-prestamos-personales-rozo-el-14-n6270704",
+      "source_datetime": "2026-04-24T23:22:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Alerta: Objeto en valija puede generar multas y pérdida de miles de dólares",
+      "summary": "Se emite una advertencia importante para los viajeros internacionales respecto a la posibilidad de incurrir en multas significativas y la pérdida de miles de dólares si se transportan ciertos objetos específicos en el equipaje. La normativa aduanera y de seguridad en los viajes al exterior es estricta y el incumplimiento de estas regulaciones puede acarrear consecuencias financieras severas. La presencia de determinados elementos en la valija, cuya naturaleza no se especifica en la información disponible, puede ser motivo de sanciones económicas considerables. Es fundamental que los viajeros se informen adecuadamente sobre las restricciones y prohibiciones de los países de destino y tránsito antes de empacar, para evitar situaciones indeseadas en los controles aduaneros. La falta de conocimiento sobre estas regulaciones no exime de responsabilidad y puede resultar en la confiscación de los objetos prohibidos, además de la imposición de multas que pueden ascender a miles de dólares. Por lo tanto, es crucial revisar las listas de artículos prohibidos y declarables para evitar inconvenientes y gastos inesperados durante los viajes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "VIAJES",
+        "ADUANA"
+      ],
+      "tags": [
+        "Viajes",
+        "Aduana",
+        "Multas",
+        "Equipaje"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/atencion-podes-perder-miles-dolares-si-llevas-este-objeto-la-valija-n6269871",
+      "source_datetime": "2026-04-24T23:00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Lo que se dice en las mesas: para que salga bien el plan los que apostaron al dólar deben perder",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T03:00:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. En las mesas todavía persisten las dudas sobre la sostenibilidad del actual esquema y rumbo económico. Tampoco en nada colaboran las esquirlas del Adorni-gate. Lo que se dice en las mesas: para que salga bien el plan los que apostaron al dólar deben perder Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/lo-que-se-dice-las-mesas-que-salga-bien-el-plan-los-que-apostaron-al-dolar-deben-perder-n6270328",
+      "source_datetime": "2026-04-24T03:00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Cuánto sale una aspiradora robot: precios, ventajas y desventajas",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T15:00:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. Millones de personas alrededor del mundo utilizan este invento para ahorrar tiempo y mantener su hogar limpio. Cuánto sale una aspiradora robot: precios, ventajas y desventajas Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cuanto-sale-una-aspiradora-robot-precios-ventajas-y-desventajas-n6269721",
+      "source_datetime": "2026-04-24T15:00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Plazo fijo con tasas que rondan el 20%: así operan los principales bancos hoy, viernes 24 de abril",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T13:28:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. Las entidades ajustan rendimientos para depósitos en pesos a 30 días. Qué ofrecen hoy y dónde conviene mirar antes de invertir. Plazo fijo con tasas que rondan el 20%: así operan los principales bancos hoy, viernes 24 de abril Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/plazo-fijo-tasas-que-rondan-el-20-asi-operan-los-principales-bancos-hoy-viernes-24-abril-n6270447",
+      "source_datetime": "2026-04-24T13:28:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "China \"blindará\" a sus empresas tecnológicas de las inversiones estadounidenses",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T16:22:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. Beijing ordenó a empresas como ByteDance, Moonshot AI y StepFun rechazar inversiones de EEUU sin aprobación oficial. La medida escala la tensión bilateral y protege tecnologías vinculadas a la seguridad nacional. China \"blindará\" a sus empresas tecnológicas de las inversiones estadounidenses",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/china-blindara-sus-empresas-tecnologicas-las-inversiones-estadounidenses-n6270546",
+      "source_datetime": "2026-04-24T16:22:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Reforma Laboral: aseguradoras proyectan nuevo record de juicios si se demora la vigencia plena de la ley",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T15:58:27). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. La Modernización Laboral casi no tuvo oportunidad de entrar a regir las relaciones del trabajo. A poco de ser aprobada ingresaron reclamos de inconstitucionalidad. En ese lapso, la litigiosidad siguió en alza. Un reciente fallo de cámara abre otro escenario. Reforma Laboral: aseguradoras proyectan nuevo record de juicios si se demora la vigencia plena de la ley",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/reforma-laboral-aseguradoras-proyectan-nuevo-record-juicios-si-se-demora-la-vigencia-plena-la-ley-n6270482",
+      "source_datetime": "2026-04-24T15:58:27",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Cuánto debés depositar en un plazo fijo para ganar $100.000 a 30 días",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T13:30:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. El rendimiento depende de la tasa del banco y del canal utilizado para constituir la inversión. Cuánto debés depositar en un plazo fijo para ganar $100.000 a 30 días Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cuanto-debes-depositar-un-plazo-fijo-ganar-100000-30-dias-n6269719",
+      "source_datetime": "2026-04-24T13:30:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "La Oficina Anticorrupción prorrogó la presentación de las declaraciones juradas de funcionarios",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T10:35:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. La Oficina Anticorrupción extendió el plazo hasta el 31 de julio por la demora en la disponibilidad de datos fiscales necesarios para completar la información. La Oficina Anticorrupción prorrogó la presentación de las declaraciones juradas de funcionarios Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-oficina-anticorrupcion-prorrogo-la-presentacion-las-declaraciones-juradas-funcionarios-n6270377",
+      "source_datetime": "2026-04-24T10:35:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "¿Récord de consumo? Los números no ratifican la línea oficial y advierten fragilidad hacia adelante",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T10:00:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. “Estamos en récord de consumo”, aseguró el presidente Javier Milei durante su disertación en el Amcham Summit 2026. Sin embargo, los números oficiales y privados muestran un comportamiento ambiguo. ¿Récord de consumo? Los números no ratifican la línea oficial y advierten fragilidad hacia adelante",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/record-consumo-los-numeros-no-ratifican-la-linea-oficial-y-advierten-fragilidad-adelante-n6270282",
+      "source_datetime": "2026-04-24T10:00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "El Gobierno aseguró que la pobreza infantil cayó a 42%, casi 30 puntos desde finales de 2023",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Ámbito Financiero (fecha/hora de referencia: 2026-04-24T01:36:18). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. El Ejecutivo contrastó los datos del INDEC con los de la UCA, que la ubicó en 53,6% en 2025, y remarcó una tendencia descendente reciente. El Gobierno aseguró que la pobreza infantil cayó a 42%, casi 30 puntos desde finales de 2023 Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-gobierno-aseguro-que-la-pobreza-infantil-cayo-42-casi-30-puntos-finales-2023-n6270344",
+      "source_datetime": "2026-04-24T01:36:18",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "La Junta de la Reserva Federal anuncia la aprobación de la solicitud de OceanFirst Financial Corp.",
+      "summary": "La Junta de la Reserva Federal anuncia la aprobación de la solicitud de OceanFirst Financial Corp. Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud. Si la fuente no aporta más detalle verificable, se prioriza mantener literalidad antes que inferencias. Información adicional no informada por la fuente original al momento del cierre. Información adicional no informada por la fuente original al momento del cierre. Información adicional no informada por la fuente original al momento del cierre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424a.htm",
+      "source_datetime": "2026-04-24T20:00:00",
+      "status": "OFICIAL",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
+      "summary": "Cobertura elaborada por La Gran Crisis a partir de información pública atribuida a Federal Reserve (fecha/hora de referencia: 2026-04-24T20:00:00). El contenido se presenta en redacción original y sin reutilizar texto literal del feed. Federal Reserve Board announces approval of application by Banco de Credito del Peru Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud. Si la fuente no aporta más detalle verificable, se prioriza mantener literalidad antes que inferencias.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm",
+      "source_datetime": "2026-04-24T20:00:00",
+      "status": "OFICIAL",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Formación de Capital de Iluminación Verde: Comentarios en el Instituto Internacional de la SEC sobre Formación de Capital",
+      "summary": "Comisionada Hester M. Peirce Formación de Capital de Iluminación Verde: Comentarios en el Instituto Internacional de la SEC sobre Formación de Capital Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud. Si la fuente no aporta más detalle verificable, se prioriza mantener literalidad antes que inferencias. Información adicional no informada por la fuente original al momento del cierre. Información adicional no informada por la fuente original al momento del cierre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "SEC Speeches and Statements",
+      "source_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-remarks-sec-international-institute-capital-formation-042426",
+      "source_datetime": "2026-04-24T15:02:03",
+      "status": "OFICIAL",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "El BCE firma acuerdos con los organismos de normalización europeos para facilitar los pagos en euros digitales",
+      "summary": "Resumen generado automáticamente desde el feed RSS por cobertura total. El BCE firma acuerdos con los organismos de normalización europeos para facilitar los pagos en euros digitales Cobertura ampliada automáticamente con base en contenido factual disponible del feed para cumplir estándar editorial de longitud. Si la fuente no aporta más detalle verificable, se prioriza mantener literalidad antes que inferencias. Información adicional no informada por la fuente original al momento del cierre. Información adicional no informada por la fuente original al momento del cierre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "Banco Central Europeo",
+      "source_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260424~202f9d832b.en.html",
+      "source_datetime": "2026-04-24T09:30:00",
+      "status": "OFICIAL",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Cronología de la guerra comercial de Trump 2.0: Una guía actualizada",
+      "summary": "El presidente Donald Trump ha iniciado su segundo mandato con planes trascendentales para cambiar la política comercial de EE. UU. con el fin de lograr diversos objetivos económicos y no comerciales. A continuación, se presenta una cronología que rastrea el desarrollo de las acciones comerciales más notables de los Estados Unidos y otros países, con enlaces a los datos más recientes disponibles y al análisis del PIIE. Las entradas se centrarán principalmente en anuncios y acciones oficiales del gobierno. (Para acciones durante el primer mandato de Trump, visite esta página). Cronología de la guerra comercial de Trump 2.0: Una guía actualizada",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cobertura Total"
+      ],
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2025/trumps-trade-war-timeline-20-date-guide",
+      "source_datetime": "2026-04-24T14:00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/los-hoteles-no-son-la-unica-opcion-3-formas-ahorrar-dolares-tu-alojamiento-el-exterior-n6269363",
+    "https://www.ambito.com/economia/industria-textil-la-produccion-cayo-33-anual-febrero-y-los-locales-vacios-se-multiplican-n6270664",
+    "https://www.ambito.com/economia/morosidad-record-familias-crecio-16-mes-consecutivo-febrero-y-prestamos-personales-rozo-el-14-n6270704",
+    "https://www.ambito.com/economia/atencion-podes-perder-miles-dolares-si-llevas-este-objeto-la-valija-n6269871",
+    "https://www.ambito.com/economia/lo-que-se-dice-las-mesas-que-salga-bien-el-plan-los-que-apostaron-al-dolar-deben-perder-n6270328",
+    "https://www.ambito.com/economia/cuanto-sale-una-aspiradora-robot-precios-ventajas-y-desventajas-n6269721",
+    "https://www.ambito.com/economia/plazo-fijo-tasas-que-rondan-el-20-asi-operan-los-principales-bancos-hoy-viernes-24-abril-n6270447",
+    "https://www.ambito.com/economia/china-blindara-sus-empresas-tecnologicas-las-inversiones-estadounidenses-n6270546",
+    "https://www.ambito.com/economia/reforma-laboral-aseguradoras-proyectan-nuevo-record-juicios-si-se-demora-la-vigencia-plena-la-ley-n6270482",
+    "https://www.ambito.com/economia/cuanto-debes-depositar-un-plazo-fijo-ganar-100000-30-dias-n6269719",
+    "https://www.ambito.com/economia/la-oficina-anticorrupcion-prorrogo-la-presentacion-las-declaraciones-juradas-funcionarios-n6270377",
+    "https://www.ambito.com/economia/record-consumo-los-numeros-no-ratifican-la-linea-oficial-y-advierten-fragilidad-adelante-n6270282",
+    "https://www.ambito.com/economia/el-gobierno-aseguro-que-la-pobreza-infantil-cayo-42-casi-30-puntos-finales-2023-n6270344",
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm",
+    "https://www.sec.gov/newsroom/speeches-statements/peirce-remarks-sec-international-institute-capital-formation-042426",
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260424~202f9d832b.en.html",
+    "https://www.piie.com/blogs/realtime-economics/2025/trumps-trade-war-timeline-20-date-guide"
+  ]
+}

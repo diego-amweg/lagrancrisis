@@ -1,0 +1,97 @@
+{# Archivo: templates/diario.html.j2 #}
+{# Feed plano con tags dinámicos + badges de estado #}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site_name }} | {{ date }}</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=IBM+Plex+Mono:wght@400;500&family=Cinzel:wght@600;700;800&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="masthead">
+    <h1>{{ site_name }}</h1>
+    <p class="tagline">{{ tagline }}</p>
+    <time datetime="{{ date }}" class="date">{{ date }}</time>
+    {% if is_fallback %}
+      <span class="badge fallback">⏳ Revisión</span>
+    {% endif %}
+    {% if missing and missing|length > 0 %}
+      <span class="badge missing" title="Datos oficiales pendientes: {{ missing|join(', ') }}">⚠️ {{ missing|length }}</span>
+    {% endif %}
+  </header>
+
+  {% if summary %}
+  <section class="executive-summary">
+    <h2>📋 Resumen Ejecutivo</h2>
+    <p>{{ summary }}</p>
+    {% if cadena_de_razonamiento and "ayer" in cadena_de_razonamiento|lower %}
+      <span class="badge continuity" title="Conecta con edición anterior">🔗 Continuidad</span>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <main class="news-feed">
+    <section class="news-group">
+      <h2>Argentina</h2>
+      {% for item in noticias_destacadas if item.is_argentina %}
+      <article class="news-item" data-impact="{{ item.impact }}">
+        <header class="item-header">
+          <span class="badge source-tier {{ item.status|lower }}">{{ item.status }}</span>
+          <span class="badge impact-{{ item.impact|lower }}">{{ item.impact }}</span>
+          {% if item.tags %}
+            <div class="tags">
+              {% for tag in item.tags %}
+                <span class="tag-dynamic">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </header>
+        <h3 class="item-headline">{{ item.headline }}</h3>
+        <p class="item-summary">{{ item.summary }}</p>
+        <footer class="item-meta">
+          <a href="{{ item.source_url }}" target="_blank" class="source-link"
+             title="Fuente: {{ item.source_name }} ({{ item.status }})">
+            {{ item.source_name }} ↗
+          </a>
+          <time class="item-time">{{ item.source_datetime }}</time>
+        </footer>
+      </article>
+      {% endfor %}
+    </section>
+
+    <section class="news-group">
+      <h2>Internacional</h2>
+      {% for item in noticias_destacadas if not item.is_argentina %}
+      <article class="news-item" data-impact="{{ item.impact }}">
+        <header class="item-header">
+          <span class="badge source-tier {{ item.status|lower }}">{{ item.status }}</span>
+          <span class="badge impact-{{ item.impact|lower }}">{{ item.impact }}</span>
+          {% if item.tags %}
+            <div class="tags">
+              {% for tag in item.tags %}
+                <span class="tag-dynamic">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </header>
+        <h3 class="item-headline">{{ item.headline }}</h3>
+        <p class="item-summary">{{ item.summary }}</p>
+        <footer class="item-meta">
+          <a href="{{ item.source_url }}" target="_blank" class="source-link"
+             title="Fuente: {{ item.source_name }} ({{ item.status }})">
+            {{ item.source_name }} ↗
+          </a>
+          <time class="item-time">{{ item.source_datetime }}</time>
+        </footer>
+      </article>
+      {% endfor %}
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="/">← Inicio</a> | <a href="/archivo/">Historial</a> | <a href="/TERMINOS_DE_USO.html">Términos de uso</a></p>
+  </footer>
+</body>
+</html>

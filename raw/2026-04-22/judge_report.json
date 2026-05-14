@@ -1,0 +1,34 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 100,
+    "spanish_quality": 100,
+    "macro_relevance": 88,
+    "clarity_non_repetition": 95,
+    "weighted_total": 95.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "El titular de la noticia 'Prófugo con recompensa: Buscan a Ezequiel Rossetti, condenado por drogas' no menciona que se dio a la fuga estando bajo prisión domiciliaria, un hecho relevante para la gravedad del caso."
+    },
+    {
+      "id_referencia": "04",
+      "severity": "MEDIA",
+      "issue": "El summary de la noticia 'Presidente de la SEC, Paul S. Atkins, discurso en conferencia internacional' indica que el discurso podría tener implicaciones en 'futuras políticas regulatorias', pero no hay evidencia directa en el contenido proporcionado que respalde esta afirmación."
+    },
+    {
+      "id_referencia": "05",
+      "severity": "BAJA",
+      "issue": "El summary de la noticia 'Sheree Howard compara preparación de empresas financieras con maratón' menciona que 'una mayor eficiencia en los procesos de autorización podría facilitar la entrada de nuevas empresas y fomentar la competencia', pero el contenido del discurso se centra más en la analogía del maratón y la preparación que en la eficiencia de los procesos regulatorios."
+    },
+    {
+      "id_referencia": "07",
+      "severity": "MEDIA",
+      "issue": "El summary de la noticia 'FCA y PRA anuncian reformas para agilizar responsabilidad de altos directivos' afirma que las reformas 'podrían tener un impacto positivo en la inversión y el crecimiento del sector financiero británico', pero el contenido proporcionado solo menciona la reducción de costos y mayor flexibilidad, sin detallar el impacto en inversión y crecimiento."
+    }
+  ]
+}

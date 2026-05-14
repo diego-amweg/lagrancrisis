@@ -1,0 +1,39 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 95,
+    "weighted_total": 95.7
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "La noticia sobre Aldo Abram y el cepo cambiario es relevante para el análisis económico, pero el summary podría ser más conciso y directo al punto principal."
+    },
+    {
+      "id_referencia": "06",
+      "severity": "MEDIA",
+      "issue": "La noticia sobre el riesgo país y el desempeño de bonos y acciones es pertinente, pero la descripción del impacto podría ser más específica sobre las implicaciones para los inversores."
+    },
+    {
+      "id_referencia": "12",
+      "severity": "ALTA",
+      "issue": "La noticia sobre las declaraciones de Cavallo es relevante, pero el summary podría ser más claro al conectar la falta de reservas con la sostenibilidad del plan económico."
+    },
+    {
+      "id_referencia": "21",
+      "severity": "ALTA",
+      "issue": "La noticia sobre el liderazgo del agro en ingreso de dólares es importante, pero el summary podría detallar más los planes para acelerar inversiones y su impacto esperado."
+    },
+    {
+      "id_referencia": "45",
+      "severity": "ALTA",
+      "issue": "La noticia sobre el ciclo exportador es relevante, pero el summary podría ser más explícito sobre la desconexión entre el desempeño exportador y el bienestar social/empleo."
+    }
+  ]
+}

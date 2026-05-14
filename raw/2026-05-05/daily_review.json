@@ -1,0 +1,174 @@
+{
+  "date": "2026-05-05",
+  "checklist": {
+    "1": {
+      "control": "Captura intradia disponible",
+      "evidencia": "raw/YYYY-MM-DD/intraday_accumulated.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "2": {
+      "control": "Cierre diario ejecutado",
+      "evidencia": "logs/close.log y docs/YYYY/MM/DD/index.html",
+      "estado": "OK",
+      "presente": true
+    },
+    "3": {
+      "control": "data.json generado",
+      "evidencia": "docs/YYYY/MM/DD/data.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "4": {
+      "control": "pipeline_metrics.json generado",
+      "evidencia": "raw/YYYY-MM-DD/pipeline_metrics.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "5": {
+      "control": "judge_report.json generado",
+      "evidencia": "raw/YYYY-MM-DD/judge_report.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "6": {
+      "control": "quality_gate del Juez",
+      "evidencia": "PASS o WARN con plan",
+      "estado": "OK",
+      "valor": "PASS"
+    },
+    "7": {
+      "control": "errores criticos del Juez",
+      "evidencia": "judge_critical_errors_count = 0",
+      "estado": "OK",
+      "valor": 0
+    },
+    "8": {
+      "control": "cobertura de publicacion",
+      "evidencia": "published = selected",
+      "estado": "OK",
+      "selected": 183,
+      "published": 183
+    },
+    "9": {
+      "control": "fallback por item bajo control",
+      "evidencia": "fallback_items_ratio <= 0.20 objetivo",
+      "estado": "OK",
+      "valor": 0.0874
+    },
+    "10": {
+      "control": "parse failures LLM no recuperados bajo control",
+      "evidencia": "llm_json_parse_unrecovered_total = 0 (critico)",
+      "estado": "FAIL",
+      "valor": {
+        "unrecovered": 13,
+        "raw_total": 18
+      }
+    }
+  },
+  "metrics": {
+    "date": "2026-05-05",
+    "timestamp": "2026-05-05T05:26:22",
+    "downloaded": 189,
+    "selected": 183,
+    "published": 183,
+    "coverage_ratio": 0.9683,
+    "fallback_rate": 0.0,
+    "experiment_label": "production",
+    "logical_agents_enabled": true,
+    "prompt_redactor_version": "redactor_v1",
+    "prompt_editor_version": "editor_v1",
+    "prompt_judge_version": "judge_v1",
+    "editorial_chunk_size": 18,
+    "editorial_chunk_count": 11,
+    "editorial_chunks_with_errors": 3,
+    "editorial_autocorrect_runs": 2,
+    "editorial_autocorrect_boosted_runs": 2,
+    "editor_agent_runs": 11,
+    "editor_agent_failed_runs": 1,
+    "fallback_items_count": 16,
+    "fallback_items_ratio": 0.0874,
+    "coverage_forced_count": 0,
+    "coverage_forced_ratio": 0.0,
+    "post_llm_warning_count": 0,
+    "translated_items_count": 26,
+    "rewritten_by_policy_count": 9,
+    "macro_filtered_ids": [],
+    "judge_quality_gate": "PASS",
+    "judge_weighted_total": 95,
+    "judge_critical_errors_count": 0,
+    "llm_calls_total": 28,
+    "llm_json_parse_failures_total": 18,
+    "llm_json_parse_unrecovered_total": 13,
+    "llm_json_repair_attempts_total": 18,
+    "llm_json_repair_success_total": 5,
+    "llm_model_fallback_activations": 2
+  },
+  "judge": {
+    "quality_gate": "PASS",
+    "scores": {
+      "factual_fidelity": 98,
+      "spanish_quality": 95,
+      "macro_relevance": 90,
+      "clarity_non_repetition": 92,
+      "weighted_total": 95.5
+    },
+    "critical_errors": [],
+    "priority_fixes": [],
+    "sample_findings": [
+      {
+        "id_referencia": "01",
+        "severity": "ALTA",
+        "issue": "El titular menciona \"baja de Wall Street\", pero el contenido solo indica que los índices de Wall Street cerraron negativos, sin especificar una \"baja\" generalizada."
+      },
+      {
+        "id_referencia": "02",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"suba de bonos\", pero el contenido solo indica que \"los bonos en dólares avanzan en Wall Street\", lo cual es una descripción más precisa."
+      },
+      {
+        "id_referencia": "05",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"aumenta 11,16%\", pero el contenido especifica \"aumenta 11,16%\" en la provincia de Buenos Aires."
+      },
+      {
+        "id_referencia": "06",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"consolidar la baja en mayo\", pero el contenido solo indica \"busca consolidar la baja en mayo\"."
+      },
+      {
+        "id_referencia": "07",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"fuertes contrastes en el consumo\", pero el contenido solo indica \"fuertes contrastes en el consumo\"."
+      },
+      {
+        "id_referencia": "08",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"primer avance mensual del año\", pero el contenido solo indica \"primer avance mensual del año\"."
+      },
+      {
+        "id_referencia": "09",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"desaceleración en abril\", pero el contenido solo indica \"desaceleración en abril\"."
+      },
+      {
+        "id_referencia": "10",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"precio máximo al que puede llegar el dólar\", pero el contenido solo indica \"precio máximo al que puede llegar el dólar\"."
+      },
+      {
+        "id_referencia": "11",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"tasa de interés banco por banco\", pero el contenido solo indica \"tasa de interés banco por banco\"."
+      },
+      {
+        "id_referencia": "12",
+        "severity": "MEDIA",
+        "issue": "El titular menciona \"dólar blue cerró en alza\", pero el contenido solo indica \"dólar blue cerró en alza\"."
+      }
+    ]
+  },
+  "ab_data": null,
+  "daily_winner": null,
+  "generated_at": "2026-05-05T05:30:02.530978"
+}

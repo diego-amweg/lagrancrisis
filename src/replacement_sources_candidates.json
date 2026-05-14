@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-04-29",
+  "goal": "Reemplazos de bajo riesgo para fuentes bloqueadas (Reuters, Bloomberg, FT, WSJ)",
+  "principle": "Preferir organismos oficiales y fuentes con politica de reutilizacion clara",
+  "prioridad_a_entrar_primero": [
+    {
+      "name": "SEC Press Releases",
+      "url": "https://www.sec.gov/news/pressreleases.rss",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "SEC Speeches and Statements",
+      "url": "https://www.sec.gov/news/speeches-statements.rss",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "SEC Litigation Releases",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "ECB Press RSS",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "US BEA News",
+      "url": "https://apps.bea.gov/rss/rss.xml",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "Bank of England News",
+      "url": "https://www.bankofengland.co.uk/rss/news",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "Bank of England Statistics",
+      "url": "https://www.bankofengland.co.uk/rss/statistics",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "FCA News",
+      "url": "https://www.fca.org.uk/news/rss.xml",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    }
+  ],
+  "prioridad_b_segunda_ola": [
+    {
+      "name": "OECD Newsroom",
+      "url": "https://www.oecd.org/newsroom/rss.xml",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Valor alto; endpoint responde 403 en validacion actual"
+    },
+    {
+      "name": "World Bank News",
+      "url": "https://www.worldbank.org/en/news/all?Type=News&format=rss",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional"
+    },
+    {
+      "name": "BIS Press Releases",
+      "url": "https://www.bis.org/rss/press.xml",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional"
+    },
+    {
+      "name": "US BLS News",
+      "url": "https://www.bls.gov/feed/bls_latest.rss",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "allow"
+    },
+    {
+      "name": "Federal Register API",
+      "url": "https://www.federalregister.gov/developers/documentation/api/v1",
+      "category": "politica_regulatoria",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "No es RSS; requiere conector API dedicado"
+    },
+    {
+      "name": "MAE RSS",
+      "url": "https://www.mae.com.ar/rss",
+      "category": "mercados",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Valor alto local; endpoint actual devuelve 404. Requiere encontrar feed correcto"
+    },
+    {
+      "name": "BYMA RSS",
+      "url": "https://www.byma.com.ar/noticias/rss/",
+      "category": "mercados",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Valor alto local; endpoint actual devuelve 404 y redirige a newsroom HTML"
+    },
+    {
+      "name": "CEPAL RSS",
+      "url": "https://www.cepal.org/es/rss.xml",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Valor regional; endpoint actual devuelve 404"
+    },
+    {
+      "name": "IADB RSS",
+      "url": "https://www.iadb.org/es/rss",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Valor regional; endpoint actual responde 403"
+    },
+    {
+      "name": "CAF RSS",
+      "url": "https://www.caf.com/es/rss/",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Valor regional; validar endpoint/SSL desde entorno de ejecucion"
+    },
+    {
+      "name": "BIS RSS (propuesto)",
+      "url": "https://www.bis.org/rss.xml",
+      "category": "financieras_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "URL propuesta devuelve 404; mantener para validacion de endpoint alternativo"
+    },
+    {
+      "name": "CIPPEC Feed",
+      "url": "https://www.cippec.org/feed/",
+      "category": "politica_argentina",
+      "tier": "t1",
+      "expected_condition": "conditional",
+      "notes": "RSS valido; incorporar con filtros para reducir ruido institucional"
+    },
+    {
+      "name": "FIEL RSS (propuesto)",
+      "url": "https://www.fiel.org/rss",
+      "category": "macro_argentina",
+      "tier": "t1",
+      "expected_condition": "conditional",
+      "notes": "URL propuesta es pagina informativa; feed operativo detectado en https://www.fiel.org/rss_feed"
+    },
+    {
+      "name": "VoxEU RSS (propuesto)",
+      "url": "https://voxeu.org/rss.xml",
+      "category": "economica_mundo",
+      "tier": "t1",
+      "expected_condition": "conditional",
+      "notes": "URL propuesta con 403; alternativa valida detectada en https://cepr.org/rss.xml"
+    },
+    {
+      "name": "PIIE RSS (propuesto)",
+      "url": "https://www.piie.com/rss.xml",
+      "category": "economica_mundo",
+      "tier": "t1",
+      "expected_condition": "conditional",
+      "notes": "URL propuesta con 403; alternativa valida detectada en https://www.piie.com/rss/update.xml"
+    },
+    {
+      "name": "FRED RSS (propuesto)",
+      "url": "https://fred.stlouisfed.org/rss/fred.xml",
+      "category": "economica_mundo",
+      "tier": "oficial",
+      "expected_condition": "conditional",
+      "notes": "Alto valor de datos macro; endpoint propuesto no valido en prueba actual"
+    }
+  ],
+  "no_priorizar_por_ahora_friccion_tecnica": [
+    {
+      "name": "IMF RSS",
+      "url": "https://www.imf.org/en/News/RSS",
+      "reason": "Extraccion automatica inconsistente por carga JS"
+    },
+    {
+      "name": "World Bank All News",
+      "url": "https://www.worldbank.org/en/news/all",
+      "reason": "No se confirmo endpoint RSS estable en esta pasada"
+    },
+    {
+      "name": "Eurostat RSS",
+      "url": "https://ec.europa.eu/eurostat/web/main/rss",
+      "reason": "Fallo de extraccion de contenido util"
+    },
+    {
+      "name": "ONS RSS",
+      "url": "https://www.ons.gov.uk/rss",
+      "reason": "Fallo de extraccion de contenido util"
+    },
+    {
+      "name": "IOSCO RSS",
+      "url": "https://www.iosco.org/news/rss.php",
+      "reason": "Endpoint devolvio 404"
+    },
+    {
+      "name": "Brookings Feed (propuesto)",
+      "url": "https://www.brookings.edu/feed/",
+      "reason": "Endpoint redirige a homepage HTML y no entrega RSS usable"
+    },
+    {
+      "name": "TradingEconomics RSS",
+      "url": "https://tradingeconomics.com/rss",
+      "reason": "Endpoint responde 403 de forma consistente"
+    },
+    {
+      "name": "World Bank Blogs Feed (propuesto)",
+      "url": "https://blogs.worldbank.org/feeds/all",
+      "reason": "Endpoint devuelve 404"
+    }
+  ]
+}

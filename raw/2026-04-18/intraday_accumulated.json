@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-18",
+  "first_capture_at": "2026-04-18T11:12:25",
+  "last_capture_at": "2026-04-18T11:53:00",
+  "next_capture_after": "2026-04-18T12:53:00",
+  "captures": [
+    {
+      "captured_at": "2026-04-18T11:12:25",
+      "fetched_count": 3,
+      "new_inserted_count": 3,
+      "accumulated_total_count": 3
+    },
+    {
+      "captured_at": "2026-04-18T11:46:47",
+      "fetched_count": 3,
+      "new_inserted_count": 0,
+      "accumulated_total_count": 3
+    },
+    {
+      "captured_at": "2026-04-18T11:53:00",
+      "fetched_count": 3,
+      "new_inserted_count": 0,
+      "accumulated_total_count": 3
+    }
+  ],
+  "articles": [
+    {
+      "title": "BCRA mantiene tasa de política monetaria en 40% anual",
+      "url": "https://www.bcra.gob.ar/Noticias/20260410_tasa.asp",
+      "content": "El Banco Central informó que la tasa de referencia se mantiene sin cambios en su última reunión de política monetaria. La decisión fue unánime y considera el contexto inflacionario actual.",
+      "published": "2026-04-18T11:12:25.285474",
+      "source_name": "BCRA",
+      "source_category": "macro_argentina",
+      "tier": "oficial",
+      "language": "es",
+      "_identity_key": "a3b244b24b74cef1d1dfc58bda8ea68e18b378bc"
+    },
+    {
+      "title": "INDEC confirma inflación de marzo: 3.2% mensual",
+      "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-42",
+      "content": "El Índice de Precios al Consumidor registró un aumento del 3.2% en marzo, ligeramente por debajo de las expectativas del mercado. El acumulado trimestral alcanza el 9.1%.",
+      "published": "2026-04-18T11:12:25.285482",
+      "source_name": "INDEC",
+      "source_category": "macro_argentina",
+      "tier": "oficial",
+      "language": "es",
+      "_identity_key": "c3c854216ef2cba851bde71c400d0709a4836a4b"
+    },
+    {
+      "title": "Federal Reserve mantiene tasas sin cambios, señala cautela",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260410a.htm",
+      "content": "La Reserva Federal de EE.UU. decidió mantener el rango de tasas de interés federal funds en 5.25%-5.50%. El comunicado destaca la necesidad de más datos antes de considerar recortes.",
+      "published": "2026-04-18T11:12:25.285485",
+      "source_name": "Federal Reserve",
+      "source_category": "internacional",
+      "tier": "oficial",
+      "language": "en",
+      "_identity_key": "ff3c6cea54b5aaae76d0313a87535ace5a4f72c9"
+    }
+  ]
+}

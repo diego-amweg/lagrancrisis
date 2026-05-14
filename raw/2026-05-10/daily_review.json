@@ -1,0 +1,234 @@
+{
+  "date": "2026-05-10",
+  "checklist": {
+    "1": {
+      "control": "Captura intradia disponible",
+      "evidencia": "raw/YYYY-MM-DD/intraday_accumulated.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "2": {
+      "control": "Cierre diario ejecutado",
+      "evidencia": "logs/close.log y docs/YYYY/MM/DD/index.html",
+      "estado": "OK",
+      "presente": true
+    },
+    "3": {
+      "control": "data.json generado",
+      "evidencia": "docs/YYYY/MM/DD/data.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "4": {
+      "control": "pipeline_metrics.json generado",
+      "evidencia": "raw/YYYY-MM-DD/pipeline_metrics.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "5": {
+      "control": "judge_report.json generado",
+      "evidencia": "raw/YYYY-MM-DD/judge_report.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "6": {
+      "control": "quality_gate del Juez",
+      "evidencia": "PASS o WARN con plan",
+      "estado": "OK",
+      "valor": "PASS"
+    },
+    "7": {
+      "control": "errores criticos del Juez",
+      "evidencia": "judge_critical_errors_count = 0",
+      "estado": "OK",
+      "valor": 0
+    },
+    "8": {
+      "control": "cobertura de publicacion",
+      "evidencia": "published = selected",
+      "estado": "WARN",
+      "selected": 193,
+      "published": 159
+    },
+    "9": {
+      "control": "fallback por item bajo control",
+      "evidencia": "fallback_items_ratio <= 0.20 objetivo",
+      "estado": "OK",
+      "valor": 0.0415
+    },
+    "10": {
+      "control": "parse failures LLM no recuperados bajo control",
+      "evidencia": "llm_json_parse_unrecovered_total = 0 (critico)",
+      "estado": "FAIL",
+      "valor": {
+        "unrecovered": 8,
+        "raw_total": 12
+      }
+    }
+  },
+  "metrics": {
+    "date": "2026-05-10",
+    "timestamp": "2026-05-10T05:17:00",
+    "downloaded": 198,
+    "selected": 193,
+    "published": 159,
+    "coverage_ratio": 0.803,
+    "fallback_rate": 0.0,
+    "experiment_label": "production",
+    "logical_agents_enabled": true,
+    "prompt_redactor_version": "redactor_v1",
+    "prompt_editor_version": "editor_v1",
+    "prompt_judge_version": "judge_v1",
+    "editorial_chunk_size": 18,
+    "editorial_chunk_count": 9,
+    "editorial_chunks_with_errors": 3,
+    "editorial_autocorrect_runs": 3,
+    "editorial_autocorrect_boosted_runs": 1,
+    "editor_agent_runs": 9,
+    "editor_agent_failed_runs": 1,
+    "fallback_items_count": 8,
+    "fallback_items_ratio": 0.0415,
+    "coverage_forced_count": 0,
+    "coverage_forced_ratio": 0.0,
+    "post_llm_warning_count": 0,
+    "translated_items_count": 20,
+    "rewritten_by_policy_count": 7,
+    "macro_filtered_ids": [
+      "75",
+      "101",
+      "97",
+      "121",
+      "122",
+      "125",
+      "128",
+      "133",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "154",
+      "158",
+      "159",
+      "160",
+      "169",
+      "171",
+      "177",
+      "180",
+      "181",
+      "182",
+      "183",
+      "184",
+      "186",
+      "188",
+      "192"
+    ],
+    "judge_quality_gate": "PASS",
+    "judge_weighted_total": 97,
+    "judge_critical_errors_count": 0,
+    "llm_calls_total": 30,
+    "llm_json_parse_failures_total": 12,
+    "llm_json_parse_unrecovered_total": 8,
+    "llm_json_repair_attempts_total": 12,
+    "llm_json_repair_success_total": 4,
+    "llm_model_fallback_activations": 2
+  },
+  "judge": {
+    "quality_gate": "PASS",
+    "scores": {
+      "factual_fidelity": 98,
+      "spanish_quality": 99,
+      "macro_relevance": 95,
+      "clarity_non_repetition": 97,
+      "weighted_total": 97
+    },
+    "critical_errors": [],
+    "priority_fixes": [],
+    "sample_findings": [
+      {
+        "id_referencia": "02",
+        "severity": "ALTA",
+        "issue": "El crecimiento del empleo en EEUU es fuerte, lo que diluye las expectativas de un recorte de tasas de la Fed en 2026 y 2027. La noticia es relevante para la política monetaria global y las decisiones de inversión."
+      },
+      {
+        "id_referencia": "04",
+        "severity": "ALTA",
+        "issue": "El levantamiento del cepo cambiario y la baja del riesgo país son claves para la reactivación económica argentina. La reducción del riesgo país aportaría a la recuperación de la demanda de dinero."
+      },
+      {
+        "id_referencia": "08",
+        "severity": "ALTA",
+        "issue": "El riesgo país bajó a 500 puntos, los bonos soberanos mejoraron, pero los ADR argentinos cayeron 12,7% tras el balance de Mercado Libre. El dólar se ubicó en $1.420 y el BCRA compró USD 110 millones."
+      },
+      {
+        "id_referencia": "09",
+        "severity": "ALTA",
+        "issue": "Las tasas de crédito actuales, cercanas al 70%, ahogan el consumo y disparan la morosidad, siendo el mayor obstáculo para el rebote de la economía real argentina."
+      },
+      {
+        "id_referencia": "17",
+        "severity": "ALTA",
+        "issue": "Cavallo advierte sobre la falta de reservas y expone el talón de Aquiles del plan libertario, cuestionando la capacidad oficial para enfrentar una corrida cambiaria y condicionando la salida del cepo a la acumulación de divisas."
+      },
+      {
+        "id_referencia": "23",
+        "severity": "ALTA",
+        "issue": "Un grupo de jubilados perdió el 12,7% de su poder de compra desde diciembre de 2023, y las pensiones por discapacidad cayeron un 18,7% a marzo, a pesar de que el gobierno reporta un aumento real del 12%."
+      },
+      {
+        "id_referencia": "30",
+        "severity": "ALTA",
+        "issue": "La inflación en Argentina sigue por encima del 2% mensual, con obstáculos para regresar a niveles de hace un año, según proyecciones y claves de especialistas."
+      },
+      {
+        "id_referencia": "34",
+        "severity": "ALTA",
+        "issue": "Argentina proyecta un superávit de divisas por el aumento de exportaciones de energía y minería, además de las divisas del RIGI, con un panorama favorable para este año y 2027."
+      },
+      {
+        "id_referencia": "69",
+        "severity": "ALTA",
+        "issue": "Wall Street se enfoca en el riesgo político y se mantiene cauto ante la \"pelea de fondo\" Milei-Kicillof, mientras el riesgo país se resiste a bajar de los 500 puntos básicos."
+      },
+      {
+        "id_referencia": "73",
+        "severity": "ALTA",
+        "issue": "La producción de carne en Argentina se redujo en más de 70.000 toneladas en lo que va del año, con una merma de 173.000 cabezas faenadas en abril respecto al año anterior."
+      },
+      {
+        "id_referencia": "81",
+        "severity": "ALTA",
+        "issue": "Fitch elevó la calificación de Argentina a B- con perspectiva estable, pero advirtió sobre la debilidad de las reservas netas, vencimientos en 2027 y vulnerabilidad ante crisis de confianza."
+      },
+      {
+        "id_referencia": "90",
+        "severity": "ALTA",
+        "issue": "Los balances impactaron en las acciones argentinas: Mercado Libre se desplomó 10%, el S&P Merval perdió 2,3%, los bonos subieron 0,3% y el riesgo país cedió a 510 puntos."
+      },
+      {
+        "id_referencia": "135",
+        "severity": "ALTA",
+        "issue": "Caputo estima que el Súper RIGI podría atraer inversiones de US$ 20.000 a US$ 30.000 millones, enfocándose en sectores industriales que aún no existen en Argentina."
+      },
+      {
+        "id_referencia": "164",
+        "severity": "ALTA",
+        "issue": "Una histórica fábrica de neumáticos en Campana cerró tras 64 años, despidiendo a 150 empleados, debido al impacto de la importación de neumáticos."
+      },
+      {
+        "id_referencia": "178",
+        "severity": "ALTA",
+        "issue": "Neuquén concentró más de la mitad de la creación neta de empleo privado en Argentina (96.052 puestos) entre 2011 y 2025, ligada al despegue de Vaca Muerta."
+      }
+    ]
+  },
+  "ab_data": null,
+  "daily_winner": null,
+  "generated_at": "2026-05-10T05:30:02.407467"
+}

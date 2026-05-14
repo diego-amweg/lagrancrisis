@@ -1,0 +1,159 @@
+{
+  "argentina": {
+    "oficiales": [
+      {
+        "name": "BCRA",
+        "url": "https://www.argentina.gob.ar/rss.xml",
+        "category": "macro_argentina",
+        "tier": "oficial"
+      },
+      {
+        "name": "INDEC",
+        "url": "https://www.indec.gob.ar/rss/ultimas_noticias.xml",
+        "category": "macro_argentina",
+        "tier": "oficial"
+      },
+      {
+        "name": "Boletín Oficial",
+        "url": "https://www.boletinoficial.gob.ar/rss/home",
+        "category": "politica_argentina",
+        "tier": "oficial"
+      },
+      {
+        "name": "Casa Rosada",
+        "url": "https://www.argentina.gob.ar/rss.xml",
+        "category": "politica_argentina",
+        "tier": "oficial"
+      },
+      {
+        "name": "Ministerio de Economía",
+        "url": "https://www.argentina.gob.ar/rss.xml",
+        "category": "macro_argentina",
+        "tier": "oficial"
+      }
+    ],
+    "medios_tier1": [
+      {
+        "name": "Ámbito Financiero",
+        "url": "https://www.ambito.com/rss/economia.xml",
+        "category": "macro_argentina",
+        "tier": "t1"
+      },
+      {
+        "name": "El Cronista",
+        "url": "https://www.cronista.com/files/rss/finanzas.xml",
+        "category": "macro_argentina",
+        "tier": "t1"
+      },
+      {
+        "name": "La Nación Economía",
+        "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml",
+        "category": "macro_argentina",
+        "tier": "t1"
+      },
+      {
+        "name": "Infobae Economía",
+        "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/economia/?outputType=xml",
+        "category": "macro_argentina",
+        "tier": "t1"
+      },
+      {
+        "name": "Perfil Economía",
+        "url": "https://www.perfil.com/feed/economia",
+        "category": "politica_argentina",
+        "tier": "t1"
+      },
+      {
+        "name": "CIPPEC",
+        "url": "https://www.cippec.org/feed/",
+        "category": "politica_argentina",
+        "tier": "t1"
+      },
+      {
+        "name": "FIEL",
+        "url": "https://www.fiel.org/rss_feed",
+        "category": "macro_argentina",
+        "tier": "t1"
+      }
+    ]
+  },
+  "global": {
+    "oficiales": [
+      {
+        "name": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "FMI",
+        "url": "https://www.imf.org/en/News/rss?language=eng",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "Banco Central Europeo",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "SEC Press Releases",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "SEC Speeches and Statements",
+        "url": "https://www.sec.gov/news/speeches-statements.rss",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "SEC Litigation Releases",
+        "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "US BEA News",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "Bank of England News",
+        "url": "https://www.bankofengland.co.uk/rss/news",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "Bank of England Statistics",
+        "url": "https://www.bankofengland.co.uk/rss/statistics",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "FCA News",
+        "url": "https://www.fca.org.uk/news/rss.xml",
+        "category": "internacional",
+        "tier": "oficial"
+      },
+      {
+        "name": "CEPR",
+        "url": "https://cepr.org/rss.xml",
+        "category": "economica_mundo",
+        "tier": "t1"
+      },
+      {
+        "name": "PIIE",
+        "url": "https://www.piie.com/rss/update.xml",
+        "category": "economica_mundo",
+        "tier": "t1"
+      }
+    ],
+    "medios_tier1": [
+      
+    ]
+  }
+}

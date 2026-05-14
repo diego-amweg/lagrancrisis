@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-12",
+  "checklist": {
+    "1": {
+      "control": "Captura intradia disponible",
+      "evidencia": "raw/YYYY-MM-DD/intraday_accumulated.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "2": {
+      "control": "Cierre diario ejecutado",
+      "evidencia": "logs/close.log y docs/YYYY/MM/DD/index.html",
+      "estado": "OK",
+      "presente": true
+    },
+    "3": {
+      "control": "data.json generado",
+      "evidencia": "docs/YYYY/MM/DD/data.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "4": {
+      "control": "pipeline_metrics.json generado",
+      "evidencia": "raw/YYYY-MM-DD/pipeline_metrics.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "5": {
+      "control": "judge_report.json generado",
+      "evidencia": "raw/YYYY-MM-DD/judge_report.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "6": {
+      "control": "quality_gate del Juez",
+      "evidencia": "PASS o WARN con plan",
+      "estado": "OK",
+      "valor": "PASS"
+    },
+    "7": {
+      "control": "errores criticos del Juez",
+      "evidencia": "judge_critical_errors_count = 0",
+      "estado": "OK",
+      "valor": 0
+    },
+    "8": {
+      "control": "cobertura de publicacion",
+      "evidencia": "published = selected",
+      "estado": "WARN",
+      "selected": 192,
+      "published": 154
+    },
+    "9": {
+      "control": "fallback por item bajo control",
+      "evidencia": "fallback_items_ratio <= 0.20 objetivo",
+      "estado": "OK",
+      "valor": 0.1198
+    },
+    "10": {
+      "control": "parse failures LLM no recuperados bajo control",
+      "evidencia": "llm_json_parse_unrecovered_total = 0 (critico)",
+      "estado": "FAIL",
+      "valor": {
+        "unrecovered": 21,
+        "raw_total": 24
+      }
+    }
+  },
+  "metrics": {
+    "date": "2026-05-12",
+    "timestamp": "2026-05-12T05:30:32",
+    "downloaded": 199,
+    "selected": 192,
+    "published": 154,
+    "coverage_ratio": 0.7739,
+    "fallback_rate": 0.0,
+    "experiment_label": "production",
+    "logical_agents_enabled": true,
+    "prompt_redactor_version": "redactor_v1",
+    "prompt_editor_version": "editor_v1",
+    "prompt_judge_version": "judge_v1",
+    "editorial_chunk_size": 18,
+    "editorial_chunk_count": 9,
+    "editorial_chunks_with_errors": 2,
+    "editorial_autocorrect_runs": 2,
+    "editorial_autocorrect_boosted_runs": 1,
+    "editor_agent_runs": 9,
+    "editor_agent_failed_runs": 0,
+    "fallback_items_count": 23,
+    "fallback_items_ratio": 0.1198,
+    "coverage_forced_count": 0,
+    "coverage_forced_ratio": 0.0,
+    "post_llm_warning_count": 0,
+    "translated_items_count": 19,
+    "rewritten_by_policy_count": 18,
+    "macro_filtered_ids": [
+      "06",
+      "28",
+      "61",
+      "74",
+      "75",
+      "79",
+      "82",
+      "85",
+      "100",
+      "101",
+      "105",
+      "107",
+      "111",
+      "112",
+      "115",
+      "118",
+      "121",
+      "123",
+      "124",
+      "127",
+      "129",
+      "131",
+      "133",
+      "134",
+      "136",
+      "137",
+      "139",
+      "140",
+      "143",
+      "144",
+      "150",
+      "168",
+      "172",
+      "175",
+      "179",
+      "185",
+      "189",
+      "192"
+    ],
+    "judge_quality_gate": "PASS",
+    "judge_weighted_total": 95,
+    "judge_critical_errors_count": 0,
+    "llm_calls_total": 29,
+    "llm_json_parse_failures_total": 24,
+    "llm_json_parse_unrecovered_total": 21,
+    "llm_json_repair_attempts_total": 24,
+    "llm_json_repair_success_total": 3,
+    "llm_model_fallback_activations": 2
+  },
+  "judge": {
+    "quality_gate": "PASS",
+    "scores": {
+      "factual_fidelity": 98,
+      "spanish_quality": 95,
+      "macro_relevance": 90,
+      "clarity_non_repetition": 92,
+      "weighted_total": 95.5
+    },
+    "critical_errors": [],
+    "priority_fixes": [],
+    "sample_findings": [
+      {
+        "id_referencia": "01",
+        "severity": "ALTA",
+        "issue": "La noticia menciona que \"economistas advierten que aún persisten dudas sobre la sostenibilidad del plan económico y el escenario electoral de 2027\". Si bien esto es una opinión, la forma en que está redactado podría interpretarse como un hecho factual, lo cual no está completamente soportado por la evidencia literal que solo menciona la advertencia. Se recomienda reformular para dejar claro que es una opinión de economistas."
+      },
+      {
+        "id_referencia": "08",
+        "severity": "MEDIA",
+        "issue": "La noticia indica que \"el mercado todavía mira con desconfianza las reservas, los vencimientos de deuda y el escenario político de 2027\". La evidencia literal solo menciona que \"el mercado todavía mira con desconfianza las reservas, los vencimientos de deuda y el escenario político de 2027\". Falta el contexto de \"todavía mira con desconfianza\" que se infiere del titular y el resto del artículo."
+      },
+      {
+        "id_referencia": "16",
+        "severity": "MEDIA",
+        "issue": "La noticia afirma que \"el dólar actual genera una economía dual\". La evidencia literal solo menciona que \"el dólar actual genera una economía dual\". Falta el contexto de \"el dólar actual\" que se infiere del titular y el resto del artículo."
+      },
+      {
+        "id_referencia": "17",
+        "severity": "MEDIA",
+        "issue": "La noticia menciona \"un detalle impide levantar totalmente el cepo según este economista\". La evidencia literal solo menciona \"un detalle impide levantar totalmente el cepo según este economista\". Falta el contexto de \"este economista\" que se infiere del titular y el resto del artículo."
+      },
+      {
+        "id_referencia": "26",
+        "severity": "MEDIA",
+        "issue": "La noticia indica que \"la principal debilidad sigue siendo la liquidez en dólares y la vulnerabilidad frente a un año electoral\". La evidencia literal solo menciona \"la principal debilidad sigue siendo la liquidez en dólares y la vulnerabilidad frente a un año electoral\". Falta el contexto de \"la principal debilidad sigue siendo\" que se infiere del titular y el resto del artículo."
+      }
+    ]
+  },
+  "ab_data": null,
+  "daily_winner": null,
+  "generated_at": "2026-05-12T05:30:42.158849"
+}

@@ -1,0 +1,19 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 100,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 95,
+    "weighted_total": 95.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "03",
+      "severity": "MEDIA",
+      "issue": "El estatus de la fuente 'Bank of England Statistics' es 'SIN CONFIRMAR' y la verificación es 'false', lo cual introduce incertidumbre en los hechos presentados."
+    }
+  ]
+}

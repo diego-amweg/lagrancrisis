@@ -1,0 +1,39 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 92,
+    "weighted_total": 95.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "03",
+      "severity": "ALTA",
+      "issue": "El artículo menciona que el riesgo país se acercó a 500 puntos, pero no proporciona el valor exacto al momento de la publicación."
+    },
+    {
+      "id_referencia": "05",
+      "severity": "MEDIA",
+      "issue": "El artículo menciona que los analistas del BCRA corrigieron sus proyecciones de dólar e inflación para 2026, pero no especifica cuáles son estas proyecciones."
+    },
+    {
+      "id_referencia": "14",
+      "severity": "MEDIA",
+      "issue": "El artículo menciona que las consultoras relevadas por el BCRA estiman la inflación para el mes actual, pero no proporciona dicha estimación."
+    },
+    {
+      "id_referencia": "29",
+      "severity": "MEDIA",
+      "issue": "El artículo menciona que el Banco Nación lanzó títulos en pesos y dólares, pero no detalla cómo son estos títulos ni qué tasa de interés pagan."
+    },
+    {
+      "id_referencia": "106",
+      "severity": "MEDIA",
+      "issue": "El artículo menciona que el ministro Caputo detalló los cambios del \"Súper RIGI\", pero no especifica cuáles son estos cambios más allá de la tasa de Ganancias del 15%."
+    }
+  ]
+}

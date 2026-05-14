@@ -1,0 +1,22 @@
+# Archivo: requirements.txt
+# Versión: 2026-04-14 (migración a google-genai, Python 3.13)
+
+# Scraping RSS
+feedparser==6.0.12
+requests==2.32.3
+
+# LLM - Google Gemini (SDK nuevo, reemplaza google-generativeai)
+google-genai>=1.74.0,<2.0.0
+
+# Templating HTML
+jinja2==3.1.6
+MarkupSafe==3.0.3
+
+# Utilidades
+python-dateutil==2.9.0.post0
+RapidFuzz==3.14.5  # Deduplicación fuzzy (más rápida que fuzzywuzzy)
+python-dotenv==1.2.2  # Para variables de entorno locales
+isort==8.0.1  # Ordenado de imports (VS Code isort)
+
+# Logging y debugging (ya vienen con Python)
+# colorama==0.4.6  # Opcional: colores en logs de Windows

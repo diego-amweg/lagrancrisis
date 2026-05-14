@@ -1,0 +1,179 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 95,
+    "weighted_total": 95.7
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "MEDIA",
+      "issue": "La noticia de Ámbito Financiero sobre Goldman Sachs descarta recortes de tasa de la Fed hasta diciembre, pero no especifica la fecha exacta de los recortes que descarta, solo \"hasta diciembre\"."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre Claudio Loser no especifica la fecha de las elecciones legislativas a las que hace referencia."
+    },
+    {
+      "id_referencia": "03",
+      "severity": "BAJA",
+      "issue": "La noticia de Infobae Economía menciona que el riesgo país tocó un mínimo en tres meses, pero no especifica la fecha exacta de dicho mínimo."
+    },
+    {
+      "id_referencia": "05",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre el petróleo no especifica la fecha exacta de la suba del Brent hasta los USD 107."
+    },
+    {
+      "id_referencia": "06",
+      "severity": "BAJA",
+      "issue": "La noticia de La Nación Economía sobre tasas de plazo fijo no informa las tasas específicas de los bancos."
+    },
+    {
+      "id_referencia": "07",
+      "severity": "BAJA",
+      "issue": "La noticia de Infobae Economía sobre la compra de dólares por parte del BCRA no especifica el monto exacto de la meta de compra de dólares para 2026."
+    },
+    {
+      "id_referencia": "08",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre el dólar blue no informa el valor exacto del dólar blue."
+    },
+    {
+      "id_referencia": "09",
+      "severity": "BAJA",
+      "issue": "La noticia de Ámbito Financiero sobre el encarecimiento de Argentina en dólares no especifica el período en el que la carne aumentó hasta 60%."
+    },
+    {
+      "id_referencia": "10",
+      "severity": "BAJA",
+      "issue": "La noticia de Infobae Economía sobre la suba del petróleo no especifica la fecha exacta de la suba del Brent hasta los USD 107."
+    },
+    {
+      "id_referencia": "13",
+      "severity": "BAJA",
+      "issue": "La noticia de El Cronista sobre el \"Gurú del Blue\" no informa quién es el \"Gurú del Blue\" ni el período al que se refiere la predicción sobre el dólar."
+    },
+    {
+      "id_referencia": "14",
+      "severity": "BAJA",
+      "issue": "La noticia de La Nación Economía sobre el trigo no especifica el año de la cosecha de trigo en Estados Unidos."
+    },
+    {
+      "id_referencia": "15",
+      "severity": "BAJA",
+      "issue": "La noticia de El Cronista sobre el mapa de inversiones argentino no especifica las nuevas alternativas de inversión que están ganando terreno."
+    },
+    {
+      "id_referencia": "38",
+      "severity": "BAJA",
+      "issue": "La noticia de Infobae Economía sobre Loma Negra no especifica el monto exacto de la deuda millonaria que acumula la empresa."
+    },
+    {
+      "id_referencia": "45",
+      "severity": "BAJA",
+      "issue": "La noticia de La Nación Economía sobre la venta de Shell no especifica la deuda exacta de US$13.240 millones de Raízen ni el monto exacto de la transacción de US$1200 millones."
+    },
+    {
+      "id_referencia": "61",
+      "severity": "MEDIA",
+      "issue": "La noticia de Infobae Economía sobre la comparativa de precios de Argentina con otros 9 países no informa los países específicos comparados, ni los rubros específicos, ni los resultados de la comparación (qué es más caro/barato), ni la metodología del relevamiento."
+    },
+    {
+      "id_referencia": "62",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre la clase media en CABA no informa el monto específico que necesita una familia para ser clase media, ni los valores exactos de las líneas de pobreza e indigencia, ni el período exacto de la inflación porteña mencionada."
+    },
+    {
+      "id_referencia": "63",
+      "severity": "BAJA",
+      "issue": "La noticia de Ámbito Financiero sobre el plazo fijo no informa la tasa de rentabilidad actual de los plazos fijos, ni las alternativas de inversión que buscan los clientes, ni los principales bancos ni cómo operan."
+    },
+    {
+      "id_referencia": "64",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el dólar blue no informa la cotización de cierre del dólar blue para el martes 12 de mayo."
+    },
+    {
+      "id_referencia": "65",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre el Régimen Simplificado de Ganancias no especifica la fecha de inicio del período de 20 días mencionado para la duplicación de adhesiones."
+    },
+    {
+      "id_referencia": "67",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el dólar oficial no informa la cotización de cierre del dólar oficial para el martes 12 de mayo."
+    },
+    {
+      "id_referencia": "69",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre el Súper RIGI no detalla en qué consiste la \"otra parte del modelo\" que falta, ni los detalles de la reforma impositiva reclamada para las pymes."
+    },
+    {
+      "id_referencia": "70",
+      "severity": "BAJA",
+      "issue": "La noticia de Infobae Economía sobre el Régimen Simplificado de Ganancias no especifica la fecha de inicio del período de dos semanas mencionado, ni el plan de reactivación de Caputo, ni los nuevos productos financieros esperados."
+    },
+    {
+      "id_referencia": "72",
+      "severity": "BAJA",
+      "issue": "La noticia de Ámbito Financiero sobre el plazo fijo no informa cuánto hay que invertir para ganar $15.000 a 30 días, ni las tasas actuales del sistema financiero."
+    },
+    {
+      "id_referencia": "73",
+      "severity": "BAJA",
+      "issue": "La noticia de Perfil Economía sobre el mercado de autos usados no cuantifica la fortaleza del mercado, ni detalla las altas tasas de interés ni la magnitud de la pérdida de poder adquisitivo."
+    },
+    {
+      "id_referencia": "74",
+      "severity": "BAJA",
+      "issue": "La noticia de Infobae Economía sobre billeteras virtuales no especifica las tasas más altas mencionadas, ni las billeteras virtuales ni cuáles pagan más."
+    },
+    {
+      "id_referencia": "75",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el pronóstico de Melconian no informa el pronóstico de Melconian sobre el futuro del dólar."
+    },
+    {
+      "id_referencia": "127",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre Fitch advierte que la mejora en la calificación de Argentina no impacta en las provincias, pero no detalla la advertencia específica."
+    },
+    {
+      "id_referencia": "135",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el riesgo país no informa las claves de la mejora ni el impacto en el mercado."
+    },
+    {
+      "id_referencia": "140",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el plazo fijo no especifica qué banco paga más por invertir $1.000.000 a 30 días este martes 12 de mayo."
+    },
+    {
+      "id_referencia": "145",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre créditos UVA no especifica si conviene o no sacar un crédito UVA."
+    },
+    {
+      "id_referencia": "150",
+      "severity": "BAJA",
+      "issue": "La noticia de El Cronista sobre Cedears no especifica cuáles son las mejores opciones para invertir con pesos desde Argentina."
+    },
+    {
+      "id_referencia": "162",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el riesgo país no informa las claves de la mejora ni el impacto en el mercado."
+    },
+    {
+      "id_referencia": "166",
+      "severity": "ALTA",
+      "issue": "La noticia de El Cronista sobre el paro bancario no informa cuándo será el paro ni qué trámites se verán afectados."
+    }
+  ]
+}

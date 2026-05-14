@@ -1,0 +1,268 @@
+{
+  "version": "2026-04-28",
+  "default": {
+    "condition": "conditional",
+    "publish_mode": "original_redaction_only",
+    "microquote": "forbidden",
+    "attribution_required": true,
+    "review_frequency": "monthly"
+  },
+  "sources_by_name": {
+    "bcra": {
+      "condition": "allow",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Uso informativo/editorial con redaccion propia, atribucion y enlace. Sin uso de logos para aparentar aval.",
+      "evidence_urls": [
+        "https://www.bcra.gob.ar/aviso-legal/"
+      ]
+    },
+    "indec": {
+      "condition": "allow",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Datos oficiales y comunicados con atribucion y enlace; sin alterar sentido.",
+      "evidence_urls": [
+        "https://www.indec.gob.ar/"
+      ]
+    },
+    "boletín oficial": {
+      "condition": "allow",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Normativa y actos publicos como fuente primaria con referencia oficial.",
+      "evidence_urls": [
+        "https://www.boletinoficial.gob.ar/estatica/institucional-mision"
+      ]
+    },
+    "casa rosada": {
+      "condition": "allow",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Comunicados oficiales con atribucion y enlace.",
+      "evidence_urls": [
+        "https://www.casarosada.gob.ar/"
+      ]
+    },
+    "ministerio de economía": {
+      "condition": "allow",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Reutilizacion permitida del portal oficial bajo condiciones de atribucion (CC BY 4.0 salvo excepciones).",
+      "evidence_urls": [
+        "https://www.argentina.gob.ar/terminos-y-condiciones"
+      ]
+    },
+    "federal reserve": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Usar solo hechos/publicaciones oficiales con redaccion propia. Revisar terminos especificos de republicacion periodicamente.",
+      "evidence_urls": [
+        "https://www.federalreserve.gov/feeds/feeds.htm"
+      ]
+    },
+    "fmi": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Hechos y datos con redaccion propia y atribucion; revisar copyright/terms en cada actualizacion.",
+      "evidence_urls": [
+        "https://www.imf.org/en/About/copyright-and-usage"
+      ]
+    },
+    "banco central europeo": {
+      "condition": "allow",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "quarterly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Reutilizacion permitida con citacion, exactitud e indicacion de modificaciones.",
+      "evidence_urls": [
+        "https://www.ecb.europa.eu/home/disclaimer/html/index.en.html"
+      ]
+    },
+    "ámbito financiero": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "No copiar texto sustancial del medio; solo hechos con redaccion propia, atribucion y enlace.",
+      "evidence_urls": [
+        "https://www.ambito.com/contenidos/aviso-legal.html"
+      ]
+    },
+    "el cronista": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "No reproducir contenido de suscripcion ni texto sustancial; usar solo hechos y atribucion.",
+      "evidence_urls": [
+        "https://www.cronista.com/"
+      ]
+    },
+    "la nación economía": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Derechos reservados: usar hechos con redaccion propia, sin copiar expresion original.",
+      "evidence_urls": [
+        "https://www.contacto.lanacion.com.ar/tyc"
+      ]
+    },
+    "infobae economía": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Terminos restrictivos de reproduccion. Solo hechos + redaccion propia + atribucion.",
+      "evidence_urls": [
+        "https://www.infobae.com/terminos-y-condiciones/"
+      ]
+    },
+    "perfil economía": {
+      "condition": "conditional",
+      "publish_mode": "original_redaction_only",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Asumir derechos reservados hasta verificación completa de terminos especificos.",
+      "evidence_urls": [
+        "https://www.perfil.com/"
+      ]
+    },
+    "reuters argentina": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Bloqueado hasta licencia escrita formal.",
+      "evidence_urls": [
+        "https://www.reuters.com/robots.txt"
+      ]
+    },
+    "reuters economics": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Bloqueado hasta licencia escrita formal.",
+      "evidence_urls": [
+        "https://www.reuters.com/robots.txt"
+      ]
+    },
+    "bloomberg línea": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Bloqueado hasta licencia escrita formal.",
+      "evidence_urls": [
+        "https://www.bloomberglinea.com/termsandconitions_en/"
+      ]
+    },
+    "bloomberg markets": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Bloqueado hasta licencia escrita formal.",
+      "evidence_urls": [
+        "https://www.bloomberg.com/notices/tos/"
+      ]
+    },
+    "financial times": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Bloqueado hasta licencia escrita formal.",
+      "evidence_urls": [
+        "https://help.ft.com/help/legal-privacy/terms-conditions/",
+        "https://www.ft.com/robots.txt"
+      ]
+    },
+    "wsj markets": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "microquote": "forbidden",
+      "attribution_required": true,
+      "review_frequency": "monthly",
+      "reviewed_at": "2026-04-28",
+      "approved_use_condition": "Bloqueado hasta licencia escrita formal.",
+      "evidence_urls": [
+        "https://www.wsj.com/robots.txt"
+      ]
+    }
+  },
+  "sources_by_domain": {
+    "reuters.com": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "review_frequency": "monthly"
+    },
+    "bloomberg.com": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "review_frequency": "monthly"
+    },
+    "bloomberglinea.com": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "review_frequency": "monthly"
+    },
+    "ft.com": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "review_frequency": "monthly"
+    },
+    "wsj.com": {
+      "condition": "block",
+      "publish_mode": "do_not_publish",
+      "review_frequency": "monthly"
+    }
+  }
+}

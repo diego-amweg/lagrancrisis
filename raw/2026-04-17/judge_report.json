@@ -1,0 +1,34 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 100,
+    "spanish_quality": 100,
+    "macro_relevance": 75,
+    "clarity_non_repetition": 100,
+    "weighted_total": 92.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "MEDIA",
+      "issue": "El summary indica que la relevancia macroeconómica es incierta porque no se detallan los temas discutidos ni su potencial impacto. Sin embargo, el título menciona 'Diálogo Político Argentina', lo que sugiere un enfoque en temas económicos y políticos que podrían tener relevancia."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "MEDIA",
+      "issue": "El summary indica que el impacto macroeconómico directo es difícil de cuantificar sin información adicional. Sin embargo, el hecho de que el grupo asesore sobre SONIA, un tipo de interés de referencia clave, implica una relevancia inherente para los mercados financieros."
+    },
+    {
+      "id_referencia": "03",
+      "severity": "ALTA",
+      "issue": "El summary indica que la relevancia macroeconómica dependerá del contenido de la declaración, que no está disponible. Sin embargo, la declaración de Christine Lagarde ante el IMFC es intrínsecamente de alto impacto macroeconómico, independientemente de los detalles específicos, debido a su posición y al foro."
+    },
+    {
+      "id_referencia": "04",
+      "severity": "BAJA",
+      "issue": "El summary concluye que la relevancia macroeconómica es nula. Si bien el diseño de billetes no tiene un impacto directo, la publicación de actas de grupos consultivos de bancos centrales puede ser de interés para analistas financieros que buscan entender las prioridades y procesos de toma de decisiones, aunque sea de forma indirecta."
+    }
+  ]
+}

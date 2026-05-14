@@ -1,0 +1,42 @@
+{
+  "quality_gate": "FAIL",
+  "scores": {
+    "factual_fidelity": 0,
+    "spanish_quality": 0,
+    "macro_relevance": 0,
+    "clarity_non_repetition": 0,
+    "weighted_total": 0
+  },
+  "critical_errors": [
+    "factual_critical",
+    "language_leak"
+  ],
+  "priority_fixes": [
+    "Factual fidelity: No specific facts or economic data were provided in the summaries for either news item. The summaries only state that an interview occurred or an episode was released, without detailing any content. This makes it impossible to verify any factual claims or assess their relevance.",
+    "Spanish quality: The summaries are written in Spanish, but the source URLs and titles are in English. This constitutes a language leak.",
+    "Macro relevance: Due to the lack of specific information, the macro relevance cannot be determined for either item. The summaries are too vague to assess any potential impact on financial markets, interest rates, exchange rates, bonds, stocks, or commodities.",
+    "Clarity and non-repetition: While the summaries are clear in their lack of information, they are repetitive in stating what information is missing. However, this is a secondary issue compared to the lack of factual content and language leak."
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "Factual fidelity: The summary for the Luis de Guindos interview provides no specific facts, economic data, or statements. It only confirms an interview took place, making factual verification impossible."
+    },
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "Language leak: The source URL and title are in English ('Luis de Guindos: Interview with El País'), while the summary is in Spanish. This indicates a potential issue with content sourcing or translation."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "ALTA",
+      "issue": "Factual fidelity: The summary for the Port of Los Angeles episode provides no specific details about the 'ups and downs' discussed. No factual information is present for verification."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "ALTA",
+      "issue": "Language leak: The source URL and title are in English ('Ups and downs at the Port of Los Angeles (Episode 213)'), while the summary is in Spanish. This indicates a potential issue with content sourcing or translation."
+    }
+  ]
+}

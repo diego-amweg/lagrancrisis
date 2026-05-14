@@ -1,0 +1,149 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 97,
+    "clarity_non_repetition": 96,
+    "weighted_total": 96.7
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "La noticia sobre la guerra en Medio Oriente y su impacto en la Fed es relevante para el análisis macroeconómico global y las tasas de interés, pero no tiene una conexión directa con la economía argentina en este lote de noticias."
+    },
+    {
+      "id_referencia": "09",
+      "severity": "MEDIA",
+      "issue": "La noticia sobre los bonos del Tesoro de EE.UU. a 30 años es relevante para el contexto financiero global y las tasas de interés, pero su impacto directo en la economía argentina es secundario en este lote."
+    },
+    {
+      "id_referencia": "42",
+      "severity": "MEDIA",
+      "issue": "La noticia sobre la productividad laboral en EE.UU. es relevante para el contexto macroeconómico global y las presiones inflacionarias, pero su conexión directa con la economía argentina es limitada en este lote."
+    },
+    {
+      "id_referencia": "88",
+      "severity": "MEDIA",
+      "issue": "La noticia sobre las solicitudes de desempleo en EE.UU. es relevante para el contexto macroeconómico global, pero su conexión directa con la economía argentina es limitada en este lote."
+    },
+    {
+      "id_referencia": "196",
+      "severity": "BAJA",
+      "issue": "La noticia de la FCA sobre la revisión de prácticas de gestión de reclamaciones en el Reino Unido no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "197",
+      "severity": "BAJA",
+      "issue": "La noticia de la SEC sobre cargos de \"insider trading\" en EE.UU. no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "198",
+      "severity": "BAJA",
+      "issue": "Las actas de la reunión del Grupo de Participantes del Mercado del Banco de Inglaterra no tienen relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "199",
+      "severity": "BAJA",
+      "issue": "El discurso del Comisionado de la SEC sobre regulación de mercados financieros no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "200",
+      "severity": "BAJA",
+      "issue": "El discurso de Isabel Schnabel sobre la independencia de los bancos centrales no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "201",
+      "severity": "BAJA",
+      "issue": "Los datos de reservas internacionales del Reino Unido no tienen relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "202",
+      "severity": "BAJA",
+      "issue": "La noticia sobre la liquidación de Kanda Products & Services Ltd en el Reino Unido no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "203",
+      "severity": "BAJA",
+      "issue": "Las actas de la reunión del Tribunal de Directores del Banco de Inglaterra no tienen relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "204",
+      "severity": "BAJA",
+      "issue": "El discurso de Luis de Guindos sobre integración financiera europea no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "205",
+      "severity": "BAJA",
+      "issue": "El informe del BCE sobre integración financiera en la zona euro no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "206",
+      "severity": "BAJA",
+      "issue": "La noticia de la FCA sobre investigaciones de competencia en el Reino Unido no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "207",
+      "severity": "BAJA",
+      "issue": "El discurso de Piero Cipollone sobre el shock energético no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "208",
+      "severity": "BAJA",
+      "issue": "El informe del BCE sobre presiones salariales en la eurozona no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "209",
+      "severity": "BAJA",
+      "issue": "El artículo del PIIE sobre Eurobonos no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "210",
+      "severity": "BAJA",
+      "issue": "El evento del PIIE sobre mercados laborales y IA no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "211",
+      "severity": "BAJA",
+      "issue": "El libro del PIIE \"How to Win a Trade War\" no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "212",
+      "severity": "BAJA",
+      "issue": "El evento del PIIE sobre \"How to Win a Trade War\" no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "213",
+      "severity": "BAJA",
+      "issue": "El evento del PIIE sobre la economía china no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "214",
+      "severity": "BAJA",
+      "issue": "El artículo del PIIE sobre el acuerdo UE-Mercosur no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "215",
+      "severity": "BAJA",
+      "issue": "El libro del PIIE \"Steering Structural Change\" no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "216",
+      "severity": "BAJA",
+      "issue": "El artículo del PIIE sobre los aranceles de Trump no tiene relevancia directa para la economía argentina."
+    },
+    {
+      "id_referencia": "217",
+      "severity": "BAJA",
+      "issue": "El artículo del PIIE sobre el acuerdo UE-Mercosur y la IA brasileña no tiene relevancia para la economía argentina."
+    },
+    {
+      "id_referencia": "218",
+      "severity": "BAJA",
+      "issue": "El evento del PIIE sobre comercio EE.UU.-China no tiene relevancia para la economía argentina."
+    }
+  ]
+}

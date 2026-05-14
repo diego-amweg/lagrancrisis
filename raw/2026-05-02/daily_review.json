@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-02",
+  "checklist": {
+    "1": {
+      "control": "Captura intradia disponible",
+      "evidencia": "raw/YYYY-MM-DD/intraday_accumulated.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "2": {
+      "control": "Cierre diario ejecutado",
+      "evidencia": "logs/close.log y docs/YYYY/MM/DD/index.html",
+      "estado": "OK",
+      "presente": true
+    },
+    "3": {
+      "control": "data.json generado",
+      "evidencia": "docs/YYYY/MM/DD/data.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "4": {
+      "control": "pipeline_metrics.json generado",
+      "evidencia": "raw/YYYY-MM-DD/pipeline_metrics.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "5": {
+      "control": "judge_report.json generado",
+      "evidencia": "raw/YYYY-MM-DD/judge_report.json",
+      "estado": "OK",
+      "presente": true
+    },
+    "6": {
+      "control": "quality_gate del Juez",
+      "evidencia": "PASS o WARN con plan",
+      "estado": "FAIL",
+      "valor": "NA"
+    },
+    "7": {
+      "control": "errores criticos del Juez",
+      "evidencia": "judge_critical_errors_count = 0",
+      "estado": "OK",
+      "valor": 0
+    },
+    "8": {
+      "control": "cobertura de publicacion",
+      "evidencia": "published = selected",
+      "estado": "OK",
+      "selected": 185,
+      "published": 185
+    },
+    "9": {
+      "control": "fallback por item bajo control",
+      "evidencia": "fallback_items_ratio <= 0.20 objetivo",
+      "estado": "FAIL",
+      "valor": 1.0
+    },
+    "10": {
+      "control": "parse failures LLM no recuperados bajo control",
+      "evidencia": "llm_json_parse_unrecovered_total = 0 (critico)",
+      "estado": "OK",
+      "valor": {
+        "unrecovered": 0,
+        "raw_total": 0
+      }
+    }
+  },
+  "metrics": {
+    "date": "2026-05-02",
+    "timestamp": "2026-05-02T05:13:30",
+    "downloaded": 195,
+    "selected": 185,
+    "published": 185,
+    "coverage_ratio": 0.9487,
+    "fallback_rate": 0.0,
+    "experiment_label": "production",
+    "logical_agents_enabled": true,
+    "prompt_redactor_version": "redactor_v1",
+    "prompt_editor_version": "editor_v1",
+    "prompt_judge_version": "judge_v1",
+    "editorial_chunk_size": 18,
+    "editorial_chunk_count": 11,
+    "editorial_chunks_with_errors": 11,
+    "editorial_autocorrect_runs": 11,
+    "editorial_autocorrect_boosted_runs": 9,
+    "editor_agent_runs": 11,
+    "editor_agent_failed_runs": 0,
+    "fallback_items_count": 185,
+    "fallback_items_ratio": 1.0,
+    "coverage_forced_count": 0,
+    "coverage_forced_ratio": 0.0,
+    "post_llm_warning_count": 0,
+    "translated_items_count": 20,
+    "rewritten_by_policy_count": 141,
+    "macro_filtered_ids": [],
+    "judge_quality_gate": "WARN",
+    "judge_weighted_total": 0,
+    "judge_critical_errors_count": 0,
+    "llm_calls_total": 36,
+    "llm_json_parse_failures_total": 0,
+    "llm_json_parse_unrecovered_total": 0,
+    "llm_json_repair_attempts_total": 0,
+    "llm_json_repair_success_total": 0,
+    "llm_model_fallback_activations": 0
+  },
+  "judge": {
+    "date": "",
+    "cadena_de_razonamiento": "[FALLBACK] Razonamiento no disponible por error de LLM.",
+    "resumen_ejecutivo": "⚠️ El procesamiento automático encontró un inconveniente: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED.... Los titulares a continuación fueron recolectados directamente de fuentes primarias.",
+    "noticias_destacadas": [],
+    "unverified_claims": [],
+    "missing_official_data": [
+      "Procesamiento LLM no disponible"
+    ],
+    "sources_consulted": [],
+    "_fallback": true,
+    "_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED..."
+  },
+  "ab_data": null,
+  "daily_winner": null,
+  "generated_at": "2026-05-02T05:30:01.853735"
+}

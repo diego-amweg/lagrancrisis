@@ -1,0 +1,57 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 95,
+    "spanish_quality": 98,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 95,
+    "weighted_total": 94.7
+  },
+  "critical_errors": [],
+  "priority_fixes": [
+    "El artículo de Infobae Economía (id_referencia: 01) menciona \"proyecciones económicas del BCRA para 2026\" pero el contenido se centra en el \"Informe de Política Monetaria (IPOM)\" sin detallar proyecciones específicas. Se debe verificar si el contenido del artículo realmente contiene proyecciones o si es una descripción general del IPOM.",
+    "El artículo de Ámbito Financiero (id_referencia: 02) menciona \"record histórico en la relación UVA/dólar\" pero el contenido solo explica que la relación se encareció en dólares. Se debe verificar si realmente hubo un \"récord histórico\" o si es una exageración.",
+    "El artículo de Infobae Economía (id_referencia: 03) menciona \"acciones argentinas cayeron hasta 9% en Wall Street\" pero el contenido solo dice \"cayeron hasta 9%\". Se debe verificar si la caída fue del 9% o hasta un 9%.",
+    "El artículo de Perfil Economía (id_referencia: 08) menciona \"El Tesoro adjudicó $10,71 billones habiendo recibido ofertas por $14,40 billones\" pero el contenido solo dice \"El Tesoro adjudicó $10,71 billones habiendo recibido ofertas por $14,40 billones\". Se debe verificar si el contenido del artículo realmente contiene estos números.",
+    "El artículo de Infobae Economía (id_referencia: 12) menciona \"Hoy se conocerá la inflación de abril\" pero el contenido solo dice \"Hoy se conocerá la inflación de abril\". Se debe verificar si el contenido del artículo realmente contiene esta información.",
+    "El artículo de Infobae Economía (id_referencia: 176) menciona \"En el sector textil hoy no se vende nada, ni nacional ni importado\" pero el contenido solo dice \"En el sector textil hoy no se vende nada, ni nacional ni importado\". Se debe verificar si el contenido del artículo realmente contiene esta información.",
+    "El artículo de Infobae Economía (id_referencia: 178) menciona \"El empresario detrás de un jingle emblemático desafía la grieta\" pero el contenido solo dice \"El empresario detrás de un jingle emblemático desafía la grieta\". Se debe verificar si el contenido del artículo realmente contiene esta información."
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "MEDIA",
+      "issue": "El artículo de Infobae Economía (id_referencia: 01) menciona \"proyecciones económicas del BCRA para 2026\" pero el contenido se centra en el \"Informe de Política Monetaria (IPOM)\" sin detallar proyecciones específicas. Se debe verificar si el contenido del artículo realmente contiene proyecciones o si es una descripción general del IPOM."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "MEDIA",
+      "issue": "El artículo de Ámbito Financiero (id_referencia: 02) menciona \"record histórico en la relación UVA/dólar\" pero el contenido solo explica que la relación se encareció en dólares. Se debe verificar si realmente hubo un \"récord histórico\" o si es una exageración."
+    },
+    {
+      "id_referencia": "03",
+      "severity": "MEDIA",
+      "issue": "El artículo de Infobae Economía (id_referencia: 03) menciona \"acciones argentinas cayeron hasta 9% en Wall Street\" pero el contenido solo dice \"cayeron hasta 9%\". Se debe verificar si la caída fue del 9% o hasta un 9%."
+    },
+    {
+      "id_referencia": "08",
+      "severity": "MEDIA",
+      "issue": "El artículo de Perfil Economía (id_referencia: 08) menciona \"El Tesoro adjudicó $10,71 billones habiendo recibido ofertas por $14,40 billones\" pero el contenido solo dice \"El Tesoro adjudicó $10,71 billones habiendo recibido ofertas por $14,40 billones\". Se debe verificar si el contenido del artículo realmente contiene estos números."
+    },
+    {
+      "id_referencia": "12",
+      "severity": "MEDIA",
+      "issue": "El artículo de Infobae Economía (id_referencia: 12) menciona \"Hoy se conocerá la inflación de abril\" pero el contenido solo dice \"Hoy se conocerá la inflación de abril\". Se debe verificar si el contenido del artículo realmente contiene esta información."
+    },
+    {
+      "id_referencia": "176",
+      "severity": "MEDIA",
+      "issue": "El artículo de Infobae Economía (id_referencia: 176) menciona \"En el sector textil hoy no se vende nada, ni nacional ni importado\" pero el contenido solo dice \"En el sector textil hoy no se vende nada, ni nacional ni importado\". Se debe verificar si el contenido del artículo realmente contiene esta información."
+    },
+    {
+      "id_referencia": "178",
+      "severity": "MEDIA",
+      "issue": "El artículo de Infobae Economía (id_referencia: 178) menciona \"El empresario detrás de un jingle emblemático desafía la grieta\" pero el contenido solo dice \"El empresario detrás de un jingle emblemático desafía la grieta\". Se debe verificar si el contenido del artículo realmente contiene esta información."
+    }
+  ]
+}
