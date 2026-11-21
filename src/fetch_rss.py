@@ -3,7 +3,9 @@
 # Placeholder funcional: retorna datos de ejemplo para testing
 
 import logging
+import os
 import re
+import socket
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List
 
@@ -11,6 +13,16 @@ import feedparser
 import requests
 
 logger = logging.getLogger(__name__)
+
+
+def _feed_timeout_seconds() -> float:
+    """Tiempo máximo de espera por fuente (segundos). Configurable con LGC_FEED_TIMEOUT_SECONDS."""
+    raw = os.getenv("LGC_FEED_TIMEOUT_SECONDS", "").strip()
+    try:
+        value = float(raw) if raw else 30.0
+    except ValueError:
+        value = 30.0
+    return max(5.0, value)
 
 
 def _to_utc(dt: datetime) -> datetime:
@@ -81,6 +93,23 @@ def fetch_all_feeds(
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     feed_limit = max_entries_per_source if max_entries_per_source > 0 else None
 
+    # feedparser no tiene tiempo de espera propio: sin esto, una fuente que no
+    # responde cuelga la corrida entera (pasó en la PC local los días que
+    # arrancó tarde). Se limita solo durante la descarga y después se restaura.
+    previous_timeout = socket.getdefaulttimeout()
+    socket.setdefaulttimeout(_feed_timeout_seconds())
+    try:
+        articles = _fetch_sources(sources, cutoff, feed_limit)
+    finally:
+        socket.setdefaulttimeout(previous_timeout)
+
+    logger.info(f"Descargados {len(articles)} artículos de {len(sources)} fuentes")
+    return articles
+
+
+def _fetch_sources(sources: List[Dict], cutoff: datetime, feed_limit) -> List[Dict]:
+    """Descarga cada fuente; una fuente con error o sin respuesta se saltea."""
+    articles = []
     for source in sources:
         try:
             # Solo procesamos fuentes RSS por ahora
@@ -115,8 +144,7 @@ def fetch_all_feeds(
         except Exception as e:
             logger.warning(f"Error al procesar {source['name']}: {e}")
             continue
-    
-    logger.info(f"Descargados {len(articles)} artículos de {len(sources)} fuentes")
+
     return articles
 
 

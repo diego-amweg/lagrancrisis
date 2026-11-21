@@ -1,33 +1,29 @@
-# Automation & Scheduling
+# Automatización del Diario
 
-This directory is intentionally empty. La Gran Crisis pipeline automation is managed via **Windows Task Scheduler** rather than GitHub Actions.
+Desde noviembre de 2026 el Diario se arma y se publica solo desde GitHub, sin depender de la PC
+(decisión del 21/11/2026).
 
-## Current Automation Strategy
+## Procesos
 
-### Why Windows Task Scheduler?
-- **Local execution**: Pipeline runs on the author's machine with local filesystem access to `docs/`, `logs/`, and `raw/` directories.
-- **Real-time control**: Allows manual intervention and debugging between scheduled runs.
-- **Development-stage tooling**: Suitable for ongoing development and testing; can be migrated to GitHub Actions or a cloud scheduler later.
+| Archivo | Cuándo corre | Qué hace |
+|---|---|---|
+| `diario.yml` | Todos los días a las 05:13 de Argentina (08:13 UTC), y a mano | Corre las pruebas, arma la edición del día con `python src/main.py --close`, la guarda en `docs/` y la sube a GitHub. Cloudflare Pages la publica en daily.lagrancrisis.com. Guarda los registros de la corrida (raw/ y logs/) por 30 días. |
+| `probar-gemini.yml` | Solo a mano | Dice qué modelos de Gemini puede usar la clave y si responden hoy. No publica nada. |
 
-### Scheduled Tasks
+Corrida a mano: pestaña **Actions** → elegir el proceso → **Run workflow**. En `diario.yml`, la casilla
+**publicar** viene apagada: así se puede revisar una edición antes de subirla al sitio.
 
-Two Windows Task Scheduler tasks manage the pipeline:
+## Configuración en GitHub (Settings → Secrets and variables → Actions)
 
-| Task | Schedule | Command | Purpose |
-|------|----------|---------|---------|
-| **LGC-Intraday** | Hourly (08:00–04:59 ART) | `python src/main.py --intraday` | Accumulates breaking news articles from RSS feeds throughout the day. |
-| **LGC-Close** | Daily @ 05:00 ART | `python src/main.py --close` | Publishes final digest, runs Judge evaluation, updates docs. |
+- Secreto `GEMINI_API_KEY`: la clave de Google AI Studio. Obligatorio.
+- Variable `LGC_GEMINI_MODELS` (opcional): modelos en orden de preferencia, separados por coma.
+  Si no existe, se usan `gemini-2.5-flash-lite,gemini-2.5-flash`.
 
-Details: `scripts/setup_local_tasks.ps1`
+## Diferencias con la PC
 
-### Future Consolidation
-
-When the pipeline is promoted to production (cloud-hosted or GitHub Pages CI), consider:
-- Migrating to GitHub Actions (`.github/workflows/*.yml`) for native integration.
-- Using AWS Lambda, Google Cloud Functions, or a dedicated orchestrator for scheduling.
-- Replacing Task Scheduler with cloud-native scheduling (AWS EventBridge, Google Cloud Scheduler, etc.).
-
----
-
-**Last Updated**: 2026-04-24  
-**Status**: Development (Task Scheduler)
+- No hay captura por hora: el cierre descarga las fuentes una sola vez. Medido con los datos de mayo
+  de 2026: la captura por hora agregaba entre 4% y 16% de artículos, y eran los publicados entre las
+  00:00 y las 05:00, que una descarga a las 05:13 también trae.
+- Si una corrida falla, no se publica nada ese día y GitHub avisa por correo.
+- Las tareas de Windows (`scripts/setup_local_tasks.ps1`, prefijo `LGC-`) quedan desactivadas para que
+  no haya dos procesos armando la misma edición.

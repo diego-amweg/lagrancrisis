@@ -1,0 +1,114 @@
+# Edición diaria de La Gran Crisis (daily.lagrancrisis.com)
+#
+# Corre sola todos los días a las 05:13 de Argentina (08:13 UTC), arma la edición
+# y la guarda en docs/. Al guardarse en GitHub, Cloudflare Pages la publica.
+# También se puede correr a mano desde la pestaña Actions ("Run workflow").
+#
+# Necesita el secreto GEMINI_API_KEY (Settings > Secrets and variables > Actions).
+# Opcional: la variable LGC_GEMINI_MODELS para cambiar los modelos sin tocar código.
+
+name: Diario - edición diaria
+
+on:
+  schedule:
+    - cron: "13 8 * * *"
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha a procesar (AAAA-MM-DD). Vacío = hoy."
+        required: false
+        default: ""
+      publicar:
+        description: "Publicar en el sitio. Si no se marca, solo se arma la edición para revisarla."
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diario-edicion
+  cancel-in-progress: false
+
+jobs:
+  edicion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TZ: America/Argentina/Buenos_Aires
+      PYTHONIOENCODING: utf-8
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      LGC_GEMINI_MODELS: ${{ vars.LGC_GEMINI_MODELS }}
+      FECHA_PEDIDA: ${{ inputs.fecha }}
+
+    steps:
+      - name: Bajar el repositorio
+        uses: actions/checkout@v5
+
+      - name: Preparar Python 3.13
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt pytest
+
+      - name: Revisar que esté la clave de Gemini
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::Falta el secreto GEMINI_API_KEY en Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+      - name: Pruebas (si fallan, hoy no se publica)
+        run: python -m pytest -q tests/test_publicacion_sin_errores.py
+
+      - name: Definir la fecha de la edición
+        run: |
+          if [ -n "$FECHA_PEDIDA" ]; then
+            if ! [[ "$FECHA_PEDIDA" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "::error::La fecha debe tener el formato AAAA-MM-DD."
+              exit 1
+            fi
+            FECHA="$FECHA_PEDIDA"
+          else
+            FECHA="$(date +%F)"
+          fi
+          echo "FECHA=$FECHA" >> "$GITHUB_ENV"
+          echo "CARPETA_EDICION=docs/${FECHA//-//}" >> "$GITHUB_ENV"
+          echo "Edición a procesar: $FECHA"
+
+      - name: Armar la edición
+        run: python src/main.py --close --date "$FECHA"
+
+      - name: Resumen de la corrida
+        if: always()
+        run: python scripts/resumen_corrida.py "$FECHA" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publicar (guardar en GitHub; Cloudflare la sube al sitio)
+        if: success() && (github.event_name == 'schedule' || inputs.publicar)
+        run: |
+          git config user.name "diario-lagrancrisis[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No hay cambios para publicar."
+            exit 0
+          fi
+          git commit -m "Diario: edición $FECHA"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Guardar registros de la corrida (30 días)
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: diario-${{ env.FECHA }}-corrida-${{ github.run_number }}
+          path: |
+            raw/
+            logs/
+            ${{ env.CARPETA_EDICION }}/
+          retention-days: 30
+          if-no-files-found: warn

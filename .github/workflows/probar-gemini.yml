@@ -1,0 +1,36 @@
+# Diagnóstico de Gemini: qué modelos puede usar la clave y si responden hoy.
+# Se corre a mano desde la pestaña Actions ("Run workflow"). No publica nada.
+# Gasta una llamada de la cuota diaria por cada modelo que prueba (máximo 6).
+
+name: Diario - probar Gemini
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      LGC_GEMINI_MODELS: ${{ vars.LGC_GEMINI_MODELS }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Probar modelos
+        run: python scripts/check_gemini.py | tee resultado.txt
+      - name: Mostrar resultado en la página de la corrida
+        if: always()
+        run: |
+          {
+            echo '```'
+            cat resultado.txt 2>/dev/null || echo "Sin resultado"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

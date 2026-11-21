@@ -1116,20 +1116,19 @@ def _build_deterministic_synthesis(noticias_destacadas: List[Dict]) -> Tuple[str
         for item in noticias_destacadas[:6]
         if str(item.get("headline", "")).strip()
     ]
+    # Texto neutro: sin el modelo no hay síntesis, así que no se afirma nada
+    # sobre la jornada que no salga literalmente de los titulares publicados.
     if top_headlines:
         resumen = (
-            "La jornada consolida una agenda dominada por riesgo geopolítico, inflación y señales mixtas de actividad. "
-            + "Temas clave: "
+            "El resumen ejecutivo de hoy no pudo generarse. "
+            + "Titulares principales: "
             + "; ".join(top_headlines)
             + "."
         )
     else:
-        resumen = "La jornada presenta señales mixtas en mercados y macroeconomía, con cobertura completa de fuentes verificadas."
+        resumen = "El resumen ejecutivo de hoy no pudo generarse."
 
-    cadena = (
-        "El escenario combina shocks externos, señales de política monetaria y datos domésticos. "
-        "La lectura integrada prioriza impactos sobre tasas, dólar, bonos y commodities con base en evidencia textual."
-    )
+    cadena = "Síntesis automática no disponible en esta edición."
     return cadena[:1000], resumen[:1200]
 
 
@@ -2145,8 +2144,11 @@ def run_pipeline(
                     max_retries=2,
                     debug_label="step_d_synthesis",
                 )
-                cadena = synthesis.get("cadena_de_razonamiento", "") if isinstance(synthesis, dict) else ""
-                resumen = synthesis.get("resumen_ejecutivo", "") if isinstance(synthesis, dict) else ""
+                # Una respuesta de respaldo por error de la API trae textos de aviso,
+                # no una síntesis: se trata como síntesis vacía para que actúe el respaldo.
+                synthesis_ok = isinstance(synthesis, dict) and not synthesis.get("_fallback")
+                cadena = synthesis.get("cadena_de_razonamiento", "") if synthesis_ok else ""
+                resumen = synthesis.get("resumen_ejecutivo", "") if synthesis_ok else ""
 
                 if str(cadena).strip() and str(resumen).strip():
                     result["cadena_de_razonamiento"] = str(cadena)
@@ -2165,14 +2167,15 @@ def run_pipeline(
                         max_retries=1,
                         debug_label="step_d_synthesis_retry",
                     )
+                    retry_ok = isinstance(retry_synthesis, dict) and not retry_synthesis.get("_fallback")
                     cadena_retry = (
                         retry_synthesis.get("cadena_de_razonamiento", "")
-                        if isinstance(retry_synthesis, dict)
+                        if retry_ok
                         else ""
                     )
                     resumen_retry = (
                         retry_synthesis.get("resumen_ejecutivo", "")
-                        if isinstance(retry_synthesis, dict)
+                        if retry_ok
                         else ""
                     )
                     result["cadena_de_razonamiento"] = (

@@ -16,8 +16,21 @@ from google.genai import types as genai_types
 
 logger = logging.getLogger(__name__)
 
-# Modelos en orden de preferencia (fallback automático)
-GEMINI_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
+# Modelos en orden de preferencia (fallback automático).
+# Se pueden cambiar sin tocar código con la variable LGC_GEMINI_MODELS
+# (nombres separados por coma), por ejemplo desde GitHub > Settings > Variables.
+DEFAULT_GEMINI_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
+
+
+def _load_gemini_models() -> List[str]:
+    raw = os.getenv("LGC_GEMINI_MODELS", "")
+    models = [name.strip() for name in raw.split(",") if name.strip()]
+    # Sin duplicados, respetando el orden indicado.
+    unique = list(dict.fromkeys(models))
+    return unique or list(DEFAULT_GEMINI_MODELS)
+
+
+GEMINI_MODELS = _load_gemini_models()
 
 LLM_RUNTIME_METRICS: Dict[str, int] = {
     "llm_calls_total": 0,
@@ -415,10 +428,13 @@ def _save_failed_response(response_text: str, model_name: str, attempt: int, deb
 def _build_fallback_from_error(error_msg: str) -> Dict:
     """Construye respuesta de fallback cuando Gemini falla irreparablemente."""
     safe_error = error_msg[:150] + ("..." if len(error_msg) > 150 else "")
+    # El detalle técnico del error va solo al log y al campo interno _error;
+    # nunca al texto que lee el público (antes se publicaba el error crudo de la API).
+    logger.error("Detalle del error LLM (no se publica): %s", safe_error)
     return {
         "date": "",
         "cadena_de_razonamiento": "[FALLBACK] Razonamiento no disponible por error de LLM.",
-        "resumen_ejecutivo": f"⚠️ El procesamiento automático encontró un inconveniente: {safe_error}. Los titulares a continuación fueron recolectados directamente de fuentes primarias.",
+        "resumen_ejecutivo": "El resumen ejecutivo de hoy no pudo generarse. Los titulares a continuación fueron recolectados directamente de fuentes primarias.",
         "noticias_destacadas": [],
         "unverified_claims": [],
         "missing_official_data": ["Procesamiento LLM no disponible"],
