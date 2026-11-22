@@ -337,7 +337,8 @@ def call_gemini_with_retry(
 
     logger.error("Todos los intentos fallaron. Usando fallback.")
     _log_parse_metrics("Métrica parseo JSON final")
-    return _build_fallback_from_error(str(last_error))
+    motivo = str(last_error) if last_error else "respuestas ilegibles (JSON inválido) en todos los intentos"
+    return _build_fallback_from_error(motivo)
 
 
 def _attempt_json_repair_with_model(

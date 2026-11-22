@@ -2429,7 +2429,7 @@ def main() -> None:
                 else:
                     preloaded = load_accumulated_articles_for_close(TODAY)
                 if preloaded:
-                    logger.info("🧺 Cierre diario usa acumulado intradía: %d artículos", len(preloaded))
+                    logger.info("🧺 Cierre diario usa %s: %d artículos", INPUT_SOURCE_LABEL, len(preloaded))
                 success = run_pipeline(
                     use_mock=args.mock,
                     preloaded_articles=preloaded if preloaded else None,
