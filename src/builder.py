@@ -118,9 +118,13 @@ def update_index_page(today_date: str) -> Path:
     # FIX: Path relativo sin barra inicial
     # En lugar de "/2026/04/11/" usamos "2026/04/11/"
     today_url = f"{today_date.replace('-', '/')}/"
+    # La portada apunta siempre a la edición más nueva que exista, aunque se esté
+    # reprocesando un día viejo (si no, el reproceso de atrasadas pisaría la de hoy).
+    newest_url = history_entries[0]["url"] if history_entries else today_url
+    latest_url = max(today_url, newest_url)
     
     context = {
-        "latest": today_url,
+        "latest": latest_url,
       "history": [entry["url"] for entry in history_entries[:30]],
       "history_entries": history_entries[:30],
         "site_name": "La Gran Crisis",

@@ -2,16 +2,24 @@
 #
 # Corre sola todos los días a las 05:13 de Argentina (08:13 UTC), arma la edición
 # y la guarda en docs/. Al guardarse en GitHub, Cloudflare Pages la publica.
+#
+# Reintentos del mismo día: a las 07:13 y a las 10:13 vuelve a correr, solo si
+# la edición de hoy todavía no se publicó. Los dos primeros intentos publican
+# únicamente una edición completa; el último publica lo que haya salido.
+#
 # También se puede correr a mano desde la pestaña Actions ("Run workflow").
 #
-# Necesita el secreto GEMINI_API_KEY (Settings > Secrets and variables > Actions).
-# Opcional: la variable LGC_GEMINI_MODELS para cambiar los modelos sin tocar código.
+# Claves (Settings > Secrets and variables > Actions): GEMINI_API_KEY y/o
+# ANTHROPIC_API_KEY. Opcional: la variable LGC_MODELS para cambiar los modelos
+# y su orden sin tocar código.
 
 name: Diario - edición diaria
 
 on:
   schedule:
-    - cron: "13 8 * * *"
+    - cron: "13 8 * * *"   # 05:13 Argentina, intento 1
+    - cron: "13 10 * * *"  # 07:13 Argentina, intento 2
+    - cron: "13 13 * * *"  # 10:13 Argentina, último intento
   workflow_dispatch:
     inputs:
       fecha:
@@ -34,38 +42,21 @@ concurrency:
 jobs:
   edicion:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 100
     env:
       TZ: America/Argentina/Buenos_Aires
       PYTHONIOENCODING: utf-8
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      LGC_GEMINI_MODELS: ${{ vars.LGC_GEMINI_MODELS }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      LGC_MODELS: ${{ vars.LGC_MODELS }}
       FECHA_PEDIDA: ${{ inputs.fecha }}
+      ULTIMO_INTENTO: ${{ github.event_name == 'schedule' && github.event.schedule == '13 13 * * *' }}
 
     steps:
       - name: Bajar el repositorio
         uses: actions/checkout@v5
 
-      - name: Preparar Python 3.13
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-          cache: pip
-
-      - name: Instalar dependencias
-        run: pip install -r requirements.txt pytest
-
-      - name: Revisar que esté la clave de Gemini
-        run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::error::Falta el secreto GEMINI_API_KEY en Settings > Secrets and variables > Actions."
-            exit 1
-          fi
-
-      - name: Pruebas (si fallan, hoy no se publica)
-        run: python -m pytest -q tests/test_publicacion_sin_errores.py
-
-      - name: Definir la fecha de la edición
+      - name: Definir la fecha y ver si hace falta correr
         run: |
           if [ -n "$FECHA_PEDIDA" ]; then
             if ! [[ "$FECHA_PEDIDA" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
@@ -76,19 +67,63 @@ jobs:
           else
             FECHA="$(date +%F)"
           fi
+          CARPETA="docs/${FECHA//-//}"
           echo "FECHA=$FECHA" >> "$GITHUB_ENV"
-          echo "CARPETA_EDICION=docs/${FECHA//-//}" >> "$GITHUB_ENV"
-          echo "Edición a procesar: $FECHA"
+          echo "CARPETA_EDICION=$CARPETA" >> "$GITHUB_ENV"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "$CARPETA/data.json" ]; then
+            echo "La edición $FECHA ya está publicada: este reintento no hace falta."
+            echo "SALTEAR=1" >> "$GITHUB_ENV"
+          else
+            echo "Edición a procesar: $FECHA (último intento del día: $ULTIMO_INTENTO)"
+            echo "SALTEAR=0" >> "$GITHUB_ENV"
+          fi
+
+      - name: Preparar Python 3.13
+        if: env.SALTEAR == '0'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar dependencias
+        if: env.SALTEAR == '0'
+        run: pip install -r requirements.txt pytest
+
+      - name: Revisar que haya al menos una clave de IA
+        if: env.SALTEAR == '0'
+        run: |
+          if [ -z "$GEMINI_API_KEY" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Falta GEMINI_API_KEY o ANTHROPIC_API_KEY en Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+      - name: Pruebas (si fallan, no se publica)
+        if: env.SALTEAR == '0'
+        run: python -m pytest -q tests/test_publicacion_sin_errores.py
 
       - name: Armar la edición
+        if: env.SALTEAR == '0'
         run: python src/main.py --close --date "$FECHA"
 
+      - name: ¿Salió completa?
+        if: env.SALTEAR == '0'
+        run: |
+          if python scripts/edicion_completa.py "$FECHA"; then
+            echo "COMPLETA=1" >> "$GITHUB_ENV"
+          else
+            echo "COMPLETA=0" >> "$GITHUB_ENV"
+          fi
+
       - name: Resumen de la corrida
-        if: always()
+        if: always() && env.SALTEAR == '0'
         run: python scripts/resumen_corrida.py "$FECHA" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Publicar (guardar en GitHub; Cloudflare la sube al sitio)
-        if: success() && (github.event_name == 'schedule' || inputs.publicar)
+        if: >-
+          success() && env.SALTEAR == '0' && (
+            (github.event_name == 'workflow_dispatch' && inputs.publicar) ||
+            (github.event_name == 'schedule' && (env.COMPLETA == '1' || env.ULTIMO_INTENTO == 'true'))
+          )
         run: |
           git config user.name "diario-lagrancrisis[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -101,11 +136,15 @@ jobs:
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
+      - name: Avisar que se espera al próximo intento
+        if: success() && env.SALTEAR == '0' && github.event_name == 'schedule' && env.COMPLETA == '0' && env.ULTIMO_INTENTO != 'true'
+        run: echo "::warning::La edición $FECHA salió incompleta. No se publica todavía; se reintenta en el próximo horario."
+
       - name: Guardar registros de la corrida (30 días)
-        if: always()
+        if: always() && env.SALTEAR == '0'
         uses: actions/upload-artifact@v5
         with:
-          name: diario-${{ env.FECHA }}-corrida-${{ github.run_number }}
+          name: diario-${{ env.FECHA }}-corrida-${{ github.run_number }}-${{ github.run_attempt }}
           path: |
             raw/
             logs/

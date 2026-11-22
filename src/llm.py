@@ -1,6 +1,6 @@
 # Archivo: src/llm.py
-# Llamada a Gemini API con retries, validación y fallback automático de modelo
-# Compatible con Windows 11 + Python 3.13.x + google-genai SDK
+# Llamadas a modelos de lenguaje (Gemini y Claude) con reintentos, validación
+# y cambio automático de modelo si el preferido falla.
 
 import json
 import logging
@@ -16,21 +16,45 @@ from google.genai import types as genai_types
 
 logger = logging.getLogger(__name__)
 
-# Modelos en orden de preferencia (fallback automático).
-# Se pueden cambiar sin tocar código con la variable LGC_GEMINI_MODELS
-# (nombres separados por coma), por ejemplo desde GitHub > Settings > Variables.
-DEFAULT_GEMINI_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
+# Modelos en orden de preferencia. Si el primero falla se pasa al siguiente,
+# aunque sea de otra empresa. Se cambian sin tocar código con la variable
+# LGC_MODELS (o la anterior LGC_GEMINI_MODELS), nombres separados por coma.
+# Los modelos cuya clave no está cargada se saltean solos.
+DEFAULT_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash", "claude-haiku-5-5"]
+DEFAULT_GEMINI_MODELS = DEFAULT_MODELS  # nombre anterior, se mantiene por compatibilidad
+
+PROVIDER_KEYS = {"gemini": "GEMINI_API_KEY", "anthropic": "ANTHROPIC_API_KEY"}
+
+# Errores que no se arreglan reintentando el mismo modelo en esta corrida.
+NON_RETRYABLE_CODES = {400, 401, 403, 404, 429}
+
+JSON_SYSTEM_INSTRUCTION = (
+    "Respondé exclusivamente con un objeto JSON válido, sin texto antes ni después "
+    "y sin bloques de código."
+)
+
+
+def _provider_of(model_name: str) -> str:
+    return "anthropic" if model_name.lower().startswith("claude") else "gemini"
+
+
+def _has_key(model_name: str) -> bool:
+    return bool(os.getenv(PROVIDER_KEYS[_provider_of(model_name)], "").strip())
 
 
 def _load_gemini_models() -> List[str]:
-    raw = os.getenv("LGC_GEMINI_MODELS", "")
+    raw = os.getenv("LGC_MODELS", "") or os.getenv("LGC_GEMINI_MODELS", "")
     models = [name.strip() for name in raw.split(",") if name.strip()]
     # Sin duplicados, respetando el orden indicado.
     unique = list(dict.fromkeys(models))
-    return unique or list(DEFAULT_GEMINI_MODELS)
+    return unique or list(DEFAULT_MODELS)
 
 
-GEMINI_MODELS = _load_gemini_models()
+GEMINI_MODELS = _load_gemini_models()  # lista configurada (todas las empresas)
+
+# Modelos que se usan en la corrida actual: los configurados con clave cargada,
+# reordenados por el chequeo previo (preflight_models).
+ACTIVE_MODELS: List[str] = [m for m in GEMINI_MODELS if _has_key(m)]
 
 LLM_RUNTIME_METRICS: Dict[str, int] = {
     "llm_calls_total": 0,
@@ -41,16 +65,161 @@ LLM_RUNTIME_METRICS: Dict[str, int] = {
     "llm_model_fallback_activations": 0,
 }
 
+# Uso por modelo: pedidos que respondieron y unidades de texto (tokens)
+# leídas y escritas. Sirve para calcular el costo real de cada edición.
+LLM_TOKEN_USAGE: Dict[str, Dict[str, int]] = {}
+LLM_PREFLIGHT: Dict[str, str] = {}
+
 
 def reset_llm_runtime_metrics() -> None:
     """Reinicia contadores de observabilidad de llamadas LLM para la corrida actual."""
     for key in LLM_RUNTIME_METRICS:
         LLM_RUNTIME_METRICS[key] = 0
+    LLM_TOKEN_USAGE.clear()
 
 
 def get_llm_runtime_metrics() -> Dict[str, int]:
     """Devuelve snapshot de métricas acumuladas de llamadas LLM en memoria."""
     return dict(LLM_RUNTIME_METRICS)
+
+
+def get_llm_usage_report() -> Dict[str, object]:
+    """Uso por modelo, orden final de modelos y resultado del chequeo previo."""
+    return {
+        "llm_token_usage": {m: dict(v) for m, v in LLM_TOKEN_USAGE.items()},
+        "llm_models_order": list(ACTIVE_MODELS),
+        "llm_preflight": dict(LLM_PREFLIGHT),
+    }
+
+
+class ModelCallError(Exception):
+    """Error de un modelo, con el código normalizado (429, 503, 'timeout', etc.)."""
+
+    def __init__(self, model_name: str, code: object, message: str):
+        super().__init__(message)
+        self.model_name = model_name
+        self.code = code
+
+
+_GEMINI_CLIENTS: Dict[str, genai.Client] = {}
+_ANTHROPIC_CLIENTS: Dict[str, Any] = {}
+
+
+def _get_gemini_client(api_key: str) -> genai.Client:
+    """Inicializa el cliente Gemini una sola vez por clave."""
+    if api_key not in _GEMINI_CLIENTS:
+        _GEMINI_CLIENTS[api_key] = genai.Client(api_key=api_key)
+    return _GEMINI_CLIENTS[api_key]
+
+
+def _get_anthropic_client(api_key: str):
+    if api_key not in _ANTHROPIC_CLIENTS:
+        import anthropic
+
+        # Sin reintentos internos: los maneja este módulo, igual que con Gemini.
+        _ANTHROPIC_CLIENTS[api_key] = anthropic.Anthropic(api_key=api_key, timeout=300.0, max_retries=0)
+    return _ANTHROPIC_CLIENTS[api_key]
+
+
+def _record_usage(model_name: str, input_tokens: int, output_tokens: int) -> None:
+    usage = LLM_TOKEN_USAGE.setdefault(model_name, {"calls": 0, "input_tokens": 0, "output_tokens": 0})
+    usage["calls"] += 1
+    usage["input_tokens"] += int(input_tokens or 0)
+    usage["output_tokens"] += int(output_tokens or 0)
+
+
+def _generate(model_name: str, prompt: str, max_output_tokens: int = 12000, json_mode: bool = True) -> str:
+    """Pide texto a un modelo (Gemini o Claude) y devuelve la respuesta cruda."""
+    provider = _provider_of(model_name)
+    api_key = os.getenv(PROVIDER_KEYS[provider], "").strip()
+    if not api_key:
+        raise ModelCallError(model_name, "sin_clave", f"Falta {PROVIDER_KEYS[provider]}")
+
+    if provider == "gemini":
+        try:
+            config_kwargs: Dict[str, Any] = {
+                "temperature": 0.0,
+                "top_p": 1.0,
+                "max_output_tokens": max_output_tokens,
+            }
+            if json_mode:
+                config_kwargs["response_mime_type"] = "application/json"
+            response = _get_gemini_client(api_key).models.generate_content(
+                model=model_name,
+                contents=[genai_types.Content(parts=[genai_types.Part(text=prompt)])],
+                config=genai_types.GenerateContentConfig(**config_kwargs),
+            )
+        except genai_errors.APIError as e:
+            raise ModelCallError(model_name, getattr(e, "code", "n/a"), str(e)) from e
+        except Exception as e:  # red, tiempo de espera
+            raise ModelCallError(model_name, "conexion", f"{type(e).__name__}: {e}") from e
+        meta = getattr(response, "usage_metadata", None)
+        output_tokens = (getattr(meta, "candidates_token_count", 0) or 0) + (
+            getattr(meta, "thoughts_token_count", 0) or 0
+        )
+        _record_usage(model_name, getattr(meta, "prompt_token_count", 0) or 0, output_tokens)
+        return (response.text or "").strip()
+
+    import anthropic
+
+    try:
+        kwargs: Dict[str, Any] = {
+            "model": model_name,
+            "max_tokens": max_output_tokens,
+            # La API actual de Claude no acepta "temperature": no se puede fijar en 0
+            # como en Gemini. Por eso la prueba comparativa mide el resultado, no la configuración.
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if json_mode:
+            kwargs["system"] = JSON_SYSTEM_INSTRUCTION
+        response = _get_anthropic_client(api_key).messages.create(**kwargs)
+    except anthropic.APIStatusError as e:
+        code = 503 if e.status_code == 529 else e.status_code  # 529 = saturado
+        raise ModelCallError(model_name, code, str(e)) from e
+    except anthropic.APIConnectionError as e:
+        raise ModelCallError(model_name, "conexion", f"{type(e).__name__}: {e}") from e
+    usage = getattr(response, "usage", None)
+    _record_usage(model_name, getattr(usage, "input_tokens", 0), getattr(usage, "output_tokens", 0))
+    return "".join(getattr(block, "text", "") for block in response.content).strip()
+
+
+def _drop_model(model_name: str, reason: object) -> None:
+    """Saca un modelo de la corrida actual (sin cuota, sin acceso, sin clave)."""
+    if model_name in ACTIVE_MODELS and len(ACTIVE_MODELS) > 1:
+        ACTIVE_MODELS.remove(model_name)
+        logger.warning("Modelo %s descartado por el resto de la corrida (%s)", model_name, reason)
+
+
+def preflight_models() -> List[str]:
+    """Antes de procesar, pregunta a cada modelo si responde y ordena la lista.
+
+    Los que responden quedan primero (en el orden configurado); los saturados
+    (503) quedan al final por si se recuperan; los que no tienen acceso, clave
+    o cuota se descartan. Si ninguno responde, se deja la lista como estaba.
+    """
+    LLM_PREFLIGHT.clear()
+    configured = list(GEMINI_MODELS)
+    ok: List[str] = []
+    saturated: List[str] = []
+    for model_name in configured:
+        if not _has_key(model_name):
+            LLM_PREFLIGHT[model_name] = "sin clave"
+            continue
+        try:
+            _generate(model_name, "Respondé solo: OK", max_output_tokens=64, json_mode=False)
+            LLM_PREFLIGHT[model_name] = "responde"
+            ok.append(model_name)
+        except ModelCallError as e:
+            LLM_PREFLIGHT[model_name] = f"error {e.code}"
+            if e.code not in NON_RETRYABLE_CODES and e.code != "sin_clave":
+                saturated.append(model_name)
+    new_order = ok + saturated
+    if new_order:
+        ACTIVE_MODELS[:] = new_order
+    else:
+        ACTIVE_MODELS[:] = [m for m in configured if _has_key(m)] or configured
+    logger.info("Chequeo previo de modelos: %s → orden de uso: %s", LLM_PREFLIGHT, ACTIVE_MODELS)
+    return list(ACTIVE_MODELS)
 
 
 def _resolve_debug_dir() -> Path:
@@ -65,10 +234,6 @@ def _resolve_debug_dir() -> Path:
     base.mkdir(parents=True, exist_ok=True)
     return base
 
-def _get_gemini_client(api_key: str) -> genai.Client:
-    """Inicializa el cliente Gemini una sola vez."""
-    return genai.Client(api_key=api_key)
-
 def call_gemini_with_retry(
     prompt: str,
     max_retries: int = 3,
@@ -76,42 +241,40 @@ def call_gemini_with_retry(
     debug_label: str = "generic",
 ) -> Dict:
     """
-    Llama a Gemini con retries exponenciales y fallback de modelo.
+    Pide la respuesta a los modelos en orden, con reintentos y cambio de modelo.
+
+    El nombre se conserva por compatibilidad: hoy puede responder Gemini o Claude.
+    - Saturado (503) o corte de red: reintenta el mismo modelo con espera creciente.
+    - Sin cuota, sin acceso o sin clave: pasa al siguiente y lo descarta en la corrida.
+    - Respuesta ilegible: intenta repararla y, si no, reintenta.
     """
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        raise ValueError("GEMINI_API_KEY no configurada en variables de entorno")
+    models = list(ACTIVE_MODELS)
+    if not models:
+        raise ValueError("No hay ninguna clave de modelo cargada (GEMINI_API_KEY o ANTHROPIC_API_KEY)")
 
     LLM_RUNTIME_METRICS["llm_calls_total"] += 1
-    
-    last_error = None
-    parse_failures_by_model = {model: 0 for model in GEMINI_MODELS}
-    unrecovered_parse_failures_by_model = {model: 0 for model in GEMINI_MODELS}
-    
-    for model_name in GEMINI_MODELS:
+
+    last_error: Optional[Exception] = None
+    parse_failures_by_model = {model: 0 for model in models}
+    unrecovered_parse_failures_by_model = {model: 0 for model in models}
+
+    def _log_parse_metrics(prefix: str) -> None:
+        logger.info(
+            "%s: %s | no recuperados: %s",
+            prefix,
+            ", ".join(f"{m}={parse_failures_by_model[m]} fallos" for m in models),
+            ", ".join(f"{m}={unrecovered_parse_failures_by_model[m]}" for m in models),
+        )
+
+    for model_name in models:
+        if model_name not in ACTIVE_MODELS:
+            continue  # descartado durante esta misma llamada
         logger.info(f"Intentando con modelo: {model_name}")
-        
+
         for attempt in range(max_retries):
             try:
                 logger.info(f"Intento {attempt + 1}/{max_retries} con {model_name}")
-                
-                client = _get_gemini_client(api_key)
-                
-                # Configurar generación determinista
-                config = genai_types.GenerateContentConfig(
-                    temperature=0.0,
-                    top_p=1.0,
-                    max_output_tokens=12000,
-                    response_mime_type="application/json"
-                )
-                
-                response = client.models.generate_content(
-                    model=model_name,
-                    contents=[genai_types.Content(parts=[genai_types.Part(text=prompt)])],
-                    config=config
-                )
-                
-                response_text = (response.text or "").strip()
+                response_text = _generate(model_name, prompt)
 
                 # Guardar respuesta cruda siempre (éxito o fallo de parseo)
                 # Sobrescribe en cada llamada → última respuesta siempre inspeccionable
@@ -121,21 +284,16 @@ def call_gemini_with_retry(
                         f.write(response_text)
                 except OSError:
                     pass  # No bloquear el pipeline si el disco falla
-                
-                # Parsear JSON
+
                 result = _extract_json_from_response(response_text)
-                
+
                 if result is None:
                     logger.warning(f"No se pudo extraer JSON válido con {model_name}")
                     parse_failures_by_model[model_name] += 1
                     LLM_RUNTIME_METRICS["llm_json_parse_failures_total"] += 1
                     _save_failed_response(response_text, model_name, attempt + 1, debug_label)
 
-                    repaired_result = _attempt_json_repair_with_model(
-                        client,
-                        model_name,
-                        response_text,
-                    )
+                    repaired_result = _attempt_json_repair_with_model(model_name, response_text)
                     if repaired_result is not None:
                         LLM_RUNTIME_METRICS["llm_json_repair_success_total"] += 1
                         logger.info("JSON reparado exitosamente con %s tras fallo de parseo", model_name)
@@ -145,76 +303,44 @@ def call_gemini_with_retry(
                     LLM_RUNTIME_METRICS["llm_json_parse_unrecovered_total"] += 1
                     if attempt < max_retries - 1:
                         time.sleep(initial_delay)
-                    continue  # Probar siguiente retry
-                
-                # Verificar error explícito del LLM
+                    continue
+
                 if isinstance(result, dict) and "error" in result:
                     logger.warning(f"LLM reportó error: {result['error']}")
                     continue
-                
+
                 logger.info(f"Respuesta exitosa con {model_name}")
-                if model_name != GEMINI_MODELS[0]:
+                if model_name != models[0]:
                     LLM_RUNTIME_METRICS["llm_model_fallback_activations"] += 1
-                    logger.warning(
-                        "Fallback de modelo activado: %s → %s",
-                        GEMINI_MODELS[0],
-                        model_name,
-                    )
-                logger.info(
-                    "Métrica parseo JSON: %s | no recuperados: %s",
-                    ", ".join(
-                        f"{m}={parse_failures_by_model[m]} fallos"
-                        for m in GEMINI_MODELS
-                    ),
-                    ", ".join(
-                        f"{m}={unrecovered_parse_failures_by_model[m]}"
-                        for m in GEMINI_MODELS
-                    ),
-                )
+                    logger.warning("Fallback de modelo activado: %s → %s", models[0], model_name)
+                _log_parse_metrics("Métrica parseo JSON")
                 return result
-                
-            except genai_errors.APIError as e:
-                logger.warning(
-                    "Error API con %s (status=%s): %s",
-                    model_name,
-                    getattr(e, "code", "n/a"),
-                    e,
-                )
+
+            except ModelCallError as e:
+                logger.warning("Error API con %s (status=%s): %s", model_name, e.code, e)
                 last_error = e
+                if e.code in NON_RETRYABLE_CODES or e.code == "sin_clave":
+                    _drop_model(model_name, e.code)
+                    break  # reintentar el mismo modelo no sirve
                 if attempt < max_retries - 1:
-                    delay = initial_delay * (2 ** attempt)
-                    time.sleep(delay)
+                    time.sleep(initial_delay * (2 ** attempt))
                 continue
-                
+
             except Exception as e:
                 logger.warning(f"Error inesperado con {model_name}: {type(e).__name__}: {e}")
                 last_error = e
                 if attempt < max_retries - 1:
-                    delay = initial_delay * (2 ** attempt)
-                    time.sleep(delay)
+                    time.sleep(initial_delay * (2 ** attempt))
                 continue
-        
-        # Si llegamos acá, el modelo actual falló todos los retries
+
         logger.warning(f"Modelo {model_name} agotó retries, probando siguiente...")
-    
-    # Todos los modelos y retries fallaron → fallback
+
     logger.error("Todos los intentos fallaron. Usando fallback.")
-    logger.info(
-        "Métrica parseo JSON final: %s | no recuperados: %s",
-        ", ".join(
-            f"{m}={parse_failures_by_model[m]} fallos"
-            for m in GEMINI_MODELS
-        ),
-        ", ".join(
-            f"{m}={unrecovered_parse_failures_by_model[m]}"
-            for m in GEMINI_MODELS
-        ),
-    )
+    _log_parse_metrics("Métrica parseo JSON final")
     return _build_fallback_from_error(str(last_error))
 
 
 def _attempt_json_repair_with_model(
-    client: genai.Client,
     model_name: str,
     raw_response_text: str,
 ) -> Optional[Dict]:
@@ -234,18 +360,7 @@ def _attempt_json_repair_with_model(
 
     repair_prompt = json.dumps(repair_payload, ensure_ascii=False)
     try:
-        config = genai_types.GenerateContentConfig(
-            temperature=0.0,
-            top_p=1.0,
-            max_output_tokens=12000,
-            response_mime_type="application/json",
-        )
-        response = client.models.generate_content(
-            model=model_name,
-            contents=[genai_types.Content(parts=[genai_types.Part(text=repair_prompt)])],
-            config=config,
-        )
-        repaired_text = (response.text or "").strip()
+        repaired_text = _generate(model_name, repair_prompt)
         repaired_result = _extract_json_from_response(repaired_text)
         if isinstance(repaired_result, dict):
             return repaired_result
@@ -475,6 +590,20 @@ def call_gemini_mock(prompt_text: str) -> dict:
     }
 
 
+def _generate_with_any_model(prompt_text: str) -> str:
+    """Prueba los modelos activos en orden hasta que uno responda (para tareas cortas)."""
+    last_error: Optional[Exception] = None
+    for model_name in list(ACTIVE_MODELS):
+        try:
+            return _generate(model_name, prompt_text)
+        except ModelCallError as e:
+            logger.warning("Error API con %s (status=%s): %s", model_name, e.code, e)
+            last_error = e
+            if e.code in NON_RETRYABLE_CODES or e.code == "sin_clave":
+                _drop_model(model_name, e.code)
+    raise RuntimeError(f"Ningún modelo respondió: {last_error}")
+
+
 def translate_items_to_spanish(items: List[Dict], max_retries: int = 2) -> List[Dict]:
     """
     Traduce en lote titulares/summaries/tags al español usando Gemini.
@@ -483,12 +612,9 @@ def translate_items_to_spanish(items: List[Dict], max_retries: int = 2) -> List[
     if not items:
         return []
 
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        logger.warning("No se pudo traducir a español: GEMINI_API_KEY ausente")
+    if not ACTIVE_MODELS:
+        logger.warning("No se pudo traducir: no hay ninguna clave de modelo cargada")
         return []
-
-    client = _get_gemini_client(api_key)
 
     prompt_payload = {
         "task": "Traducir a español neutro financiero",
@@ -515,19 +641,7 @@ def translate_items_to_spanish(items: List[Dict], max_retries: int = 2) -> List[
 
     for attempt in range(1, max_retries + 1):
         try:
-            config = genai_types.GenerateContentConfig(
-                temperature=0.0,
-                top_p=1.0,
-                max_output_tokens=12000,
-                response_mime_type="application/json",
-            )
-            response = client.models.generate_content(
-                model=GEMINI_MODELS[0],
-                contents=[genai_types.Content(parts=[genai_types.Part(text=prompt_text)])],
-                config=config,
-            )
-
-            response_text = (response.text or "").strip()
+            response_text = _generate_with_any_model(prompt_text)
             parsed = _extract_json_from_response(response_text)
             if not isinstance(parsed, dict):
                 continue
@@ -566,12 +680,9 @@ def translate_items_to_spanish_contextual(items: List[Dict], max_retries: int = 
     if not items:
         return []
 
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        logger.warning("No se pudo ejecutar traducción contextual: GEMINI_API_KEY ausente")
+    if not ACTIVE_MODELS:
+        logger.warning("No se pudo traducir: no hay ninguna clave de modelo cargada")
         return []
-
-    client = _get_gemini_client(api_key)
 
     prompt_payload = {
         "task": "Reescritura-traducción contextual al español para titulares financieros",
@@ -600,19 +711,7 @@ def translate_items_to_spanish_contextual(items: List[Dict], max_retries: int = 
 
     for attempt in range(1, max_retries + 1):
         try:
-            config = genai_types.GenerateContentConfig(
-                temperature=0.0,
-                top_p=1.0,
-                max_output_tokens=12000,
-                response_mime_type="application/json",
-            )
-            response = client.models.generate_content(
-                model=GEMINI_MODELS[0],
-                contents=[genai_types.Content(parts=[genai_types.Part(text=prompt_text)])],
-                config=config,
-            )
-
-            response_text = (response.text or "").strip()
+            response_text = _generate_with_any_model(prompt_text)
             parsed = _extract_json_from_response(response_text)
             if not isinstance(parsed, dict):
                 continue

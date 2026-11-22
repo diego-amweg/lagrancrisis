@@ -19,6 +19,14 @@ ROOT = Path(__file__).resolve().parent.parent
 MAX_UNRECOVERED = 10
 MAX_TRANSLATED = 40
 
+# Precio de lista en dólares por millón de tokens (lectura, escritura), noviembre de 2026.
+# Aproximado: sirve para tener el orden de magnitud del costo, no reemplaza la factura.
+PRECIOS_USD_POR_MILLON = {
+    "gemini-2.5-flash-lite": (0.10, 0.40),
+    "gemini-2.5-flash": (0.30, 2.50),
+    "claude-haiku-5-5": (0.10, 0.50),
+}
+
 
 def _contar_en_log(fecha: str) -> dict[str, int]:
     log = ROOT / "logs" / "digest.log"
@@ -75,6 +83,29 @@ def main() -> int:
     print("|---|---|---|")
     for nombre, valor, icono in filas:
         print(f"| {nombre} | {valor} | {icono} |")
+
+    uso = m.get("llm_token_usage") or {}
+    if uso:
+        print("\n**Uso por modelo**\n")
+        print("| Modelo | Pedidos | Tokens leídos | Tokens escritos | Costo aprox. (USD) |")
+        print("|---|---|---|---|---|")
+        total = 0.0
+        for modelo, u in uso.items():
+            precio = PRECIOS_USD_POR_MILLON.get(modelo)
+            if precio:
+                costo = u.get("input_tokens", 0) / 1e6 * precio[0] + u.get("output_tokens", 0) / 1e6 * precio[1]
+                total += costo
+                costo_txt = f"{costo:.3f}"
+            else:
+                costo_txt = "sin precio cargado"
+            print(f"| {modelo} | {u.get('calls', 0)} | {u.get('input_tokens', 0):,} | {u.get('output_tokens', 0):,} | {costo_txt} |")
+        print(f"\nCosto aproximado de esta edición: **USD {total:.3f}**")
+    chequeo = m.get("llm_preflight") or {}
+    if chequeo:
+        estados = ", ".join(f"{k}: {v}" for k, v in chequeo.items())
+        print(f"\nChequeo previo de modelos: {estados}. Orden usado: {', '.join(m.get('llm_models_order', []))}.")
+    if m.get("input_source"):
+        print(f"\nOrigen de las noticias: {m['input_source']}.")
 
     if llamadas["429"]:
         print(

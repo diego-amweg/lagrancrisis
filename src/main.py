@@ -30,7 +30,8 @@ from src.dedupe import deduplicate_articles
 # Imports locales del proyecto
 from src.fetch_rss import fetch_all_feeds, fetch_sample_articles
 from src.llm import (call_gemini_mock, call_gemini_with_retry,
-                     get_llm_runtime_metrics, reset_llm_runtime_metrics,
+                     get_llm_runtime_metrics, get_llm_usage_report,
+                     preflight_models, reset_llm_runtime_metrics,
                      translate_items_to_spanish,
                      translate_items_to_spanish_contextual)
 from src.prompt import (build_editor_prompt,
@@ -71,6 +72,7 @@ logger = logging.getLogger(__name__)
 MAX_MACRO_OMISSION_RATE = 0.60
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
+INPUT_SOURCE_LABEL = "acumulado intradía"
 RAW_DIR = Path(f"raw/{TODAY}")
 DOCS_DIR = Path(f"docs/{TODAY.replace('-', '/')}")
 SECTIONS: List[str] = [
@@ -1487,7 +1489,9 @@ def load_context_and_memory() -> Tuple[str, str]:
         logger.warning("⚠️ Archivo contexto_macro_base.txt no encontrado")
     
     # Cargar Memoria de Ayer (sliding window)
-    yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    # "Ayer" se cuenta desde la fecha de la edición, no desde el reloj:
+    # así un reproceso de días viejos usa el resumen del día anterior correcto.
+    yesterday = (datetime.strptime(TODAY, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
     yesterday_file = Path(f"docs/{yesterday.replace('-', '/')}/data.json")
     
     if yesterday_file.exists():
@@ -1672,6 +1676,11 @@ def run_pipeline(
     cleanup_old_debug_artifacts(project_root)
     cleanup_old_logs(retention_days=30)
     reset_llm_runtime_metrics()
+    if not use_mock:
+        try:
+            preflight_models()
+        except Exception as e:  # el chequeo nunca debe frenar la edición
+            logger.warning("⚠️ Chequeo previo de modelos falló: %s", e)
     
     selected_count = 0
     articles_for_llm: List[Dict] = []
@@ -1707,7 +1716,7 @@ def run_pipeline(
         logger.info("📥 Preparando artículos para cierre diario...")
         if preloaded_articles is not None:
             raw_articles = [a for a in preloaded_articles if isinstance(a, dict)]
-            logger.info("✓ %d artículos cargados desde acumulado intradía", len(raw_articles))
+            logger.info("✓ %d artículos cargados desde %s", len(raw_articles), INPUT_SOURCE_LABEL)
         else:
             try:
                 if use_mock:
@@ -2304,6 +2313,8 @@ def run_pipeline(
             "judge_weighted_total": judge_weighted_total,
             "judge_critical_errors_count": judge_critical_errors_count,
             **llm_metrics,
+            **get_llm_usage_report(),
+            "input_source": INPUT_SOURCE_LABEL if preloaded_articles is not None else "descarga_directa_rss",
         }
 
         save_pipeline_metrics(
@@ -2376,6 +2387,12 @@ def main() -> None:
         help="Modo cierre diario: usa acumulado y publica una sola edición",
     )
     parser.add_argument(
+        "--insumo",
+        default=None,
+        metavar="ARCHIVO.json",
+        help="Lista de artículos ya guardada para esa fecha (reproceso de ediciones atrasadas).",
+    )
+    parser.add_argument(
         "--date",
         default=None,
         metavar="YYYY-MM-DD",
@@ -2402,7 +2419,15 @@ def main() -> None:
     else:
         try:
             with _acquire_mode_lock("close"):
-                preloaded = load_accumulated_articles_for_close(TODAY)
+                if args.insumo:
+                    global INPUT_SOURCE_LABEL
+                    INPUT_SOURCE_LABEL = f"insumo guardado {Path(args.insumo).name}"
+                    with open(args.insumo, "r", encoding="utf-8") as f:
+                        preloaded = json.load(f)
+                    if not isinstance(preloaded, list):
+                        raise RuntimeError(f"El insumo {args.insumo} no es una lista de artículos")
+                else:
+                    preloaded = load_accumulated_articles_for_close(TODAY)
                 if preloaded:
                     logger.info("🧺 Cierre diario usa acumulado intradía: %d artículos", len(preloaded))
                 success = run_pipeline(

@@ -1,0 +1,141 @@
+# Ediciones atrasadas del Diario (15/05/2026 en adelante), en dos modos:
+#
+# - prueba: arma las mismas 5 fechas con dos configuraciones de modelos (por defecto
+#   Gemini y Claude), sin publicar nada, y guarda el resultado y la revisión a ciegas
+#   en la rama "resultados-prueba".
+# - reproceso: arma todas las fechas pendientes en orden, con los modelos de la
+#   variable LGC_MODELS, y las publica. Cada corrida trabaja hasta ~5 horas, sube lo
+#   hecho y, si quedan fechas, se vuelve a lanzar sola.
+#
+# Las noticias guardadas viajan cifradas en la rama "insumos-atrasadas": el repositorio
+# es público y la política legal del Diario no permite republicar el texto de los medios.
+# Se abren con el secreto INSUMOS_CLAVE.
+
+name: Diario - ediciones atrasadas
+
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "prueba (comparar modelos, no publica) o reproceso (publica las atrasadas)"
+        type: choice
+        options: [prueba, reproceso]
+        default: prueba
+      fechas_prueba:
+        description: "Fechas de la prueba, separadas por coma"
+        default: "2026-06-10,2026-07-15,2026-08-04,2026-10-02,2026-11-19"
+      modelos_a:
+        description: "Configuración A de la prueba"
+        default: "gemini-2.5-flash-lite,gemini-2.5-flash"
+      modelos_b:
+        description: "Configuración B de la prueba"
+        default: "claude-haiku-5-5"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: diario-atrasadas
+  cancel-in-progress: false
+
+jobs:
+  procesar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      TZ: America/Argentina/Buenos_Aires
+      PYTHONIOENCODING: utf-8
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      INSUMOS_CLAVE: ${{ secrets.INSUMOS_CLAVE }}
+      INSUMOS: ${{ github.workspace }}/../insumos
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt pytest
+
+      - name: Pruebas
+        run: python -m pytest -q tests/test_publicacion_sin_errores.py
+
+      - name: Abrir las noticias guardadas
+        run: |
+          if [ -z "$INSUMOS_CLAVE" ]; then
+            echo "::error::Falta el secreto INSUMOS_CLAVE."
+            exit 1
+          fi
+          git fetch --depth=1 origin insumos-atrasadas
+          git show FETCH_HEAD:insumos_atrasados.tar.gz.enc > "$RUNNER_TEMP/insumos.enc"
+          mkdir -p "$INSUMOS"
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass env:INSUMOS_CLAVE \
+            -in "$RUNNER_TEMP/insumos.enc" | tar -xz -C "$INSUMOS" --strip-components=1
+          echo "Fechas disponibles: $(ls "$INSUMOS" | grep -c '^20')"
+          git config user.name "diario-lagrancrisis[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Prueba de modelos (no publica)
+        if: inputs.modo == 'prueba'
+        env:
+          FECHAS: ${{ inputs.fechas_prueba }}
+          MODELOS_A: ${{ inputs.modelos_a }}
+          MODELOS_B: ${{ inputs.modelos_b }}
+        run: |
+          set -u
+          for config in A B; do
+            if [ "$config" = A ]; then MODELOS="$MODELOS_A"; else MODELOS="$MODELOS_B"; fi
+            NOMBRE="$(echo "$MODELOS" | cut -d, -f1)"
+            for FECHA in ${FECHAS//,/ }; do
+              echo "::group::$NOMBRE · $FECHA"
+              LGC_MODELS="$MODELOS" python src/main.py --close --date "$FECHA" --insumo "$INSUMOS/$FECHA.json" || echo "::warning::$NOMBRE falló en $FECHA"
+              DESTINO="resultados_prueba/$NOMBRE/$FECHA"
+              mkdir -p "$DESTINO"
+              cp -r "docs/${FECHA//-//}/." "$DESTINO/" 2>/dev/null || true
+              cp "raw/$FECHA/pipeline_metrics.json" "$DESTINO/" 2>/dev/null || true
+              cp "raw/$FECHA/judge_report.json" "$DESTINO/" 2>/dev/null || true
+              rm -rf "docs/${FECHA//-//}" "raw/$FECHA"
+              git checkout -- docs/ 2>/dev/null || true
+              echo "::endgroup::"
+            done
+          done
+          python scripts/comparar_prueba.py resultados_prueba "$INSUMOS" | tee -a "$GITHUB_STEP_SUMMARY"
+          git checkout -B resultados-prueba
+          git add resultados_prueba
+          git commit -q -m "Prueba de modelos: $MODELOS_A contra $MODELOS_B"
+          git push --force origin resultados-prueba
+
+      - name: Reproceso de atrasadas (publica)
+        if: inputs.modo == 'reproceso'
+        env:
+          LGC_MODELS: ${{ vars.LGC_MODELS }}
+        run: |
+          python scripts/reprocesar_atrasadas.py --insumos "$INSUMOS" --limite-minutos 290 | tee "$RUNNER_TEMP/reproceso.log"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          RESTANTES="$(grep -o 'RESTANTES=[0-9]*' "$RUNNER_TEMP/reproceso.log" | tail -1 | cut -d= -f2)"
+          echo "Quedan $RESTANTES fechas pendientes." | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "RESTANTES=${RESTANTES:-0}" >> "$GITHUB_ENV"
+
+      - name: Seguir con las que faltan
+        if: inputs.modo == 'reproceso' && env.RESTANTES != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run atrasadas.yml --ref "${GITHUB_REF_NAME}" -f modo=reproceso
+
+      - name: Guardar registros (30 días)
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: atrasadas-${{ inputs.modo }}-${{ github.run_number }}
+          path: |
+            logs/
+            raw/
+            resultados_prueba/
+            atrasadas_estado.json
+          retention-days: 30
+          if-no-files-found: warn

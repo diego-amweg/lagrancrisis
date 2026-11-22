@@ -1,8 +1,9 @@
-# Diagnóstico de Gemini: qué modelos puede usar la clave y si responden hoy.
+# Diagnóstico de los modelos de IA del Diario (Gemini y Claude): si cada uno
+# responde hoy y qué modelos de Gemini puede ver la clave.
 # Se corre a mano desde la pestaña Actions ("Run workflow"). No publica nada.
-# Gasta una llamada de la cuota diaria por cada modelo que prueba (máximo 6).
+# Gasta una llamada mínima por modelo configurado.
 
-name: Diario - probar Gemini
+name: Diario - probar modelos
 
 on:
   workflow_dispatch:
@@ -16,7 +17,8 @@ jobs:
     timeout-minutes: 10
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      LGC_GEMINI_MODELS: ${{ vars.LGC_GEMINI_MODELS }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      LGC_MODELS: ${{ vars.LGC_MODELS }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
