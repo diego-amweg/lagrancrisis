@@ -1,0 +1,66 @@
+{
+  "quality_gate": "FAIL",
+  "scores": {
+    "factual_fidelity": 58,
+    "spanish_quality": 42,
+    "macro_relevance": 55,
+    "clarity_non_repetition": 28,
+    "weighted_total": 47
+  },
+  "critical_errors": [
+    "language_leak: resúmenes y textos en inglés en ids 148, 149, 150, 152, 153, 154, 156, 157 y 158 (noticias_destacadas y canonical_items sin traducir)",
+    "fuga_operativa: frases de pipeline visibles para el lector ('Contenido fuente limitado', 'Información adicional no informada por la fuente original al momento del cierre', 'Esta noticia fue normalizada automáticamente') en varios resúmenes, por ejemplo 07, 08, 10, 13, 16, 85, 95, 100, 142",
+    "factual_critical: el resumen de 34 afirma que las acciones argentinas cayeron hasta casi 7% en Wall Street, dato ausente en content_clean; el resumen de 120 reproduce 'cayeron por quinta rueda' sin marcar la discrepancia con el título de la URL ('suben casi 3%'); el resumen de 14 presenta como hecho cifras atribuidas al director de Polomix",
+    "off_topic: id 12 (ficha de persona desaparecida del sitio de Búsqueda de Personas) con is_argentina true y etiquetado como BCRA; ids 105, 107 y 109 (GTA 6) sin relación con la agenda económica",
+    "date_inconsistency: ids 155 (2026-12-09) y 156 (2026-11-24) tienen fecha posterior a la fecha de corte del lote (2026-11-19) y figuran como canónicos"
+  ],
+  "priority_fixes": [
+    "Eliminar o reemplazar por texto editorial todas las frases de pipeline en summaries y evidencias (fuga_operativa)",
+    "Traducir al español los ítems 148 a 158 y revisar que no queden fragmentos en inglés en content_clean ni en summaries",
+    "Quitar del lote el id 12 y los ids 105, 107 y 109; reubicar los ids 155, 156 y 157 fuera del lote o validar sus fechas",
+    "Corregir los resúmenes 34, 120 y 14 para ajustarlos estrictamente a content_clean y atribuir las cifras a su fuente; marcar la discrepancia del id 120",
+    "Desduplicar los summaries que repiten título y cuerpo literalmente (p. ej. 01, 04, 07, 08, 09, 17, 39, 40, 41) y depurar tildes y errores de origen como 'cuandos' o 'petroleo'"
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "12",
+      "severity": "ALTA",
+      "issue": "Ficha de persona desaparecida, no es contenido económico; el título y la etiqueta de fuente BCRA no coinciden con el dominio argentina.gob.ar"
+    },
+    {
+      "id_referencia": "34",
+      "severity": "ALTA",
+      "issue": "El resumen agrega que las acciones cayeron hasta casi 7% en Wall Street, información no presente en el contenido canónico"
+    },
+    {
+      "id_referencia": "120",
+      "severity": "ALTA",
+      "issue": "Discrepancia entre URL ('suben casi 3%') y título ('cayeron por quinta rueda') no resuelta en el resumen"
+    },
+    {
+      "id_referencia": "148",
+      "severity": "ALTA",
+      "issue": "Resumen y evidencia en inglés; el texto es solo un título y no hay contenido para resumir"
+    },
+    {
+      "id_referencia": "158",
+      "severity": "ALTA",
+      "issue": "Resumen con párrafo íntegro en inglés y texto truncado; fecha de la conferencia no informada"
+    },
+    {
+      "id_referencia": "85",
+      "severity": "MEDIA",
+      "issue": "Resumen genérico ('Actualización de Infobae Economía: foco en Plazo fijo') con frases de pipeline repetidas; no aporta hechos"
+    },
+    {
+      "id_referencia": "07",
+      "severity": "MEDIA",
+      "issue": "Texto duplicado (título y cuerpo repetidos dos veces) y frase 'Contenido fuente limitado' expuesta al lector"
+    },
+    {
+      "id_referencia": "40",
+      "severity": "MEDIA",
+      "issue": "Contenido de instructivo para ganar $30 por dólar vía Home Banking presentado sin contexto de riesgo ni relevancia macro"
+    }
+  ]
+}

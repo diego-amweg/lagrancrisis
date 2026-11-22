@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-10",
+  "timestamp": "2026-11-22T16:40:47",
+  "downloaded": 205,
+  "selected": 198,
+  "published": 178,
+  "coverage_ratio": 0.8683,
+  "fallback_rate": 0.0,
+  "experiment_label": "production",
+  "logical_agents_enabled": true,
+  "prompt_redactor_version": "redactor_v1",
+  "prompt_editor_version": "editor_v1",
+  "prompt_judge_version": "judge_v1",
+  "editorial_chunk_size": 18,
+  "editorial_chunk_count": 10,
+  "editorial_chunks_with_errors": 0,
+  "editorial_autocorrect_runs": 0,
+  "editorial_autocorrect_boosted_runs": 0,
+  "editor_agent_runs": 10,
+  "editor_agent_failed_runs": 0,
+  "fallback_items_count": 0,
+  "fallback_items_ratio": 0.0,
+  "coverage_forced_count": 0,
+  "coverage_forced_ratio": 0.0,
+  "post_llm_warning_count": 0,
+  "translated_items_count": 27,
+  "rewritten_by_policy_count": 0,
+  "macro_filtered_ids": [
+    "64",
+    "73",
+    "77",
+    "122",
+    "126",
+    "127",
+    "130",
+    "134",
+    "142",
+    "154",
+    "181",
+    "183",
+    "185",
+    "187",
+    "188",
+    "190",
+    "193",
+    "194",
+    "196",
+    "197"
+  ],
+  "judge_quality_gate": "PASS",
+  "judge_weighted_total": 95,
+  "judge_critical_errors_count": 0,
+  "llm_calls_total": 29,
+  "llm_json_parse_failures_total": 5,
+  "llm_json_parse_unrecovered_total": 4,
+  "llm_json_repair_attempts_total": 5,
+  "llm_json_repair_success_total": 1,
+  "llm_model_fallback_activations": 0,
+  "llm_token_usage": {
+    "gemini-2.5-flash-lite": {
+      "calls": 36,
+      "input_tokens": 504263,
+      "output_tokens": 207171
+    },
+    "gemini-2.5-flash": {
+      "calls": 5,
+      "input_tokens": 23977,
+      "output_tokens": 47966
+    }
+  },
+  "llm_models_order": [
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash"
+  ],
+  "llm_preflight": {
+    "gemini-2.5-flash-lite": "responde",
+    "gemini-2.5-flash": "responde"
+  },
+  "input_source": "insumo guardado 2026-06-10.json"
+}

@@ -1,0 +1,39 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 95,
+    "spanish_quality": 98,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 92,
+    "weighted_total": 94
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "MEDIA",
+      "issue": "La noticia menciona que la intervención del Banco Central alteró el mercado del crédito, pero no especifica cómo ni qué tipo de alteración se produjo. Tampoco detalla el impacto específico del juego online y el endeudamiento en fintech."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "BAJA",
+      "issue": "La noticia indica que el dólar subió a $1.515 en el Banco Nación y que el BCRA compró USD 18 millones, pero no proporciona el contexto de si esta compra fue significativa o si tuvo un impacto notable en la cotización."
+    },
+    {
+      "id_referencia": "04",
+      "severity": "MEDIA",
+      "issue": "Se menciona un debate sobre el rol del Estado ante la mora récord y el endeudamiento juvenil, pero no se detallan las posturas específicas de los economistas ni las propuestas concretas que se están discutiendo."
+    },
+    {
+      "id_referencia": "05",
+      "severity": "BAJA",
+      "issue": "La noticia afirma que el dato de inflación de junio (1,9%) ajustará el techo de la banda cambiaria, pero no especifica cuál será el nuevo techo ni cómo se calcula este ajuste."
+    },
+    {
+      "id_referencia": "06",
+      "severity": "BAJA",
+      "issue": "Se menciona que un dato del Banco Central sobre la compra de dólares podría explicar la intervención, pero no se detalla cuál es ese dato ni cómo se relaciona directamente con la intervención."
+    }
+  ]
+}

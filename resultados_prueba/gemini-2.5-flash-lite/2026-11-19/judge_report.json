@@ -1,0 +1,39 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 95,
+    "spanish_quality": 98,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 95,
+    "weighted_total": 94.7
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "El avance del VIX y el rendimiento de los bonos del Tesoro de EEUU aceleraron la fuga de fondos en la región, en una jornada con mayor presión sobre las cotizaciones paralelas y dudas por el nivel de actividad local."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "ALTA",
+      "issue": "El Tesoro compró más de u$s317 millones al BCRA, pero en la city advierten que los fondos no alcanzan para enero y dudan sobre los dólares de 2027 por el alza del riesgo país."
+    },
+    {
+      "id_referencia": "17",
+      "severity": "ALTA",
+      "issue": "La presión financiera global, la menor oferta de divisas y la fragilidad de las reservas elevaron la demanda de cobertura, mientras el mercado anticipa los vencimientos de 2027 y el escenario político."
+    },
+    {
+      "id_referencia": "30",
+      "severity": "ALTA",
+      "issue": "Mientras que los indices de Wall Street operaron con volatilidad, los ADR reflejaron números rojos. Los títulos públicos subieron 0,2% y el indicador de JP Morgan bajó a 848 puntos. El dólar subió a $1.580 en el Banco Nación y el BCRA compró USD 11 millones en el mercado."
+    },
+    {
+      "id_referencia": "34",
+      "severity": "ALTA",
+      "issue": "El contado con liquidación (CCL) superó los $1700 y tuvo una brecha del 10% con el tipo de cambio mayorista."
+    }
+  ]
+}

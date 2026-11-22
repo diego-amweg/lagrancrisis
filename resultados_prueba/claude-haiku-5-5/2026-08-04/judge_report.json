@@ -1,0 +1,93 @@
+{
+  "quality_gate": "FAIL",
+  "scores": {
+    "factual_fidelity": 45,
+    "spanish_quality": 55,
+    "macro_relevance": 40,
+    "clarity_non_repetition": 30,
+    "weighted_total": 44
+  },
+  "critical_errors": [
+    "factual_critical: destacada 94 y canonical 94 invierten venta y compra del dólar oficial en Banco Nación (venta 1.465 y compra 1.515), lo que contradice las demás notas del lote que informan venta a 1.515",
+    "factual_critical: canonical 179 con fecha 2026-08-19 y canonical 181 con fecha 2026-11-17, posteriores a la fecha de referencia 2026-08-04",
+    "off_topic: canonical 11 es una ficha de persona desaparecida (menor de edad) del Sistema Federal de Búsqueda, con source_name BCRA, sin relación con economía",
+    "off_topic: canonical 73 (conferencia FIEL sin fecha de publicación), 180 y 184 y destacadas de contenido no económico como queso de 1000 kilos, anillo inteligente, yerba, Tesla, WhatsApp, cuatreros del Delta y hackeo de billeteras",
+    "language_leak: canonical 178, 179, 180, 181, 182, 183 y 184 conservan contenido en inglés o británico/estadounidense sin traducir al español",
+    "fuga_operativa: textos destacados contienen metadatos de proceso como 'Información adicional no informada por la fuente original al momento del cierre', 'Contenido fuente limitado' y 'normalizada automáticamente al español para mantener la consistencia editorial del digest diario'",
+    "fuga_operativa: tags con valor placeholder 'Cobertura Total' y asset_relevance 'NO_APLICA' en varias destacadas"
+  ],
+  "priority_fixes": [
+    "Corregir la cotización del Banco Nación en canonical 94 y destacada 94 (venta 1.515 según el resto del lote) y revisar coherencia de la fecha de la canonical 20 con su URL del 30 de julio.",
+    "Eliminar del lote canonical 11, 73, 180, 181, 184 y las notas no económicas o no argentinas, o excluirlas del digest final; revisar también la relevancia macro de notas como 137, 144, 145, 148, 156, 159 y 113.",
+    "Traducir al español o descartar canonical 178 a 184 y reemplazar la destacada 183 por una síntesis fiel al contenido de su fuente.",
+    "Eliminar todas las frases de metadatos internos ('Información adicional no informada...', 'Contenido fuente limitado', 'normalizada automáticamente') y reemplazar tags 'Cobertura Total' por etiquetas temáticas reales.",
+    "Deduplicar eventos repetidos (paro portuario en 45, 80, 107, 127; dólar oficial y blue en 20, 29, 47, 50, 51, 54, 62, 71, 84, 94; Warsh en 14 y 22; precarización en 97 y 147) y reescribir párrafos repetidos dentro de un mismo resumen."
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "94",
+      "severity": "ALTA",
+      "issue": "Cotización invertida: venta 1.465 y compra 1.515 en Banco Nación; contradice otras notas que dan venta 1.515."
+    },
+    {
+      "id_referencia": "11",
+      "severity": "ALTA",
+      "issue": "Ficha de persona desaparecida de un menor de 14 años, fuera de alcance editorial y etiquetada como fuente BCRA."
+    },
+    {
+      "id_referencia": "20",
+      "severity": "ALTA",
+      "issue": "Título menciona lunes 3 de agosto mientras la URL indica 30 de julio; el resumen contiene texto duplicado y ausencia de fecha clara."
+    },
+    {
+      "id_referencia": "183",
+      "severity": "ALTA",
+      "issue": "Resumen sin contenido sustantivo, con leyenda de normalización automática y título genérico que no refleja la nota original sobre Brasil y Milei."
+    },
+    {
+      "id_referencia": "179",
+      "severity": "ALTA",
+      "issue": "Fecha de publicación 2026-08-19 posterior a la fecha de referencia del lote; contenido en inglés y estado sin confirmar."
+    },
+    {
+      "id_referencia": "181",
+      "severity": "MEDIA",
+      "issue": "Fecha de publicación 2026-11-17 futura respecto del lote, contenido en inglés y estado sin confirmar."
+    },
+    {
+      "id_referencia": "178",
+      "severity": "MEDIA",
+      "issue": "Contenido en inglés sobre regulación de la FCA británica, sin vínculo con Argentina y sin verificar."
+    },
+    {
+      "id_referencia": "13",
+      "severity": "MEDIA",
+      "issue": "Destacada presenta el 2,05% de almaceneros como 'inflación' sin aclarar que no es un índice oficial; el título de la canonical menciona IETSE."
+    },
+    {
+      "id_referencia": "01",
+      "severity": "MEDIA",
+      "issue": "Título canónico ('fintech concentran la mayor preocupación') no coincide con el título de la URL sobre morosidad que dejó de crecer."
+    },
+    {
+      "id_referencia": "16",
+      "severity": "MEDIA",
+      "issue": "Canonical sólo contiene datos biográficos del entrevistado, no el argumento; la destacada atribuye una posición sin contenido de respaldo."
+    },
+    {
+      "id_referencia": "174",
+      "severity": "MEDIA",
+      "issue": "Nota de opinión sobre ciberseguridad (OpenAI vs Hugging Face) etiquetada como Infobae Economía y sin relevancia macro."
+    },
+    {
+      "id_referencia": "35",
+      "severity": "BAJA",
+      "issue": "Tag placeholder 'Cobertura Total' y frase de metadatos repetida dos veces."
+    },
+    {
+      "id_referencia": "166",
+      "severity": "BAJA",
+      "issue": "Resumen sólo contiene 'Leer más' y el resto de metadatos repetidos; sin contenido verificable."
+    }
+  ]
+}

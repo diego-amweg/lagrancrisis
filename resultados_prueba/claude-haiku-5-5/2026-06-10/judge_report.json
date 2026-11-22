@@ -1,0 +1,78 @@
+{
+  "quality_gate": "FAIL",
+  "scores": {
+    "factual_fidelity": 58,
+    "spanish_quality": 55,
+    "macro_relevance": 65,
+    "clarity_non_repetition": 40,
+    "weighted_total": 55
+  },
+  "critical_errors": [
+    "fuga_operativa: leyendas internas del feed en resúmenes destacados ('Resumen generado automáticamente desde el feed RSS', 'Esta noticia fue normalizada automáticamente al español', 'Cobertura Total' como tag) y placeholders 'Información adicional no informada por la fuente original' repetidos.",
+    "language_leak: textos en inglés en salida editorial (titular 185; resumen 197 con párrafo original en inglés; resumen 184 con fragmento 'Eight additional…' truncado).",
+    "factual_critical: noticias destacadas basadas en ítems SIN CONFIRMAR o con fecha futura respecto de la referencia (180, 181, 187, 188, 191 con fecha 2026-06-18, 193 con fecha 2026-11-17, 194 con fecha 2026-06-11), sin marca de estado en el texto.",
+    "factual_critical: ítem 78 con título y cuerpo sobre Kicillof y el dólar que no coincide con la URL (compras de USD 100 millones por día) y cifra de compra no verificable en el texto provisto.",
+    "factual_critical: ítem 53 contiene el fragmento '1816' sin contexto, y ítem 02 presenta como hecho la tesis de una nota de opinión.",
+    "factual_critical: cotizaciones inconsistentes entre ítems (oficial $1.465 en 31 vs $1.415 venta/$1.465 compra en 97; compras del BCRA de USD 21 M en 24 vs USD 121 M en 10 y 14) sin aclaración.",
+    "off_topic: piezas de tecnología, entretenimiento o producción sin vínculo macro verificable (145, 133, 166, 168, 154, 115, 129, 41, 103) ocupan espacio en el lote."
+  ],
+  "priority_fixes": [
+    "Eliminar del lote todo ítem con status SIN CONFIRMAR o con published posterior a la fecha de referencia (180, 181, 183, 187, 188, 191, 192, 193, 194, 196, 197, 198), o marcarlo explícitamente como no verificado y excluirlo de destacadas.",
+    "Purgar leyendas internas del feed y placeholders ('Resumen generado automáticamente', 'normalizada automáticamente', 'Cobertura Total', 'Información adicional no informada') y reemplazar por texto editorial o dejar vacío el campo.",
+    "Traducir al español todos los titulares y resúmenes en inglés (185, 184, 197, 180 y similares) y eliminar fragmentos truncados.",
+    "Revisar el ítem 78: alinear título, cuerpo y URL, y confirmar la cifra de compras diarias antes de publicar.",
+    "Unificar y verificar cifras de cotización y compras del BCRA entre ítems (31, 97, 24, 10, 14) y corregir el fragmento '1816' del ítem 53; reemplazar el titular genérico 'Actualización de La Nación Economía: foco en Agro' del ítem 173 por el titular original."
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "78",
+      "severity": "ALTA",
+      "issue": "Título y cuerpo (Kicillof y candidatura) no coinciden con la URL (compras BCRA USD 100 M/día); cifra solo presente en la URL."
+    },
+    {
+      "id_referencia": "53",
+      "severity": "ALTA",
+      "issue": "Fragmento '1816' sin contexto dentro de la cita del ONs; dato ilegible para el lector."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "ALTA",
+      "issue": "Nota de opinión presentada como hecho en destacados ('ya desató inflación, desorden social y presión migratoria')."
+    },
+    {
+      "id_referencia": "197",
+      "severity": "ALTA",
+      "issue": "Resumen incluye párrafo íntegro en inglés (language_leak) y no está verificado."
+    },
+    {
+      "id_referencia": "173",
+      "severity": "MEDIA",
+      "issue": "Titular de destacado reemplazado por 'Actualización de La Nación Economía: foco en Agro' y resumen con leyenda de normalización automática."
+    },
+    {
+      "id_referencia": "31",
+      "severity": "MEDIA",
+      "issue": "Cotización oficial $1.465 contradice $1.415 venta publicada para el mismo día en el ítem 97; no se aclara si es venta o compra."
+    },
+    {
+      "id_referencia": "24",
+      "severity": "MEDIA",
+      "issue": "Compra del BCRA de USD 21 M contradice USD 121 M en los ítems 10 y 14 para la misma jornada."
+    },
+    {
+      "id_referencia": "91",
+      "severity": "MEDIA",
+      "issue": "Afirmación 'precio más alto desde enero' presentada sin serie histórica que la respalde."
+    },
+    {
+      "id_referencia": "110",
+      "severity": "BAJA",
+      "issue": "Texto con error de redacción: 'mostró un rojo de en abril de u$s55.900 millones'."
+    },
+    {
+      "id_referencia": "21",
+      "severity": "BAJA",
+      "issue": "Cuerpo con residuo 'Leer más' y frase con repetición del titular."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "quality_gate": "FAIL",
+  "scores": {
+    "factual_fidelity": 60,
+    "spanish_quality": 50,
+    "macro_relevance": 58,
+    "clarity_non_repetition": 35,
+    "weighted_total": 53
+  },
+  "critical_errors": [
+    "off_topic: id 21 es una ficha de persona buscada (Programa Nacional de Recompensas) con DNI y domicilio; no es contenido económico y expone datos personales",
+    "language_leak: ids 188 a 217 (canonical) tienen title/content en inglés y varios resúmenes de noticias_destacadas (190, 195, 196, 198, 199, 201, 203, 205 a 210, 211 a 217) conservan texto en inglés",
+    "factual_critical: id 74 invierte los precios del Banco Nación (dice venta 1.495 y compra 1.545), lo que contradice ids 20, 53 y 55 que dan 1.545 para la venta",
+    "factual_critical: id 173 titula 'Ponen fecha a la firma' pero el resumen dice que la fecha exacta no fue informada",
+    "fuga_operativa/placeholder: ids 68, 185, 202 y 208 tienen resúmenes genéricos 'normalizada automáticamente' sin hechos verificables",
+    "fecha_invalida: ids 193, 214, 216 y 217 tienen published posterior a la fecha de referencia del lote (2026-10-02)",
+    "off_topic: ids 147 (signos de la suerte según IA), 98 (review de notebook), 186 (fraude por WhatsApp), 78 (descuentos de billetera), 66 (podcast sin contenido) y 67 (Boleta Única, con entidad HTML residual) no aportan macro"
+  ],
+  "priority_fixes": [
+    "Excluir o reclasificar como off_topic los ids 21, 147, 98, 186, 78, 66 y 67 y eliminar la ficha con datos personales del lote publicable",
+    "Traducir al español o retirar todos los items en inglés (188 a 217 y sus equivalentes en noticias_destacadas) y no publicar los que tengan published futura",
+    "Corregir el id 74 con los precios del Banco Nación consistentes con las fuentes 20, 53 y 55, y reescribir el titular de id 173 para que coincida con el contenido ('se anunciaron' en lugar de 'ponen fecha')",
+    "Eliminar los resúmenes boilerplate ('Información adicional no informada...', 'Contenido fuente limitado', 'normalizada automáticamente') y deduplicar noticias repetidas (01/07/02, 04/127/149, 43/111/184, 110/160/77, 117/118, 85/121, 96/128)",
+    "Quitar inferencias no presentes en la fuente como 'Para los mercados...' o lecturas sobre bazuca y tipo de cambio en ids 183, 173, 174, 177, 178, 181 y 212"
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "21",
+      "severity": "ALTA",
+      "issue": "Ficha de persona prófuga con DNI y domicilio; off_topic y exposición de datos personales dentro de un digest económico"
+    },
+    {
+      "id_referencia": "74",
+      "severity": "ALTA",
+      "issue": "Precios del Banco Nación invertidos (venta 1.495 / compra 1.545) en contradicción con otras fuentes del mismo día"
+    },
+    {
+      "id_referencia": "173",
+      "severity": "ALTA",
+      "issue": "Titular afirma que se pone fecha a la firma del megaproyecto, pero el resumen indica que la fecha no fue informada"
+    },
+    {
+      "id_referencia": "188",
+      "severity": "ALTA",
+      "issue": "Contenido en inglés dentro de un lote en español (language_leak); el resumen no está traducido"
+    },
+    {
+      "id_referencia": "193",
+      "severity": "MEDIA",
+      "issue": "Fecha de publicación 2026-10-06 posterior a la fecha de referencia del lote; evento anunciado tratado como contenido vigente"
+    },
+    {
+      "id_referencia": "68",
+      "severity": "MEDIA",
+      "issue": "Resumen placeholder 'normalizada automáticamente' sin hechos; el contenido real no aparece"
+    },
+    {
+      "id_referencia": "183",
+      "severity": "MEDIA",
+      "issue": "Resumen añade lectura de mercado (respaldo al tipo de cambio) no presente en la fuente"
+    },
+    {
+      "id_referencia": "01",
+      "severity": "MEDIA",
+      "issue": "Resumen repite frases de forma literal dos veces; baja claridad y repetición"
+    },
+    {
+      "id_referencia": "147",
+      "severity": "BAJA",
+      "issue": "Nota de horóscopo/IA sin relevancia macro para el digest económico"
+    }
+  ]
+}

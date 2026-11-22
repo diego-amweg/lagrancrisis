@@ -1,0 +1,39 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 95,
+    "weighted_total": 95.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "La noticia menciona \"caída de los precios del crudo por la distensión en Oriente Medio\" como causa de las subas en tecnológicas, pero la distensión en Oriente Medio usualmente baja los precios del crudo, no los sube. La relación causa-efecto parece invertida o mal explicada."
+    },
+    {
+      "id_referencia": "02",
+      "severity": "ALTA",
+      "issue": "La noticia afirma que la \"monetización del déficit fiscal agotó las reservas del Banco Central y ya desató inflación, desorden social y presión migratoria\" en Bolivia. Si bien la monetización del déficit puede generar inflación, la conexión directa y causal con el agotamiento de reservas, desorden social y presión migratoria requiere mayor sustento o matización. La frase es una afirmación categórica de múltiples consecuencias complejas."
+    },
+    {
+      "id_referencia": "08",
+      "severity": "MEDIA",
+      "issue": "En la ficha de persona buscada, los campos 'Nacionalidad', 'Documento' y 'Fue encontrado' están vacíos o marcados con un asterisco, lo que indica información faltante o no aplicable que podría ser relevante para la búsqueda."
+    },
+    {
+      "id_referencia": "13",
+      "severity": "MEDIA",
+      "issue": "La noticia afirma que Vaca Muerta y la minería aportaron \"casi la misma cantidad de dólares que el campo\" en el primer cuatrimestre. Si bien se dan cifras aproximadas (US$8150 millones cada uno), la comparación directa sin especificar la fuente de los datos del campo (que suele ser el principal generador de divisas) podría ser imprecisa o requerir mayor contexto para ser completamente factual."
+    },
+    {
+      "id_referencia": "139",
+      "severity": "MEDIA",
+      "issue": "La noticia menciona que el acuerdo automotriz con México está trabado y que \"qué modelos podrían faltar\". Sin embargo, no se especifican cuáles son esos modelos, dejando una incertidumbre importante sobre el impacto real en el mercado."
+    }
+  ]
+}

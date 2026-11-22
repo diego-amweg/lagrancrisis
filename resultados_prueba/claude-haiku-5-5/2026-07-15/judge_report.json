@@ -1,0 +1,73 @@
+{
+  "quality_gate": "FAIL",
+  "scores": {
+    "factual_fidelity": 55,
+    "spanish_quality": 60,
+    "macro_relevance": 65,
+    "clarity_non_repetition": 35,
+    "weighted_total": 56
+  },
+  "critical_errors": [
+    "fuga_operativa: resúmenes con texto interno de sistema ('Resumen generado automáticamente desde el feed RSS', 'Esta noticia fue normalizada automáticamente al español') en ids 57, 62, 120, 124, 126, 150, 190, y frase repetida 'Información adicional no informada por la fuente original al momento del cierre' en numerosos destacados",
+    "language_leak: fragmentos en inglés en resúmenes de noticias_destacadas 198, 200, 201, 204, 205 y 206, y títulos en inglés dentro de resúmenes",
+    "factual_critical: noticias con fecha futura respecto de la referencia 2026-07-15 (205 con 2026-11-17 y 206 con 2026-07-23) incluidas en el lote como destacados",
+    "factual_critical: fuentes SIN CONFIRMAR (198, 200, 202, 205, 206) incluidas en destacados sin marca de no verificadas",
+    "factual_critical: discrepancias entre fuentes sin conciliar: riesgo país 408 pb (07) vs 410 pb (04, 43); participación del BCRA 57% (06) vs 56 de cada 100 (25); operador del proyecto RIGI de litio Liex (61, 177) vs Zijin Mining (140)",
+    "factual_critical: dato de 'caída de 0,4% en julio' (01) presentado sin respaldo oficial y con el mes sin concluir",
+    "off_topic: piezas sin relevancia macro para el lote (futbol, Cannes, satélite, memorabilia, Malvinas) y notas de Reino Unido/BCE de baja relevancia para el mercado argentino"
+  ],
+  "priority_fixes": [
+    "Eliminar todo texto de sistema y boilerplate ('normalizada automáticamente', 'resumen generado', 'información no informada' repetido) de resúmenes y reemplazarlo por contenido editorial o excluir la nota",
+    "Excluir de destacados las piezas con fecha posterior al 15/07/2026 y las SIN CONFIRMAR, o marcarlas explícitamente; separar el contenido no argentino en una sección aparte",
+    "Traducir al español todos los fragmentos en inglés (198, 200, 201, 204, 205, 206) y corregir redacción confusa (ej. id 28 'la referencia llegará se acercó', id 14 'subió' para una desaceleración, id 88 'Wall Sreet')",
+    "Conciliar cifras contradictorias antes de publicar: riesgo país 408 vs 410, 57% vs 56% de participación del BCRA, operador del RIGI de Catamarca, y el IPC de mayo implícito en id 15 (1,9%) frente a la desaceleración de 0,2 pp informada en id 54",
+    "Consolidar coberturas repetidas (IPC de junio en 11, 17, 46, 54, 86 y otros; cierre del dólar en 13, 42, 43, 74, 84, 102, 103; RIGI de litio en 61, 140, 177, 180) en una sola nota por hecho y corregir el impacto asignado de forma inconsistente (ej. 17 ALTO vs 46 MEDIO)"
+  ],
+  "sample_findings": [
+    {
+      "id_referencia": "57",
+      "severity": "ALTA",
+      "issue": "Resumen con texto de sistema ('Resumen generado automáticamente desde el feed RSS') y repetición de la frase de información no informada."
+    },
+    {
+      "id_referencia": "205",
+      "severity": "ALTA",
+      "issue": "Fecha 2026-11-17 posterior a la referencia del lote, fuente SIN CONFIRMAR, resumen en inglés incluido como destacado."
+    },
+    {
+      "id_referencia": "201",
+      "severity": "ALTA",
+      "issue": "Resumen mezcla título en inglés y texto en español; contenido no verificable más allá del título, presentado como destacado."
+    },
+    {
+      "id_referencia": "07",
+      "severity": "ALTA",
+      "issue": "Riesgo país informado en 408 pb, mientras 43 y 04 lo ubican en 410 pb el mismo día; discrepancia sin conciliar."
+    },
+    {
+      "id_referencia": "61",
+      "severity": "MEDIA",
+      "issue": "Proyecto de litio atribuido a Liex, mientras la nota 140 lo atribuye a Zijin Mining; conflicto de operador sin aclarar."
+    },
+    {
+      "id_referencia": "04",
+      "severity": "MEDIA",
+      "issue": "Uso del verbo 'aspiró' para compras del BCRA: término técnico incorrecto, ya que la entidad compró dólares y el resto de la cobertura usa 'compró'."
+    },
+    {
+      "id_referencia": "15",
+      "severity": "MEDIA",
+      "issue": "Afirma que el ajuste incluye el 1,9% del IPC de mayo, pero la nota 54 indica que junio (1,9%) desaceleró 0,2 pp frente a mayo, lo que implica un IPC de mayo cercano a 2,1%."
+    },
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "Se presenta como dato una caída de precios de 0,4% en julio sin fuente oficial y con el mes aún en curso."
+    },
+    {
+      "id_referencia": "120",
+      "severity": "MEDIA",
+      "issue": "Resumen genérico con texto de normalización automática; no aporta datos y no permite evaluar el impacto económico."
+    }
+  ]
+}

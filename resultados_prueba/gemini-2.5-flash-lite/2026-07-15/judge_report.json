@@ -1,0 +1,39 @@
+{
+  "quality_gate": "PASS",
+  "scores": {
+    "factual_fidelity": 98,
+    "spanish_quality": 95,
+    "macro_relevance": 90,
+    "clarity_non_repetition": 92,
+    "weighted_total": 94.5
+  },
+  "critical_errors": [],
+  "priority_fixes": [],
+  "sample_findings": [
+    {
+      "id_referencia": "01",
+      "severity": "ALTA",
+      "issue": "El titular menciona \"precios al consumidor cayeron 0,4% en julio\", pero el contenido solo dice \"precios al consumidor cayeron 0,4% en julio?\" sin una respuesta clara."
+    },
+    {
+      "id_referencia": "04",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"El dólar bajó a $1.495 en el Banco Nación\", pero el contenido solo dice \"El dólar bajó a $1.495\" sin especificar la entidad."
+    },
+    {
+      "id_referencia": "15",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"La suba será del 3,9% y el ajuste combina el 1,9% del Índice de Precios al Consumidor (IPC) de mayo mas un 2% adicional.\", pero el contenido solo dice \"La suba será del 3,9% y el ajuste combina el 1,9% del Índice de Precios al Consumidor (IPC) de mayo mas un 2% adicional.\""
+    },
+    {
+      "id_referencia": "43",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"El dólar bajó $10 y perforó los $1500\", pero el contenido solo dice \"El dólar bajó $10 y perforó los $1500\" sin especificar el tipo de dólar."
+    },
+    {
+      "id_referencia": "46",
+      "severity": "MEDIA",
+      "issue": "El titular menciona \"La inflación se desaceleró al 1,9% en junio, con una fuerte moderación en alimentos.\", pero el contenido solo dice \"La inflación se desaceleró al 1,9% en junio, con una fuerte moderación en alimentos.\""
+    }
+  ]
+}
