@@ -23,13 +23,13 @@ on:
         default: prueba
       fechas_prueba:
         description: "Fechas de la prueba, separadas por coma"
-        default: "2026-06-10,2026-07-15,2026-08-04,2026-10-02,2026-11-19"
+        default: "2026-07-15,2026-10-02"
       modelos_a:
         description: "Configuración A de la prueba"
-        default: "gemini-2.5-flash-lite,gemini-2.5-flash"
-      modelos_b:
-        description: "Configuración B de la prueba"
         default: "claude-haiku-5-5"
+      modelos_b:
+        description: "Configuración B de la prueba (vacío = probar solo la A)"
+        default: ""
 
 permissions:
   contents: write
@@ -89,6 +89,7 @@ jobs:
           set -u
           for config in A B; do
             if [ "$config" = A ]; then MODELOS="$MODELOS_A"; else MODELOS="$MODELOS_B"; fi
+            if [ -z "$MODELOS" ]; then continue; fi
             NOMBRE="$(echo "$MODELOS" | cut -d, -f1)"
             for FECHA in ${FECHAS//,/ }; do
               echo "::group::$NOMBRE · $FECHA"
@@ -106,7 +107,7 @@ jobs:
           python scripts/comparar_prueba.py resultados_prueba "$INSUMOS" | tee -a "$GITHUB_STEP_SUMMARY"
           git checkout -B resultados-prueba
           git add resultados_prueba
-          git commit -q -m "Prueba de modelos: $MODELOS_A contra $MODELOS_B"
+          git commit -q -m "Prueba de modelos: ${MODELOS_A}${MODELOS_B:+ contra $MODELOS_B}"
           git push --force origin resultados-prueba
 
       - name: Reproceso de atrasadas (publica)

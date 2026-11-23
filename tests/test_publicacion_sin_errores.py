@@ -180,3 +180,79 @@ def test_portada_no_retrocede_al_reprocesar_un_dia_viejo(monkeypatch, tmp_path):
     })())
     builder.update_index_page("2026-06-10")
     assert capturado["latest"] == "2026/11/22/"
+
+
+# --- Sin relleno, sin comentarios internos y sin noticias vacías (23/11/2026) ---
+
+def test_resumen_corto_no_se_rellena():
+    from src.main import _enforce_summary_bounds
+    corto = "El BCRA compró USD 21 millones en el mercado."
+    assert _enforce_summary_bounds(corto, headline="Titular", evidence="cita") == corto
+
+
+def test_se_quitan_los_comentarios_sobre_la_fuente():
+    from src.main import _enforce_summary_bounds
+    texto = (
+        "El dólar oficial cerró a $1.515 en el Banco Nación. "
+        "El monto de cierre y la variación mensual no están informados. "
+        "Contenido fuente limitado. "
+        "Información adicional no informada por la fuente original al momento del cierre. "
+        "El BCRA compró USD 18 millones."
+    )
+    limpio = _enforce_summary_bounds(texto)
+    assert limpio == "El dólar oficial cerró a $1.515 en el Banco Nación. El BCRA compró USD 18 millones."
+
+
+def test_noticia_sin_ia_no_publica_textos_del_sistema():
+    from src.main import _build_deterministic_news_item
+    item = _build_deterministic_news_item({"title": "La Fed sube la tasa 0,25%", "content": "", "url": "https://x"})
+    assert "automáticamente" not in item["summary"]
+    assert item["summary"] == "La Fed sube la tasa 0,25%"
+
+
+def test_noticias_que_no_dicen_nada_quedan_fuera():
+    from src.classifier import has_no_information
+    # Caso real de la revisión a ciegas (n.º 40): solo título, sin ningún dato.
+    assert has_no_information("El dólar oficial cerró la última rueda del mes a la baja: cuánto aumentó en septiembre", "")
+    assert not has_no_information("La Fed sube la tasa 0,25%", "")
+    assert not has_no_information("Jornada financiera", "El dólar subió a $1.515 en el Banco Nación y el BCRA compró USD 18 millones en el mercado")
+
+
+def test_noticias_fechadas_despues_de_la_edicion_quedan_fuera():
+    from src.classifier import is_after_edition
+    assert is_after_edition("2026-11-17T10:00:00+00:00", "2026-06-10")
+    assert not is_after_edition("2026-06-10T02:00:00+00:00", "2026-06-10")  # 9/6 a la noche en Argentina
+    assert not is_after_edition("", "2026-06-10")
+
+
+def test_sin_version_en_espanol_no_se_publica():
+    from src.main import _force_spanish_fallback, remove_items_without_information
+    resultado = {"noticias_destacadas": [{"headline": "Fed holds rates", "summary": "The Fed held rates."},
+                                         {"headline": "La Fed mantuvo la tasa", "summary": "La Fed mantuvo la tasa."}]}
+    _force_spanish_fallback(resultado["noticias_destacadas"][0])
+    assert remove_items_without_information(resultado) == 1
+    assert [n["headline"] for n in resultado["noticias_destacadas"]] == ["La Fed mantuvo la tasa"]
+
+
+def test_el_juez_usa_claude_aunque_redacte_otro(monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "x")
+    monkeypatch.delenv("LGC_JUDGE_MODELS", raising=False)
+    assert llm.judge_models() == ["claude-haiku-5-5"]
+    generate, llamados = _falso_generate({"claude-haiku-5-5": '{"quality_gate": "PASS"}'})
+    monkeypatch.setattr(llm, "_generate", generate)
+    monkeypatch.setattr(llm, "ACTIVE_MODELS", ["gemini-2.5-flash-lite"])
+    assert llm.call_gemini_with_retry("juez", models=llm.judge_models()) == {"quality_gate": "PASS"}
+    assert llamados == ["claude-haiku-5-5"]
+
+
+@pytest.fixture(autouse=True)
+def _estado_limpio_de_modelos():
+    """Cada prueba arranca sin modelos descartados por pruebas anteriores."""
+    llm.DROPPED_MODELS.clear()
+    yield
+    llm.DROPPED_MODELS.clear()
+
+
+def test_resumen_que_era_solo_comentarios_queda_con_el_titular():
+    from src.main import _enforce_summary_bounds
+    assert _enforce_summary_bounds("Contenido fuente limitado. No informado.", headline="El BCRA compró USD 21 millones") == "El BCRA compró USD 21 millones"

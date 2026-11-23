@@ -31,7 +31,7 @@ from src.dedupe import deduplicate_articles
 from src.fetch_rss import fetch_all_feeds, fetch_sample_articles
 from src.llm import (call_gemini_mock, call_gemini_with_retry,
                      get_llm_runtime_metrics, get_llm_usage_report,
-                     preflight_models, reset_llm_runtime_metrics,
+                     judge_models, preflight_models, reset_llm_runtime_metrics,
                      translate_items_to_spanish,
                      translate_items_to_spanish_contextual)
 from src.prompt import (build_editor_prompt,
@@ -108,7 +108,7 @@ TRACKING_QUERY_PARAMS = {
     "fbclid",
 }
 
-SUMMARY_MIN_CHARS = 500
+SUMMARY_MIN_CHARS = 0  # sin uso desde el 23/11/2026: ya no hay largo mínimo de resumen
 
 SOURCE_POLICY_FILE = Path("src/source_policy.json")
 SOURCE_OPT_OUT_FILE = Path("src/source_opt_out.json")
@@ -803,50 +803,72 @@ def load_accumulated_articles_for_close(date_str: str) -> List[Dict]:
     return cleaned
 
 
+# Frases que comentan la fuente o el proceso en vez de informar. No se publican
+# (decisión del 23/11/2026): la noticia dice lo que la fuente dice, y lo que falta
+# simplemente no se menciona.
+_META_PATTERNS = [
+    r"no informad[oa]s?\b",
+    r"\bno (?:fue|fueron|está|están|esta|estan) informad",
+    r"\bno se (?:informa|informan|informó|informaron|informo)\b",
+    r"contenido (?:de la )?fuente limitado",
+    r"\bel texto (?:está|esta) truncado",
+    r"\bseg[uú]n el texto\b",
+    r"\bla nota anuncia\b",
+    r"\bfecha de publicaci[oó]n\b",
+    r"posterior a la fecha de referencia",
+    r"\bel extracto\b",
+    r"\bel contenido disponible\b",
+    r"informaci[oó]n adicional no informada",
+    r"generad[oa] autom[aá]ticamente",
+    r"normalizad[oa] autom[aá]ticamente",
+    r"\bfeed rss\b",
+]
+_META_RE = re.compile("|".join(_META_PATTERNS), re.IGNORECASE)
+
+
+def _strip_meta_sentences(text: str) -> str:
+    """Quita las oraciones que hablan de la fuente o del sistema en lugar de informar."""
+    oraciones = re.split(r"(?<=[.!?])\s+", text.strip())
+    utiles = [o for o in oraciones if o and not _META_RE.search(o)]
+    return " ".join(utiles).strip()
+
+
 def _enforce_summary_bounds(
     summary: str,
     headline: str = "",
     evidence: str = "",
     content: str = "",
 ) -> str:
-    """Normaliza summaries con mínimo de 500 chars sin recortar longitud máxima."""
-    normalized = _sanitize_text(_strip_html(str(summary or "")))
+    """Limpia el resumen sin rellenarlo.
 
-    if len(normalized) >= SUMMARY_MIN_CHARS:
+    Hasta el 23/11/2026 se completaba hasta 500 caracteres con el título, la cita
+    y una frase fija; eso empujaba a los modelos a inventar detalles. Ahora el
+    resumen queda con el largo que tienen los hechos. Los parámetros extra se
+    conservan por compatibilidad.
+    """
+    del evidence, content
+    normalized = _strip_meta_sentences(_sanitize_text(_strip_html(str(summary or ""))))
+    if normalized:
         return normalized
+    # Si todo eran comentarios sobre la fuente, queda el titular: nunca un resumen vacío,
+    # que invalidaría la edición entera.
+    return _strip_meta_sentences(_sanitize_text(_strip_html(str(headline or ""))))
 
-    supplements = [
-        _sanitize_text(_strip_html(str(content or ""))),
-        _sanitize_text(_strip_html(str(evidence or ""))),
-        _sanitize_text(_strip_html(str(headline or ""))),
+
+def remove_items_without_information(result: Dict) -> int:
+    """Saca de la edición las noticias que quedaron sin nada que informar."""
+    items = result.get("noticias_destacadas", [])
+    if not isinstance(items, list):
+        return 0
+    kept = [
+        item for item in items
+        if isinstance(item, dict) and not item.get("_descartar") and str(item.get("summary", "")).strip()
     ]
-
-    # FIX: eliminada inyección de texto operativo visible al lector
-    if not any(supplements):
-        summary_ampliado = normalized
-        return summary_ampliado
-
-    for snippet in supplements:
-        if not snippet:
-            continue
-        if snippet in normalized:
-            continue
-        if normalized:
-            normalized = f"{normalized} {snippet}".strip()
-        else:
-            normalized = snippet
-
-        if len(normalized) >= SUMMARY_MIN_CHARS:
-            break
-
-    while len(normalized) < SUMMARY_MIN_CHARS:
-        filler = "Información adicional no informada por la fuente original al momento del cierre."
-        if normalized:
-            normalized = f"{normalized} {filler}".strip()
-        else:
-            normalized = filler
-
-    return normalized
+    removed = len(items) - len(kept)
+    for item in kept:
+        item.pop("_descartar", None)
+    result["noticias_destacadas"] = kept
+    return removed
 
 
 def run_intraday_accumulator(use_mock: bool = False) -> bool:
@@ -899,10 +921,7 @@ def _build_deterministic_news_item(article: Dict) -> Dict:
     source_status = _normalize_status(article.get("status", "SIN CONFIRMAR"))
     content = _strip_html(str(article.get("content", "")).replace("\n", " ").strip())
 
-    if content:
-        summary = content
-    else:
-        summary = "Resumen generado automáticamente desde el feed RSS por cobertura total."
+    summary = content if content else _sanitize_text(_strip_html(str(article.get("title", ""))))
 
     summary = _enforce_summary_bounds(
         summary,
@@ -999,7 +1018,7 @@ def _build_deterministic_news_item_from_id(
     summary_raw = (
         content
         if content
-        else "Resumen generado automáticamente desde el feed RSS por cobertura total."
+        else _sanitize_text(_strip_html(str(canonical_item.get("title", ""))))
     )
     summary = _enforce_summary_bounds(
         summary_raw,
@@ -1223,20 +1242,13 @@ def _looks_spanish(text: str) -> bool:
 
 
 def _force_spanish_fallback(item: Dict) -> None:
-    """Última barrera: evita publicación en inglés/portugués si la traducción no devolvió texto útil."""
-    source_name = item.get("source_name", "Fuente")
-    tags = item.get("tags", [])
-    tag_hint = tags[0] if tags else "Macro"
+    """Última barrera: si no quedó en español, la noticia no se publica.
 
-    item["headline"] = _truncate_headline(f"Actualización de {source_name}: foco en {tag_hint}")
-    item["summary"] = (
-        "Esta noticia fue normalizada automáticamente al español para mantener la consistencia editorial "
-        "del digest diario. Revisá la fuente original para el detalle completo."
-    )
-    if not tags:
-        item["tags"] = ["Cobertura Total", "Normalizado"]
-    if not str(item.get("evidencia_source_snippet", "")).strip():
-        item["evidencia_source_snippet"] = "No informado"
+    Antes se reemplazaba por un texto fijo del sistema ("normalizada automáticamente
+    al español"), que no informaba nada y quedaba publicado.
+    """
+    item["_descartar"] = True
+    logger.warning("🗑️ Noticia sin versión en español, no se publica: %s", str(item.get("headline", ""))[:80])
 
 
 def _needs_spanish_normalization(headline: str, summary: str) -> bool:
@@ -1758,7 +1770,7 @@ def run_pipeline(
             tagged_articles = tag_sources(unique_articles)
             
             logger.info("🎯 Seleccionando artículos relevantes...")
-            classified = classify_and_rank(tagged_articles)
+            classified = classify_and_rank(tagged_articles, edition_date=TODAY)
             articles_for_llm = [a for a in classified if a]
             articles_for_llm = _reorder_argentina_first(articles_for_llm)
             selected_count = len(articles_for_llm)
@@ -2245,6 +2257,9 @@ def run_pipeline(
                 enforce_no_microquotes(result)
                 enforce_attribution_requirements(result)
                 sanitize_result_texts(result)
+                removed_without_information = remove_items_without_information(result)
+                if removed_without_information:
+                    logger.info("🗑️ %d noticias sin información útil quedaron fuera de la edición", removed_without_information)
                 if translated_count > 0:
                     logger.info("🌐 Traducción a español aplicada en %d noticias", translated_count)
 
@@ -2262,6 +2277,7 @@ def run_pipeline(
                         judge_prompt,
                         max_retries=2,
                         debug_label="step_e_judge",
+                        models=judge_models(),
                     )
                     if isinstance(judge_raw, dict):
                         judge_report = judge_raw

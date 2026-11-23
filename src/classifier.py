@@ -3,7 +3,9 @@
 # Compatible con Windows 11 + Python 3.13.x
 
 import logging
-from typing import Dict, List, Set
+import re
+from datetime import datetime, timedelta, timezone
+from typing import Dict, List, Optional, Set
 
 logger = logging.getLogger(__name__)
 
@@ -31,6 +33,39 @@ STABLE_TAG_KEYWORDS: Dict[str, Set[str]] = {
 ALL_STABLE_KEYWORDS = {
     keyword for values in STABLE_TAG_KEYWORDS.values() for keyword in values
 }
+
+ART = timezone(timedelta(hours=-3))
+MIN_CHARS_INFORMACION = 60  # texto propio de la fuente, sin contar el título
+_ETIQUETA_HTML = re.compile(r"<[^>]+>")
+
+
+def _texto_limpio(texto: str) -> str:
+    return re.sub(r"\s+", " ", _ETIQUETA_HTML.sub(" ", str(texto or ""))).strip()
+
+
+def has_no_information(title: str, content: str) -> bool:
+    """La fuente solo trae el título, y el título no da ningún dato concreto.
+
+    Regla de Diego (23/11/2026): las noticias que no dicen nada no se publican.
+    Un título sin texto pero con una cifra ("La Fed sube la tasa 0,25%") sí informa.
+    """
+    titulo = _texto_limpio(title)
+    resto = _texto_limpio(content).replace(titulo, "").replace("Leer más", "").strip(" .:-")
+    return len(resto) < MIN_CHARS_INFORMACION and not re.search(r"\d", titulo)
+
+
+def is_after_edition(published: str, edition_date: Optional[str]) -> bool:
+    """La noticia está fechada después del día de la edición (suele ser un anuncio de evento)."""
+    if not edition_date or not published:
+        return False
+    try:
+        fecha = datetime.fromisoformat(str(published).replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if fecha.tzinfo is None:
+        fecha = fecha.replace(tzinfo=timezone.utc)
+    return fecha.astimezone(ART).date() > datetime.strptime(edition_date, "%Y-%m-%d").date()
+
 
 def is_noise(title: str, content: str) -> bool:
     """Determina si un artículo es ruido obvio (lista negra)."""
@@ -71,7 +106,8 @@ def calculate_stable_score(article: Dict) -> int:
 def classify_and_rank(
     articles: List[Dict], 
     max_per_section: int = 3,
-    max_total: int = 15
+    max_total: int = 15,
+    edition_date: Optional[str] = None,
 ) -> List[Dict]:
     """
     Filtra ruido, rankea por estabilidad y devuelve TODAS las no-ruido.
@@ -89,6 +125,16 @@ def classify_and_rank(
     # Paso 1: Filtrar ruido obvio
     filtered = [a for a in articles if not is_noise(a.get("title", ""), a.get("content", ""))]
     logger.info(f"Filtro de ruido: {len(articles)} → {len(filtered)} artículos")
+
+    # Paso 1b: fuera las noticias que no dicen nada y las fechadas después de la edición.
+    sin_info = [a for a in filtered if has_no_information(a.get("title", ""), a.get("content", ""))]
+    futuras = [a for a in filtered if is_after_edition(a.get("published", ""), edition_date)]
+    descartar = {id(a) for a in sin_info + futuras}
+    filtered = [a for a in filtered if id(a) not in descartar]
+    logger.info(
+        "Filtro de información: %d sin datos (solo título) y %d fechadas después de la edición → quedan %d",
+        len(sin_info), len(futuras), len(filtered),
+    )
     
     # Paso 2: Calcular score estable y tags para cada artículo
     for article in filtered:

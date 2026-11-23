@@ -18,9 +18,16 @@ Corrida a mano: pestaña **Actions** → elegir el proceso → **Run workflow**.
 - Antes de procesar, el Diario pregunta a cada modelo si responde y usa primero los que responden.
 - Si un modelo falla, pasa al siguiente aunque sea de otra empresa. Saturado (503): reintenta con
   espera. Sin cuota, sin acceso o sin clave: lo deja de lado por el resto de la corrida.
-- Orden por defecto: `gemini-2.5-flash-lite`, `gemini-2.5-flash`, `claude-haiku-5-5`.
+- Orden por defecto desde el 23/11/2026: `claude-haiku-5-5`, `gemini-2.5-flash-lite`, `gemini-2.5-flash`
+  (resultado de la prueba Gemini contra Claude). El agente Juez usa `claude-haiku-5-5` (variable `LGC_JUDGE_MODELS`).
   Se cambia sin tocar código con la variable `LGC_MODELS`.
 - Cada corrida registra tokens y costo aproximado por modelo (resumen de la corrida).
+
+## Reglas editoriales automáticas (23/11/2026)
+
+- El resumen de cada noticia tiene el largo de los hechos que trae la fuente (máximo 700 caracteres): no hay mínimo ni relleno.
+- No se publican comentarios sobre la fuente o el proceso ("No informado", "contenido limitado", "según el texto"), ni conclusiones o interpretaciones que la fuente no dice.
+- Quedan fuera las noticias que no dicen nada (la fuente trae solo el título y el título no tiene ningún dato), las fechadas después del día de la edición y las que no se pudieron pasar al español.
 
 ## Configuración en GitHub (Settings → Secrets and variables → Actions)
 

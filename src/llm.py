@@ -20,7 +20,13 @@ logger = logging.getLogger(__name__)
 # aunque sea de otra empresa. Se cambian sin tocar código con la variable
 # LGC_MODELS (o la anterior LGC_GEMINI_MODELS), nombres separados por coma.
 # Los modelos cuya clave no está cargada se saltean solos.
-DEFAULT_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash", "claude-haiku-5-5"]
+# Orden decidido el 23/11/2026 tras la prueba Gemini contra Claude (5 días, mismas
+# noticias): Claude Haiku primero; Gemini queda de respaldo.
+DEFAULT_MODELS = ["claude-haiku-5-5", "gemini-2.5-flash-lite", "gemini-2.5-flash"]
+
+# El agente Juez revisa la edición con su propio modelo (LGC_JUDGE_MODELS).
+# Gemini no sirve de Juez: en la prueba se aprobó siempre con observaciones sin sentido.
+DEFAULT_JUDGE_MODELS = ["claude-haiku-5-5"]
 DEFAULT_GEMINI_MODELS = DEFAULT_MODELS  # nombre anterior, se mantiene por compatibilidad
 
 PROVIDER_KEYS = {"gemini": "GEMINI_API_KEY", "anthropic": "ANTHROPIC_API_KEY"}
@@ -52,6 +58,13 @@ def _load_gemini_models() -> List[str]:
 
 GEMINI_MODELS = _load_gemini_models()  # lista configurada (todas las empresas)
 
+
+def judge_models() -> List[str]:
+    """Modelos del agente Juez, en orden. Si ninguno tiene clave, se usan los de la edición."""
+    raw = os.getenv("LGC_JUDGE_MODELS", "")
+    models = [name.strip() for name in raw.split(",") if name.strip()] or list(DEFAULT_JUDGE_MODELS)
+    return [m for m in dict.fromkeys(models) if _has_key(m)]
+
 # Modelos que se usan en la corrida actual: los configurados con clave cargada,
 # reordenados por el chequeo previo (preflight_models).
 ACTIVE_MODELS: List[str] = [m for m in GEMINI_MODELS if _has_key(m)]
@@ -69,6 +82,7 @@ LLM_RUNTIME_METRICS: Dict[str, int] = {
 # leídas y escritas. Sirve para calcular el costo real de cada edición.
 LLM_TOKEN_USAGE: Dict[str, Dict[str, int]] = {}
 LLM_PREFLIGHT: Dict[str, str] = {}
+DROPPED_MODELS: set = set()  # sin cuota, sin acceso o sin clave en esta corrida
 
 
 def reset_llm_runtime_metrics() -> None:
@@ -76,6 +90,7 @@ def reset_llm_runtime_metrics() -> None:
     for key in LLM_RUNTIME_METRICS:
         LLM_RUNTIME_METRICS[key] = 0
     LLM_TOKEN_USAGE.clear()
+    DROPPED_MODELS.clear()
 
 
 def get_llm_runtime_metrics() -> Dict[str, int]:
@@ -187,6 +202,7 @@ def _drop_model(model_name: str, reason: object) -> None:
     """Saca un modelo de la corrida actual (sin cuota, sin acceso, sin clave)."""
     if model_name in ACTIVE_MODELS and len(ACTIVE_MODELS) > 1:
         ACTIVE_MODELS.remove(model_name)
+        DROPPED_MODELS.add(model_name)
         logger.warning("Modelo %s descartado por el resto de la corrida (%s)", model_name, reason)
 
 
@@ -239,16 +255,18 @@ def call_gemini_with_retry(
     max_retries: int = 3,
     initial_delay: float = 5.0,
     debug_label: str = "generic",
+    models: Optional[List[str]] = None,
 ) -> Dict:
     """
     Pide la respuesta a los modelos en orden, con reintentos y cambio de modelo.
+    `models` permite usar otra lista (por ejemplo, la del agente Juez).
 
     El nombre se conserva por compatibilidad: hoy puede responder Gemini o Claude.
     - Saturado (503) o corte de red: reintenta el mismo modelo con espera creciente.
     - Sin cuota, sin acceso o sin clave: pasa al siguiente y lo descarta en la corrida.
     - Respuesta ilegible: intenta repararla y, si no, reintenta.
     """
-    models = list(ACTIVE_MODELS)
+    models = [m for m in (models or []) if _has_key(m)] or list(ACTIVE_MODELS)
     if not models:
         raise ValueError("No hay ninguna clave de modelo cargada (GEMINI_API_KEY o ANTHROPIC_API_KEY)")
 
@@ -267,8 +285,8 @@ def call_gemini_with_retry(
         )
 
     for model_name in models:
-        if model_name not in ACTIVE_MODELS:
-            continue  # descartado durante esta misma llamada
+        if model_name in DROPPED_MODELS:
+            continue  # descartado durante esta misma corrida
         logger.info(f"Intentando con modelo: {model_name}")
 
         for attempt in range(max_retries):

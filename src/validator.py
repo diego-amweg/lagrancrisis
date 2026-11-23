@@ -31,7 +31,7 @@ SPECULATIVE_PATTERNS = [
     r"\bhabría\b",
 ]
 
-SUMMARY_MIN_CHARS = 500
+SUMMARY_MIN_CHARS = 1  # desde el 23/11/2026 no hay largo mínimo: el resumen tiene el largo de los hechos
 
 def tag_sources(articles: List[Dict]) -> List[Dict]:
     """
