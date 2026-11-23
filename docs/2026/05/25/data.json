@@ -1,0 +1,1750 @@
+{
+  "date": "2026-05-25",
+  "cadena_de_razonamiento": "Hay más de cinco noticias validadas con impacto MEDIO o ALTO, por lo que corresponde una síntesis. Eje cambiario: el BCRA reduce su posición vendida en dólar futuro y acumula compras, mientras el dólar se mantiene contenido. Eje inflacionario y fiscal: el FMI cuestiona el IPC y pide reformar el INDEC, y Caputo afirma que el superávit dependerá más de la recaudación. Eje real: la mora, la caída de ventas en supermercados y las alzas de alimentos limitan la recuperación. Riesgo externo: el shock petrolero por la guerra en Irán tendría efectos duraderos y el FMI advierte vulnerabilidad ante riesgos globales.",
+  "resumen_ejecutivo": "El BCRA redujo su posición vendida en dólar futuro por más de USD 4.000 millones en la previa electoral para contener la volatilidad cambiaria. El Gobierno moderó la presión cambiaria en mayo y el BCRA acumula compras por más de US$8800 millones en el año, favorecidas por las exportaciones. El dólar al público avanzó a $1.425 y el riesgo país se acercó a 500 puntos. El FMI recomienda no usar al dólar como ancla antiinflacionaria, pide actualizar la medición de la inflación y advierte que la economía sigue vulnerable ante riesgos globales. Caputo descartó volver al mercado internacional de crédito y detallará cómo afrontará los pagos de deuda hasta 2027. En la economía real, la actividad rebotó en marzo, pero la mora involucra a uno de cada seis adultos y los alimentos subieron hasta 2,6% en la tercera semana de mayo. Las tasas de plazo fijo siguen por debajo de la inflación interanual.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "El Gobierno moderó la presión cambiaria durante mayo",
+      "summary": "El Gobierno logró moderar la presión cambiaria durante mayo. Operadores e inversores recalculan expectativas frente a los desafíos del próximo mes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Mercado cambiario",
+        "Expectativas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/reservas-tasas-y-brecha-las-claves-que-definiran-al-dolar-junio-n6281021",
+      "source_datetime": "2026-05-24T14:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Economistas debaten cifras de una economía heterogénea",
+      "summary": "Cinco economistas examinan las cifras de una actividad con fuertes contrastes entre sectores. Se discuten consumo privado, importaciones, atraso del dólar, empleo y reservas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Consumo",
+        "Importaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/los-cinco-datos-en-debate-de-una-economia-heterogenea-nid24052026",
+      "source_datetime": "2026-05-24T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "El FMI pide actualizar la medición de la inflación",
+      "summary": "El Staff Report de la segunda revisión del programa vigente incluye un pedido del Fondo para actualizar la medición de la inflación. El gobierno explica en el mismo documento por qué no está de acuerdo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "FMI",
+        "Inflación",
+        "Programa"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/el-fmi-pide-reformar-el-bcra-dolar-mas-flexible-y-no-confiar-tanto-en-la-politica-monetaria-que-le-respondio-el-equipo-economico",
+      "source_datetime": "2026-05-23T16:51:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Bolivia: reservas desplomadas, escasez de combustibles y brecha",
+      "summary": "Un columnista describe a Bolivia en un clima prerrevolucionario, con reservas internacionales desplomadas, escasez de combustibles y brecha cambiaria. También menciona una informalidad estructural del 80%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Bolivia",
+        "Reservas",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/columnistas/bolivia-de-perla-del-bolivarianismo-a-tormenta-perfecta-anunciada-y-evitable-por-carlos-burgueno.phtml",
+      "source_datetime": "2026-05-23T05:10:08+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Shock del petróleo por la guerra en Irán tendrá efectos duraderos",
+      "summary": "El shock de la suba del petróleo por la guerra en Irán tendrá efectos más duraderos en Estados Unidos y Europa. Además, se señala una ventana para que el Gobierno emita deuda para vencimientos de 2027.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "BONOS"
+      ],
+      "tags": [
+        "Petróleo",
+        "Guerra en Irán",
+        "Deuda"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/se-complico-la-economia-global-al-mismo-tiempo-que-la-economia-local-vuelve-a-dar-signos-positivos-nid24052026",
+      "source_datetime": "2026-05-24T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Mejora del EMAE, desembolso del FMI y compras de divisas",
+      "summary": "Se mencionan la mejora del EMAE en marzo, el desembolso de USD 1.000 millones del FMI y las compras de divisas en el mercado oficial. También se calcula un costo de oportunidad hacia octubre de 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Bonos",
+        "EMAE",
+        "FMI"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/05/23/actividad-y-reservas-reavivaron-el-apetito-por-bonos-globales-y-cambiaron-la-lectura-del-riesgo-pais",
+      "source_datetime": "2026-05-23T04:01:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "El FMI publica proyecciones para la Argentina hasta 2028",
+      "summary": "El FMI publicó su informe técnico sobre Argentina tras aprobar la segunda revisión del programa. El informe incluye proyecciones para 2026, 2027 y 2028.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "FMI",
+        "Proyecciones",
+        "Argentina"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/inflacion-actividad-economica-cuentas-fiscales-y-reservas-que-proyecciones-hace-el-fmi-para-la-argentina",
+      "source_datetime": "2026-05-23T04:02:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "El FMI recomienda no usar al dólar como ancla antiinflacionaria",
+      "summary": "El organismo recomienda no utilizar al dólar como ancla y propone un esquema de metas de inflación basado en una tasa de interés de referencia. También sugiere ampliar el impuesto a las Ganancias al menos al 20% de los trabajadores.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "FMI",
+        "Metas de inflación",
+        "Ganancias"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-fmi-quiere-un-tipo-cambio-mas-flexible-y-otro-modelo-antiinflacionario-n6280978",
+      "source_datetime": "2026-05-24T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Consultoras relevan alza de hasta 2,6% en alimentos en mayo",
+      "summary": "Relevamientos de consultoras marcan un salto de hasta 2,6% en alimentos y bebidas en la tercera semana de mayo. También se menciona una proyección del IPC y la ayuda de YPF con las naftas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Alimentos",
+        "YPF"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/25/inflacion-en-mayo-volvieron-a-acelerarse-los-precios-de-alimentos-y-bebidas",
+      "source_datetime": "2026-05-25T04:16:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Tasas de plazo fijo siguen por debajo de la inflación interanual",
+      "summary": "Las tasas de plazo fijo continúan por debajo de la inflación interanual registrada durante el año.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Plazo fijo",
+        "Tasas",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/rinde-el-plazo-fijo-cuanto-podes-generar-50000-30-dias-n6280664",
+      "source_datetime": "2026-05-24T15:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "S&P destaca avances fiscales pero pide más resistencia a shocks",
+      "summary": "S&P destacó avances fiscales y en la baja de la inflación, pero advirtió que el Gobierno todavía necesita construir condiciones para resistir shocks externos. Se menciona también la volatilidad electoral de 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "S&P",
+        "Calificación",
+        "Fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/para-sp-cubrir-los-pagos-de-deuda-es-necesario-pero-no-suficiente-para-subir-la-nota-argentina-nid24052026",
+      "source_datetime": "2026-05-24T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Caputo detallará pagos de deuda hasta las elecciones de 2027",
+      "summary": "Caputo publicará el detalle de cómo se afrontarán los pagos de deuda hasta las elecciones de 2027. Busca despejar dudas sobre los vencimientos en dólares.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Deuda",
+        "Vencimientos",
+        "Caputo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/caputo-publicara-el-detalle-de-como-la-argentina-afrontara-los-pagos-de-la-deuda-hasta-las-nid24052026",
+      "source_datetime": "2026-05-24T10:23:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "El FMI publica informe sobre la segunda revisión del acuerdo",
+      "summary": "El reporte corresponde a la segunda revisión del acuerdo de Facilidades Extendidas. Allí el FMI dio nuevas estimaciones sobre inflación, ajuste fiscal y acumulación de reservas. Se menciona también un giro de u$s1.000 millones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "FMI",
+        "Reservas",
+        "Facilidades Extendidas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-fmi-publico-un-informe-sus-proyecciones-la-argentina-que-espera-y-cuales-fueron-las-repercusiones-n6280886",
+      "source_datetime": "2026-05-23T18:35:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Banco Central acumula compras por más de US$8800 millones en el año",
+      "summary": "El Banco Central adquirió más de US$8800 millones en lo que va del año, favorecido por el aumento de las exportaciones. Se señala que la economía enfrenta vencimientos por $11 billones esta semana.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Compras de divisas",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-frente-externo-trae-dolares-y-permanece-muy-solido-nid24052026",
+      "source_datetime": "2026-05-24T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "BCRA reduce posición vendida en dólar futuro por más de USD 4.000 millones",
+      "summary": "El BCRA apeló a contratos de dólar futuro en la previa electoral para contener la volatilidad cambiaria. La entidad redujo su posición vendida en más de USD 4.000 millones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Dólar futuro",
+        "Volatilidad cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/25/el-gobierno-avanza-con-el-desarme-de-la-cobertura-millonaria-que-ofrecio-antes-de-las-elecciones-para-frenar-el-dolar",
+      "source_datetime": "2026-05-25T04:17:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Semana intensa con foco en bonos del Tesoro norteamericano",
+      "summary": "Luego del feriado en Argentina y EEUU se espera una semana intensa. El foco está en los bonos del Tesoro norteamericano.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Bonos del Tesoro",
+        "Estados Unidos",
+        "Agenda semanal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/25/coincidencia-de-las-consultoras-mejoraron-algunos-indicadores-pero-sigue-la-incertidumbre-por-la-eleccion-de-2027",
+      "source_datetime": "2026-05-25T04:15:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "FMI cuestiona el IPC argentino y reclama reforma del INDEC",
+      "summary": "El organismo afirmó que el IPC oficial está desactualizado y reclamó una reforma del INDEC.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "FMI",
+        "INDEC",
+        "IPC"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/politica/el-fmi-cuestiono-el-indice-de-inflacion-argentino-y-pidio-una-nueva-ley-para-el-indec.phtml",
+      "source_datetime": "2026-05-24T04:31:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "El ADR de YPF anota una suba de más de 30% en 2026",
+      "summary": "El ADR de YPF anota una suba de más de 30% en 2026. Se mencionan el encarecimiento del petróleo, proyectos de inversión y una capitalización bursátil que superó los USD 20.000 millones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "YPF",
+        "ADR",
+        "Petróleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/25/las-acciones-ypf-en-record-los-5-factores-que-impulsaron-la-cotizacion-a-precios-maximos",
+      "source_datetime": "2026-05-25T04:17:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "El boleto cubre menos de un tercio del costo del transporte público",
+      "summary": "El boleto cubre menos de un tercio del costo del sistema de transporte público, que depende del Tesoro. Crisis económicas, populismo tarifario y falta de planificación consolidaron ese esquema.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Transporte público",
+        "Tarifas",
+        "Tesoro"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/transporte-publico-pese-a-los-aumentos-el-boleto-cubre-menos-de-un-tercio-del-costo-del-sistema-nid23052026",
+      "source_datetime": "2026-05-24T00:26:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Gas: la boleta familiar subió 100% en mayo y hubo recortes a fábricas",
+      "summary": "En mayo la boleta de consumo familiar subió 100% y ya hubo recortes a fábricas. Se estima que el gas aportará decenas de miles de millones de dólares, condicionado a pasar el invierno.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Gas",
+        "Tarifas",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/las-dos-caras-del-gas-aumento-de-la-factura-familiar-y-cortes-a-empresas-versus-aporte-de-dolares-y-potencial-de-industrializacion-y-empleo",
+      "source_datetime": "2026-05-24T04:06:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Oferta de dólares récord y actividad en máximos en la economía",
+      "summary": "Fue la mejor semana de indicadores económicos. La oferta de dólares es récord y la actividad está en máximos, pero los bolsillos de la mayoría aún no lo sienten.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "FMI",
+        "Dólar",
+        "Actividad económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/el-fmi-elogio-al-gobierno-pero-enciende-luces-amarillas-incertidumbre-electoral-fatiga-social-y-percepcion-de-corrupcion",
+      "source_datetime": "2026-05-24T05:08:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Navajas analiza la estrategia de Milei y los factores de la desinflación",
+      "summary": "Fernando Navajas analizó la estrategia de Javier Milei, el cuadro macro de 2026 y los factores que pueden sostener o frenar la desinflación: inversión, tipo de cambio, energía y productividad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Desinflación",
+        "Fernando Navajas",
+        "Macroeconomía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/fernando-navajas-de-fiel-hay-algo-peor-a-un-sistema-de-bandas-cambiarias-que-es-una-banda-de-sistemas-cambiarios",
+      "source_datetime": "2026-05-24T04:06:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Stock de 0km sin vender equivale a tres meses y hay rebajas de precios",
+      "summary": "Nuevas listas de precios en dos terminales a una semana del cierre del mes. El stock de autos sin vender equivale a tres meses, pero salir a vender por debajo del costo puede generar una burbuja.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Autos 0km",
+        "Mercado automotor",
+        "Precios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/guerra-por-las-ventas-por-que-algunas-rebajas-de-precios-de-0km-pueden-ser-un-bumeran-para-el-mercado-automotor",
+      "source_datetime": "2026-05-24T04:06:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "FMI señala que la metodología de inflación no está actualizada",
+      "summary": "El reporte del staff indica que la metodología no está actualizada y que la actual canasta del IPC es menos representativa. El Gobierno se comprometió a cambiarla cuando la desinflación esté consolidada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "IPC",
+        "FMI"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-fmi-dijo-que-el-dato-oficial-de-inflacion-esta-desactualizado-y-pidio-una-nueva-ley-para-el-indec-nid23052026",
+      "source_datetime": "2026-05-23T19:45:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "FMI advierte que la economía sigue vulnerable ante riesgos globales",
+      "summary": "El Staff Report advierte sobre tensiones geopolíticas internacionales y señala incertidumbre política interna. En caso de crisis no excluye usar el tipo de cambio como amortiguador.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "FMI",
+        "Riesgo global",
+        "Tipo de cambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/pese-a-los-elogios-el-fmi-aseguro-que-la-economia-sigue-siendo-vulnerable-y-advirtio-sobre-los-riesgos-por-el-contexto-global",
+      "source_datetime": "2026-05-23T04:03:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Acciones argentinas subieron hasta 9% y riesgo país se acercó a 500",
+      "summary": "Las acciones argentinas subieron hasta 9% y el riesgo país se acercó a los 500 puntos. El S&P Merval subió 5%. El dólar al público avanzó a $1.425 en el banco Nación y el BCRA absorbió USD 900 millones en el mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Acciones",
+        "Riesgo país",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/semana-financiera-las-acciones-argentinas-subieron-hasta-9-y-el-riesgo-pais-se-acerco-a-los-500-puntos",
+      "source_datetime": "2026-05-23T04:02:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Los 10 gráficos que mira el mercado para proyectar el dólar",
+      "summary": "El mercado mira 10 gráficos para proyectar qué puede pasar con el dólar: ¿sube o baja?",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Mercado cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/los-10-graficos-que-mira-el-mercado-para-proyectar-que-puede-pasar-con-el-dolar-sube-o-baja",
+      "source_datetime": "2026-05-23T09:00:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Universidades vuelven a movilizarse ante el ajuste del Gobierno",
+      "summary": "El Gobierno nacional profundiza el ajuste sobre el sistema universitario y las universidades vuelven a movilizarse en las calles. El debate aparece atrapado entre el desfinanciamiento y la falta de reformas estructurales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Universidades",
+        "Ajuste fiscal",
+        "Educación"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/la-universidad-no-se-defiende-con-nostalgia.phtml",
+      "source_datetime": "2026-05-24T01:48:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Dal Poggetto advierte atraso cambiario y aumento de costos domésticos",
+      "summary": "Dal Poggetto, directora de EcoGo, identifica un atraso cambiario con un set de precios relativos que convalida un aumento en los costos domésticos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Atraso cambiario",
+        "EcoGo",
+        "Costos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/nea/dal-poggetto-el-gobierno-esta-intentando-un-cambio-en-la-estructura-politica-economica-y-social-de-la-argentina.phtml",
+      "source_datetime": "2026-05-23T16:16:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Filipinas encabeza el ranking de mayores aumentos de combustibles",
+      "summary": "El conflicto entre EEUU e Irán tuvo un fuerte impacto sobre los precios energéticos. La lista de países con mayores aumentos de combustibles está encabezada por Filipinas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Combustibles",
+        "Medio Oriente",
+        "Precios energéticos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-ranking-global-los-combustibles-la-guerra-medio-oriente-que-paises-tuvieron-las-mayores-aumentos-y-como-quedo-argentina-n6280854",
+      "source_datetime": "2026-05-23T14:59:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Cumplir la meta con el FMI exigiría recortar más el gasto no indexado",
+      "summary": "Para cumplir la meta de superávit primario acordada con el FMI en 2026, el Gobierno deberá profundizar el ajuste sobre el gasto no indexado. Jubilaciones, AUH y asignaciones familiares se mantendrían prácticamente en línea con los niveles reales de 2023. El resto del gasto acumularía una caída cercana al 47% en tres años.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Superávit primario",
+        "Gasto público",
+        "FMI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/gasto-publico-el-gobierno-deberia-recortar-mas-6-cumplir-la-meta-el-fmi-n6281041",
+      "source_datetime": "2026-05-24T16:03:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "La SIDE quedó fuera de los ajustes; presupuesto de $97 mil millones",
+      "summary": "La SIDE quedó fuera de los ajustes en las partidas oficializadas en el Boletín Oficial. Tiene un presupuesto de $ 97 mil millones, de los cuales $ 19 mil millones son para gastos reservados. Los gastos reservados quedaron bajo control de una comisión legislativa presidida por Sebastián Pareja.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "SIDE",
+        "Gastos reservados",
+        "Presupuesto"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/la-motosierra-no-paso-por-la-side-que-ya-destino-casi-3800-millones-a-gastos-reservados.phtml",
+      "source_datetime": "2026-05-23T13:39:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "38",
+      "headline": "Encuestas de marzo y abril muestran cautela y críticas al plan",
+      "summary": "Las encuestas relevadas durante marzo y abril reflejaron la continuidad de un clima cargado de cautela, desgastes y críticas al plan.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Encuestas",
+        "Opinión pública"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-mercado-ya-mira-el-2027-por-luis-secco.phtml",
+      "source_datetime": "2026-05-23T06:41:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Retenciones: alivios graduales mientras se sostiene el superávit",
+      "summary": "La mejora de la actividad y el repunte exportador le dieron margen al oficialismo para avanzar con alivios graduales. Persisten restricciones sobre las cuentas públicas y la prioridad sigue puesta en sostener el superávit.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Retenciones",
+        "Superávit fiscal",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/retenciones-si-fal-no-el-gobierno-ajusta-el-timing-fiscal-sostener-el-superavit-n6280762",
+      "source_datetime": "2026-05-24T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Abuchdid: quien compró dólares especulando con devaluación le fue mal",
+      "summary": "Juan Ignacio Abuchdid (Grupo IEB) afirma que quien compró dólares especulando con una devaluación le fue muy mal. Apuesta a que Javier Milei ganará en 2027 y considera que el dólar no tendrá una corrección abrupta.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Devaluación",
+        "Juan Ignacio Abuchdid"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/juan-ignacio-abuchdid-grupo-ieb-al-que-compro-dolares-le-fue-muy-mal-especulando-una-devaluacion-n6280675",
+      "source_datetime": "2026-05-24T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Caputo descarta volver al mercado internacional de crédito",
+      "summary": "Luis Caputo descartó volver al mercado internacional de crédito. En 2026 el país deberá afrontar alrededor de u$s20.000 millones de deuda. La cifra genera dudas en la city y en el propio FMI. No es necesario convalidar una tasa del 10%.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Deuda pública",
+        "Caputo",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/luis-caputo-descarto-volver-al-mercado-internacional-credito-no-es-necesario-convalidar-una-tasa-del-10-n6280910",
+      "source_datetime": "2026-05-23T20:20:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "Cae el plazo fijo y se publica el ranking de tasas por banco",
+      "summary": "Cae el plazo fijo y se publica el ranking de tasas según cada banco. Los movimientos del mercado afectan el valor final de recuperación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Plazo fijo",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cae-el-plazo-fijo-como-queda-el-ranking-tasas-segun-cada-banco-n6279777",
+      "source_datetime": "2026-05-23T11:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "Gobierno licitará obra para reducir cortes de luz en el AMBA",
+      "summary": "El Gobierno licitará una obra para reducir cortes de luz en el AMBA, que se paga por tramos a cargo de los usuarios. Apunta a fortalecer el sistema de transporte eléctrico y se complementará con nuevas licitaciones de almacenamiento y generación térmica. Tendrá financiamiento privado con garantías del BID.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Energía",
+        "AMBA",
+        "Licitación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-gobierno-licitara-una-obra-clave-para-reducir-cortes-de-luz-en-el-amba-y-la-pagaran-por-tramos-nid24052026",
+      "source_datetime": "2026-05-24T22:14:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Quatrin defiende la desregulación de la actividad yerbatera",
+      "summary": "Gustavo Quatrin, CEO de Playadito, defendió la desregulación impulsada por Milei en un debate convocado por diputados sobre la situación de la actividad. Sostuvo que la solución está en el mercado.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Yerba mate",
+        "Desregulación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/la-solucion-esta-en-el-mercado-la-yerbatera-mas-grande-de-la-argentina-defendio-la-desregulacion-que-nid24052026",
+      "source_datetime": "2026-05-24T12:14:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Exportaciones récord de carne y consumo interno en caída",
+      "summary": "Las exportaciones de carne vacuna alcanzan niveles récord mientras los precios subieron casi 70% en un año. La demanda interna por habitante bajó a 47,3 kilos anuales y la caída de la faena ajusta la oferta. El sector proyecta un nuevo descenso del consumo y exportaciones crecientes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Carne vacuna",
+        "Exportaciones",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/carne-vacuna-exportaciones-record-y-precios-que-subieron-casi-70-en-un-ano-anticipan-el-menor-consumo-en-dos-decadas",
+      "source_datetime": "2026-05-24T13:19:51+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Ford: no hay espacio para seguir bajando precios de autos",
+      "summary": "Martín Galdeano, presidente de Ford, afirmó que no hay espacio para seguir bajando precios, salvo que sigan sacando impuestos. Analizó el mercado automotor argentino.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Automotor",
+        "Precios",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/martin-galdeano-presidente-de-ford-no-hay-espacio-para-seguir-bajando-precios-salvo-que-sigan-sacando-impuestos",
+      "source_datetime": "2026-05-23T04:02:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "53",
+      "headline": "La disciplina fiscal resiste pese a la caída de ingresos",
+      "summary": "La disciplina fiscal resiste, pero la caída de ingresos y las presiones sobre el gasto anticipan un escenario. El superávit dependerá de decisiones cada vez más precisas y menos automáticas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Fiscal",
+        "Superávit",
+        "Gasto público"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/05/24/continuidad-fiscal-sin-comodidad",
+      "source_datetime": "2026-05-24T04:06:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "54",
+      "headline": "Dólar se mantiene igual que el último día hábil",
+      "summary": "La cotización del dólar se mantiene igual que el último día hábil. Se informa el comportamiento del dólar blue y de los dólares financieros.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Dólar blue",
+        "Dólares financieros"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-24-de-mayo-nid24052026",
+      "source_datetime": "2026-05-24T09:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "55",
+      "headline": "Informe ve a Argentina al inicio de un boom como el de Colombia",
+      "summary": "Según una firma de inversión, Argentina está al inicio de un boom económico similar al de Colombia de 2009 a 2013. Destaca el reciente ritmo de compra de dólares y la mejora de los términos de intercambio.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Boom económico",
+        "Compra de dólares",
+        "Términos de intercambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/segun-un-informe-pese-al-circo-politico-argentina-esta-al-inicio-de-un-boom-economico-como-el-que-vivio-colombia-de-2009-a-2013",
+      "source_datetime": "2026-05-24T22:49:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "56",
+      "headline": "Crédito en dólares crece 12 veces más que el crédito en pesos",
+      "summary": "En lo que va del gobierno de Milei, el crédito en dólares creció 12 veces más que el crédito en pesos. El financiamiento en dólares tuvo un aumento igual al 4,8% del PBI, mientras que en pesos la mejora fue de solo 0,4%. Un informe privado destaca el desafío de aumentar la parte en moneda local.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Crédito",
+        "Dólar",
+        "Moneda local"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/en-lo-que-va-del-gobierno-de-milei-el-credito-en-dolares-crecio-12-veces-mas-que-el-credito-en-pesos",
+      "source_datetime": "2026-05-24T22:04:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Di Stéfano: los dólares ya no son objeto de deseo",
+      "summary": "Salvador di Stéfano afirmó que los dólares ya no son objeto de deseo y que todos los que compraron perdieron plata. Describió un \"cambio de régimen\" al que deben adaptarse todos los sectores. Pronosticó un fuerte crecimiento del PBI y de las exportaciones y desechó el \"riesgo kuka\".",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "PBI",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/salvador-di-stefano-los-dolares-ya-no-son-objeto-de-deseo-todos-los-que-compraron-perdieron-plata",
+      "source_datetime": "2026-05-24T14:49:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "59",
+      "headline": "Diputados dan media sanción a la reordenación del régimen de Zona Fría",
+      "summary": "La Cámara de Diputados dio media sanción a un proyecto que reordena el régimen de Zona Fría. La iniciativa busca regularizar la deuda del Mercado Eléctrico Mayorista con Cammesa, deroga incentivos y prorroga beneficios fiscales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Zona Fría",
+        "Cammesa",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/05/24/emergencia-permanente-por-que-el-sistema-energetico-argentino-necesita-nuevas-reglas",
+      "source_datetime": "2026-05-24T04:05:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "Licitación contra cortes de luz en el AMBA se financiará con tarifas",
+      "summary": "La licitación para reducir cortes de luz en el AMBA trasladará costos a los vecinos. La obra tendrá financiamiento privado con garantías del BID y se financiará con aumentos tarifarios por tramos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Energía",
+        "AMBA",
+        "Tarifas"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/licitacion-clave-para-reducir-cortes-de-luz-en-el-amba-trasladara-los-costos-a-los-vecinos.phtml",
+      "source_datetime": "2026-05-25T05:51:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "61",
+      "headline": "Actividad económica rebotó en marzo y supera previsiones",
+      "summary": "La actividad económica rebotó en marzo y la recuperación supera las previsiones. Existen dudas entre analistas sobre cuánto durará el impulso. El ministro Caputo proyectó los \"mejores 18 meses\" en dos décadas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Caputo",
+        "Proyecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/la-actividad-economica-reboto-en-marzo-y-el-gobierno-celebro-que-anticipan-los-economistas-para-los-siguientes-meses",
+      "source_datetime": "2026-05-24T00:16:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "62",
+      "headline": "Gobierno avanza en privatización de la red vial nacional",
+      "summary": "El Gobierno avanza en la privatización de gran parte de la red nacional vial. Hay etapas adjudicadas y otras en proceso. Aparecen ejecutivos mencionados en la investigación por corrupción durante el kirchnerismo.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Privatización",
+        "Obra pública",
+        "Red vial"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/de-la-causa-cuadernos-a-la-obra-publica-libertaria-los-empresarios-que-se-quedaran-con-las-rutas.phtml",
+      "source_datetime": "2026-05-24T10:28:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "63",
+      "headline": "Caputo: el superávit dependerá más de la recaudación",
+      "summary": "Caputo planteó que la próxima etapa del equilibrio de las cuentas públicas dependerá menos de la \"motosierra\". Dependerá más de un repunte de recaudación por más actividad y registración de trabajadores.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Superávit fiscal",
+        "Recaudación",
+        "Caputo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/caputo-reconocio-poco-margen-para-mas-recortes-apuesta-al-crecimiento-y-al-empleo-formal-para-sostener-el-superavit-fiscal",
+      "source_datetime": "2026-05-23T21:54:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "Ministerio reconoce que no hay resoluciones sobre el data center",
+      "summary": "Se anunció la construcción de un data center de OpenAI. El Ministerio de Economía reconoció que no existen resoluciones al respecto. Según el Observatorio del RIGI, la iniciativa ni siquiera fue presentada.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Data center",
+        "OpenAI",
+        "RIGI"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/sin-rastros-de-stargate-el-proyecto-que-anuncio-presidencia-antes-de-las-legislativas.phtml",
+      "source_datetime": "2026-05-24T10:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "66",
+      "headline": "Acuerdo México-UE puede desplazar productos argentinos",
+      "summary": "La eliminación de aranceles para el 99% del intercambio entre México y la Unión Europea podría desplazar productos argentinos del mercado mexicano. Afecta especialmente alimentos, lácteos y aceites y eleva la competencia para toda América Latina.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Comercio exterior",
+        "México",
+        "Unión Europea",
+        "Agro"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-acuerdo-mexico-union-europea-reconfigura-el-comercio-regional-y-genera-inquietud-el-agro-argentino-n6281055",
+      "source_datetime": "2026-05-24T17:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "67",
+      "headline": "Dudas sobre reelección de Milei frenan entusiasmo del mercado",
+      "summary": "Las dudas sobre la reelección del actual mandatario y la necesidad de asegurar el giro de dividendos al exterior apagaron el entusiasmo inicial del mercado. Capitales extranjeros y empresas nacionales activaron planes de contingencia.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inversiones",
+        "Reelección",
+        "Giro de dividendos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/los-grandes-capitales-ven-peligrar-la-reeleccion-de-javier-milei-y-congelan-inversiones-en-la-argentina-a40.phtml",
+      "source_datetime": "2026-05-24T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "68",
+      "headline": "Banco Central revela viraje en el mercado y auge de billeteras virtuales",
+      "summary": "Un informe del Banco Central revela un viraje en el comportamiento del mercado financiero. Crece el auge de las billeteras virtuales y se reconfiguran las carteras de los ahorristas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Banco Central",
+        "Billeteras virtuales",
+        "Ahorro"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/como-cambiaron-las-preferencias-de-los-ahorristas-y-la-oferta-de-credito-desde-la-victoria-oficial-en-las-elecciones-de-octubre",
+      "source_datetime": "2026-05-23T16:58:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "69",
+      "headline": "Baja de retenciones al trigo y cebada mejora márgenes agrícolas",
+      "summary": "La Bolsa de Comercio de Rosario destacó la baja de retenciones al trigo y la cebada. La medida mejora los márgenes agrícolas en un contexto de fuerte suba de costos de fertilizantes y logística. Podría impulsar siembra, inversión y exportaciones para la campaña fina.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Trigo",
+        "Cebada",
+        "Bolsa de Comercio de Rosario"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/baja-retenciones-estiman-que-mejorara-la-rentabilidad-agricola-y-ayudara-sostener-exportaciones-n6281049",
+      "source_datetime": "2026-05-24T16:44:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "70",
+      "headline": "La mora ya involucra a uno de cada seis adultos",
+      "summary": "La irregularidad en el pago de préstamos involucra a uno de cada seis adultos. El problema se multiplicó desde la llegada de Javier Milei. Los préstamos por montos menores concentran el mayor incumplimiento. La situación no parece que mejorará este año y podría complicar un rebote de la economía.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Mora",
+        "Préstamos",
+        "Crédito"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/la-mora-ya-afecta-a-mas-de-6-millones-de-personas.phtml",
+      "source_datetime": "2026-05-24T07:27:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "71",
+      "headline": "Paritarias cierran aumentos por debajo de las previsiones de inflación",
+      "summary": "Las negociaciones salariales cierran aumentos inferiores a las previsiones de inflación. Se introducen mecanismos compensatorios para atenuar la pérdida de poder de compra.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Paritarias",
+        "Inflación",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/una-por-una-como-quedaron-las-paritarias-de-los-principales-gremios",
+      "source_datetime": "2026-05-23T04:01:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "73",
+      "headline": "Crece la tensión por el ajuste y las dudas sobre el plan económico",
+      "summary": "Crece la tensión por el ajuste dentro del oficialismo. Las dudas sobre el rumbo empiezan a trasladarse también al plan económico. Se menciona el 'efecto serrucho'.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Oficialismo",
+        "Plan económico",
+        "Efecto serrucho"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/crece-la-tension-el-ajuste-y-se-afianza-el-efecto-serrucho-aparecen-senales-keynesianas-n6280885",
+      "source_datetime": "2026-05-24T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "74",
+      "headline": "Roulet: la baja de retenciones de Milei no compensa el aumento de costos",
+      "summary": "Néstor Roulet afirma que la baja de retenciones anunciada por Milei no alcanza a compensar el aumento de costos. El alivio fiscal es insuficiente frente al incremento de insumos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Costos",
+        "Néstor Roulet"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/retenciones-afirman-que-la-baja-anunciada-por-milei-no-alcanza-a-compensar-el-aumento-de-costos.phtml",
+      "source_datetime": "2026-05-24T01:49:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "75",
+      "headline": "UIA celebra baja de retenciones industriales y pide acompañar a provincias",
+      "summary": "La UIA celebró la baja de retenciones industriales y exigió a provincias y municipios 'acompañar el proceso'. Desde el Ministerio de Economía se confirmó que los Derechos de Exportación bajarán en 0,375 p.p. El objetivo final es llegar a cero en junio de 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "UIA",
+        "Retenciones industriales",
+        "Derechos de Exportación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-uia-celebro-la-baja-retenciones-industriales-y-exigio-provincias-y-municipios-acompanar-el-proceso-n6280851",
+      "source_datetime": "2026-05-23T14:17:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "76",
+      "headline": "Pese a buenos datos del EMAE, el mercado advierte un abril complejo",
+      "summary": "Hay buenos datos del EMAE y de la balanza comercial, pero el mercado advierte por un abril complejo en la economía real. El ajuste fiscal está al límite.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "EMAE",
+        "Balanza comercial",
+        "Ajuste fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/se-agoto-el-rebote-economico-abril-advierten-que-el-ajuste-fiscal-llega-al-limite-y-fuerza-nuevas-estrategias-n6280581",
+      "source_datetime": "2026-05-23T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "77",
+      "headline": "Milei promete eliminar retenciones a la soja si es reelecto en 2027",
+      "summary": "Milei se comprometió a bajar a cero las retenciones a la soja, condicionado a su reelección en 2027. El anuncio se realizó en medio de una cosecha récord. A partir de junio, la cebada y el trigo tendrán 5,5% de derechos de exportación, lo que implica una baja de dos puntos porcentuales.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Soja",
+        "Cosecha récord"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/en-modo-campana-javier-milei-prometio-que-eliminara-las-retenciones-de-la-soja-al-campo.phtml",
+      "source_datetime": "2026-05-23T06:38:21+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "79",
+      "headline": "Caputo: no habrá ajuste adicional para compensar baja de retenciones",
+      "summary": "Caputo afirmó que no habrá 'ajuste' adicional para compensar la baja de retenciones al agro. Explicó el cronograma de recorte a los derechos de exportación para granos e industria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Caputo",
+        "Retenciones",
+        "Derechos de exportación"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/luis-caputo-afirmo-que-no-habra-ajuste-adicional-para-compensar-la-baja-de-retenciones-al-agro-a40.phtml",
+      "source_datetime": "2026-05-23T04:54:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "81",
+      "headline": "Marín: el buffer en la nafta seguirá 30 días y no es un subsidio",
+      "summary": "Horacio Marín afirmó que el buffer en el precio de la nafta continuará durante 30 días e insistió en que se trata de un incentivo y no un subsidio. Se menciona un freno aplicado por YPF al precio de la nafta.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "YPF",
+        "Nafta",
+        "Horacio Marín"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/lnmas/horacio-marin-aseguro-que-ypf-incrementara-su-nivel-de-actividad-un-50-en-un-ano-nid24052026",
+      "source_datetime": "2026-05-25T02:49:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "90",
+      "headline": "Caputo se comprometió con el FMI a posponer partes de la reforma laboral",
+      "summary": "El Gobierno negoció con el FMI posponer partes de la reforma laboral. En caso de ser necesario, tomará tres medidas para lograr el saldo primario de 2026. El objetivo es garantizar el superávit fiscal.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "FMI",
+        "Reforma laboral",
+        "Superávit fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/25/caputo-se-comprometio-con-el-fmi-a-posponer-partes-de-la-reforma-laboral-para-garantizar-el-superavit-fiscal",
+      "source_datetime": "2026-05-25T04:18:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "91",
+      "headline": "Ventas al exterior de alfalfa crecen 92% en el primer trimestre",
+      "summary": "En el primer trimestre las ventas al exterior de alfalfa y sus derivados crecieron un 92%. Hay interés de Brasil y países de Medio Oriente.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Alfalfa",
+        "Exportaciones",
+        "Brasil",
+        "Medio Oriente"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/lo-piden-de-todo-el-mundo-ya-se-exportaron-mas-de-90000-toneladas-de-un-cultivo-que-es-sensacion-nid20052026",
+      "source_datetime": "2026-05-24T12:18:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "92",
+      "headline": "Baja de retenciones al agro mejora la capacidad de pago del sector",
+      "summary": "La medida mejora la capacidad de pago del sector y busca impulsar la siembra y la inversión en el campo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Agro",
+        "Inversión"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/25/baja-de-retenciones-al-agro-cuanto-menos-recaudara-el-estado-y-cuanto-ganara-el-productor",
+      "source_datetime": "2026-05-25T04:16:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "93",
+      "headline": "Ricardo Delgado: la mora puede limitar la recuperación de corto plazo",
+      "summary": "Ricardo Delgado sostiene que el problema de la mora hay que resolverlo, porque puede limitar la recuperación de corto plazo.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Mora",
+        "Recuperación económica",
+        "Ricardo Delgado"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/ricardo-delgado-el-problema-de-la-mora-hay-que-resolverlo-puede-limitar-la-recuperacion-de-corto-nid24052026",
+      "source_datetime": "2026-05-24T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "96",
+      "headline": "Ventas de supermercados caen en 21 provincias en el primer trimestre",
+      "summary": "Las ventas de supermercados cayeron en 21 provincias en el primer trimestre, con caídas de hasta 10,7% en términos reales entre enero y marzo. El peor mes fue marzo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Supermercados",
+        "Consumo",
+        "Provincias"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/24/en-el-primer-trimestre-las-ventas-de-los-supermercados-cayeron-en-21-provincias-argentinas",
+      "source_datetime": "2026-05-24T22:47:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "101",
+      "headline": "FMI: el Gobierno se compromete a presentar una reforma tributaria a fin de año",
+      "summary": "El Gobierno se comprometió a presentar una reforma tributaria a fin de año, y la reforma previsional quedaría para después de 2027. El staff del Fondo sugirió avanzar sobre retenciones, impuesto al cheque e Ingresos Brutos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "FMI",
+        "Reforma tributaria",
+        "Reforma previsional"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/fmi-el-gobierno-se-comprometio-a-presentar-una-reforma-tributaria-a-fin-de-ano-y-la-previsional-para-nid23052026",
+      "source_datetime": "2026-05-23T21:48:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "103",
+      "headline": "La UIA celebró la baja gradual de retenciones a productos industrializados",
+      "summary": "La Unión Industrial Argentina celebró la baja gradual de retenciones para productos industrializados. La entidad señaló que la medida \"avanza en el sentido correcto\".",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Retenciones",
+        "UIA",
+        "Industria"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/retenciones-la-uia-celebro-la-baja-gradual-para-productos-industrializados-nid23052026",
+      "source_datetime": "2026-05-23T14:30:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "106",
+      "headline": "Ingreso a parques nacionales sube más de 100% y recortan áreas protegidas",
+      "summary": "El costo de ingreso a parques nacionales aumentó hasta más del 100%. El Gobierno recortó más de $2.500 millones del presupuesto para áreas protegidas. Hoteles y restaurantes pidieron una tregua fiscal ante la caída del consumo y el aumento de costos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Parques nacionales",
+        "Presupuesto",
+        "Turismo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/el-gobierno-quiere-dinamizar-el-turismo-pero-aumento-hasta-mas-del-100-el-costo-de-ingreso-a-parques-nacionales",
+      "source_datetime": "2026-05-23T23:23:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "107",
+      "headline": "Baja de retenciones a granos gruesos será más amplia desde 2028",
+      "summary": "La reducción de las alícuotas de retenciones para los granos gruesos será más amplia a partir de 2028 en un hipotético segundo mandato de Milei.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Granos gruesos",
+        "Milei"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/un-anuncio-positivo-en-el-comienzo-de-la-campana-de-granos-finos-aunque-con-condicionantes-politicos-nid23052026",
+      "source_datetime": "2026-05-23T09:50:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "109",
+      "headline": "Baja de retenciones a la soja costaría US$300 millones fiscales en 2027",
+      "summary": "El costo fiscal de la baja de retenciones en soja será de US$300 millones en 2027. Un estudio analizó el impacto de la reducción del impuesto anunciada por el presidente Javier Milei.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Soja",
+        "Retenciones",
+        "Costo fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/baja-de-retenciones-el-costo-fiscal-en-soja-sera-de-us300-millones-en-2027-nid22052026",
+      "source_datetime": "2026-05-23T09:48:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "110",
+      "headline": "El Gobierno anuncia una baja gradual de retenciones a varios sectores industriales",
+      "summary": "El Gobierno anunció una baja gradual de retenciones a varios sectores manufactureros. La UIA lo celebró en un comunicado, aunque la siderurgia y la minería quedarán afuera por ahora.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Industria",
+        "UIA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/reactivacion-del-consumo-y-baja-de-impuestos-el-mensaje-de-caputo-a-los-industriales-y-por-que-junio-es-un-mes-clave",
+      "source_datetime": "2026-05-23T14:51:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "111",
+      "headline": "Baja gradual de retenciones se extiende al maíz, girasol y sorgo",
+      "summary": "La baja gradual de retenciones se extiende al maíz, el girasol y el sorgo. Desde enero próximo se iniciará una reducción progresiva para esos cultivos, además de la soja.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Maíz",
+        "Girasol",
+        "Sorgo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/medida-oficial-extienden-la-baja-gradual-de-las-retenciones-al-maiz-el-girasol-y-el-sorgo-nid22052026",
+      "source_datetime": "2026-05-23T09:44:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "112",
+      "headline": "Indicador privado híbrido muestra contrastes entre realidad y expectativas",
+      "summary": "Un nuevo indicador privado de tipo híbrido incluye datos duros y percepciones subjetivas. Arroja contrastes entre la situación real y lo que se espera del futuro.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Indicador",
+        "Expectativas",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/05/23/economia-a-ras-del-piso-que-dice-un-indice-sobre-costo-de-vida-poder-de-compra-consumo-y-expectativas-del-argentino-de-a-pie",
+      "source_datetime": "2026-05-23T14:40:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/reservas-tasas-y-brecha-las-claves-que-definiran-al-dolar-junio-n6281021",
+    "https://www.lanacion.com.ar/economia/los-cinco-datos-en-debate-de-una-economia-heterogenea-nid24052026",
+    "https://www.infobae.com/economia/2026/05/23/el-fmi-pide-reformar-el-bcra-dolar-mas-flexible-y-no-confiar-tanto-en-la-politica-monetaria-que-le-respondio-el-equipo-economico",
+    "https://www.perfil.com/noticias/columnistas/bolivia-de-perla-del-bolivarianismo-a-tormenta-perfecta-anunciada-y-evitable-por-carlos-burgueno.phtml",
+    "https://www.lanacion.com.ar/economia/se-complico-la-economia-global-al-mismo-tiempo-que-la-economia-local-vuelve-a-dar-signos-positivos-nid24052026",
+    "https://www.infobae.com/opinion/2026/05/23/actividad-y-reservas-reavivaron-el-apetito-por-bonos-globales-y-cambiaron-la-lectura-del-riesgo-pais",
+    "https://www.infobae.com/economia/2026/05/23/inflacion-actividad-economica-cuentas-fiscales-y-reservas-que-proyecciones-hace-el-fmi-para-la-argentina",
+    "https://www.ambito.com/economia/el-fmi-quiere-un-tipo-cambio-mas-flexible-y-otro-modelo-antiinflacionario-n6280978",
+    "https://www.infobae.com/economia/2026/05/25/inflacion-en-mayo-volvieron-a-acelerarse-los-precios-de-alimentos-y-bebidas",
+    "https://www.ambito.com/economia/rinde-el-plazo-fijo-cuanto-podes-generar-50000-30-dias-n6280664",
+    "https://www.lanacion.com.ar/economia/para-sp-cubrir-los-pagos-de-deuda-es-necesario-pero-no-suficiente-para-subir-la-nota-argentina-nid24052026",
+    "https://www.lanacion.com.ar/economia/caputo-publicara-el-detalle-de-como-la-argentina-afrontara-los-pagos-de-la-deuda-hasta-las-nid24052026",
+    "https://www.ambito.com/economia/el-fmi-publico-un-informe-sus-proyecciones-la-argentina-que-espera-y-cuales-fueron-las-repercusiones-n6280886",
+    "https://www.lanacion.com.ar/economia/el-frente-externo-trae-dolares-y-permanece-muy-solido-nid24052026",
+    "https://www.infobae.com/economia/2026/05/25/el-gobierno-avanza-con-el-desarme-de-la-cobertura-millonaria-que-ofrecio-antes-de-las-elecciones-para-frenar-el-dolar",
+    "https://www.infobae.com/economia/2026/05/25/coincidencia-de-las-consultoras-mejoraron-algunos-indicadores-pero-sigue-la-incertidumbre-por-la-eleccion-de-2027",
+    "https://www.perfil.com/noticias/politica/el-fmi-cuestiono-el-indice-de-inflacion-argentino-y-pidio-una-nueva-ley-para-el-indec.phtml",
+    "https://www.infobae.com/economia/2026/05/25/las-acciones-ypf-en-record-los-5-factores-que-impulsaron-la-cotizacion-a-precios-maximos",
+    "https://www.lanacion.com.ar/economia/transporte-publico-pese-a-los-aumentos-el-boleto-cubre-menos-de-un-tercio-del-costo-del-sistema-nid23052026",
+    "https://www.infobae.com/economia/2026/05/24/las-dos-caras-del-gas-aumento-de-la-factura-familiar-y-cortes-a-empresas-versus-aporte-de-dolares-y-potencial-de-industrializacion-y-empleo",
+    "https://www.infobae.com/economia/2026/05/24/el-fmi-elogio-al-gobierno-pero-enciende-luces-amarillas-incertidumbre-electoral-fatiga-social-y-percepcion-de-corrupcion",
+    "https://www.infobae.com/economia/2026/05/24/fernando-navajas-de-fiel-hay-algo-peor-a-un-sistema-de-bandas-cambiarias-que-es-una-banda-de-sistemas-cambiarios",
+    "https://www.infobae.com/economia/2026/05/24/guerra-por-las-ventas-por-que-algunas-rebajas-de-precios-de-0km-pueden-ser-un-bumeran-para-el-mercado-automotor",
+    "https://www.lanacion.com.ar/economia/el-fmi-dijo-que-el-dato-oficial-de-inflacion-esta-desactualizado-y-pidio-una-nueva-ley-para-el-indec-nid23052026",
+    "https://www.infobae.com/economia/2026/05/23/pese-a-los-elogios-el-fmi-aseguro-que-la-economia-sigue-siendo-vulnerable-y-advirtio-sobre-los-riesgos-por-el-contexto-global",
+    "https://www.infobae.com/economia/2026/05/23/semana-financiera-las-acciones-argentinas-subieron-hasta-9-y-el-riesgo-pais-se-acerco-a-los-500-puntos",
+    "https://www.cronista.com/finanzas-mercados/los-10-graficos-que-mira-el-mercado-para-proyectar-que-puede-pasar-con-el-dolar-sube-o-baja",
+    "https://www.perfil.com/noticias/cordoba/la-universidad-no-se-defiende-con-nostalgia.phtml",
+    "https://www.perfil.com/noticias/nea/dal-poggetto-el-gobierno-esta-intentando-un-cambio-en-la-estructura-politica-economica-y-social-de-la-argentina.phtml",
+    "https://www.ambito.com/economia/el-ranking-global-los-combustibles-la-guerra-medio-oriente-que-paises-tuvieron-las-mayores-aumentos-y-como-quedo-argentina-n6280854",
+    "https://www.ambito.com/economia/gasto-publico-el-gobierno-deberia-recortar-mas-6-cumplir-la-meta-el-fmi-n6281041",
+    "https://www.perfil.com/noticias/economia/la-motosierra-no-paso-por-la-side-que-ya-destino-casi-3800-millones-a-gastos-reservados.phtml",
+    "https://www.perfil.com/noticias/economia/el-mercado-ya-mira-el-2027-por-luis-secco.phtml",
+    "https://www.ambito.com/economia/retenciones-si-fal-no-el-gobierno-ajusta-el-timing-fiscal-sostener-el-superavit-n6280762",
+    "https://www.ambito.com/economia/juan-ignacio-abuchdid-grupo-ieb-al-que-compro-dolares-le-fue-muy-mal-especulando-una-devaluacion-n6280675",
+    "https://www.ambito.com/economia/luis-caputo-descarto-volver-al-mercado-internacional-credito-no-es-necesario-convalidar-una-tasa-del-10-n6280910",
+    "https://www.ambito.com/economia/cae-el-plazo-fijo-como-queda-el-ranking-tasas-segun-cada-banco-n6279777",
+    "https://www.lanacion.com.ar/economia/el-gobierno-licitara-una-obra-clave-para-reducir-cortes-de-luz-en-el-amba-y-la-pagaran-por-tramos-nid24052026",
+    "https://www.lanacion.com.ar/economia/campo/la-solucion-esta-en-el-mercado-la-yerbatera-mas-grande-de-la-argentina-defendio-la-desregulacion-que-nid24052026",
+    "https://www.infobae.com/economia/2026/05/24/carne-vacuna-exportaciones-record-y-precios-que-subieron-casi-70-en-un-ano-anticipan-el-menor-consumo-en-dos-decadas",
+    "https://www.infobae.com/economia/2026/05/23/martin-galdeano-presidente-de-ford-no-hay-espacio-para-seguir-bajando-precios-salvo-que-sigan-sacando-impuestos",
+    "https://www.infobae.com/opinion/2026/05/24/continuidad-fiscal-sin-comodidad",
+    "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-24-de-mayo-nid24052026",
+    "https://www.infobae.com/economia/2026/05/24/segun-un-informe-pese-al-circo-politico-argentina-esta-al-inicio-de-un-boom-economico-como-el-que-vivio-colombia-de-2009-a-2013",
+    "https://www.infobae.com/economia/2026/05/24/en-lo-que-va-del-gobierno-de-milei-el-credito-en-dolares-crecio-12-veces-mas-que-el-credito-en-pesos",
+    "https://www.infobae.com/economia/2026/05/24/salvador-di-stefano-los-dolares-ya-no-son-objeto-de-deseo-todos-los-que-compraron-perdieron-plata",
+    "https://www.infobae.com/opinion/2026/05/24/emergencia-permanente-por-que-el-sistema-energetico-argentino-necesita-nuevas-reglas",
+    "https://www.perfil.com/noticias/economia/licitacion-clave-para-reducir-cortes-de-luz-en-el-amba-trasladara-los-costos-a-los-vecinos.phtml",
+    "https://www.infobae.com/economia/2026/05/24/la-actividad-economica-reboto-en-marzo-y-el-gobierno-celebro-que-anticipan-los-economistas-para-los-siguientes-meses",
+    "https://www.perfil.com/noticias/economia/de-la-causa-cuadernos-a-la-obra-publica-libertaria-los-empresarios-que-se-quedaran-con-las-rutas.phtml",
+    "https://www.infobae.com/economia/2026/05/23/caputo-reconocio-poco-margen-para-mas-recortes-apuesta-al-crecimiento-y-al-empleo-formal-para-sostener-el-superavit-fiscal",
+    "https://www.perfil.com/noticias/economia/sin-rastros-de-stargate-el-proyecto-que-anuncio-presidencia-antes-de-las-legislativas.phtml",
+    "https://www.ambito.com/economia/el-acuerdo-mexico-union-europea-reconfigura-el-comercio-regional-y-genera-inquietud-el-agro-argentino-n6281055",
+    "https://www.perfil.com/noticias/economia/los-grandes-capitales-ven-peligrar-la-reeleccion-de-javier-milei-y-congelan-inversiones-en-la-argentina-a40.phtml",
+    "https://www.infobae.com/economia/2026/05/23/como-cambiaron-las-preferencias-de-los-ahorristas-y-la-oferta-de-credito-desde-la-victoria-oficial-en-las-elecciones-de-octubre",
+    "https://www.ambito.com/economia/baja-retenciones-estiman-que-mejorara-la-rentabilidad-agricola-y-ayudara-sostener-exportaciones-n6281049",
+    "https://www.perfil.com/noticias/economia/la-mora-ya-afecta-a-mas-de-6-millones-de-personas.phtml",
+    "https://www.infobae.com/economia/2026/05/23/una-por-una-como-quedaron-las-paritarias-de-los-principales-gremios",
+    "https://www.ambito.com/economia/crece-la-tension-el-ajuste-y-se-afianza-el-efecto-serrucho-aparecen-senales-keynesianas-n6280885",
+    "https://www.perfil.com/noticias/cordoba/retenciones-afirman-que-la-baja-anunciada-por-milei-no-alcanza-a-compensar-el-aumento-de-costos.phtml",
+    "https://www.ambito.com/economia/la-uia-celebro-la-baja-retenciones-industriales-y-exigio-provincias-y-municipios-acompanar-el-proceso-n6280851",
+    "https://www.ambito.com/economia/se-agoto-el-rebote-economico-abril-advierten-que-el-ajuste-fiscal-llega-al-limite-y-fuerza-nuevas-estrategias-n6280581",
+    "https://www.perfil.com/noticias/economia/en-modo-campana-javier-milei-prometio-que-eliminara-las-retenciones-de-la-soja-al-campo.phtml",
+    "https://www.ambito.com/economia/exportaciones-el-gobierno-recorta-devolucion-impuestos-las-empresas-pese-al-record-ventas-al-exterior-n6280612",
+    "https://www.perfil.com/noticias/economia/luis-caputo-afirmo-que-no-habra-ajuste-adicional-para-compensar-la-baja-de-retenciones-al-agro-a40.phtml",
+    "https://www.lanacion.com.ar/lnmas/horacio-marin-aseguro-que-ypf-incrementara-su-nivel-de-actividad-un-50-en-un-ano-nid24052026",
+    "https://www.infobae.com/economia/2026/05/25/caputo-se-comprometio-con-el-fmi-a-posponer-partes-de-la-reforma-laboral-para-garantizar-el-superavit-fiscal",
+    "https://www.lanacion.com.ar/economia/campo/lo-piden-de-todo-el-mundo-ya-se-exportaron-mas-de-90000-toneladas-de-un-cultivo-que-es-sensacion-nid20052026",
+    "https://www.infobae.com/economia/2026/05/25/baja-de-retenciones-al-agro-cuanto-menos-recaudara-el-estado-y-cuanto-ganara-el-productor",
+    "https://www.lanacion.com.ar/economia/ricardo-delgado-el-problema-de-la-mora-hay-que-resolverlo-puede-limitar-la-recuperacion-de-corto-nid24052026",
+    "https://www.infobae.com/economia/2026/05/24/en-el-primer-trimestre-las-ventas-de-los-supermercados-cayeron-en-21-provincias-argentinas",
+    "https://www.lanacion.com.ar/economia/fmi-el-gobierno-se-comprometio-a-presentar-una-reforma-tributaria-a-fin-de-ano-y-la-previsional-para-nid23052026",
+    "https://www.lanacion.com.ar/economia/retenciones-la-uia-celebro-la-baja-gradual-para-productos-industrializados-nid23052026",
+    "https://www.infobae.com/economia/2026/05/23/el-gobierno-quiere-dinamizar-el-turismo-pero-aumento-hasta-mas-del-100-el-costo-de-ingreso-a-parques-nacionales",
+    "https://www.lanacion.com.ar/economia/campo/un-anuncio-positivo-en-el-comienzo-de-la-campana-de-granos-finos-aunque-con-condicionantes-politicos-nid23052026",
+    "https://www.lanacion.com.ar/economia/campo/baja-de-retenciones-el-costo-fiscal-en-soja-sera-de-us300-millones-en-2027-nid22052026",
+    "https://www.infobae.com/economia/2026/05/23/reactivacion-del-consumo-y-baja-de-impuestos-el-mensaje-de-caputo-a-los-industriales-y-por-que-junio-es-un-mes-clave",
+    "https://www.lanacion.com.ar/economia/campo/medida-oficial-extienden-la-baja-gradual-de-las-retenciones-al-maiz-el-girasol-y-el-sorgo-nid22052026",
+    "https://www.infobae.com/economia/2026/05/23/economia-a-ras-del-piso-que-dice-un-indice-sobre-costo-de-vida-poder-de-compra-consumo-y-expectativas-del-argentino-de-a-pie"
+  ]
+}
