@@ -256,3 +256,11 @@ def _estado_limpio_de_modelos():
 def test_resumen_que_era_solo_comentarios_queda_con_el_titular():
     from src.main import _enforce_summary_bounds
     assert _enforce_summary_bounds("Contenido fuente limitado. No informado.", headline="El BCRA compró USD 21 millones") == "El BCRA compró USD 21 millones"
+
+
+def test_una_fecha_en_el_titulo_no_cuenta_como_dato():
+    from src.classifier import has_no_information
+    # Caso real de la edición del 23/11/2026: el título solo traía la fecha.
+    assert has_no_information("Dólar blue, oficial, CCL y MEP del lunes 23 de noviembre", "")
+    assert has_no_information("Calendario 23/11: pagos de ANSES", "")
+    assert not has_no_information("El BCRA compró 90 millones", "")

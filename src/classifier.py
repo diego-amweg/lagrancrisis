@@ -37,6 +37,15 @@ ALL_STABLE_KEYWORDS = {
 ART = timezone(timedelta(hours=-3))
 MIN_CHARS_INFORMACION = 60  # texto propio de la fuente, sin contar el título
 _ETIQUETA_HTML = re.compile(r"<[^>]+>")
+_MESES = "enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre"
+_DIAS = "lunes|martes|miércoles|miercoles|jueves|viernes|sábado|sabado|domingo"
+_FECHAS_RE = re.compile(
+    rf"\b(?:{_DIAS})\s+\d{{1,2}}\b"            # lunes 23
+    rf"|\b\d{{1,2}}\s+de\s+(?:{_MESES})\b"      # 23 de noviembre
+    r"|\b\d{1,2}/\d{1,2}(?:/\d{2,4})?\b"       # 23/11 o 23/11/2026
+    r"|\b20\d{2}\b",                             # años
+    re.IGNORECASE,
+)
 
 
 def _texto_limpio(texto: str) -> str:
@@ -51,7 +60,8 @@ def has_no_information(title: str, content: str) -> bool:
     """
     titulo = _texto_limpio(title)
     resto = _texto_limpio(content).replace(titulo, "").replace("Leer más", "").strip(" .:-")
-    return len(resto) < MIN_CHARS_INFORMACION and not re.search(r"\d", titulo)
+    # Las fechas no son datos: "Dólar blue del lunes 23 de noviembre" no informa nada.
+    return len(resto) < MIN_CHARS_INFORMACION and not re.search(r"\d", _FECHAS_RE.sub(" ", titulo))
 
 
 def is_after_edition(published: str, edition_date: Optional[str]) -> bool:
