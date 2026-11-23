@@ -17,7 +17,7 @@ name: Diario - edición diaria
 
 on:
   schedule:
-    - cron: "13 8 * * *"   # 05:13 Argentina, intento 1
+    - cron: "12 8 * * *"   # 05:13 Argentina, intento 1
     - cron: "13 10 * * *"  # 07:13 Argentina, intento 2
     - cron: "13 13 * * *"  # 10:13 Argentina, último intento
   workflow_dispatch:
