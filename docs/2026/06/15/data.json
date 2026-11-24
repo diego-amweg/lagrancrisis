@@ -1,0 +1,2136 @@
+{
+  "date": "2026-06-15",
+  "cadena_de_razonamiento": "El BCE subió tasas ante la guerra y precios de la energía, mientras Goldman Sachs analiza tasas Fed y petróleo. El mercado recalibra alzas de tasas Fed tras datos de mayo, pero el petróleo cae por acuerdo EEUU-Irán. El BCRA compró u$s10.000M por menor demanda industrial, impulsando el resultado cambiario. Las exportaciones están 15% debajo del récord de precios altos. Los bonos en dólares rinden más del 10%, y S&P subió calificación a B-, cayendo riesgo país. El swap con China se renueva. La economía muestra altibajos, con consumo estancado y crédito restringido.",
+  "resumen_ejecutivo": "La jornada estuvo marcada por decisiones de política monetaria global, con el BCE subiendo tasas y el mercado ajustando expectativas sobre la Fed. En Argentina, el BCRA logró una significativa acumulación de reservas, superando la meta anual, lo que contribuyó a la mejora del perfil crediticio del país, con el riesgo país en mínimos de varios años. A nivel internacional, el precio del petróleo experimentó una caída tras un acuerdo entre EE.UU. e Irán. El mercado de bonos en dólares sigue siendo atractivo para inversores, y se avanza en la renovación del swap de monedas con China. La economía local presenta una dinámica mixta, con desafíos persistentes en sectores como la industria y la construcción, a pesar de algunas señales de reactivación.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Goldman Sachs analiza tasas Fed y precio del petróleo",
+      "summary": "Goldman Sachs analiza datos de actividad y empleo en Estados Unidos, así como los niveles de inventarios, para pronosticar las tasas de la Reserva Federal y el precio internacional del petróleo.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Fed",
+        "Petróleo",
+        "Tasas de interés"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/dos-pronosticos-clave-para-argentina-que-va-a-pasar-con-las-tasas-de-la-fed-de-eeuu-y-el-precio-internacional-del-petroleo",
+      "source_datetime": "2026-06-14T22:13:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "BCE sube tasas de interés por guerra y precios de la energía",
+      "summary": "El Banco Central Europeo (BCE) ha elevado sus tasas de interés. Esta decisión se produce como respuesta a la guerra en Medio Oriente y al consecuente aumento en los precios de la energía.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "BCE",
+        "Tasas de interés",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/semana-clave-la-politica-monetaria-global-primera-reunion-kevin-warsh-la-fed-y-el-banco-japon-sube-las-tasas-n6288178",
+      "source_datetime": "2026-06-13T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Exportaciones argentinas, 15% debajo del récord de precios altos",
+      "summary": "A pesar de la mejora en el balance comercial, las exportaciones argentinas, medidas en dólares constantes, se encuentran un 15% por debajo del récord alcanzado durante los años de precios altos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Comercio exterior"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/solidos-datos-de-las-cuentas-externas-pero-todavia-problemas-de-actividad-en-algunos-sectores-nid14062026",
+      "source_datetime": "2026-06-14T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "BCRA compró u$s10.000 millones por menor demanda industrial",
+      "summary": "El Banco Central ha adquirido más de u$s10.000 millones en lo que va del año. Este resultado se ve impulsado por la recesión fabril, que ha reducido a la mitad la demanda de divisas por parte de la industria, totalizando u$s2.000 millones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Reservas",
+        "Industria"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dolar-aseguran-que-el-bcra-mejoro-su-balance-cambiario-costa-una-menor-demanda-parte-la-industria-n6288236",
+      "source_datetime": "2026-06-13T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Resultado cambiario impulsado por menor actividad manufacturera",
+      "summary": "La menor actividad en el sector manufacturero y el incremento en el aporte energético al superávit comercial han sido los factores determinantes del resultado cambiario histórico registrado en lo que va del año.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Comercio exterior",
+        "Industria",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/15/dolar-y-actividad-la-debilidad-importadora-ayudo-a-las-compras-del-banco-central",
+      "source_datetime": "2026-06-15T05:20:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Inflación de mayo actualizó tope de la banda cambiaria oficial",
+      "summary": "La inflación registrada en mayo, que fue del 2,1%, ha servido para actualizar el valor máximo permitido dentro de la banda cambiaria oficial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación",
+        "Banda cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/a-cuanto-puede-llegar-el-dolar-en-julio-sin-que-intervenga-el-gobierno-segun-la-nueva-banda-cambiaria",
+      "source_datetime": "2026-06-13T14:59:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Mercado recalibra alza de tasas de la Fed tras datos de mayo",
+      "summary": "Tras la publicación de los datos de empleo e inflación de mayo, el mercado ha ajustado sus expectativas, incrementando la probabilidad de un alza en las tasas de interés por parte de la Fed. Sin embargo, la moderación en el precio del petróleo ha atenuado esta lectura.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Fed",
+        "Tasas de interés",
+        "Inflación",
+        "Petróleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/06/13/recalibracion-de-expectativas-ante-una-macro-mas-solida-de-lo-previsto-en-estados-unidos",
+      "source_datetime": "2026-06-13T03:41:28+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Banda cambiaria se ajustará 2,1% en julio tras IPC de mayo",
+      "summary": "Los límites de la banda cambiaria experimentarán un ajuste mensual del 2,1% durante julio. Este ajuste se produce después de la publicación del Índice de Precios al Consumidor (IPC) correspondiente a mayo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Banda cambiaria",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar-como-se-ajusta-la-banda-cambiaria-en-julio-tras-la-desaceleracion-de-la-inflacion-nid13062026",
+      "source_datetime": "2026-06-13T20:12:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Aceleración de precios de alimentos y bebidas en junio",
+      "summary": "Se ha observado un incremento en los precios de alimentos y bebidas durante la segunda semana de junio, según relevamientos privados. A pesar de esta aceleración en un rubro clave, algunas consultoras anticipan que la inflación general podría perforar el piso del 2%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Alimentos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/15/inflacion-de-junio-se-acelero-un-rubro-clave-pero-ya-hay-consultoras-que-creen-que-perforara-el-piso-de-los-2-puntos",
+      "source_datetime": "2026-06-15T05:21:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Fondos invierten en bonos en dólares con rendimientos superiores al 10%",
+      "summary": "Los fondos de inversión están adquiriendo bonos en dólares que continúan ofreciendo rendimientos superiores al 10%.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Bonos",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/bonos-en-dolares-cuales-compran-los-fondos-y-aun-rinden-mas-del-10",
+      "source_datetime": "2026-06-13T09:00:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "S&P sube calificación de Argentina a B- y cae riesgo país",
+      "summary": "S&P Global elevó la calificación crediticia de Argentina de CCC+ a B-, lo que ha fortalecido el optimismo financiero y se ha traducido en una disminución del riesgo país. La baja de la inflación también contribuyó a estas mejoras.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Calificación crediticia",
+        "Riesgo país",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/finanzas-la-mejora-de-la-nota-crediticia-refuerza-el-optimismo-financiero-nid14062026",
+      "source_datetime": "2026-06-14T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Bonos duales CER-TAMAR ganarían atractivo con endurecimiento monetario",
+      "summary": "Gustavo Araujo, de Criteria, sugiere que los bonos duales CER-TAMAR podrían volverse más atractivos si el Gobierno decide endurecer las condiciones monetarias.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos",
+        "Política monetaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/con-la-mirada-las-elecciones-advierten-una-posible-nueva-suba-tasas-n6288553",
+      "source_datetime": "2026-06-13T22:09:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Argentinos afrontan 150 impuestos, tasas y contribuciones",
+      "summary": "Un informe del Iaraf detalla que los argentinos deben hacer frente a un total de 150 impuestos, tasas y contribuciones. De estos, 40 son de carácter nacional, 28 provinciales y 82 municipales. Seis tributos concentran el 85% de la recaudación total. Tras la reforma laboral, la cantidad de cargas impositivas se redujo en cinco respecto a 2025.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Impuestos",
+        "Recaudación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/los-argentinos-aun-afrontan-150-impuestos-tasas-y-contribuciones-nid14062026",
+      "source_datetime": "2026-06-14T20:39:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Acuerdo EEUU-Irán reabre Ormuz: petróleo cae, futuros suben",
+      "summary": "Estados Unidos e Irán han llegado a un acuerdo para la reapertura del estrecho de Ormuz. Este anuncio ha provocado una fuerte caída en el precio del petróleo y un alza en los futuros de Wall Street y las bolsas asiáticas, ante la expectativa de una normalización del comercio energético global.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Geopolítica",
+        "Mercados"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/acuerdo-eeuu-e-iran-reabrir-ormuz-el-petroleo-se-desploma-y-suben-los-futuros-wall-street-n6288747",
+      "source_datetime": "2026-06-15T00:04:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Petróleo Brent cae 4,02% y WTI 4,63% tras acuerdo EEUU-Irán",
+      "summary": "El precio del barril de Brent ha retrocedido un 4,02%, cotizando a US$83,82. Por su parte, el crudo estadounidense West Texas Intermediate (WTI) experimentó una caída del 4,63%, situándose alrededor de los US$80,95, tras el anuncio de un acuerdo entre Estados Unidos e Irán.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Mercados"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-precio-del-petroleo-cae-tras-el-anuncio-de-un-acuerdo-entre-eeuu-e-iran-para-poner-fin-a-la-nid14062026",
+      "source_datetime": "2026-06-14T23:04:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "Bausili avanza en Shanghái con China para renovar swap de monedas",
+      "summary": "Santiago Bausili, presidente del Banco Central, se reunió con su par del Banco Popular de China en Shanghái. Las conversaciones avanzan en el contexto de las negociaciones para renovar el acuerdo de swap de monedas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "China",
+        "Swap"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/santiago-bausili-se-reunio-el-presidente-del-banco-popular-china-y-avanzan-las-conversaciones-renovar-el-swap-n6288652",
+      "source_datetime": "2026-06-14T16:36:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Reservas estratégicas de petróleo se agotan: crece preocupación global",
+      "summary": "La utilización de reservas estratégicas de petróleo, que han sostenido la estabilidad del mercado, está alcanzando sus límites en Estados Unidos, Japón y Europa. Esto genera preocupación por el futuro del abastecimiento global.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Reservas",
+        "Abastecimiento"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/las-reservas-estrategicas-petroleo-comienzan-agotarse-y-crece-la-preocupacion-el-abastecimiento-global-n6288646",
+      "source_datetime": "2026-06-14T16:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Gobierno ratifica meta de subsidios a energía con mayores tarifas",
+      "summary": "Fuentes de la Secretaría de Energía confirman que la meta de gasto en subsidios a la energía, fijada en el 0,5% del PBI, se mantiene vigente. Se atribuyen los aumentos observados en el primer cuatrimestre a cuestiones contables, regulatorias y estacionales, y se espera que mayores tarifas contribuyan a cumplir el objetivo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Subsidios",
+        "Energía",
+        "Tarifas"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-gobierno-ratifica-que-cumplira-su-meta-de-subsidios-a-la-energia-con-mayores-tarifas-para-los-nid14062026",
+      "source_datetime": "2026-06-14T22:48:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Gastos ocultos al viajar pueden afectar el presupuesto",
+      "summary": "Hasta el viaje más perfectamente planificado puede tener imprevistos que afecten contra el presupuesto.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Viajes",
+        "Finanzas Personales"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/podrias-perder-cientos-dolares-los-gastos-ocultos-que-muchos-no-tienen-cuenta-al-viajar-n6287644",
+      "source_datetime": "2026-06-13T23:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Consejos para salir de la deuda de tarjetas de crédito",
+      "summary": "Ante el aumento del endeudamiento en el sistema financiero, expertos ofrecen recomendaciones para gestionar el saldo de la tarjeta, ordenar las finanzas personales y evitar caer en la mora.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Deuda",
+        "Tarjetas de Crédito",
+        "Finanzas Personales"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/como-salir-de-la-deuda-de-la-tarjeta-de-credito-consejos-para-evitar-la-morosidad-nid13062026",
+      "source_datetime": "2026-06-13T18:21:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Expectativas sobre IA reordenadas por gasto en centros de datos y deuda",
+      "summary": "El gasto en centros de datos, la deuda y los contratos de ingresos futuros reordenan expectativas sobre la IA, con adopción que avanza pero flujo de caja que no acompaña la inversión.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Inteligencia Artificial",
+        "Inversiones",
+        "Tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/06/13/cuando-la-nube-pesa-demasiado-es-la-ia-una-nueva-burbuja-financiera",
+      "source_datetime": "2026-06-13T03:39:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Riesgo país en mínimo desde 2018 por acumulación de reservas",
+      "summary": "El riesgo país tocó su menor nivel desde 2018, impulsado por la acumulación de reservas, y colocar deuda en el exterior es una posibilidad cercana.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Reservas",
+        "Deuda Externa"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/gracias-a-la-acumulacion-de-reservas-el-optimismo-de-los-inversores-esta-en-su-punto-mas-alto-desde-que-gobierna-milei",
+      "source_datetime": "2026-06-14T16:31:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Gobierno con USD 3.200M para vencimiento de deuda de julio",
+      "summary": "El Gobierno tiene más de USD 3.200 millones para el vencimiento de deuda de julio, con un cupo de USD 386 millones por colocar y el Banco Mundial y el BID debatiendo garantías.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Deuda Pública",
+        "Reservas",
+        "Finanzas Públicas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/la-estrategia-para-pagar-la-deuda-cuantos-dolares-tiene-el-gobierno-para-el-vencimiento-de-julio-y-cuanto-falta-sumar",
+      "source_datetime": "2026-06-13T03:42:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Acciones argentinas suben hasta 18% y riesgo país a mínimo desde 2018",
+      "summary": "Las acciones argentinas subieron hasta 18% y el riesgo país tocó un mínimo desde 2018, impulsados por la mejora crediticia de S&P.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Mercado de Capitales",
+        "Riesgo País",
+        "Calificación Crediticia"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/semana-financiera-las-acciones-argentinas-se-dispararon-hasta-18-y-el-riesgo-pais-toco-un-minimo-desde-2018",
+      "source_datetime": "2026-06-13T03:42:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Consumo de carne vacuna en mínimos de dos décadas",
+      "summary": "El consumo de carne vacuna cayó a 47,5 kilos por habitante al año, el nivel más bajo en 20 años, acelerando el reemplazo por pollo y cerdo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Consumo",
+        "Ganadería",
+        "Precios"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-consumo-carne-vacuna-cae-minimos-dos-decadas-y-acelera-el-reemplazo-pollo-y-cerdo-n6288669",
+      "source_datetime": "2026-06-14T18:59:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Aumento de alimentos presiona precios tras desaceleración de mayo",
+      "summary": "El aumento de alimentos presiona sobre los precios tras la desaceleración de mayo, con carnes liderando las subas en la segunda semana de junio.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Precios",
+        "Alimentos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/despues-la-desaceleracion-mayo-el-aumento-alimentos-presiona-los-precios-n6288584",
+      "source_datetime": "2026-06-14T01:07:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "Jugueteros denuncian aumento del 154% en producto básico",
+      "summary": "Fabricantes de juguetes denuncian un aumento del 154% en el kilo de polietileno de alta densidad, de $1.400 a $3.560, en menos de 4 meses.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Precios",
+        "Industria",
+        "Materias Primas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/los-jugueteros-denuncian-que-una-petroquimica-les-aumento-154-un-producto-basico-en-menos-de-4-meses",
+      "source_datetime": "2026-06-14T22:10:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "SIDE ejecutó $3.500 millones adicionales en gastos reservados",
+      "summary": "En dos semanas, la SIDE ejecutó $3.500 millones adicionales en gastos reservados.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Gasto Público",
+        "Seguridad"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/en-dos-semanas-la-side-ejecuto-3500-millones-adicionales-en-gastos-reservados.phtml",
+      "source_datetime": "2026-06-13T04:50:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Argentina en ranking de riesgo país tras mínimo histórico",
+      "summary": "La mejora en la calificación crediticia y la acumulación de reservas del BCRA sostienen la tendencia bajista del riesgo país argentino.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Reservas",
+        "Calificación Crediticia"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/ranking-de-riesgo-pais-que-puesto-ocupa-la-argentina-en-america-latina-luego-de-tocar-el-minimo-desde-2018",
+      "source_datetime": "2026-06-14T00:12:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Jefe de Gabinete declaró ganancias por bitcoin",
+      "summary": "El jefe de Gabinete declaró ganancias no impositivas entre 2014 y 2018 por operaciones con bitcoin. La estrategia podría blindarlo frente a una acusación penal durante su gestión pública. Deberá afrontar el pago de Bienes Personales y sus multas, cercano al 14% de los 500.000 dólares declarados.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Criptomonedas",
+        "Bitcoin",
+        "Finanzas Personales",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/columnistas/la-confesion-de-adorni-sobre-sus-criptos-podria-salvarlo-de-una-condena-por-enriquecimiento-por-carlos-burgueno.phtml",
+      "source_datetime": "2026-06-14T02:22:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "BCRA superó meta anual de reservas",
+      "summary": "El Banco Central de la República Argentina superó la meta anual fijada para todo el año: más de USD 10.000 millones en compras netas en poco más de cinco meses, durante más de 100 jornadas consecutivas, y alcanzó el nivel más alto desde 2019.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Reservas Internacionales",
+        "Banco Central",
+        "Mercado Cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/06/13/la-acumulacion-de-reservas-un-colchon-que-protege-al-ciudadano-y-a-las-empresas",
+      "source_datetime": "2026-06-13T03:41:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "35",
+      "headline": "Economista advierte sobre posible 'enfermedad holandesa'",
+      "summary": "Juan Carlos de Pablo analizó el impacto del ingreso de divisas por el agro y la energía y advirtió sobre sus posibles efectos en la actividad económica.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Economía",
+        "Divisas",
+        "Agroindustria",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/juan-carlos-de-pablo-explico-por-que-la-economia-argentina-podria-enfrentar-una-enfermedad-holandesa-nid14062026",
+      "source_datetime": "2026-06-15T02:46:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Medida tributaria alivia carga fiscal en ganadería",
+      "summary": "Se modificó la valuación para la hacienda de invernada a partir del ejercicio de 2026. Esta medida alivia la carga fiscal para la producción ganadera.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Ganadería",
+        "Impuestos",
+        "Producción"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/ganaderia/opinion-una-medida-tributaria-largamente-esperada-para-la-produccion-ganadera-nid15062026",
+      "source_datetime": "2026-06-14T22:46:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Aumentan colectivos y trenes en el AMBA",
+      "summary": "Se aplicará una nueva actualización tarifaria en el transporte público del Área Metropolitana de Buenos Aires. 104 líneas nacionales de colectivos tendrán una suba del 2%, mientras que los trenes aumentarán 12,9%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Transporte",
+        "Tarifas",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/aumentan-los-colectivos-y-trenes-el-amba-este-lunes-cuanto-costara-viajar-partir-manana-n6288659",
+      "source_datetime": "2026-06-14T19:07:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "38",
+      "headline": "Tasas de plazo fijo en niveles bajos",
+      "summary": "Las tasas de plazo fijo siguen en niveles bajos y obligan a inmovilizar sumas cada vez más altas para generar rendimientos relevantes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Plazo Fijo",
+        "Inversiones",
+        "Tasas de Interés"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/vale-la-pena-el-plazo-fijo-cuanto-genera-esta-herramienta-si-invertimos-2000000-n6288328",
+      "source_datetime": "2026-06-14T10:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Dólar se mantiene estable; comportamiento de divisa informal y financieros",
+      "summary": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los dólares financieros.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Dólar",
+        "Mercado Cambiario",
+        "Finanzas"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-14-de-junio-nid14062026",
+      "source_datetime": "2026-06-14T09:10:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Industria: Desconurbanización estancada, dólar en baja",
+      "summary": "La desconurbanización no avanza en el sector industrial. El dólar ha retrocedido, y los inversores envían mensajes sobre la falta de flexibilidad con proveedores locales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Industria",
+        "Dólar",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/alarma-la-industria-la-desconurbanizacion-no-avanza-el-dolar-retrocede-y-los-inversores-envian-mensajes-n6288501",
+      "source_datetime": "2026-06-14T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Reforma laboral: Nuevos convenios para impulsar productividad",
+      "summary": "La nueva ley laboral abre una oportunidad para enfocar los convenios colectivos. Se busca que estas herramientas mejoren la productividad y acompañen el crecimiento de la industria y los servicios.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Reforma Laboral",
+        "Convenios Colectivos",
+        "Productividad"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/convenios-colectivos-y-actividad-sindical-que-aspectos-modifica-la-reforma-laboral-nid14062026",
+      "source_datetime": "2026-06-14T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "42",
+      "headline": "Tensión por la Hidrovía: Jan De Nul y DEME en disputa",
+      "summary": "Existe máxima tensión entre empresas belgas por el negocio de la Hidrovía. Jan De Nul fue preadjudicada, pero DEME compite con una propuesta para bajar la tarifa del peaje mediante iniciativa privada.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Hidrovía",
+        "Licitación",
+        "Comercio Exterior"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/maxima-tension-entre-las-empresas-belgas-que-se-disputan-el-negocio-de-la-hidrovia-nid13062026",
+      "source_datetime": "2026-06-13T20:27:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "Impuesto a las Ganancias: Aumentan controles por deducciones",
+      "summary": "ARCA ha detectado inconsistencias en las deducciones del Impuesto a las Ganancias, lo que lleva a un aumento de controles sobre empleados. Se sospecha que altos cargos habrían presentado gastos de vestimenta como deducibles.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Impuesto a las Ganancias",
+        "Controles Fiscales",
+        "Deducciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/impuesto-las-ganancias-arca-detecta-inconsistencias-deducciones-y-aumenta-controles-empleados-n6288263",
+      "source_datetime": "2026-06-13T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "Equilibrio Fiscal: Ministro Caputo reconoce límites al recorte",
+      "summary": "El ministro Luis Caputo admitió que existen límites para seguir recortando partidas y se apuesta a la recuperación económica. Se mencionan datos de gasto y recaudación.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Equilibrio Fiscal",
+        "Gasto Público",
+        "Recaudación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/15/sin-margen-para-seguir-recortando-gastos-es-sostenible-el-equilibrio-fiscal",
+      "source_datetime": "2026-06-15T05:19:21+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Maíz: Pocas perspectivas de suba en precios",
+      "summary": "Se vislumbran pocas posibilidades de aumentos en los precios del maíz. Esto se debe a las muy buenas cosechas obtenidas en Brasil y Argentina, y a que la oferta global está abastecida.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Maíz",
+        "Precios",
+        "Cosecha"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/agricultura/se-vislumbran-pocas-posibilidades-de-subas-en-los-precios-del-maiz-nid13062026",
+      "source_datetime": "2026-06-13T17:50:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Jubilaciones: Aumento del 2,15% en julio",
+      "summary": "La inflación de mayo fue del 2,15%, por lo que los haberes de jubilación se ajustarán en ese porcentaje. Se informarán los nuevos valores con y sin bono, y para distintas asistencias y prestaciones de Anses.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Jubilaciones",
+        "Inflación",
+        "Anses"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/se-conocio-el-dato-que-faltaba-de-cuanto-sera-la-jubilacion-minima-de-anses-en-julio-2026",
+      "source_datetime": "2026-06-13T18:11:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "47",
+      "headline": "Dulce de Leche: Grupo mexicano compra San Ignacio",
+      "summary": "San Ignacio, empresa santafesina exportadora de dulce de leche y quesos azules, está a punto de ser adquirida por MIYM, un grupo mexicano. MIYM ya compró otras dos firmas del sector en Argentina.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Alimentos",
+        "Adquisición",
+        "Inversión Extranjera"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/15/presencia-de-marca-y-ciclos-de-produccion-por-que-un-grupo-mexicano-compra-el-mayor-exportador-de-dulce-de-leche-de-la-argentina",
+      "source_datetime": "2026-06-15T05:19:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Contrabando: Disputa entre empresas y plataformas",
+      "summary": "La lucha contra el contrabando reaviva la disputa entre empresas y plataformas como Mercado Libre. Fabricantes, comercios y firmas tecnológicas tienen posiciones diferenciadas sobre cómo enfrentar el problema.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Contrabando",
+        "Comercio Electrónico",
+        "Regulación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/la-batalla-contra-el-contrabando-reaviva-la-disputa-entre-empresas-y-plataformas-como-mercado-libre-que-hace-el-gobierno",
+      "source_datetime": "2026-06-14T04:19:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Economía en \"serrucho\": Actividad alterna subas y bajas",
+      "summary": "La economía atraviesa una fase de avances y retrocesos mensuales. Las previsiones de crecimiento para 2026 fueron recortadas, en un contexto de consumo estancado, crédito restringido y desafíos en industria y construcción.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES",
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Actividad Económica",
+        "Crecimiento",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/la-economia-en-serrucho-por-que-la-actividad-alterna-subas-y-bajas-y-que-se-preve-para-el-segundo-semestre",
+      "source_datetime": "2026-06-13T18:04:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Blanqueo: Gobierno busca ampliarlo y flexibilizar controles",
+      "summary": "El Gobierno busca ampliar el blanqueo permanente y flexibilizar los controles. El proyecto oficial modifica el régimen simplificado del impuesto a las Ganancias, ampliando beneficiarios y reduciendo causales de exclusión.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Blanqueo",
+        "Impuestos",
+        "Régimen Simplificado"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-gobierno-busca-ampliar-el-blanqueo-permanente-y-flexibiliza-los-controles.phtml",
+      "source_datetime": "2026-06-14T05:43:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Seguro de Enfermedad Grave: Protección para independientes",
+      "summary": "El seguro de enfermedades graves se consolida como una herramienta clave de protección financiera para trabajadores independientes. La cobertura paga una indemnización a monotributistas y freelancers.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Seguros",
+        "Monotributistas",
+        "Freelancers"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/seguro-de-enfermedad-grave-como-funciona-la-cobertura-que-paga-una-indemnizacion-a-monotributistas-y-freelancers",
+      "source_datetime": "2026-06-13T09:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "52",
+      "headline": "Transporte: Nuevo aumento en colectivos y trenes",
+      "summary": "Se aplica un nuevo aumento en las tarifas de colectivos y trenes en el Área Metropolitana. Es el segundo tramo de los ajustes iniciados en mayo, y se prevé que continúen hasta julio.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Transporte",
+        "Tarifas",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/nuevo-aumento-de-colectivos-y-trenes-en-el-area-metropolitana-las-tarifas-desde-este-lunes",
+      "source_datetime": "2026-06-14T19:35:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "53",
+      "headline": "Paolo Rocca: Sueño de \"modelo económico normal\"",
+      "summary": "Paolo Rocca aspira a un \"modelo económico normal\" conducido por \"líderes normales\", buscando garantizar el equilibrio fiscal con institucionalidad. Se mencionan conversaciones con Patricia Bullrich.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Economía",
+        "Política",
+        "Empresarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/paolo-rocca-y-su-sueno-de-un-modelo-economico-normal-conducido-por-lideres-normales-a40.phtml",
+      "source_datetime": "2026-06-14T02:55:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "54",
+      "headline": "Dificultades Económicas: 9 de cada 10 argentinos afectados",
+      "summary": "Nueve de cada diez argentinos experimentan algún tipo de dificultad económica. Un relevamiento nacional detalla cómo las distintas franjas sociales administran la presión financiera y priorizan sus gastos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Economía Familiar",
+        "Inflación",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/nueve-de-cada-diez-argentinos-tiene-algun-tipo-de-dificultad-economica-que-gastos-priorizan-y-cuales-postergan",
+      "source_datetime": "2026-06-14T15:58:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "55",
+      "headline": "Hidrovía: Jan de Nul refuta propuesta de DEME",
+      "summary": "Jan de Nul cuestionó la propuesta de DEME de reducir el peaje de la Hidrovía un 17,4%, argumentando errores de cálculo y menor inversión. Sostuvo que DEME ahora cuestiona reglas del proceso licitatorio que había aceptado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Hidrovía",
+        "Licitación",
+        "Transporte Fluvial"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/jan-de-nul-salio-al-cruce-de-deme-y-cuestiono-su-propuesta-de-reducir-un-174-el-peaje-de-la-hidrovia.phtml",
+      "source_datetime": "2026-06-13T23:48:28+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "56",
+      "headline": "Impuestos en Argentina: 150 tributos vigentes",
+      "summary": "Existen 150 impuestos, tasas y contribuciones vigentes en Argentina. De estos, 40 son impuestos nacionales, 28 provinciales y 82 municipales. Seis tributos explican el 85% de la recaudación consolidada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Impuestos",
+        "Recaudación",
+        "Sistema Tributario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/infierno-tributario-los-150-impuestos-tasas-y-contribuciones-vigentes-en-la-argentina-quien-los-cobra-cuales-recaudan-mas-y-donde-son-mas-numerosos",
+      "source_datetime": "2026-06-14T10:41:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "57",
+      "headline": "Aguinaldo: Fecha límite de pago en junio",
+      "summary": "Las empresas tienen como fecha límite para abonar el Sueldo Anual Complementario (aguinaldo) a finales de junio de 2026, según la ley vigente.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Aguinaldo",
+        "Salarios",
+        "Derechos Laborales"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/cobro-de-aguinaldo-cual-es-la-fecha-limite-que-tienen-las-empresas-para-pagarlo-en-junio-2026-a35.phtml",
+      "source_datetime": "2026-06-13T14:38:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Ministerios ahorran el triple de lo pedido por Milei",
+      "summary": "Los ministerios han logrado un ahorro que triplica la meta establecida por el presidente Milei en lo que va del año. La ejecución del gasto registra un recorte del 6% sobre el total asignado, y el saldo de caja ha superado en un 21,9% las previsiones ajustadas, gracias a una menor utilización de partidas y una recaudación superior a la esperada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Gasto público",
+        "Ahorro fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/motosierra-2026-en-lo-que-va-del-ano-los-ministerios-ahorraron-el-triple-de-lo-que-habia-pedido-milei",
+      "source_datetime": "2026-06-13T15:52:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "59",
+      "headline": "Caída de natalidad podría afectar sistema jubilatorio y servicios",
+      "summary": "La acelerada disminución de la natalidad en el país podría generar desequilibrios en el sistema jubilatorio. Asimismo, se prevé que esta tendencia demográfica impacte negativamente en los sectores de salud y educación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Demografía",
+        "Jubilaciones",
+        "Servicios públicos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://noticias.perfil.com/noticias/economia/desafio-poblacional.phtml",
+      "source_datetime": "2026-06-13T13:12:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "Jefatura de Gabinete lidera presupuesto para autoridades superiores",
+      "summary": "La Jefatura de Gabinete de Ministros posee el presupuesto más elevado para su gabinete de autoridades superiores en comparación con otras oficinas del Estado, incluyendo algunos ministerios. No obstante, esta dependencia ha reducido su planta de empleados comunes en 564 personas desde noviembre de 2025.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Gasto público",
+        "Administración pública"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/jefatura-de-gabinete-tiene-el-mayor-presupuesto-para-funcionarios.phtml",
+      "source_datetime": "2026-06-13T04:46:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "61",
+      "headline": "Cuestionan origen de US$ 500.000 del Jefe de Gabinete por inversión en cripto",
+      "summary": "El Jefe de Gabinete explicó que US$ 500.000 provienen de inversiones en criptomonedas, admitiendo haber tenido dinero no declarado y atribuyéndolo a una inversión temprana en bitcoin. Sin embargo, especialistas plantean dudas sobre los montos, plazos, falta de documentación y contradicciones en sus declaraciones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Finanzas personales",
+        "Criptomonedas",
+        "Transparencia"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/columnistas/un-pen-drive-muy-oportuno-y-el-misterio-de-los-us-500-mil-por-carlos-burgueno.phtml",
+      "source_datetime": "2026-06-13T03:04:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "Plazo fijo a 30 días: previsibilidad en la inversión",
+      "summary": "El plazo fijo a 30 días se presenta como una opción de inversión valorada por su previsibilidad. Esta modalidad permite a los depositantes conocer con exactitud el monto que recibirán al finalizar el período de colocación de sus fondos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inversiones",
+        "Plazo fijo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cambia-el-plazo-fijo-30-dias-cuanto-gano-si-invierto-2800000-n6287341",
+      "source_datetime": "2026-06-13T09:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "65",
+      "headline": "Anses: Fechas de cobro de jubilados en junio 2026 con aguinaldo",
+      "summary": "El calendario anual de pagos de Anses detalla todas las fechas correspondientes a los cobros de jubilados durante junio de 2026. Este cronograma incluye el pago del aguinaldo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Jubilaciones",
+        "Anses",
+        "Aguinaldo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/calendario-anses-la-fecha-de-cobro-de-los-jubilados-en-junio-2026-con-el-aguinaldo-nid26052026",
+      "source_datetime": "2026-06-14T13:50:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "66",
+      "headline": "Cronograma Anses junio 2026: todas las prestaciones sociales",
+      "summary": "Ya se encuentra disponible para consulta el cronograma completo de pagos de todas las prestaciones sociales que Anses abonará durante junio de 2026.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Anses",
+        "Prestaciones sociales",
+        "Calendario de pagos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuando-cobro-anses-el-calendario-completo-de-junio-2026-nid29052026",
+      "source_datetime": "2026-06-14T13:50:33+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "67",
+      "headline": "Aguinaldo empleados de comercio: cálculo y fecha de cobro en junio",
+      "summary": "El aguinaldo para los empleados de comercio se abonará en junio, y su cálculo preciso dependerá de la situación particular de cada trabajador. Se informa sobre la fecha límite establecida para su liquidación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Aguinaldo",
+        "Empleo",
+        "Comercio"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/aguinaldo-para-empleados-de-comercio-cuando-se-cobra-y-como-calcular-cuanto-te-corresponde-en-junio-nid10062026",
+      "source_datetime": "2026-06-14T13:50:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "68",
+      "headline": "Primera cuota del aguinaldo: fecha límite de pago en junio",
+      "summary": "La primera cuota del aguinaldo debe ser abonada antes de que finalice junio. Los empleadores cuentan con un período de gracia para realizar este pago.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Aguinaldo",
+        "Empleo",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuando-se-cobra-el-aguinaldo-2026-nid09062026",
+      "source_datetime": "2026-06-14T13:50:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "69",
+      "headline": "Cobro del aguinaldo en Argentina: fechas y cálculo en junio 2026",
+      "summary": "En junio de 2026 se realizará el pago del Sueldo Anual Complementario (SAC), con una fecha límite establecida. Se detalla cómo calcular el monto a percibir.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Aguinaldo",
+        "SAC",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuando-se-paga-el-aguinaldo-en-la-argentina-en-junio-2026-nid07052026",
+      "source_datetime": "2026-06-14T13:50:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "70",
+      "headline": "Aguinaldo (SAC) en junio: quiénes lo reciben",
+      "summary": "El Sueldo Anual Complementario (SAC) se abonará en junio y beneficia a empleados tanto del sector público como del privado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Aguinaldo",
+        "SAC",
+        "Empleo público",
+        "Empleo privado"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/aguinaldo-junio-2026-cuando-se-cobra-y-quienes-lo-reciben-nid19052026",
+      "source_datetime": "2026-06-14T13:50:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "71",
+      "headline": "Servicio doméstico: aumento y aguinaldo en junio",
+      "summary": "La primera categoría del servicio doméstico recibirá un aumento del 1,5% en junio, mes en el que también se abonará la primera cuota del Sueldo Anual Complementario (SAC).",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Servicio doméstico",
+        "Salarios",
+        "Aguinaldo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-los-supervisores-en-junio-de-2026-con-aumento-y-el-aguinaldo-nid04062026",
+      "source_datetime": "2026-06-14T13:49:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "72",
+      "headline": "Anses paga hoy jubilaciones, pensiones y prestaciones asistenciales",
+      "summary": "Hoy, lunes 15 de junio de 2026, la Anses estará realizando pagos correspondientes a jubilaciones, pensiones y diversas prestaciones asistenciales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Anses",
+        "Jubilaciones",
+        "Pensiones",
+        "Prestaciones sociales"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/15/anses-quienes-cobran-hoy-lunes-15-de-junio-de-2026",
+      "source_datetime": "2026-06-15T05:19:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "73",
+      "headline": "Policías cobran en junio con aguinaldo y sin cambios salariales",
+      "summary": "Los policías de Argentina percibirán sus haberes en junio de 2026, manteniendo los montos de los meses previos. Se liquidará la primera cuota del Sueldo Anual Complementario (SAC).",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Policía",
+        "Salarios",
+        "Aguinaldo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-los-policias-de-la-argentina-en-junio-2026-con-el-aguinaldo-nid03062026",
+      "source_datetime": "2026-06-14T13:49:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "74",
+      "headline": "Cierra hamburguesería de youtuber Damián Kuc en Palermo",
+      "summary": "La hamburguesería de Damián Kuc, inaugurada en Palermo en 2023, ha cerrado sus puertas. El responsable del cierre atribuye la decisión al difícil clima económico que atraviesa el país.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Negocios",
+        "Gastronomía",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/15/el-contexto-nos-pone-contra-las-cuerdas-cerro-la-hamburgueseria-de-un-famoso-youtuber",
+      "source_datetime": "2026-06-15T00:44:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "75",
+      "headline": "Gendarmería Nacional: salarios y aguinaldo en junio 2026",
+      "summary": "El personal de Gendarmería Nacional Argentina recibirá sus haberes en junio de 2026, incluyendo el aguinaldo. Se espera un reajuste salarial y se detallan los montos por categoría y la cifra del SAC.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Gendarmería",
+        "Salarios",
+        "Aguinaldo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-gana-el-personal-de-gendarmeria-nacional-argentina-en-junio-2026-con-el-aguinaldo-nid02062026",
+      "source_datetime": "2026-06-14T13:49:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "76",
+      "headline": "Debate global por iniciativa para crear empresas sin empleados y con IA",
+      "summary": "Una iniciativa local propone habilitar la creación de entidades empresariales sin personal para su operación, basándose en la digitalización y la inteligencia artificial. Este proyecto ha generado un debate internacional, con Yuval Harari como figura destacada, y plantea interrogantes sobre sus potenciales riesgos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Empresas",
+        "Innovación",
+        "Debate global"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/clima-de-negocios-el-unicornio-que-inspiro-al-gobierno-y-todo-sobre-el-plan-para-una-argentina-con-empresas-sin-humanos-e-ia-libre",
+      "source_datetime": "2026-06-14T23:19:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "77",
+      "headline": "Fuerzas Armadas: salarios y aguinaldo en junio 2026",
+      "summary": "El personal de las Fuerzas Armadas Argentinas percibirá el Sueldo Anual Complementario (SAC) en junio. Se detallan los salarios correspondientes a este grupo de trabajadores para el sexto mes del año.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Fuerzas Armadas",
+        "Salarios",
+        "Aguinaldo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-el-personal-de-las-fuerzas-armadas-argentinas-en-junio-de-2026-con-el-aguinaldo-nid01062026",
+      "source_datetime": "2026-06-14T13:48:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "78",
+      "headline": "Paro aceitero: advierten pérdidas millonarias para trabajadores",
+      "summary": "Las exportadoras aceiteras advierten que un paro en el sector podría costarles a los trabajadores casi $1 millón por semana. Los empleados del sector tienen un ingreso mensual promedio de $4,8 millones, superando más del triple el salario privado registrado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "conflicto gremial",
+        "salarios",
+        "exportación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/conflicto-aceitero-las-exportadoras-advierten-que-un-paro-le-costaria-a-cada-trabajador-casi-1-millon-por-semana",
+      "source_datetime": "2026-06-14T19:40:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "79",
+      "headline": "Aumento salarial para cocineros de casas particulares en junio",
+      "summary": "Los cocineros, la segunda categoría de trabajadores de casas particulares, recibirán un aumento del 1,5% en junio. Además, se abonará el aguinaldo. Las cifras exactas varían según el tipo de contrato.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "salarios",
+        "trabajo doméstico"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-los-cocineros-en-junio-2026-nid29052026",
+      "source_datetime": "2026-06-14T13:48:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "80",
+      "headline": "Palantir, la empresa de Peter Thiel, enfrenta resistencia en Europa",
+      "summary": "La empresa de tecnología Palantir, fundada por Peter Thiel, se ha instalado en Buenos Aires. Sin embargo, la firma enfrenta resistencia en Europa y deberá pagar las costas de un litigio en Suiza relacionado con la \"soberanía de datos\".",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "tecnología",
+        "regulación",
+        "datos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/palantir-la-empresa-del-tecno-magnate-que-se-instalo-en-buenos-aires-es-resistida-en-europa-su-momento-streisand-en-suiza",
+      "source_datetime": "2026-06-14T19:35:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "81",
+      "headline": "Suba salarial para niñeras y cuidadores de adultos en junio",
+      "summary": "La cuarta categoría del servicio doméstico, que incluye a niñeras y cuidadores de adultos, tendrá un aumento del 1,5% en junio. Este mes también se cobra el aguinaldo. Se detallan los valores para trabajadores con y sin retiro.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "salarios",
+        "trabajo doméstico"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-las-nineras-y-cuidadores-de-adultos-en-junio-de-2026-con-el-aguinaldo-y-el-aumento-nid28052026",
+      "source_datetime": "2026-06-14T13:48:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "82",
+      "headline": "Pasajes aéreos se encarecen hasta 30% por alza del jet fuel",
+      "summary": "Los pasajes aéreos desde Argentina han aumentado hasta un 30% debido al incremento del precio del jet fuel. El barril de Brent pasó de USD 66 a picos de USD 120. EcoSur estima una suba promedio del 15,6% en tickets internacionales desde Buenos Aires, sumando recargos y actualización de tasa de seguridad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "transporte",
+        "precios",
+        "energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/vuelos-mas-caros-por-el-aumento-del-jet-fuel-los-pasajes-desde-la-argentina-se-encarecieron-hasta-30-por-ciento",
+      "source_datetime": "2026-06-14T14:28:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "83",
+      "headline": "Empleados de comercio: salarios de junio con aumento y aguinaldo",
+      "summary": "Los empleados de comercio recibirán el último tramo de aumentos de la negociación paritaria en junio. Se detallan las cifras correspondientes a cada categoría, además del cobro del aguinaldo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "salarios",
+        "negociación paritaria"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/salario-oficial-cuanto-ganan-los-empleados-de-comercio-en-junio-de-2026-con-el-aumento-confirmado-nid27052026",
+      "source_datetime": "2026-06-14T13:48:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "84",
+      "headline": "Empleadas domésticas: suba salarial del 1,5% en junio",
+      "summary": "Las empleadas domésticas recibirán un aumento del 1,5% en junio. Se detallan los nuevos valores para los contratos con y sin retiro.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "salarios",
+        "trabajo doméstico"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-las-empleadas-domesticas-en-junio-2026-nid26052026",
+      "source_datetime": "2026-06-14T13:48:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "85",
+      "headline": "Anses: nuevo sistema de turnos para trámites presenciales",
+      "summary": "La Anses implementó un nuevo sistema para solicitar turnos para trámites presenciales. Los ciudadanos ahora pueden elegir la oficina donde desean realizar sus gestiones. Se explica cómo obtener un turno a través de la web oficial.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "trámites",
+        "gestión pública",
+        "Anses"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/cambian-los-turnos-de-la-anses-como-funciona-el-nuevo-sistema-para-hacer-tramites-presenciales",
+      "source_datetime": "2026-06-14T13:29:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "86",
+      "headline": "Denuncias viales por WhatsApp: nuevo sistema para conductas peligrosas",
+      "summary": "La Agencia Nacional de Seguridad Vial lanzó un sistema para denunciar conductas peligrosas al volante a través de WhatsApp. El sistema es anónimo y requiere evidencia fotográfica o en video del vehículo. Está destinado a maniobras peligrosas, no a infracciones menores.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "seguridad vial",
+        "denuncias",
+        "tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/ya-se-pueden-denunciar-por-whatsapp-conductas-peligrosas-al-volante-como-funciona-el-sistema",
+      "source_datetime": "2026-06-14T13:08:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "87",
+      "headline": "Anses: cronograma de pagos de prestaciones sociales del 15 al 19 de junio",
+      "summary": "La Anses continuará con el pago de jubilaciones, AUH, Asignaciones por Embarazo y otras prestaciones sociales entre el 15 y el 19 de junio.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "prestaciones sociales",
+        "Anses",
+        "cronograma de pagos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/calendario-anses-que-prestaciones-sociales-se-cobran-en-la-semana-del-15-al-19-de-junio-nid14062026",
+      "source_datetime": "2026-06-14T12:38:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "88",
+      "headline": "Administración central enfrenta 339.000 juicios con incertidumbre sobre costos",
+      "summary": "La administración central enfrenta 339.000 juicios, cifra que aumenta considerablemente al incluir organismos como Anses. La mayoría de estas demandas no tiene un monto definido, lo que genera incertidumbre sobre el costo total que deberá afrontar el Estado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "litigios",
+        "estado",
+        "finanzas públicas"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/la-administracion-central-enfrenta-339000-juicios-y-se-desconoce-cuanto-debera-pagar-nid14062026",
+      "source_datetime": "2026-06-14T10:55:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "89",
+      "headline": "Ex viceministro de Economía: \"El esquema previsional actual es insostenible\"",
+      "summary": "Pablo Guidotti, ex viceministro de Economía, considera que el esquema previsional actual es insostenible. El economista analizó la ejecución del Presupuesto 2026 y los desafíos para reducir el riesgo país.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "previsión social",
+        "economía",
+        "riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/pablo-guidotti-ex-viceministro-de-economia-el-esquema-previsional-actual-es-insostenible",
+      "source_datetime": "2026-06-14T10:47:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "90",
+      "headline": "Ajuste económico: mejora desigual y señales mixtas de reactivación",
+      "summary": "Algunos indicadores sugieren que la fase más aguda del ajuste económico ha concluido, pero la mejora no se distribuye de manera equitativa. Coexisten señales de reactivación en segmentos industriales y exportadores con una construcción aún frágil y brechas regionales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES",
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "ajuste económico",
+        "reactivación",
+        "desigualdad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/06/14/el-actual-modelo-economico-requiere-otras-preguntas",
+      "source_datetime": "2026-06-14T10:44:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "92",
+      "headline": "SpaceX debuta en Wall Street, inaugurando la economía espacial",
+      "summary": "SpaceX ha debutado en Wall Street, marcando el inicio formal de la era de la economía espacial. La empresa confirma la expectativa de que el resurgimiento de los lanzamientos privados al espacio abre un nuevo campo de negocios.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "espacio",
+        "tecnología",
+        "inversiones",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/14/spacex-despego-en-wall-street-e-inauguro-formalmente-la-era-de-la-economia-espacial",
+      "source_datetime": "2026-06-14T04:17:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "94",
+      "headline": "Argentina: ingresos extraordinarios y debate sobre su uso",
+      "summary": "Argentina se perfila a recibir ingresos extraordinarios provenientes de hidrocarburos, litio y un nuevo régimen de inversiones. Si bien la discusión pública se centra en el monto de estos ingresos, el problema central radica en cómo serán utilizados.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "recursos naturales",
+        "inversiones",
+        "política económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/06/14/el-error-que-podemos-repetir",
+      "source_datetime": "2026-06-14T04:16:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "95",
+      "headline": "Lorena Giorgio: \"No está claro que la macroeconomía de este modelo gane elecciones\"",
+      "summary": "Lorena Giorgio, economista, expresa dudas sobre si la macroeconomía resultante de este modelo económico será suficiente para ganar elecciones. Giorgio se recibió de economista en la UBA con honores y completó una maestría en la Universidad Torcuato Di Tella.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "economía",
+        "política",
+        "elecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/lorena-giorgio-no-queda-claro-que-la-macro-que-se-deriva-de-este-modelo-economico-gane-elecciones-nid14062026",
+      "source_datetime": "2026-06-14T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "98",
+      "headline": "Girasol: el cultivo que impulsa un reseteo productivo en el campo",
+      "summary": "El cultivo de girasol está marcando un punto de inflexión, superando esquemas de producción básica en lotes marginales con tecnología mínima. La implementación de un paquete tecnológico más avanzado podría incrementar el rendimiento promedio nacional entre un 30% y 35%, según la zona.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "campo",
+        "agricultura",
+        "tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/nuevo-escenario-el-cultivo-que-abrio-la-puerta-a-un-reseteo-productivo-nid13062026",
+      "source_datetime": "2026-06-13T23:24:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "99",
+      "headline": "Aumento de la venta callejera ilegal en Buenos Aires durante mayo",
+      "summary": "La venta callejera ilegal en la Ciudad de Buenos Aires experimentó un crecimiento en mayo, según la Cámara Argentina de Comercio. Esta tendencia ascendente se concentra territorialmente en avenidas, estaciones y plazas céntricas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "economía informal",
+        "comercio",
+        "ciudad de buenos aires"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/sociedad/2026/06/13/crecio-la-venta-callejera-ilegal-en-la-ciudad-de-buenos-aires-en-mayo-rubros-principales-y-zonas-mas-afectadas",
+      "source_datetime": "2026-06-13T20:51:08+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "100",
+      "headline": "Nuevo centro de climatización para frutas en la Patagonia",
+      "summary": "Tres Ases inauguró el primer centro inteligente de climatización de la Patagonia. Procesará 60.000 toneladas de frutas e invirtió millones para que lleguen en su punto justo. El centro está destinado a bananas, peras y paltas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/procesan-60000-toneladas-de-frutas-e-invirtieron-millones-en-un-secreto-para-mejorar-el-consumo-nid13062026",
+      "source_datetime": "2026-06-13T22:44:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "101",
+      "headline": "SpaceX impulsa un nuevo ranking de empresas más valiosas del mundo",
+      "summary": "La salida a bolsa de SpaceX en Wall Street reconfiguró el listado de las compañías de mayor valor global. La empresa aeroespacial de Elon Musk irrumpió en el mercado, alterando la clasificación mundial.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Empresas",
+        "Tecnología",
+        "Finanzas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/ranking-mundial-una-por-una-cuales-son-las-10-empresas-mas-valiosas-tras-la-salida-de-spacex-a-la-bolsa",
+      "source_datetime": "2026-06-13T18:14:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "103",
+      "headline": "Aumenta el valor de la hora de limpieza para empleadas domésticas en julio",
+      "summary": "Los nuevos montos para empleadas domésticas entran en vigencia en julio de 2026. Los incrementos abarcan todas las categorías, desde tareas generales hasta funciones de supervisión y cuidado de personas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/empleadas-domesticas-cuanto-vale-la-hora-de-limpieza-en-julio-de-2026",
+      "source_datetime": "2026-06-13T14:52:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "105",
+      "headline": "Elon Musk se convierte en el primer billonario tras debut de SpaceX",
+      "summary": "Elon Musk se posiciona como el primer billonario de la historia tras la salida a bolsa de SpaceX. La compañía de cohetes e inteligencia artificial comenzó a cotizar en Nueva York con una subida inicial del 11%, elevando su capitalización a casi USD 2 billones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Empresas",
+        "Tecnología",
+        "Finanzas",
+        "Mercados"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/13/elon-musk-el-primer-billonario-de-la-historia-luego-del-debut-de-spacex-en-wall-street-a-cuanto-llega-su-increible-patrimonio",
+      "source_datetime": "2026-06-13T03:42:28+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "106",
+      "headline": "Municipio bonaerense aplica \"tolerancia cero\" contra cazadores de galgos",
+      "summary": "El partido de San Antonio de Areco, en la provincia de Buenos Aires, avanza contra cazadores y secuestra perros galgos. Impulsa una ordenanza para sancionar el ingreso a campos privados y solicitó ser incorporado a una veda provincial.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Seguridad",
+        "Campo",
+        "Legislación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/tolerancia-cero-un-municipio-bonaerense-avanza-contra-cazadores-y-ya-secuestra-los-perros-galgos-nid11062026",
+      "source_datetime": "2026-06-13T17:51:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.infobae.com/economia/2026/06/14/dos-pronosticos-clave-para-argentina-que-va-a-pasar-con-las-tasas-de-la-fed-de-eeuu-y-el-precio-internacional-del-petroleo",
+    "https://www.ambito.com/economia/semana-clave-la-politica-monetaria-global-primera-reunion-kevin-warsh-la-fed-y-el-banco-japon-sube-las-tasas-n6288178",
+    "https://www.lanacion.com.ar/economia/solidos-datos-de-las-cuentas-externas-pero-todavia-problemas-de-actividad-en-algunos-sectores-nid14062026",
+    "https://www.ambito.com/economia/dolar-aseguran-que-el-bcra-mejoro-su-balance-cambiario-costa-una-menor-demanda-parte-la-industria-n6288236",
+    "https://www.infobae.com/economia/2026/06/15/dolar-y-actividad-la-debilidad-importadora-ayudo-a-las-compras-del-banco-central",
+    "https://www.infobae.com/economia/2026/06/13/a-cuanto-puede-llegar-el-dolar-en-julio-sin-que-intervenga-el-gobierno-segun-la-nueva-banda-cambiaria",
+    "https://www.infobae.com/opinion/2026/06/13/recalibracion-de-expectativas-ante-una-macro-mas-solida-de-lo-previsto-en-estados-unidos",
+    "https://www.lanacion.com.ar/economia/dolar-como-se-ajusta-la-banda-cambiaria-en-julio-tras-la-desaceleracion-de-la-inflacion-nid13062026",
+    "https://www.infobae.com/economia/2026/06/15/inflacion-de-junio-se-acelero-un-rubro-clave-pero-ya-hay-consultoras-que-creen-que-perforara-el-piso-de-los-2-puntos",
+    "https://www.cronista.com/finanzas-mercados/bonos-en-dolares-cuales-compran-los-fondos-y-aun-rinden-mas-del-10",
+    "https://www.lanacion.com.ar/economia/finanzas-la-mejora-de-la-nota-crediticia-refuerza-el-optimismo-financiero-nid14062026",
+    "https://www.ambito.com/economia/con-la-mirada-las-elecciones-advierten-una-posible-nueva-suba-tasas-n6288553",
+    "https://www.lanacion.com.ar/economia/los-argentinos-aun-afrontan-150-impuestos-tasas-y-contribuciones-nid14062026",
+    "https://www.ambito.com/economia/acuerdo-eeuu-e-iran-reabrir-ormuz-el-petroleo-se-desploma-y-suben-los-futuros-wall-street-n6288747",
+    "https://www.lanacion.com.ar/economia/el-precio-del-petroleo-cae-tras-el-anuncio-de-un-acuerdo-entre-eeuu-e-iran-para-poner-fin-a-la-nid14062026",
+    "https://www.ambito.com/economia/santiago-bausili-se-reunio-el-presidente-del-banco-popular-china-y-avanzan-las-conversaciones-renovar-el-swap-n6288652",
+    "https://www.ambito.com/economia/las-reservas-estrategicas-petroleo-comienzan-agotarse-y-crece-la-preocupacion-el-abastecimiento-global-n6288646",
+    "https://www.lanacion.com.ar/economia/el-gobierno-ratifica-que-cumplira-su-meta-de-subsidios-a-la-energia-con-mayores-tarifas-para-los-nid14062026",
+    "https://www.ambito.com/economia/podrias-perder-cientos-dolares-los-gastos-ocultos-que-muchos-no-tienen-cuenta-al-viajar-n6287644",
+    "https://www.lanacion.com.ar/economia/como-salir-de-la-deuda-de-la-tarjeta-de-credito-consejos-para-evitar-la-morosidad-nid13062026",
+    "https://www.infobae.com/opinion/2026/06/13/cuando-la-nube-pesa-demasiado-es-la-ia-una-nueva-burbuja-financiera",
+    "https://www.infobae.com/economia/2026/06/14/gracias-a-la-acumulacion-de-reservas-el-optimismo-de-los-inversores-esta-en-su-punto-mas-alto-desde-que-gobierna-milei",
+    "https://www.infobae.com/economia/2026/06/13/la-estrategia-para-pagar-la-deuda-cuantos-dolares-tiene-el-gobierno-para-el-vencimiento-de-julio-y-cuanto-falta-sumar",
+    "https://www.infobae.com/economia/2026/06/13/semana-financiera-las-acciones-argentinas-se-dispararon-hasta-18-y-el-riesgo-pais-toco-un-minimo-desde-2018",
+    "https://www.ambito.com/economia/el-consumo-carne-vacuna-cae-minimos-dos-decadas-y-acelera-el-reemplazo-pollo-y-cerdo-n6288669",
+    "https://www.ambito.com/economia/despues-la-desaceleracion-mayo-el-aumento-alimentos-presiona-los-precios-n6288584",
+    "https://www.infobae.com/economia/2026/06/14/los-jugueteros-denuncian-que-una-petroquimica-les-aumento-154-un-producto-basico-en-menos-de-4-meses",
+    "https://www.perfil.com/noticias/economia/en-dos-semanas-la-side-ejecuto-3500-millones-adicionales-en-gastos-reservados.phtml",
+    "https://www.infobae.com/economia/2026/06/14/ranking-de-riesgo-pais-que-puesto-ocupa-la-argentina-en-america-latina-luego-de-tocar-el-minimo-desde-2018",
+    "https://www.perfil.com/noticias/columnistas/la-confesion-de-adorni-sobre-sus-criptos-podria-salvarlo-de-una-condena-por-enriquecimiento-por-carlos-burgueno.phtml",
+    "https://www.infobae.com/opinion/2026/06/13/la-acumulacion-de-reservas-un-colchon-que-protege-al-ciudadano-y-a-las-empresas",
+    "https://www.lanacion.com.ar/economia/juan-carlos-de-pablo-explico-por-que-la-economia-argentina-podria-enfrentar-una-enfermedad-holandesa-nid14062026",
+    "https://www.lanacion.com.ar/economia/campo/ganaderia/opinion-una-medida-tributaria-largamente-esperada-para-la-produccion-ganadera-nid15062026",
+    "https://www.ambito.com/economia/aumentan-los-colectivos-y-trenes-el-amba-este-lunes-cuanto-costara-viajar-partir-manana-n6288659",
+    "https://www.ambito.com/economia/vale-la-pena-el-plazo-fijo-cuanto-genera-esta-herramienta-si-invertimos-2000000-n6288328",
+    "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-14-de-junio-nid14062026",
+    "https://www.ambito.com/economia/alarma-la-industria-la-desconurbanizacion-no-avanza-el-dolar-retrocede-y-los-inversores-envian-mensajes-n6288501",
+    "https://www.lanacion.com.ar/economia/convenios-colectivos-y-actividad-sindical-que-aspectos-modifica-la-reforma-laboral-nid14062026",
+    "https://www.lanacion.com.ar/economia/maxima-tension-entre-las-empresas-belgas-que-se-disputan-el-negocio-de-la-hidrovia-nid13062026",
+    "https://www.ambito.com/economia/impuesto-las-ganancias-arca-detecta-inconsistencias-deducciones-y-aumenta-controles-empleados-n6288263",
+    "https://www.infobae.com/economia/2026/06/15/sin-margen-para-seguir-recortando-gastos-es-sostenible-el-equilibrio-fiscal",
+    "https://www.lanacion.com.ar/economia/campo/agricultura/se-vislumbran-pocas-posibilidades-de-subas-en-los-precios-del-maiz-nid13062026",
+    "https://www.infobae.com/economia/2026/06/13/se-conocio-el-dato-que-faltaba-de-cuanto-sera-la-jubilacion-minima-de-anses-en-julio-2026",
+    "https://www.infobae.com/economia/2026/06/15/presencia-de-marca-y-ciclos-de-produccion-por-que-un-grupo-mexicano-compra-el-mayor-exportador-de-dulce-de-leche-de-la-argentina",
+    "https://www.infobae.com/economia/2026/06/14/la-batalla-contra-el-contrabando-reaviva-la-disputa-entre-empresas-y-plataformas-como-mercado-libre-que-hace-el-gobierno",
+    "https://www.infobae.com/economia/2026/06/13/la-economia-en-serrucho-por-que-la-actividad-alterna-subas-y-bajas-y-que-se-preve-para-el-segundo-semestre",
+    "https://www.perfil.com/noticias/economia/el-gobierno-busca-ampliar-el-blanqueo-permanente-y-flexibiliza-los-controles.phtml",
+    "https://www.cronista.com/finanzas-mercados/seguro-de-enfermedad-grave-como-funciona-la-cobertura-que-paga-una-indemnizacion-a-monotributistas-y-freelancers",
+    "https://www.infobae.com/economia/2026/06/14/nuevo-aumento-de-colectivos-y-trenes-en-el-area-metropolitana-las-tarifas-desde-este-lunes",
+    "https://www.perfil.com/noticias/economia/paolo-rocca-y-su-sueno-de-un-modelo-economico-normal-conducido-por-lideres-normales-a40.phtml",
+    "https://www.infobae.com/economia/2026/06/14/nueve-de-cada-diez-argentinos-tiene-algun-tipo-de-dificultad-economica-que-gastos-priorizan-y-cuales-postergan",
+    "https://www.perfil.com/noticias/economia/jan-de-nul-salio-al-cruce-de-deme-y-cuestiono-su-propuesta-de-reducir-un-174-el-peaje-de-la-hidrovia.phtml",
+    "https://www.infobae.com/economia/2026/06/14/infierno-tributario-los-150-impuestos-tasas-y-contribuciones-vigentes-en-la-argentina-quien-los-cobra-cuales-recaudan-mas-y-donde-son-mas-numerosos",
+    "https://www.perfil.com/noticias/economia/cobro-de-aguinaldo-cual-es-la-fecha-limite-que-tienen-las-empresas-para-pagarlo-en-junio-2026-a35.phtml",
+    "https://www.infobae.com/economia/2026/06/13/motosierra-2026-en-lo-que-va-del-ano-los-ministerios-ahorraron-el-triple-de-lo-que-habia-pedido-milei",
+    "https://noticias.perfil.com/noticias/economia/desafio-poblacional.phtml",
+    "https://www.perfil.com/noticias/economia/jefatura-de-gabinete-tiene-el-mayor-presupuesto-para-funcionarios.phtml",
+    "https://www.perfil.com/noticias/columnistas/un-pen-drive-muy-oportuno-y-el-misterio-de-los-us-500-mil-por-carlos-burgueno.phtml",
+    "https://www.ambito.com/economia/cambia-el-plazo-fijo-30-dias-cuanto-gano-si-invierto-2800000-n6287341",
+    "https://www.lanacion.com.ar/economia/calendario-anses-la-fecha-de-cobro-de-los-jubilados-en-junio-2026-con-el-aguinaldo-nid26052026",
+    "https://www.lanacion.com.ar/economia/cuando-cobro-anses-el-calendario-completo-de-junio-2026-nid29052026",
+    "https://www.lanacion.com.ar/economia/aguinaldo-para-empleados-de-comercio-cuando-se-cobra-y-como-calcular-cuanto-te-corresponde-en-junio-nid10062026",
+    "https://www.lanacion.com.ar/economia/cuando-se-cobra-el-aguinaldo-2026-nid09062026",
+    "https://www.lanacion.com.ar/economia/cuando-se-paga-el-aguinaldo-en-la-argentina-en-junio-2026-nid07052026",
+    "https://www.lanacion.com.ar/economia/aguinaldo-junio-2026-cuando-se-cobra-y-quienes-lo-reciben-nid19052026",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-los-supervisores-en-junio-de-2026-con-aumento-y-el-aguinaldo-nid04062026",
+    "https://www.infobae.com/economia/2026/06/15/anses-quienes-cobran-hoy-lunes-15-de-junio-de-2026",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-los-policias-de-la-argentina-en-junio-2026-con-el-aguinaldo-nid03062026",
+    "https://www.infobae.com/economia/2026/06/15/el-contexto-nos-pone-contra-las-cuerdas-cerro-la-hamburgueseria-de-un-famoso-youtuber",
+    "https://www.lanacion.com.ar/economia/cuanto-gana-el-personal-de-gendarmeria-nacional-argentina-en-junio-2026-con-el-aguinaldo-nid02062026",
+    "https://www.infobae.com/economia/2026/06/14/clima-de-negocios-el-unicornio-que-inspiro-al-gobierno-y-todo-sobre-el-plan-para-una-argentina-con-empresas-sin-humanos-e-ia-libre",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-el-personal-de-las-fuerzas-armadas-argentinas-en-junio-de-2026-con-el-aguinaldo-nid01062026",
+    "https://www.infobae.com/economia/2026/06/14/conflicto-aceitero-las-exportadoras-advierten-que-un-paro-le-costaria-a-cada-trabajador-casi-1-millon-por-semana",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-los-cocineros-en-junio-2026-nid29052026",
+    "https://www.infobae.com/economia/2026/06/14/palantir-la-empresa-del-tecno-magnate-que-se-instalo-en-buenos-aires-es-resistida-en-europa-su-momento-streisand-en-suiza",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-las-nineras-y-cuidadores-de-adultos-en-junio-de-2026-con-el-aguinaldo-y-el-aumento-nid28052026",
+    "https://www.infobae.com/economia/2026/06/14/vuelos-mas-caros-por-el-aumento-del-jet-fuel-los-pasajes-desde-la-argentina-se-encarecieron-hasta-30-por-ciento",
+    "https://www.lanacion.com.ar/economia/salario-oficial-cuanto-ganan-los-empleados-de-comercio-en-junio-de-2026-con-el-aumento-confirmado-nid27052026",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-las-empleadas-domesticas-en-junio-2026-nid26052026",
+    "https://www.infobae.com/economia/2026/06/14/cambian-los-turnos-de-la-anses-como-funciona-el-nuevo-sistema-para-hacer-tramites-presenciales",
+    "https://www.infobae.com/economia/2026/06/14/ya-se-pueden-denunciar-por-whatsapp-conductas-peligrosas-al-volante-como-funciona-el-sistema",
+    "https://www.lanacion.com.ar/economia/calendario-anses-que-prestaciones-sociales-se-cobran-en-la-semana-del-15-al-19-de-junio-nid14062026",
+    "https://www.lanacion.com.ar/economia/la-administracion-central-enfrenta-339000-juicios-y-se-desconoce-cuanto-debera-pagar-nid14062026",
+    "https://www.infobae.com/economia/2026/06/14/pablo-guidotti-ex-viceministro-de-economia-el-esquema-previsional-actual-es-insostenible",
+    "https://www.infobae.com/opinion/2026/06/14/el-actual-modelo-economico-requiere-otras-preguntas",
+    "https://www.infobae.com/economia/2026/06/14/spacex-despego-en-wall-street-e-inauguro-formalmente-la-era-de-la-economia-espacial",
+    "https://www.infobae.com/opinion/2026/06/14/el-error-que-podemos-repetir",
+    "https://www.lanacion.com.ar/economia/lorena-giorgio-no-queda-claro-que-la-macro-que-se-deriva-de-este-modelo-economico-gane-elecciones-nid14062026",
+    "https://www.lanacion.com.ar/economia/campo/nuevo-escenario-el-cultivo-que-abrio-la-puerta-a-un-reseteo-productivo-nid13062026",
+    "https://www.infobae.com/sociedad/2026/06/13/crecio-la-venta-callejera-ilegal-en-la-ciudad-de-buenos-aires-en-mayo-rubros-principales-y-zonas-mas-afectadas",
+    "https://www.lanacion.com.ar/economia/campo/procesan-60000-toneladas-de-frutas-e-invirtieron-millones-en-un-secreto-para-mejorar-el-consumo-nid13062026",
+    "https://www.infobae.com/economia/2026/06/13/ranking-mundial-una-por-una-cuales-son-las-10-empresas-mas-valiosas-tras-la-salida-de-spacex-a-la-bolsa",
+    "https://www.infobae.com/economia/2026/06/13/empleadas-domesticas-cuanto-vale-la-hora-de-limpieza-en-julio-de-2026",
+    "https://www.infobae.com/economia/2026/06/13/elon-musk-el-primer-billonario-de-la-historia-luego-del-debut-de-spacex-en-wall-street-a-cuanto-llega-su-increible-patrimonio",
+    "https://www.lanacion.com.ar/economia/campo/tolerancia-cero-un-municipio-bonaerense-avanza-contra-cazadores-y-ya-secuestra-los-perros-galgos-nid11062026"
+  ]
+}
