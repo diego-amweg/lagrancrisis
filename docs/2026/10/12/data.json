@@ -1,0 +1,894 @@
+{
+  "date": "2026-10-12",
+  "cadena_de_razonamiento": "Se combinan presiones externas y locales. La Fed confirmó alzas de tasas sin urgencia, la guerra en Medio Oriente elevó el crudo y la volatilidad, y la AIE pidió analizar nuevas liberaciones de combustible. En lo local, el debate cambiario gira en torno al atraso de casi 30% que advierte Ades, mientras el Gobierno descarta devaluar y Chialva vincula la emisión espuria con dólar e inflación. La actividad frágil y la morosidad de 19,5% en agosto limitan la reactivación del crédito, según consultoras y Caputo. El riesgo país debajo de 600 puntos y el buen desempeño de CER, UVA y duales sugieren mejor apetito, pero con alta volatilidad.",
+  "resumen_ejecutivo": "Chialva advirtió que inyectar pesos espurios empuja el dólar y la inflación, mientras Ades sostiene que hay atraso cambiario de casi 30% y el Gobierno descarta devaluar. La Fed confirmó alzas de tasas sin urgencia y las tasas largas empiezan a calmarse, en un contexto donde la guerra en Medio Oriente disparó el crudo y la AIE pidió analizar nuevas liberaciones de combustible. Localmente, Caputo reconoció límites de la recuperación y la actividad aparece frágil según Equilibra y Giorgio, con un crecimiento de 1,3% proyectado para este año. El riesgo país cedió y quedó debajo de 600 puntos, aunque con alta volatilidad, y el carry trade favorece a CER, UVA y duales. La morosidad de 19,5% en agosto y el freno del crédito condicionan la reactivación.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Chialva: inyectar pesos espurios empuja el dólar y la inflación",
+      "summary": "El socio de Delphos Investment, Leonardo Chialva, respondió al planteo de Alberto Ades sobre los amortiguadores en la transición productiva. Calificó de \"papelón\" el informe de la AGN sobre el oro del Banco Central y anticipó un 2027 con mayor estabilidad cambiaria. Afirmó que todo peso inyectado de manera espuria termina en un dólar más alto e inflación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Leonardo Chialva",
+        "Delphos Investment",
+        "AGN",
+        "Banco Central",
+        "Tipo de cambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/leonardo-chialva-todo-peso-que-inyectes-manera-pura-termina-un-dolar-mas-alto-e-inflacion-n6332137",
+      "source_datetime": "2026-10-11T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "De Pablo: las inversiones sí llegan al país",
+      "summary": "El economista Juan Carlos de Pablo se refirió a la victoria de Flavio Bolsonaro y desmintió que las inversiones no lleguen al país. También habló sobre el ingreso de dólares y la relación entre Milei y Trump.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Juan Carlos de Pablo",
+        "Flavio Bolsonaro",
+        "Milei",
+        "Trump",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/juan-carlos-de-pablo-economista-para-la-argentina-es-un-problema-que-brasil-no-funcione-nid11102026",
+      "source_datetime": "2026-10-12T03:23:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Caputo reconoce límites de la recuperación ante empresarios",
+      "summary": "El ministro de Economía reconoció los límites de la recuperación ante empresarios y gobernadores. Se menciona la recesión técnica y el malestar del círculo rojo. El funcionario participará de la Asamblea Anual del Fondo y volverá recién el otro fin de semana.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Luis Caputo",
+        "Recesión técnica",
+        "Asamblea Anual del Fondo"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/luces-rojas-para-luis-caputo-recesion-reservas-y-dolar-ponen-en-peligro-su-futuro.phtml",
+      "source_datetime": "2026-10-11T03:36:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Crédito privado dependerá de inflación, mora y tasas reales",
+      "summary": "Analistas coinciden en que la recuperación del financiamiento privado dependerá de inflación, mora y tasas reales. Mantienen posturas divididas sobre la velocidad y magnitud del posible repunte. El ministro de Economía sostuvo que las tasas de los bonos del Tesoro de Estados Unidos están a nivel de los años 90.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Crédito",
+        "Tasas reales",
+        "Mora",
+        "Bonos del Tesoro de EEUU"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/10/inflacion-mora-y-tasas-reales-de-interes-las-claves-que-definiran-el-futuro-del-credito",
+      "source_datetime": "2026-10-10T21:08:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Bonos de un gigante tech rinden casi lo mismo que los del Tesoro",
+      "summary": "El aumento de las tasas que pagan soberanos como EEUU comprimió la diferencia con grandes corporaciones. Se mencionan déficits, deudas y la competencia por capital con la IA.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos corporativos",
+        "Tesoro de EEUU",
+        "Inteligencia artificial",
+        "Deuda soberana"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/12/por-que-los-bonos-de-un-gigante-tech-ya-rinden-casi-lo-mismo-que-los-del-tesoro-de-estados-unidos",
+      "source_datetime": "2026-10-12T04:14:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "La Fed confirma alzas de tasas sin urgencia",
+      "summary": "La Fed confirmó alzas de tasas sin urgencia y se espera una subida trimestral. Las tasas largas empiezan a calmarse.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Reserva Federal",
+        "Tasas",
+        "Tasas largas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-fed-muestra-sus-cartas-y-las-tasas-largas-empiezan-calmarse-n6332627",
+      "source_datetime": "2026-10-11T23:37:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Auditoría cuestiona resultado de contratos financieros del BCRA",
+      "summary": "Un informe de la Auditoría cuestionó el resultado de contratos financieros realizados en 2025. La autoridad monetaria defendió la estrategia como cobertura y sostuvo que el saldo total fue favorable.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "AGN",
+        "Contratos financieros",
+        "Reservas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/10/el-oro-de-la-polemica-reservas-error-de-calculo-acusacion-cruzadas-y-otras-claves-del-fuerte-cruce-entre-el-bcra-y-la-agn",
+      "source_datetime": "2026-10-10T21:08:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Ades advierte atraso cambiario de casi 30%; Gobierno descarta devaluar",
+      "summary": "Ades advirtió sobre un atraso de casi 30%, pero el Gobierno descarta una devaluación como salida. La economía llegaría con mejores datos a fin de año.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Alberto Ades",
+        "Tipo de cambio",
+        "Atraso cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/milei-llevo-al-gabinete-el-debate-sobre-el-tipo-de-cambio-puede-crecer-argentina-con-un-dolar-bajo",
+      "source_datetime": "2026-10-11T05:35:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "DFC evalúa una veintena de proyectos argentinos con fondos de EEUU",
+      "summary": "Una funcionaria habló sobre superar el marco de US$7000 millones anunciado en septiembre, en un contexto de crédito más caro. La DFC evalúa una veintena de proyectos. Incluye un préstamo para Vista y conversaciones con Pampa por el desarrollo de líquidos del gas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "DFC",
+        "Vista",
+        "Pampa",
+        "Energía",
+        "Minería"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/mineria-y-energia-estados-unidos-abrio-la-puerta-a-financiar-proyectos-argentinos-con-fondos-del-nid11102026",
+      "source_datetime": "2026-10-11T22:13:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Morosidad se ubicó en 19,5% en agosto, según el Mapa de la Deuda",
+      "summary": "La tasa de morosidad en agosto se ubicó en 19,5%, según el Mapa de la Deuda. El 30,5% de las personas que refinanciaron deudas durante 2026 volvió a caer en mora. El 26% usó el crédito principalmente para comprar alimentos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Mapa de la Deuda",
+        "Morosidad",
+        "Refinanciación",
+        "Crédito"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/santa-cruz-la-rioja-y-san-luis-el-podio-de-las-provincias-con-mayor-mora.phtml",
+      "source_datetime": "2026-10-11T03:41:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "La guerra en Medio Oriente dispara el crudo y la volatilidad",
+      "summary": "La guerra en Medio Oriente disparó el crudo, restringió el abastecimiento y elevó la volatilidad financiera. Especialistas analizan las perspectivas del Brent y el WTI.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Brent",
+        "WTI",
+        "Medio Oriente"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/petroleo-presion-los-tres-escenarios-los-proximos-meses-y-las-claves-que-definiran-su-precio-n6332120",
+      "source_datetime": "2026-10-12T03:00:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "AIE pide analizar más liberaciones; EEUU importará diésel ruso",
+      "summary": "La AIE pidió a sus países miembros analizar nuevas liberaciones de combustible, buscando aliviar restricciones de suministro provocadas por la guerra en Irán. Estados Unidos anunció un acuerdo para importar diésel ruso.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "AIE",
+        "Diésel",
+        "Irán",
+        "Rusia"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/alerta-el-precio-del-diesel-la-aie-propone-liberar-mas-reservas-y-eeuu-recurre-rusia-n6332566",
+      "source_datetime": "2026-10-11T18:47:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Lorena Giorgio advierte riesgos de bandas cambiarias y actividad frágil",
+      "summary": "La economista jefe del Centro de Estudios Económicos advirtió sobre riesgos del esquema de bandas cambiarias y señaló la fragilidad de la actividad. Remarcó la necesidad de acumular reservas genuinas antes de los comicios de 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Lorena Giorgio",
+        "Bandas cambiarias",
+        "Reservas",
+        "Elecciones 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/lorena-giorgio-de-equilibra-la-economia-no-ayuda-a-ganar-las-elecciones-de-2027",
+      "source_datetime": "2026-10-11T05:33:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Sigaut Gravina proyecta expansión de 1,3% para este año",
+      "summary": "Lorenzo Sigaut Gravina, de Equilibra, proyectó una expansión de 1,3% para este año. Señaló que la incertidumbre electoral podría complicar la recuperación en 2027. Cuestionó el uso del dólar como ancla antiinflacionaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Equilibra",
+        "Lorenzo Sigaut Gravina",
+        "Crecimiento",
+        "Ancla cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/advierten-el-riesgo-estanflacion-y-una-posible-recesion-tecnica-la-argentina-n6332391",
+      "source_datetime": "2026-10-11T12:15:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Carry trade: CER, UVA y duales lideran ganancias en dólares de 2026",
+      "summary": "Bonos CER, plazos fijos UVA e instrumentos duales fueron las alternativas más rentables medidas al dólar CCL. Corresponde a los primeros nueve meses de 2026. Las previsiones para el cierre del año muestran una ventaja más acotada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Carry trade",
+        "Bonos CER",
+        "Plazo fijo UVA",
+        "Dólar CCL"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/12/carry-trade-las-inversiones-en-pesos-que-mas-ganaron-en-dolares-en-lo-que-va-de-2026",
+      "source_datetime": "2026-10-12T04:15:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Alta morosidad de particulares, una muralla para la reactivación",
+      "summary": "Las consultoras señalaron una debilidad del programa oficial para impulsar el nivel de actividad. Se menciona la alta morosidad de particulares en el pago de créditos. El escenario internacional se complica cada día más.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Morosidad",
+        "Reactivación",
+        "Crédito",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/12/la-reactivacion-se-encuentra-con-una-muralla-la-alta-morosidad-de-los-particulares-en-el-pago-de-creditos",
+      "source_datetime": "2026-10-12T04:14:51+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Ades: el éxito de las reformas hará a la Argentina más cara en dólares",
+      "summary": "Ades habló con Radio Splendid sobre el dólar y consideró que el éxito de las reformas estructurales hará que la Argentina sea más cara en dólares. Días antes Milei lo llevó a la reunión de Gabinete.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Alberto Ades",
+        "Radio Splendid",
+        "Reformas estructurales",
+        "Tipo de cambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/alberto-ades-hablo-del-dolar-y-tal-vez-los-mejores-18-meses-de-la-historia-son-sin-caputo.phtml",
+      "source_datetime": "2026-10-10T18:17:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Red bancaria física cae 14,5% desde 2019 y pierde 229 bocas",
+      "summary": "Según datos del BCRA, la red de atención física se redujo 14,5% desde 2019 y perdió 229 bocas en el último año. El 90% de las transacciones se hacen online y el 80% de los nuevos clientes llegan por ese canal.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "BCRA",
+        "Sucursales bancarias",
+        "Digitalización",
+        "Transacciones online"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/por-el-cambio-de-habitos-ya-hay-672-sucursales-bancarias-menos-que-hace-siete-anos-nid11102026",
+      "source_datetime": "2026-10-11T21:13:28+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Caputo viaja a Bangkok en medio de la revisión con el FMI",
+      "summary": "Caputo se reunirá con Kristalina Georgieva, directora gerente del Fondo, y también con titulares del Banco Mundial y el BID. Sigue pendiente un giro de US$869 millones, en medio de la suba de tasas a nivel internacional.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "FMI",
+        "Caputo",
+        "Revisión"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/caputo-viaja-a-bangkok-en-medio-de-la-revision-con-el-fmi-y-las-dudas-por-el-crecimiento-nid11102026",
+      "source_datetime": "2026-10-11T19:41:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Alberto Ades: Argentina es un barco mal mantenido",
+      "summary": "El economista Alberto Ades es abogado de la UBA y doctor en Economía por Harvard, y pasó por Bank of America, Citigroup y Goldman Sachs. Afirmó que \"Argentina es un barco mal mantenido que enfiló en la dirección incorrecta y terminó encallando\". El lunes 5 el Presidente lo sentó a la mesa del Gabinete. Presentó su libro \"Lo que se desvanece\".",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Ades",
+        "Economía",
+        "Gabinete"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/alberto-ades-argentina-es-un-barco-mal-mantenido-que-enfilo-en-la-direccion-incorrecta-y-termino-encallando.phtml",
+      "source_datetime": "2026-10-11T06:11:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Herramienta de Ecosur: 10 variables suben y 11 caen",
+      "summary": "La Fundación Ecosur lanzó una herramienta que sigue 21 indicadores. En una comparación interanual, 10 variables suben y 11 caen. El PIB resiste mientras supermercados y shoppings sufren.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Ecosur",
+        "PIB"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/el-consumo-bajo-analisis-que-muestra-cada-subsegmento-de-un-sector-que-sigue-sin-arrancar.phtml",
+      "source_datetime": "2026-10-11T01:58:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "El cuentapropismo en apps creció 30% en un año",
+      "summary": "Con el desempleo en el 7,9% y la informalidad en el 45%, las plataformas se consolidan como salida para sostener ingresos. El cuentapropismo en apps creció hasta 30% en un año.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Informalidad",
+        "Apps"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-cuentapropismo-las-apps-crecio-30-un-ano-y-expone-la-nueva-cara-del-empleo-el-pais-n6332082",
+      "source_datetime": "2026-10-12T02:39:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Alberto Ades vuelve a cuestionar el tipo de cambio",
+      "summary": "El economista, que anteriormente respaldó el rumbo del Gobierno, volvió a plantear interrogantes sobre el tipo de cambio. Aseguró que hay actores que \"no van a sobrevivir\" a la transformación económica. Dijo: \"Me gustaría un tipo de cambio más alto\".",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Ades",
+        "Tipo de cambio",
+        "Atraso cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/alberto-ades-volvio-advertir-el-atraso-cambiario-me-gustaria-un-tipo-cambio-mas-alto-n6332371",
+      "source_datetime": "2026-10-10T18:35:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Tipo de cambio débil convive con ventas externas récord",
+      "summary": "Los números del comercio exterior muestran un tipo de cambio débil conviviendo con ventas externas récord. Esta combinación redefine las reglas del esquema económico.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Comercio exterior",
+        "Tipo de cambio",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/10/11/el-atraso-cambiario-no-es-un-mito-es-un-ancla-con-cambio-de-contexto-exportador",
+      "source_datetime": "2026-10-11T05:33:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Informalidad entre cuentapropistas del conurbano llega al 70%",
+      "summary": "La informalidad entre cuentapropistas del conurbano es de 70%. En la ciudad, los independientes sin registro son el 32,8% y el promedio nacional es de 65,8%. San Juan y Tucumán tienen los índices de ocupación informal más altos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Informalidad",
+        "Empleo",
+        "Conurbano"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/la-informalidad-laboral-crece-es-de-70-entre-los-cuentapropistas-del-conurbano-y-muestra-amplias-nid11102026",
+      "source_datetime": "2026-10-11T18:40:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Indonesia busca socios energéticos en Vaca Muerta",
+      "summary": "Sulaiman Syarif visitó Neuquén para explorar inversiones en Vaca Muerta y el GNL argentino. Explicó por qué su país abrió el mercado a la carne local.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Vaca Muerta",
+        "GNL",
+        "Indonesia"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/indonesia-busca-socios-energeticos-vaca-muerta-y-abre-la-puerta-la-carne-argentina-n6330748",
+      "source_datetime": "2026-10-12T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Aeropuertos Argentina invertirá US$ 1.500 M",
+      "summary": "Aeropuertos Argentina invertirá US$ 1.500 millones.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inversión",
+        "Aeropuertos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/aeropuertos-argentina-invertira-us-1500-m.phtml",
+      "source_datetime": "2026-10-11T06:13:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Argentina recupera participación en el comercio mundial",
+      "summary": "En 2023 tocó su piso histórico de proporción de las exportaciones globales y desde 2024 se viene recuperando. Su participación relativa aumentó 37% desde entonces. Este año las ventas al exterior superarían los USD 100.000 millones. Se proyectan exportaciones por USD 180.000 millones en 2035.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Comercio exterior",
+        "Proyección"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/12/la-argentina-recupera-participacion-en-el-comercio-mundial-proyectan-que-en-2035-exportara-usd-180000-millones",
+      "source_datetime": "2026-10-12T04:17:21+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Cavallo elogia un informe crítico con el plan económico",
+      "summary": "Cavallo consideró \"excelente\" un informe con duras críticas al plan económico. El informe señala sobreajuste, anemia de inversión y lagunas financieras. El adelantamiento de la incertidumbre electoral potenció las falencias \"corregibles\" del programa oficial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cavallo",
+        "Plan económico",
+        "Inversión"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/excelente-sobreajuste-anemia-de-inversion-lagunas-financieras-y-otras-criticas-al-plan-economico-en-un-informe-que-elogio-cavallo",
+      "source_datetime": "2026-10-11T23:29:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Informalidad laboral alcanza al 45% en Argentina",
+      "summary": "La informalidad laboral alcanza al 45% en Argentina y supera el 80% entre cuentapropistas de algunas ciudades del norte. Un informe de la Universidad Nacional de Rosario advirtió que el empleo no registrado aumentó desde fines de 2023.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Informalidad",
+        "Empleo",
+        "UNR"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-informalidad-laboral-alcanza-al-45-argentina-y-supera-el-80-cuentapropistas-algunas-ciudades-del-norte-n6332540",
+      "source_datetime": "2026-10-11T16:09:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "Milei reedita los superávits gemelos por tercer año",
+      "summary": "Un informe privado, con datos hasta agosto de 2026, destacó que el gobierno está alcanzando por tercera vez la combinación de saldos favorables denominada \"superávits gemelos\".",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Superávit",
+        "Gobierno",
+        "Datos fiscales"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/por-tercer-ano-consecutivo-milei-reedito-los-superavits-gemelos-de-los-primeros-anos-del-kirchnerismo",
+      "source_datetime": "2026-10-11T22:06:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "Candidato brasileño advierte que Brasil debe liberarse del Mercosur",
+      "summary": "El candidato más votado en Brasil sintoniza con la mirada aperturista del presidente argentino. Advirtió que Brasil debe \"liberarse de las amarras del Mercosur\".",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Mercosur",
+        "Brasil"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/javier-milei-y-flavio-bolsonaro-ponen-jaque-al-mercosur-ruido-el-sector-automotor-y-desplome-la-inversion-n6332375",
+      "source_datetime": "2026-10-11T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Riesgo país cede 10% y queda debajo de 600 puntos",
+      "summary": "El indicador de JP Morgan cedió 10% en la última semana y quedó debajo de los 600 puntos básicos. Persiste alta volatilidad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Bonos",
+        "JP Morgan"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/por-que-el-riesgo-pais-sigue-atado-a-una-alta-volatilidad-pese-a-la-baja-reciente",
+      "source_datetime": "2026-10-11T21:06:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "47",
+      "headline": "Estudio denuncia bajo control de la pesca en el mar argentino",
+      "summary": "Un estudio titulado \"El mar como caja negra\" denuncia falta de inspecciones en la pesca, en especial en el caso del calamar, la especie más buscada por pesqueras chinas. Las pesqueras chinas controlan el grueso de los buques que operan en aguas nacionales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Pesca",
+        "Calamar",
+        "China"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/denuncian-un-bajo-control-de-la-pesca-en-el-mar-argentino-mientras-malvinas-y-china-participan-de-un-acuerdo-sobre-una-especie-clave",
+      "source_datetime": "2026-10-11T17:05:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Comercios enfrentan un Día de la Madre desafiante",
+      "summary": "La pérdida de poder adquisitivo y el freno del financiamiento condicionan las decisiones de compra. Algunos rubros podrían tener mejor desempeño.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Comercio",
+        "Día de la Madre"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/por-que-los-comercios-enfrentan-su-dia-de-la-madre-mas-desafiante-en-anos",
+      "source_datetime": "2026-10-11T16:24:33+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Cuatro plantas de litio por USD 2.000 millones se estrenan",
+      "summary": "Se estrenan cuatro plantas de litio por USD 2.000 millones. Las inauguraciones se concentran en el Salar del Hombre Muerto. La provincia tiene presencia en seis de las 13 iniciativas RIGI aprobadas por el Ministerio de Economía.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Litio",
+        "RIGI",
+        "Minería"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/una-provincia-vive-el-mes-mas-grande-de-su-historia-minera-se-estrenan-cuatro-plantas-de-litio-por-usd-2000-millones",
+      "source_datetime": "2026-10-11T14:21:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Nuevos valores para importar autos eléctricos abren la puerta a más marcas",
+      "summary": "Al subir el tope de precio para importar autos eléctricos, no solo Tesla podría ingresar al mercado local. Hay dos modelos candidatos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Autos eléctricos",
+        "Importación",
+        "Mercado automotor"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/que-modelos-iconicos-podrian-llegar-a-argentina-en-2027-debido-a-los-nuevos-valores-para-importar-autos-electricos",
+      "source_datetime": "2026-10-11T12:07:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "52",
+      "headline": "Catamarca llevará Ingresos Brutos al 0% y la UIA espera que otras sigan",
+      "summary": "Catamarca anunció que llevará la alícuota de Ingresos Brutos al 0%. La UIA espera que otras jurisdicciones sigan el mismo camino. Las dificultades de recaudación complican las rebajas para 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Ingresos Brutos",
+        "Catamarca",
+        "UIA",
+        "Pacto fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/11/ingresos-brutos-la-industria-pone-la-mira-en-las-provincias-y-busca-impulsar-un-nuevo-pacto-fiscal-en-el-ano-de-elecciones",
+      "source_datetime": "2026-10-11T05:34:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "53",
+      "headline": "El freno del crédito afectó más a la economía que la mora",
+      "summary": "El freno del crédito afectó más a la economía que el incremento en los atrasos de los pagos de los créditos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Crédito",
+        "Morosidad",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/10/11/mora-bajo-la-lupa",
+      "source_datetime": "2026-10-11T05:33:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/leonardo-chialva-todo-peso-que-inyectes-manera-pura-termina-un-dolar-mas-alto-e-inflacion-n6332137",
+    "https://www.lanacion.com.ar/economia/juan-carlos-de-pablo-economista-para-la-argentina-es-un-problema-que-brasil-no-funcione-nid11102026",
+    "https://www.perfil.com/noticias/economia/luces-rojas-para-luis-caputo-recesion-reservas-y-dolar-ponen-en-peligro-su-futuro.phtml",
+    "https://www.infobae.com/economia/2026/10/10/inflacion-mora-y-tasas-reales-de-interes-las-claves-que-definiran-el-futuro-del-credito",
+    "https://www.infobae.com/economia/2026/10/12/por-que-los-bonos-de-un-gigante-tech-ya-rinden-casi-lo-mismo-que-los-del-tesoro-de-estados-unidos",
+    "https://www.ambito.com/economia/la-fed-muestra-sus-cartas-y-las-tasas-largas-empiezan-calmarse-n6332627",
+    "https://www.infobae.com/economia/2026/10/10/el-oro-de-la-polemica-reservas-error-de-calculo-acusacion-cruzadas-y-otras-claves-del-fuerte-cruce-entre-el-bcra-y-la-agn",
+    "https://www.infobae.com/economia/2026/10/11/milei-llevo-al-gabinete-el-debate-sobre-el-tipo-de-cambio-puede-crecer-argentina-con-un-dolar-bajo",
+    "https://www.lanacion.com.ar/economia/mineria-y-energia-estados-unidos-abrio-la-puerta-a-financiar-proyectos-argentinos-con-fondos-del-nid11102026",
+    "https://www.perfil.com/noticias/economia/santa-cruz-la-rioja-y-san-luis-el-podio-de-las-provincias-con-mayor-mora.phtml",
+    "https://www.ambito.com/economia/petroleo-presion-los-tres-escenarios-los-proximos-meses-y-las-claves-que-definiran-su-precio-n6332120",
+    "https://www.ambito.com/economia/alerta-el-precio-del-diesel-la-aie-propone-liberar-mas-reservas-y-eeuu-recurre-rusia-n6332566",
+    "https://www.infobae.com/economia/2026/10/11/lorena-giorgio-de-equilibra-la-economia-no-ayuda-a-ganar-las-elecciones-de-2027",
+    "https://www.ambito.com/economia/advierten-el-riesgo-estanflacion-y-una-posible-recesion-tecnica-la-argentina-n6332391",
+    "https://www.infobae.com/economia/2026/10/12/carry-trade-las-inversiones-en-pesos-que-mas-ganaron-en-dolares-en-lo-que-va-de-2026",
+    "https://www.infobae.com/economia/2026/10/12/la-reactivacion-se-encuentra-con-una-muralla-la-alta-morosidad-de-los-particulares-en-el-pago-de-creditos",
+    "https://www.perfil.com/noticias/economia/alberto-ades-hablo-del-dolar-y-tal-vez-los-mejores-18-meses-de-la-historia-son-sin-caputo.phtml",
+    "https://www.lanacion.com.ar/economia/por-el-cambio-de-habitos-ya-hay-672-sucursales-bancarias-menos-que-hace-siete-anos-nid11102026",
+    "https://www.lanacion.com.ar/economia/caputo-viaja-a-bangkok-en-medio-de-la-revision-con-el-fmi-y-las-dudas-por-el-crecimiento-nid11102026",
+    "https://www.perfil.com/noticias/economia/alberto-ades-argentina-es-un-barco-mal-mantenido-que-enfilo-en-la-direccion-incorrecta-y-termino-encallando.phtml",
+    "https://www.perfil.com/noticias/cordoba/el-consumo-bajo-analisis-que-muestra-cada-subsegmento-de-un-sector-que-sigue-sin-arrancar.phtml",
+    "https://www.ambito.com/economia/el-cuentapropismo-las-apps-crecio-30-un-ano-y-expone-la-nueva-cara-del-empleo-el-pais-n6332082",
+    "https://www.ambito.com/economia/alberto-ades-volvio-advertir-el-atraso-cambiario-me-gustaria-un-tipo-cambio-mas-alto-n6332371",
+    "https://www.infobae.com/opinion/2026/10/11/el-atraso-cambiario-no-es-un-mito-es-un-ancla-con-cambio-de-contexto-exportador",
+    "https://www.lanacion.com.ar/economia/la-informalidad-laboral-crece-es-de-70-entre-los-cuentapropistas-del-conurbano-y-muestra-amplias-nid11102026",
+    "https://www.ambito.com/economia/indonesia-busca-socios-energeticos-vaca-muerta-y-abre-la-puerta-la-carne-argentina-n6330748",
+    "https://www.perfil.com/noticias/economia/aeropuertos-argentina-invertira-us-1500-m.phtml",
+    "https://www.infobae.com/economia/2026/10/12/la-argentina-recupera-participacion-en-el-comercio-mundial-proyectan-que-en-2035-exportara-usd-180000-millones",
+    "https://www.infobae.com/economia/2026/10/11/excelente-sobreajuste-anemia-de-inversion-lagunas-financieras-y-otras-criticas-al-plan-economico-en-un-informe-que-elogio-cavallo",
+    "https://www.ambito.com/economia/la-informalidad-laboral-alcanza-al-45-argentina-y-supera-el-80-cuentapropistas-algunas-ciudades-del-norte-n6332540",
+    "https://www.infobae.com/economia/2026/10/11/por-tercer-ano-consecutivo-milei-reedito-los-superavits-gemelos-de-los-primeros-anos-del-kirchnerismo",
+    "https://www.ambito.com/economia/javier-milei-y-flavio-bolsonaro-ponen-jaque-al-mercosur-ruido-el-sector-automotor-y-desplome-la-inversion-n6332375",
+    "https://www.infobae.com/economia/2026/10/11/por-que-el-riesgo-pais-sigue-atado-a-una-alta-volatilidad-pese-a-la-baja-reciente",
+    "https://www.infobae.com/economia/2026/10/11/denuncian-un-bajo-control-de-la-pesca-en-el-mar-argentino-mientras-malvinas-y-china-participan-de-un-acuerdo-sobre-una-especie-clave",
+    "https://www.infobae.com/economia/2026/10/11/por-que-los-comercios-enfrentan-su-dia-de-la-madre-mas-desafiante-en-anos",
+    "https://www.infobae.com/economia/2026/10/11/una-provincia-vive-el-mes-mas-grande-de-su-historia-minera-se-estrenan-cuatro-plantas-de-litio-por-usd-2000-millones",
+    "https://www.infobae.com/economia/2026/10/11/que-modelos-iconicos-podrian-llegar-a-argentina-en-2027-debido-a-los-nuevos-valores-para-importar-autos-electricos",
+    "https://www.infobae.com/economia/2026/10/11/ingresos-brutos-la-industria-pone-la-mira-en-las-provincias-y-busca-impulsar-un-nuevo-pacto-fiscal-en-el-ano-de-elecciones",
+    "https://www.infobae.com/opinion/2026/10/11/mora-bajo-la-lupa"
+  ]
+}
