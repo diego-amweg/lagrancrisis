@@ -1,0 +1,880 @@
+{
+  "date": "2026-09-21",
+  "cadena_de_razonamiento": "Se priorizaron noticias de impacto ALTO y MEDIO vinculadas a tasas, inflación, reservas y FMI. Tasas: la Fed subió tasas con votación unánime y Kashkari señaló preocupación por la inflación aun excluyendo energía y alimentos; el costo del crédito argentino subió 38 puntos desde marzo. Inflación: los alimentos presionan y la inflación de septiembre podría acercarse al 2%. Externo y fiscal: el BCRA compró USD 200 millones con desaceleración; el superávit primario fue de 0,6% del PBI frente a una meta de 0,7%. Real: la morosidad se acerca al 13% y la desocupación llegó a 7,9%.",
+  "resumen_ejecutivo": "La Fed subió las tasas por primera vez con votación unánime, y Kashkari advirtió que la inflación preocupa aun excluyendo energía y alimentos. En Argentina, Furiase proyecta que el alza de precios podría quebrar el piso del 1% mensual en los próximos meses, y los alimentos presionan sobre la desinflación. El costo del financiamiento argentino subió 38 puntos desde marzo, mientras en la región bajó 28 puntos. El BCRA compró apenas USD 200 millones en septiembre y desaceleró la compra a poco más de USD 14 millones diarios. El FMI inicia la tercera revisión con un superávit primario de 0,6% del PBI frente a una meta de 0,7%, y vence un pago de US$803 millones. Dujovne proyecta que, si el populismo es derrotado, el riesgo país caería a 330 puntos. Szewach advierte que la deuda en pesos exigirá coordinación entre el Tesoro y el BCRA, y Citi pone el foco en los vencimientos de 2027.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Kashkari: la inflación preocupa aun excluyendo energía y alimentos",
+      "summary": "Neel Kashkari, presidente de la Reserva Federal de Mineápolis, señaló que el escenario sigue siendo preocupante incluso al excluir energía y alimentos del análisis. Sostuvo que la situación afecta a distintos sectores de la actividad económica.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Reserva Federal",
+        "Inflación",
+        "Kashkari"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/eeuu-el-presidente-la-reserva-federal-mineapolis-advirtio-que-la-inflacion-no-depende-solo-del-precio-del-petroleo-n6324486",
+      "source_datetime": "2026-09-20T15:43:21+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Szewach: la deuda en pesos exigirá coordinación entre Tesoro y BCRA",
+      "summary": "Enrique Szewach, economista y exdirector del BCRA, analizó reservas, inflación y el Presupuesto 2027. Alertó que mientras subsista el problema de la deuda en pesos se requerirá coordinación entre el Tesoro y el BCRA.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Deuda en pesos",
+        "Tesoro",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/enrique-szewach-el-apreton-monetario-afecta-a-la-actividad-al-salario-real-y-a-los-margenes",
+      "source_datetime": "2026-09-20T04:56:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Morosidad cerca del 13% y 19% de los morosos debe a Mercado Pago",
+      "summary": "En julio volvió a incrementarse la cantidad de personas en mora hasta rozar el 13%. Según microdatos del Banco Central, el 19% del grupo que no puede devolver los créditos está endeudado con Mercado Pago.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Morosidad",
+        "Mercado Pago",
+        "Banco Central"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/la-morosidad-aumento-130-en-un-ano-y-casi-dos-de-cada-diez-corresponden-a-mercado-pago.phtml",
+      "source_datetime": "2026-09-20T05:31:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Citi: los fundamentos se sostienen y mira los vencimientos de 2027",
+      "summary": "Un informe del Citi remarcó que los fundamentos macroeconómicos se sostienen, pero puso el foco en el cronograma de vencimientos del 2027 y en la importancia de la acumulación de reservas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Citi",
+        "Vencimientos 2027",
+        "Reservas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/un-banco-de-eeuu-relativizo-el-riesgo-electoral-argentino-y-destaco-la-estabilidad-del-dolar-pero-alerto-por-la-deuda",
+      "source_datetime": "2026-09-20T22:17:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Seis de cada 10 argentinos se endeudaron en los últimos seis meses",
+      "summary": "Un informe reciente reveló que el 60,2% tomó deuda en los últimos seis meses. El 76% lo hizo para pagar alimentos, salud, tarifas y servicios. Los gastos en productos y servicios básicos se llevan la mayor parte del gasto del crédito.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Endeudamiento",
+        "Crédito",
+        "Hogares"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/crisis-ingresos-6-cada-10-argentinos-se-endeudaron-y-el-76-lo-hizo-para-pagar-alimentos-salud-tarifas-y-servicios-n6324445",
+      "source_datetime": "2026-09-20T13:09:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Más del 60% se endeudó en seis meses y los ingresos duran poco",
+      "summary": "Una encuesta indica que más del 60% de las personas se endeudó en los últimos 6 meses. A dos de cada tres los ingresos se les agotan a lo sumo el 20 de cada mes. Los datos de agosto son mejores que los de julio.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Endeudamiento",
+        "Encuesta",
+        "Ingresos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/deuda-y-morosidad-tres-de-cada-cuatro-argentinos-tomaron-creditos-para-pagar-alimentos-salud-tarifas-y-servicios",
+      "source_datetime": "2026-09-20T15:55:21+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "La Fed subió las tasas por primera vez con votación unánime",
+      "summary": "La Fed subió las tasas por primera vez. La votación en el Comité de Mercado Abierto fue unánime. La inflación es muy elevada y la Fed se hizo cargo de su responsabilidad. El jefe de la Reserva Federal no anticipa cuáles serán los próximos pasos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Reserva Federal",
+        "Tasas",
+        "Comité de Mercado Abierto"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-fed-warsh-sube-las-tasas-primera-vez-nadie-espera-que-sea-la-ultima-y-donald-trump-no-puede-evitarlo-n6324544",
+      "source_datetime": "2026-09-21T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Alimentos presionan y la inflación de septiembre podría acercarse al 2%",
+      "summary": "Analytica y LCG registraron mayores alzas en frutas y verduras. Federico Furiase, secretario de Finanzas, proyectaba que se quiebre el piso del 1% mensual en los próximos meses. El alza de precios podría acercarse al 2% en septiembre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "Alimentos",
+        "Furiase"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/21/se-dificulta-el-camino-de-la-desinflacion-los-alimentos-presionan-y-el-alza-de-precios-podria-acercarse-al-2-en-septiembre",
+      "source_datetime": "2026-09-21T06:16:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Bajar la inflación ya no hace milagros sobre la actividad",
+      "summary": "Después de cerrar 2023 en 211,4% y 2025 en 31,5%, la reducción del ritmo de aumento de precios muestra menores efectos sobre la actividad. Se observa un avance del PBI más acotado y costos todavía visibles.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inflación",
+        "Actividad",
+        "PBI"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/09/20/bajar-la-inflacion-ya-no-hace-milagros",
+      "source_datetime": "2026-09-20T04:55:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Qatar y EEUU abren una ventana inédita para Vaca Muerta",
+      "summary": "El colapso parcial de las exportaciones cataríes de gas beneficia a Vaca Muerta. La desaceleración de la producción de petróleo en EEUU también beneficia al yacimiento patagónico.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Vaca Muerta",
+        "Gas",
+        "Petróleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/por-que-la-situacion-de-qatar-y-de-la-historica-cuenca-de-petroleo-shale-de-eeuu-abren-una-ventana-inedita-para-vaca-muerta",
+      "source_datetime": "2026-09-20T13:58:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Argentina, última en ranking de adopción de IA según Goldman Sachs",
+      "summary": "Un informe de Goldman Sachs ubicó a Argentina en el último puesto entre 28 economías analizadas. La utilización de IA es inferior al 10%. El banco detectó menor contratación en los sectores más expuestos a la automatización. Según el contenido, el efecto sobre el empleo agregado y la actividad sigue siendo limitado por ahora.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Empleo",
+        "Goldman Sachs"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/argentina-quedo-ultima-un-ranking-adopcion-inteligencia-artificial-que-impacto-tiene-el-empleo-n6324525",
+      "source_datetime": "2026-09-20T19:14:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Gobierno redujo entre 57% y 59% el gasto en energía y transporte",
+      "summary": "El Gobierno redujo entre 57% y 59% el gasto destinado a energía y transporte desde 2023. El Estado aún cubre en promedio el 45% del costo de los servicios en el AMBA.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Subsidios",
+        "Tarifas",
+        "AMBA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/subsidios-a-la-luz-el-gas-y-el-transporte-cuanto-bajaron-con-milei-y-que-falta-para-llegar-a-la-tarifa-plena",
+      "source_datetime": "2026-09-20T16:38:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Gobierno se apoya en la baja de la inflación y la estabilidad cambiaria",
+      "summary": "El Gobierno se apoya en la baja de la inflación y la estabilidad cambiaria. El apoyo a la gestión se concentra en hogares de bajos ingresos y en el interior del país. Un informe de Citibank analiza lo que viene en materia electoral. Con datos de actividad flojos, en 2026 y 2027 igual habría crecimiento.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Gobierno",
+        "Elecciones",
+        "Citibank"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/mientras-la-economia-alterna-buenas-y-malas-en-wall-street-creen-que-las-chances-de-reeleccion-de-milei-siguen-intactas",
+      "source_datetime": "2026-09-20T04:57:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "BCRA compró USD 200 millones en septiembre y desaceleró el ritmo",
+      "summary": "El BCRA compró apenas USD 200 millones en lo que va de septiembre. Desaceleró la compra de reservas a poco más de USD 14 millones diarios.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "BCRA",
+        "Reservas",
+        "Compras"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/19/el-banco-central-compro-apenas-usd-200-millones-en-lo-que-va-de-septiembre-por-que-redujo-el-ritmo-en-las-ultimas-semanas",
+      "source_datetime": "2026-09-19T14:53:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "FMI revisa las cuentas argentinas con vencimiento de US$803 millones",
+      "summary": "La delegación del FMI encabezada por Joyce Wong evaluará el frente fiscal y las reservas. El viernes vence un pago por unos US$803 millones. De la revisión depende un futuro desembolso de US$869 millones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "FMI",
+        "Reservas",
+        "Desembolso"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/con-nueva-jefa-de-mision-el-fmi-vuelve-a-la-argentina-para-revisar-las-cuentas-del-pais-nid20092026",
+      "source_datetime": "2026-09-20T23:29:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "SIDE tendría $181.472 millones en 2027, casi 87% más que en 2026",
+      "summary": "La SIDE tendría disponibles $ 181.472 millones para 2027, según lo previsto por el Gobierno. Ese monto representa casi un 87% más que los $ 97.135 millones con los que comenzó 2026. Justicia sigue en orden de crecimiento con un 74%. Condicionado a que se apruebe lo previsto y no se realicen ampliaciones como en 2026.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Presupuesto 2027",
+        "SIDE",
+        "Justicia"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/side-y-ministerio-de-justicia-grandes-ganadoras-en-el-incremento-presupuestario-para-2027.phtml",
+      "source_datetime": "2026-09-20T05:35:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Cuentapropismo evitó que la desocupación llegara al 9,8%",
+      "summary": "El cuentapropismo absorbió la caída del trabajo formal. Evitó que la desocupación llegara al 9,8%. Profundizó el deterioro de los ingresos familiares.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Informalidad",
+        "Desocupación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/informalidad-record-el-tipo-de-empleo-que-mas-crecio-durante-la-gestion-milei-paga-menos-de-la-mitad-nid20092026",
+      "source_datetime": "2026-09-20T21:43:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Dólar oficial abre con los mismos valores de su último cierre",
+      "summary": "La cotización del dólar oficial abre con los mismos números que en su último día de cierre. Se posicionaron el dólar oficial, el paralelo y los financieros.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Dólar paralelo",
+        "Cotización"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar/a-cuanto-abre-el-dolar-el-lunes-21-de-septiembre-nid19092026",
+      "source_datetime": "2026-09-20T11:46:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "La desigualdad sectorial impacta en el empleo",
+      "summary": "La desigualdad en la actividad económica sectorial impacta al empleo. El problema se agrava por la fragilidad de los estándares educativos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Educación"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://noticias.perfil.com/noticias/economia/el-trabajo-jaqueado.phtml",
+      "source_datetime": "2026-09-19T13:33:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "El desempleo alcanza dos dígitos en Córdoba y Rosario",
+      "summary": "El desempleo alcanzó los dos dígitos en el Gran Córdoba y el Gran Rosario. Las apps se consolidan como refugio laboral. La crisis golpea al sector funerario.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Desempleo",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/pobreza-informalidad-y-recaudacion-advierten-un-circulo-vicioso-que-golpea-al-modelo-javier-milei-n6324284",
+      "source_datetime": "2026-09-20T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Dujovne: riesgo político electoral y riesgo-país de 330 puntos",
+      "summary": "Nicolás Dujovne señala que el riesgo político alrededor de las elecciones es clave para la transición hacia 2027. Proyecta que si el populismo es derrotado el riesgo-país caerá a 330 puntos. Dice no estar convencido de que la batalla cultural se haya ganado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Elecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/nicolas-dujovne-hay-un-riesgo-politico-muy-visible-alrededor-de-las-elecciones",
+      "source_datetime": "2026-09-20T13:57:39+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Exportaciones pesqueras facturaron US$1.677 millones en ocho meses",
+      "summary": "Las empresas de pesca facturaron 1.677 millones de dólares entre enero y agosto, con Asia y Europa como principales destinos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Pesca",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/19/las-exportaciones-pesqueras-crecieron-mas-del-23-pese-a-la-flota-extranjera-al-borde-del-mar-argentino-y-las-licencias-de-malvinas",
+      "source_datetime": "2026-09-19T23:11:11+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Un pozo de 2010 confirmó crudo físico frente a Malvinas",
+      "summary": "Un pozo perforado en 2010 confirmó crudo físico y ensayos de flujo. Existe una fase de desarrollo con inversión aprobada para comenzar a extraer frente a las islas en 2028.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Malvinas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/09/20/hay-petroleo-en-malvinas",
+      "source_datetime": "2026-09-20T04:55:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "35",
+      "headline": "Costo del financiamiento sube en Argentina y baja en la región",
+      "summary": "Tras las alzas en EEUU, una consultora local precisó que desde marzo el costo del financiamiento regional bajó 28 puntos y el de la Argentina subió 38 puntos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Tasas",
+        "Crédito",
+        "Riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/19/tasas-y-riesgo-pais-por-que-el-costo-del-credito-para-la-argentina-va-a-contrapie-del-de-america-latina",
+      "source_datetime": "2026-09-19T22:19:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Inocencia fiscal II: ley implica avance en la administración tributaria",
+      "summary": "El sistema de inocencia fiscal fue aprobado por ley e implica un avance en la administración tributaria.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inocencia fiscal",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/inocencia-fiscal-ii-un-cambio-de-paradigma-entre-el-fisco-y-el-contribuyente-nid21092026",
+      "source_datetime": "2026-09-21T03:04:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Presupuesto 2027 prevé más de 435 obras; Buenos Aires, la mayor partida",
+      "summary": "El proyecto de Presupuesto 2027 contempla más de 435 obras. Buenos Aires concentra la mayor partida. San Luis recibirá el menor monto.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Presupuesto 2027",
+        "Obra pública"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/presupuesto-2027-cuales-seran-las-obras-publicas-mas-importantes-el-cuarto-ano-milei-y-cuantos-fondos-recibiran-n6324542",
+      "source_datetime": "2026-09-20T21:04:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "EEUU y Brasil son presentados como casos de éxito en biocombustibles",
+      "summary": "Estados Unidos y Brasil son presentados como casos de éxito en biocombustibles. Estos países plantean los biocombustibles como una política de desarrollo agrícola.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Biocombustibles",
+        "Agro"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/biocombustibles-por-que-estados-unidos-y-brasil-son-un-exito-y-que-tiene-para-aprender-la-argentina-nid20092026",
+      "source_datetime": "2026-09-20T14:56:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Exportaciones pesqueras saltaron 23% y llegaron a US$1.677 millones",
+      "summary": "Las exportaciones pesqueras saltaron 23% y alcanzaron u$s1.677 millones. El sector despachó 414.252 toneladas entre enero y agosto. El langostino mostró el mayor crecimiento. China se mantuvo como principal comprador.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Pesca",
+        "Exportaciones",
+        "Langostino"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/las-exportaciones-pesqueras-saltaron-23-y-alcanzaron-us1677-millones-que-productos-impulsaron-el-crecimiento-n6324524",
+      "source_datetime": "2026-09-20T18:57:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "FMI inicia tercera revisión con superávit primario de 0,6% del PBI",
+      "summary": "Una misión técnica del FMI llega este lunes para iniciar la tercera revisión del acuerdo. El superávit primario del primer semestre alcanzó 0,6% del PBI, por debajo de la meta de 0,7%. El objetivo para todo 2026 se mantiene en 1,4%.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "FMI",
+        "Superávit fiscal",
+        "Meta fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-fmi-vuelve-la-argentina-revisara-las-cuentas-publicas-y-el-gobierno-debera-explicar-como-cumplira-la-meta-fiscal-n6324510",
+      "source_datetime": "2026-09-20T18:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Martín Rossi divide el programa económico en tres columnas",
+      "summary": "Martín Rossi, exsecretario de Desregulación, divide el programa económico en tres columnas: fiscal, aperturista y desregulatoria. Celebra la columna fiscal y la desregulatoria. Reconoce matices con la columna aperturista.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Programa económico",
+        "Desregulación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/martin-rossi-exfuncionario-javier-milei-el-pais-lleva-tres-anos-ordenando-la-macro-pero-el-crecimiento-no-vendra-solo-n6324342",
+      "source_datetime": "2026-09-20T13:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "53",
+      "headline": "Créditos UVA siguen activos y los bancos fijan pisos salariales",
+      "summary": "Las líneas UVA siguen activas para créditos hipotecarios. Los bancos fijan distintos pisos salariales y limitan cuánto puede representar la primera cuota sobre los ingresos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Créditos hipotecarios",
+        "UVA"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/creditos-hipotecarios-septiembre-2026-cuanto-hay-que-ganar-comprar-un-departamento-n6323661",
+      "source_datetime": "2026-09-20T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "54",
+      "headline": "Presupuesto 2027 sin aumento sustantivo de inversión agropecuaria",
+      "summary": "El superávit del INTA se utilizará con fines financieros. La orientación presupuestaria combina estabilidad macroeconómica, simplificación regulatoria, incentivos tributarios e infraestructura, sin un aumento sustantivo de la inversión pública gestionada directamente por la función agropecuaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Presupuesto 2027",
+        "Agro",
+        "INTA"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/opiniones/presupuesto-nacional-2027-dinamica-la-presion-tributaria-el-sector-agropecuario-n6323790",
+      "source_datetime": "2026-09-20T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "57",
+      "headline": "Nueva misión del FMI revisa el acuerdo tras fallar la meta fiscal",
+      "summary": "La meta fiscal del primer semestre no se alcanzó. Técnicos del FMI se reunirán con el equipo económico, que exhibirá el aumento del superávit primario.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "FMI",
+        "Meta fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/21/nueva-mision-del-fondo-monetario-por-donde-ira-la-revision-del-acuerdo-y-el-dato-que-destacara-economia",
+      "source_datetime": "2026-09-21T06:17:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Exportaciones sostienen la economía mientras el mercado interno se debilita",
+      "summary": "El ingreso de divisas por comercio exterior es el principal impulsor del crecimiento. El comercio exterior es base de la estabilización cambiaria. El mercado interno se debilita.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Comercio exterior",
+        "Mercado interno"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/insercion-en-el-mundo-y-desacople-interno-las-exportaciones-sostienen-la-economia-de-milei-mientras-el-mercado-interno-se-debilita",
+      "source_datetime": "2026-09-20T18:00:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "El FMI llega a Buenos Aires para la tercera revisión del acuerdo",
+      "summary": "Una delegación del FMI aterriza en Buenos Aires para la tercera revisión del acuerdo. El eje será el superávit primario, que en el primer semestre quedó por debajo de lo pactado. Economía propone medidas adicionales en el Presupuesto 2027.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "FMI",
+        "Superávit primario",
+        "Presupuesto 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/el-fmi-vuelve-a-la-argentina-una-nueva-mision-revisara-la-meta-fiscal-y-las-medidas-que-el-gobierno-se-comprometio-a-aplicar",
+      "source_datetime": "2026-09-20T04:56:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "62",
+      "headline": "Exportaciones de carne a China: suba de precio compensa parte de la caída",
+      "summary": "La suba del precio de la carne de vaca que se exporta a China compensa en parte la caída del 'novillo liviano' en el mercado interno. La 'ventana' para exportar se cerrará en noviembre. China le sacó 'tarjeta roja' a Brasil.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Carne",
+        "Exportaciones",
+        "China"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/20/oportunidad-para-argentina-y-uruguay-la-copa-america-de-exportacion-de-carne-se-juega-en-china-que-le-saco-tarjeta-roja-a-brasil",
+      "source_datetime": "2026-09-20T00:21:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "63",
+      "headline": "Argentina, último lugar en adopción de IA entre 28 países evaluados",
+      "summary": "Argentina está en el último lugar sobre 28 países evaluados en adopción de IA según un banco de EE.UU. El economista jefe de la entidad subrayó que por ahora el impacto sobre productividad, PBI y empleo es reducido.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Productividad",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/19/ranking-de-adopcion-de-ia-segun-un-banco-de-eeuu-argentina-esta-en-el-ultimo-lugar-sobre-28-paises-evaluados",
+      "source_datetime": "2026-09-19T21:09:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "Presupuesto 2027 prevé 27.800 beneficiarios menos de seguridad social",
+      "summary": "El proyecto oficial de Presupuesto 2027 prevé 23,2 millones de personas con seguridad social y asignaciones familiares, 27.800 beneficiarios menos que en 2026. Hay caída de jubilados y pensionados y aumento en las asignaciones por hijo. La proporción de población alcanzada retrocede a 47,8%, el nivel más bajo desde 2023.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Presupuesto 2027",
+        "Seguridad social",
+        "Asignaciones familiares"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/19/presupuesto-2027-232-millones-de-personas-recibiran-seguridad-social-y-asignaciones-familiares",
+      "source_datetime": "2026-09-19T20:00:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "65",
+      "headline": "Desocupación en 7,9% y empleo en negro en 45%, según el Indec",
+      "summary": "El Indec informó que la desocupación llegó al 7,9% en el segundo trimestre y el empleo en negro alcanzó al 45% de los trabajadores. Un estudio privado midió cuánto caen los ingresos reales cuando un empleado registrado sale del sistema.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Indec",
+        "Informalidad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/19/el-bolsillo-de-los-argentinos-cuanto-pierde-un-trabajador-formal-que-pasa-a-la-informalidad-o-al-cuentapropismo",
+      "source_datetime": "2026-09-19T18:01:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/eeuu-el-presidente-la-reserva-federal-mineapolis-advirtio-que-la-inflacion-no-depende-solo-del-precio-del-petroleo-n6324486",
+    "https://www.infobae.com/economia/2026/09/20/enrique-szewach-el-apreton-monetario-afecta-a-la-actividad-al-salario-real-y-a-los-margenes",
+    "https://www.perfil.com/noticias/economia/la-morosidad-aumento-130-en-un-ano-y-casi-dos-de-cada-diez-corresponden-a-mercado-pago.phtml",
+    "https://www.infobae.com/economia/2026/09/20/un-banco-de-eeuu-relativizo-el-riesgo-electoral-argentino-y-destaco-la-estabilidad-del-dolar-pero-alerto-por-la-deuda",
+    "https://www.ambito.com/economia/crisis-ingresos-6-cada-10-argentinos-se-endeudaron-y-el-76-lo-hizo-para-pagar-alimentos-salud-tarifas-y-servicios-n6324445",
+    "https://www.infobae.com/economia/2026/09/20/deuda-y-morosidad-tres-de-cada-cuatro-argentinos-tomaron-creditos-para-pagar-alimentos-salud-tarifas-y-servicios",
+    "https://www.ambito.com/economia/la-fed-warsh-sube-las-tasas-primera-vez-nadie-espera-que-sea-la-ultima-y-donald-trump-no-puede-evitarlo-n6324544",
+    "https://www.infobae.com/economia/2026/09/21/se-dificulta-el-camino-de-la-desinflacion-los-alimentos-presionan-y-el-alza-de-precios-podria-acercarse-al-2-en-septiembre",
+    "https://www.infobae.com/opinion/2026/09/20/bajar-la-inflacion-ya-no-hace-milagros",
+    "https://www.infobae.com/economia/2026/09/20/por-que-la-situacion-de-qatar-y-de-la-historica-cuenca-de-petroleo-shale-de-eeuu-abren-una-ventana-inedita-para-vaca-muerta",
+    "https://www.ambito.com/economia/argentina-quedo-ultima-un-ranking-adopcion-inteligencia-artificial-que-impacto-tiene-el-empleo-n6324525",
+    "https://www.infobae.com/economia/2026/09/20/subsidios-a-la-luz-el-gas-y-el-transporte-cuanto-bajaron-con-milei-y-que-falta-para-llegar-a-la-tarifa-plena",
+    "https://www.infobae.com/economia/2026/09/20/mientras-la-economia-alterna-buenas-y-malas-en-wall-street-creen-que-las-chances-de-reeleccion-de-milei-siguen-intactas",
+    "https://www.infobae.com/economia/2026/09/19/el-banco-central-compro-apenas-usd-200-millones-en-lo-que-va-de-septiembre-por-que-redujo-el-ritmo-en-las-ultimas-semanas",
+    "https://www.lanacion.com.ar/economia/con-nueva-jefa-de-mision-el-fmi-vuelve-a-la-argentina-para-revisar-las-cuentas-del-pais-nid20092026",
+    "https://www.perfil.com/noticias/economia/side-y-ministerio-de-justicia-grandes-ganadoras-en-el-incremento-presupuestario-para-2027.phtml",
+    "https://www.lanacion.com.ar/economia/informalidad-record-el-tipo-de-empleo-que-mas-crecio-durante-la-gestion-milei-paga-menos-de-la-mitad-nid20092026",
+    "https://www.lanacion.com.ar/economia/dolar/a-cuanto-abre-el-dolar-el-lunes-21-de-septiembre-nid19092026",
+    "https://noticias.perfil.com/noticias/economia/el-trabajo-jaqueado.phtml",
+    "https://www.ambito.com/economia/pobreza-informalidad-y-recaudacion-advierten-un-circulo-vicioso-que-golpea-al-modelo-javier-milei-n6324284",
+    "https://www.infobae.com/economia/2026/09/20/aduana-interna-un-municipio-bonaerense-pretende-cobrar-37000-de-peaje-por-un-trecho-de-5-kilometros-a-cada-camion-que-pasa-por-la-localidad",
+    "https://www.infobae.com/economia/2026/09/20/nicolas-dujovne-hay-un-riesgo-politico-muy-visible-alrededor-de-las-elecciones",
+    "https://www.infobae.com/economia/2026/09/19/las-exportaciones-pesqueras-crecieron-mas-del-23-pese-a-la-flota-extranjera-al-borde-del-mar-argentino-y-las-licencias-de-malvinas",
+    "https://www.infobae.com/opinion/2026/09/20/hay-petroleo-en-malvinas",
+    "https://www.infobae.com/economia/2026/09/19/tasas-y-riesgo-pais-por-que-el-costo-del-credito-para-la-argentina-va-a-contrapie-del-de-america-latina",
+    "https://www.lanacion.com.ar/economia/inocencia-fiscal-ii-un-cambio-de-paradigma-entre-el-fisco-y-el-contribuyente-nid21092026",
+    "https://www.ambito.com/economia/presupuesto-2027-cuales-seran-las-obras-publicas-mas-importantes-el-cuarto-ano-milei-y-cuantos-fondos-recibiran-n6324542",
+    "https://www.lanacion.com.ar/economia/campo/biocombustibles-por-que-estados-unidos-y-brasil-son-un-exito-y-que-tiene-para-aprender-la-argentina-nid20092026",
+    "https://www.ambito.com/economia/las-exportaciones-pesqueras-saltaron-23-y-alcanzaron-us1677-millones-que-productos-impulsaron-el-crecimiento-n6324524",
+    "https://www.ambito.com/economia/el-fmi-vuelve-la-argentina-revisara-las-cuentas-publicas-y-el-gobierno-debera-explicar-como-cumplira-la-meta-fiscal-n6324510",
+    "https://www.ambito.com/economia/martin-rossi-exfuncionario-javier-milei-el-pais-lleva-tres-anos-ordenando-la-macro-pero-el-crecimiento-no-vendra-solo-n6324342",
+    "https://www.ambito.com/economia/creditos-hipotecarios-septiembre-2026-cuanto-hay-que-ganar-comprar-un-departamento-n6323661",
+    "https://www.ambito.com/opiniones/presupuesto-nacional-2027-dinamica-la-presion-tributaria-el-sector-agropecuario-n6323790",
+    "https://www.infobae.com/economia/2026/09/21/nueva-mision-del-fondo-monetario-por-donde-ira-la-revision-del-acuerdo-y-el-dato-que-destacara-economia",
+    "https://www.infobae.com/economia/2026/09/20/insercion-en-el-mundo-y-desacople-interno-las-exportaciones-sostienen-la-economia-de-milei-mientras-el-mercado-interno-se-debilita",
+    "https://www.infobae.com/economia/2026/09/20/impuesto-al-viento-el-caso-de-olavarria-y-que-puede-cambiar-con-dos-fallos-de-la-corte-suprema",
+    "https://www.infobae.com/economia/2026/09/20/el-fmi-vuelve-a-la-argentina-una-nueva-mision-revisara-la-meta-fiscal-y-las-medidas-que-el-gobierno-se-comprometio-a-aplicar",
+    "https://www.infobae.com/economia/2026/09/20/oportunidad-para-argentina-y-uruguay-la-copa-america-de-exportacion-de-carne-se-juega-en-china-que-le-saco-tarjeta-roja-a-brasil",
+    "https://www.infobae.com/economia/2026/09/19/ranking-de-adopcion-de-ia-segun-un-banco-de-eeuu-argentina-esta-en-el-ultimo-lugar-sobre-28-paises-evaluados",
+    "https://www.infobae.com/economia/2026/09/19/presupuesto-2027-232-millones-de-personas-recibiran-seguridad-social-y-asignaciones-familiares",
+    "https://www.infobae.com/economia/2026/09/19/el-bolsillo-de-los-argentinos-cuanto-pierde-un-trabajador-formal-que-pasa-a-la-informalidad-o-al-cuentapropismo"
+  ]
+}
