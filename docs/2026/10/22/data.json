@@ -1,0 +1,818 @@
+{
+  "date": "2026-10-22",
+  "cadena_de_razonamiento": "Deuda con estrés contenido: riesgo país en 674 puntos y curva soberana a tasas de dos dígitos, con bonos intentando rebotar. Las compras del BCRA (17 ruedas consecutivas) conviven con un dólar estable, señal de oferta de divisas suficiente, aunque empieza a aparecer presión por dolarizarse vía contado con liquidación. La actividad es el punto débil: EMAE con leve mejora mensual pero caída interanual y riesgo de recesión técnica. La desinflación se proyecta más gradual y los salarios formales superan la inflación mensual sin recuperar la caída real acumulada. La menor confianza en el resultado electoral de Milei suma riesgo para bonos y dólar.",
+  "resumen_ejecutivo": "El riesgo país cerró en 674 puntos básicos tras un rebote de 0,3%, y toda la curva soberana opera con tasas de dos dígitos. El BCRA extendió a 17 ruedas su racha compradora de dólares. El dólar oficial cerró sin cambios y el salto del riesgo país no lo alteró, aunque crece incipientemente la presión por dolarizarse vía contado con liquidación. El EMAE de agosto avanzó 0,1% pero cae 1,7% interanual, y el tercer trimestre podría cerrar en terreno negativo. Los salarios formales superaron la inflación de agosto (1,7%), aunque acumulan caída real. El mercado proyecta una desinflación más gradual hasta fin de 2026 y muestra menor confianza en el resultado electoral de Milei.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "RDEco analiza el impacto del tipo de cambio en la industria textil",
+      "summary": "La Ronda de Economistas (RDEco) analizó el impacto del tipo de cambio sobre la industria textil. Debatieron si una actualización cambiaria más rápida podría favorecer la producción nacional sin trasladarse de manera significativa a los precios.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Tipo de cambio",
+        "Industria textil",
+        "RDEco"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/masperfil/rdeco-el-dolar-el-consumo-y-las-importaciones-en-el-centro-del-debate-industrial.phtml",
+      "source_datetime": "2026-10-21T22:35:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "La baja de tasas en EEUU ofrece un contexto externo más favorable",
+      "summary": "La baja de las tasas en EEUU ofrece un contexto externo más favorable. Los analistas esperan una recuperación gradual de la economía en septiembre y octubre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Tasas de EEUU",
+        "Deuda argentina",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/22/hay-senales-positivas-para-la-deuda-argentina-por-que-el-mercado-mira-mas-alla-del-debil-dato-de-actividad-de-agosto",
+      "source_datetime": "2026-10-22T05:50:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Riesgo país rebota 0,3% y cierra en 674 puntos básicos",
+      "summary": "El indicador de JP Morgan rebotó 0,3% y cerró en 674 puntos básicos. El BCRA extendió a 17 ruedas consecutivas su racha compradora de dólares. Las acciones argentinas en Wall Street operaron con mayoría de subas, mientras los bonos mostraron resultados dispares.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Riesgo país",
+        "BCRA",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-volvio-a-subir-y-se-acerca-a-los-700-puntos-pese-al-avance-de-las-acciones-a40.phtml",
+      "source_datetime": "2026-10-21T22:27:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Dólar blue revierte la suba inicial y pierde $5",
+      "summary": "El dólar blue revirtió la suba inicial y perdió $ 5. Se analiza la brecha cambiaria con el tipo de cambio oficial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar blue",
+        "Brecha cambiaria",
+        "MEP",
+        "CCL"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-miercoles-21-de-octubre-con-el-mep-y-el-ccl",
+      "source_datetime": "2026-10-21T18:19:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "El riesgo país no altera al dólar, pero crece la presión por dolarizarse",
+      "summary": "El salto del riesgo país no alteró al dólar. La oferta de divisas mantiene el tipo de cambio muy tranquilo. Se nota de manera incipiente más presión por dolarizarse a través del contado con liquidación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Dólar",
+        "Brecha cambiaria",
+        "Contado con liquidación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/22/el-salto-del-riesgo-pais-no-altero-al-dolar-pero-empieza-a-impactar-en-la-brecha-cambiaria",
+      "source_datetime": "2026-10-22T05:51:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Vasques: el anclaje cambiario ayuda a desinflar pero resta competitividad",
+      "summary": "Vasques explicó que el anclaje cambiario contribuye al proceso de desinflación, pero también perjudica la competitividad de la industria, el comercio y las exportaciones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Anclaje cambiario",
+        "Competitividad",
+        "Desinflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/masperfil/hugo-vasques-la-industria-y-el-comercio-necesitan-un-tipo-de-cambio-mas-competitivo.phtml",
+      "source_datetime": "2026-10-21T22:26:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Proyecciones de dólar e inflación se alejan de la dinámica del PBI",
+      "summary": "Los pronósticos del mercado para el dólar y la inflación tuvieron una dinámica muy distinta a la observada para el PBI.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Proyecciones de mercado",
+        "Inflación",
+        "PBI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dolar-inflacion-y-pbi-cuanto-variaron-las-proyecciones-lo-largo-del-ano-y-que-expectativas-quedaron-desancladas-n6335875",
+      "source_datetime": "2026-10-21T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "El dólar oficial cierra sin cambios en los bancos",
+      "summary": "El dólar oficial cerró sin cambios. También se menciona el valor del blue y la brecha cambiaria entre ambos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Dólar blue",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-21-de-octubre",
+      "source_datetime": "2026-10-21T18:34:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Acciones argentinas suben hasta 5% en Wall Street y el riesgo país sube",
+      "summary": "Las acciones argentinas avanzaron hasta 5% en Wall Street y el MSCI Merval ganó 1,6%. Los bonos Globales terminaron con pérdidas de 0,2%, y el riesgo país subió a 674 puntos. El BCRA compró USD 46 millones en el mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "MSCI Merval",
+        "Bonos Globales",
+        "BCRA",
+        "Riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/21/jornada-financiera-las-acciones-argentinas-avanzaron-hasta-5-en-wall-street-pero-el-riesgo-pais-volvio-a-subir",
+      "source_datetime": "2026-10-21T21:44:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Toda la curva soberana opera con tasas de dos dígitos",
+      "summary": "A causa de la caída reciente, toda la curva soberana opera con tasas de dos dígitos. Los bonos intentan un rebote.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos soberanos",
+        "Curva soberana",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/tras-jornadas-de-fuertes-caidas-los-bonos-intentan-un-rebote-se-dio-un-castigo-excesivo",
+      "source_datetime": "2026-10-21T14:54:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "El mercado proyecta una desinflación más gradual hasta fin de 2026",
+      "summary": "El mercado proyecta una desinflación más gradual rumbo a los meses que quedan de 2026.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "Desinflación",
+        "Expectativas de mercado"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-mercado-espera-un-estancamiento-de-la-inflacion-que-bonos-ve-como-los-nuevos-ganadores",
+      "source_datetime": "2026-10-21T13:16:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Figueroa eliminará Ingresos Brutos a firmas que contraten en Neuquén",
+      "summary": "El gobernador Figueroa anunció que eliminará Ingresos Brutos a las empresas que contraten trabajadores de Neuquén. La medida se apoya en el crecimiento de la actividad petrolera en la provincia. Mientras tanto, la UIA reclama al Gobierno un pacto fiscal federal.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Vaca Muerta",
+        "Ingresos Brutos",
+        "UIA",
+        "Pacto fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/21/vaca-muerta-el-gobernador-figueroa-anuncio-que-eliminara-ingresos-brutos-a-las-empresas-que-contraten-trabajadores-de-neuquen",
+      "source_datetime": "2026-10-21T23:30:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "La actividad se derrumbó 2,9% en julio y apenas subió 0,1% en agosto",
+      "summary": "La actividad económica se derrumbó 2,9% en julio. En agosto la actividad apenas repuntó un 0,1%. Es prácticamente un hecho que el tercer trimestre cerrará con saldo negativo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Recesión",
+        "Tercer trimestre"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/camino-la-recesion-la-se-mantuvo-estancada-agosto-y-no-logro-recuperar-casi-nada-del-derrumbe-julio-n6336445",
+      "source_datetime": "2026-10-21T19:17:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Se difunde el EMAE de agosto tras la fuerte caída de julio",
+      "summary": "El organismo estadístico difundirá el miércoles el EMAE. Las consultoras anticipan una recuperación parcial. Advierten que el tercer trimestre podría cerrar en terreno negativo y dejar a la economía al borde de una recesión técnica.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "EMAE",
+        "Consultoras",
+        "Recesión técnica"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/se-conoce-hoy-el-dato-actividad-economica-agosto-preven-un-rebote-acotado-el-desplome-julio-n6336180",
+      "source_datetime": "2026-10-21T12:24:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "La canasta de alimentos muestra fuerte disparidad de precios entre provincias",
+      "summary": "Un relevamiento provincial sobre la canasta representativa de la clase media expone la disparidad de precios en alimentos y su impacto en los salarios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Canasta",
+        "Provincias",
+        "Alimentos",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/inflacion-que-provincias-cuesta-mas-llenar-el-changuito-y-cuales-hubo-mayores-aumentos-mensuales-n6336188",
+      "source_datetime": "2026-10-21T12:48:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "JP Morgan anticipa desaceleración de precios en el último trimestre",
+      "summary": "JP Morgan anticipa una desaceleración de los precios para el último trimestre, aunque identifica riesgos que podrían alterar el pronóstico.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "JP Morgan",
+        "Inflación",
+        "Pronóstico"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/jp-morgan-las-tres-condiciones-para-que-la-inflacion-desacelere-en-el-tramo-final-del-ano",
+      "source_datetime": "2026-10-21T13:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "El EMAE avanzó 0,1% en agosto y cae 1,7% interanual",
+      "summary": "El EMAE avanzó 0,1%, con una variación interanual negativa de -1,7%. El EMAE acumula un alza de 1,2% en 2026. La actividad quedó cerca de entrar en recesión técnica.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "EMAE",
+        "Actividad",
+        "Recesión técnica"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/21/la-actividad-economica-crecio-menos-de-lo-esperado-en-agosto-tras-la-fuerte-caida-de-julio",
+      "source_datetime": "2026-10-21T21:24:11+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Acciones rebotan y bonos cierran en rojo con riesgo país en 674 puntos",
+      "summary": "El riesgo país se mantuvo en los niveles del martes, en 674 puntos. Las acciones rebotaron pero los bonos cerraron en rojo. Factores externos y políticos explican la presión sobre la deuda.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Bonos",
+        "Acciones",
+        "Deuda local"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/los-bonos-recuperaron-terreno-y-bajo-el-riesgo-pais-pero-el-mercado-sigue-en-alerta-por-la-deuda-local",
+      "source_datetime": "2026-10-21T20:50:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Dólar blue, oficial, CCL y MEP: cotizaciones del miércoles 21 de octubre",
+      "summary": "Se informa la cotización del dólar blue, del dólar oficial y de los dólares financieros CCL y MEP del miércoles 21 de octubre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Cotizaciones",
+        "CCL",
+        "MEP"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-miercoles-21-de-octubre-minuto-a-minuto",
+      "source_datetime": "2026-10-21T19:05:21+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Arriazu atribuye el bajo crecimiento a las compras de divisas del BCRA",
+      "summary": "Arriazu atribuyó el bajo crecimiento del país a las compras de divisas del Banco Central (BCRA).",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Arriazu",
+        "BCRA",
+        "Crecimiento",
+        "Divisas"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/arriazu-explico-por-que-la-economia-argentina-no-despega-y-apunto-contra-el-bcra",
+      "source_datetime": "2026-10-21T12:29:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "EMAE de agosto mejora leve en el mes pero no despeja dudas del tercer trimestre",
+      "summary": "El EMAE de agosto mostró una leve mejora mensual, pero no alcanzó para despejar las dudas sobre el cierre del tercer trimestre. Analistas advierten que evitar una segunda caída consecutiva es cada vez más difícil.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "EMAE",
+        "Recesión técnica",
+        "Actividad económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/22/cuanto-deberia-crecer-la-economia-argentina-en-septiembre-para-no-caer-en-recesion-tecnica",
+      "source_datetime": "2026-10-22T05:51:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Salarios formales superan la inflación de agosto pero acumulan caída real",
+      "summary": "Los ingresos formales aumentaron 2,7% mensual y superaron la inflación del 1,7%, según el INDEC. Los salarios privados registrados y públicos todavía retroceden en términos reales frente a un año atrás. Existe una caída del empleo formal.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Salarios",
+        "Inflación",
+        "INDEC",
+        "Empleo formal"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/los-salarios-formales-le-ganaron-la-inflacion-agosto-pero-acumulan-una-caida-real-del-23-el-ultimo-ano-n6336461",
+      "source_datetime": "2026-10-21T20:51:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "La mayoría de los sectores crece en 2026, pero ramas clave siguen en negativo",
+      "summary": "La mayoría de los sectores crece en términos acumulados, aunque otras ramas centrales para el empleo y el PBI permanecen en terreno negativo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Sectores",
+        "PBI",
+        "Empleo",
+        "2026"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/22/la-economia-no-repunta-cuales-son-los-sectores-mas-afectados-y-como-evoluciono-cada-rubro-en-lo-que-va-de-2026",
+      "source_datetime": "2026-10-22T05:50:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Tiscornia advierte que el valor del dólar no es cómodo",
+      "summary": "Camilo Tiscornia opinó sobre la situación financiera de varios sectores productivos, que no logran despegar. Consideró que el valor del dólar no es cómodo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Tiscornia",
+        "Dólar",
+        "Sectores productivos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/la-advertencia-de-un-analista-clave-de-la-city-sobre-el-valor-del-dolar-no-es-comodo",
+      "source_datetime": "2026-10-21T15:11:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Casas: inversores no ven tensiones en vencimientos de deuda del año próximo",
+      "summary": "Santiago Casas explicó que los inversores no ven tensiones en los vencimientos de deuda del año próximo. Puso el foco en el horizonte financiero a mediano plazo.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Deuda",
+        "Vencimientos",
+        "Santiago Casas"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/este-economista-liberal-marco-donde-esta-el-verdadero-riesgo-pais-por-que-el-mercado-mira-mas-alla-de-2027",
+      "source_datetime": "2026-10-21T19:29:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "El mercado muestra menor confianza en el resultado electoral de Milei",
+      "summary": "El mercado evidencia una disminución de la confianza en el resultado electoral del presidente Milei.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Bonos",
+        "Milei",
+        "Elecciones",
+        "Mercado"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-mercado-vaticina-el-futuro-de-milei-que-dicen-los-bonos-sobre-el-resultado-electoral-como-anticiparse",
+      "source_datetime": "2026-10-21T18:32:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Quinto reduce exposición a deuda soberana y analiza el Bopreal en dos escenarios",
+      "summary": "Iván Vizental, director de Inversiones en Quinto, explicó que redujeron la exposición a deuda soberana. Analiza el Bopreal en un escenario electoral favorable y en otro adverso.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Deuda soberana",
+        "Bopreal",
+        "Año electoral",
+        "Quinto"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/atravesar-el-desierto-la-estrategia-que-recomienda-un-analista-de-mercados-para-invertir-en-ano-electoral",
+      "source_datetime": "2026-10-21T17:06:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Diputados debatirá el proyecto oficialista sobre morosidad financiera",
+      "summary": "Se debatirá en la Cámara de Diputados el proyecto de ley del oficialismo para abordar la morosidad en el sistema financiero. El debate se realizará este miércoles.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Diputados",
+        "Morosidad",
+        "Sistema financiero",
+        "Proyecto de ley"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/se-debatira-en-diputados-la-ley-de-morosidad-todos-los-detalles-de-lo-que-se-viene",
+      "source_datetime": "2026-10-21T18:15:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "35",
+      "headline": "Líderes financieros descartan una burbuja en la IA pese a advertencias de Griffin",
+      "summary": "Líderes financieros descartan una burbuja en la IA, pese a las advertencias de Ken Griffin.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Burbuja",
+        "Ken Griffin"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/bloomberg/bc-lideres-financieros-rechazan-temores-de-burbuja-de-ia-tras-dichos-de-griffin.phtml",
+      "source_datetime": "2026-10-21T22:36:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Minería y energía crecen mientras industria y comercio siguen en retroceso",
+      "summary": "Hugo Vasques analizó las diferencias entre el crecimiento de la minería y la energía y las caídas de la industria y el comercio.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Minería",
+        "Energía",
+        "Industria",
+        "Comercio"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/masperfil/mineria-y-energia-crecen-pero-la-economia-interna-sigue-en-retroceso-el-desafio-de-conectar-ambos-sectores.phtml",
+      "source_datetime": "2026-10-21T22:12:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Debate sobre los desafíos de la industria argentina frente a la apertura",
+      "summary": "Daniel Bosque, Hugo Vasques, Santiago Llull y Marco Meloni debatieron los desafíos de la industria argentina frente a la apertura económica.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Industria",
+        "Apertura económica",
+        "Pymes"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/masperfil/industria-argentina-cuales-son-las-claves-de-la-reconversion-de-las-pymes.phtml",
+      "source_datetime": "2026-10-21T22:03:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Bosque analiza el crecimiento minero y las oportunidades para empresas nacionales",
+      "summary": "Daniel Bosque analizó el crecimiento de la minería argentina. Abordó los desafíos para que las inversiones se traduzcan en oportunidades para las empresas nacionales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Minería",
+        "Inversiones",
+        "Empresas nacionales"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/masperfil/rdeco-la-mineria-crece-en-argentina-pero-las-pymes-enfrentan-limites-para-participar-del-rigi.phtml",
+      "source_datetime": "2026-10-21T21:53:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Cachanosky: el riesgo país sube por la incertidumbre económica",
+      "summary": "Roberto Cachanosky advierte que el aumento del riesgo país se debe a la incertidumbre económica. El sector privado perdió 303.000 empleos formales entre noviembre de 2023 y julio de 2024. Alertó por el crecimiento del empleo informal.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Cachanosky",
+        "Empleo formal",
+        "Empleo informal"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/roberto-cachanosky-duro-el-plan-economico-javier-milei-el-riesgo-pais-no-sube-el-riesgo-kuka-n6336153",
+      "source_datetime": "2026-10-21T12:10:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Pagos digitales en Argentina crecerán 5,5% anual hasta 2030, según BCG",
+      "summary": "Según BCG, el mercado argentino de pagos digitales crecerá a un ritmo del 5,5% anual hasta 2030. Los ingresos del sector llegarán a u$s 6800 millones en 2030. Las transacciones instantáneas más que se triplicarán en cinco años.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Pagos digitales",
+        "BCG",
+        "Fintech",
+        "Proyección"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/pagos-digitales-el-mercado-argentino-crecera-a-un-ritmo-del-55-anual-hasta-2030",
+      "source_datetime": "2026-10-21T20:18:39+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "El mercado mantiene el optimismo por la IA pese a una semana negra",
+      "summary": "El mercado mantiene el optimismo por la IA pese a una semana negra.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Wall Street",
+        "Mercado"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dialogos-wall-street-el-mercado-mantiene-el-optimismo-la-ia-pese-su-semana-negra-n6336057",
+      "source_datetime": "2026-10-21T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.perfil.com/noticias/masperfil/rdeco-el-dolar-el-consumo-y-las-importaciones-en-el-centro-del-debate-industrial.phtml",
+    "https://www.infobae.com/economia/2026/10/22/hay-senales-positivas-para-la-deuda-argentina-por-que-el-mercado-mira-mas-alla-del-debil-dato-de-actividad-de-agosto",
+    "https://www.perfil.com/noticias/economia/el-riesgo-pais-volvio-a-subir-y-se-acerca-a-los-700-puntos-pese-al-avance-de-las-acciones-a40.phtml",
+    "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-miercoles-21-de-octubre-con-el-mep-y-el-ccl",
+    "https://www.infobae.com/economia/2026/10/22/el-salto-del-riesgo-pais-no-altero-al-dolar-pero-empieza-a-impactar-en-la-brecha-cambiaria",
+    "https://www.perfil.com/noticias/masperfil/hugo-vasques-la-industria-y-el-comercio-necesitan-un-tipo-de-cambio-mas-competitivo.phtml",
+    "https://www.ambito.com/economia/dolar-inflacion-y-pbi-cuanto-variaron-las-proyecciones-lo-largo-del-ano-y-que-expectativas-quedaron-desancladas-n6335875",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-21-de-octubre",
+    "https://www.infobae.com/economia/2026/10/21/jornada-financiera-las-acciones-argentinas-avanzaron-hasta-5-en-wall-street-pero-el-riesgo-pais-volvio-a-subir",
+    "https://www.cronista.com/finanzas-mercados/tras-jornadas-de-fuertes-caidas-los-bonos-intentan-un-rebote-se-dio-un-castigo-excesivo",
+    "https://www.cronista.com/finanzas-mercados/el-mercado-espera-un-estancamiento-de-la-inflacion-que-bonos-ve-como-los-nuevos-ganadores",
+    "https://www.infobae.com/economia/2026/10/21/vaca-muerta-el-gobernador-figueroa-anuncio-que-eliminara-ingresos-brutos-a-las-empresas-que-contraten-trabajadores-de-neuquen",
+    "https://www.ambito.com/economia/camino-la-recesion-la-se-mantuvo-estancada-agosto-y-no-logro-recuperar-casi-nada-del-derrumbe-julio-n6336445",
+    "https://www.ambito.com/economia/se-conoce-hoy-el-dato-actividad-economica-agosto-preven-un-rebote-acotado-el-desplome-julio-n6336180",
+    "https://www.ambito.com/economia/inflacion-que-provincias-cuesta-mas-llenar-el-changuito-y-cuales-hubo-mayores-aumentos-mensuales-n6336188",
+    "https://www.cronista.com/finanzas-mercados/jp-morgan-las-tres-condiciones-para-que-la-inflacion-desacelere-en-el-tramo-final-del-ano",
+    "https://www.infobae.com/economia/2026/10/21/la-actividad-economica-crecio-menos-de-lo-esperado-en-agosto-tras-la-fuerte-caida-de-julio",
+    "https://www.cronista.com/finanzas-mercados/los-bonos-recuperaron-terreno-y-bajo-el-riesgo-pais-pero-el-mercado-sigue-en-alerta-por-la-deuda-local",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-miercoles-21-de-octubre-minuto-a-minuto",
+    "https://www.cronista.com/finanzas-mercados/arriazu-explico-por-que-la-economia-argentina-no-despega-y-apunto-contra-el-bcra",
+    "https://www.infobae.com/economia/2026/10/22/cuanto-deberia-crecer-la-economia-argentina-en-septiembre-para-no-caer-en-recesion-tecnica",
+    "https://www.ambito.com/economia/los-salarios-formales-le-ganaron-la-inflacion-agosto-pero-acumulan-una-caida-real-del-23-el-ultimo-ano-n6336461",
+    "https://www.infobae.com/economia/2026/10/22/la-economia-no-repunta-cuales-son-los-sectores-mas-afectados-y-como-evoluciono-cada-rubro-en-lo-que-va-de-2026",
+    "https://www.cronista.com/finanzas-mercados/la-advertencia-de-un-analista-clave-de-la-city-sobre-el-valor-del-dolar-no-es-comodo",
+    "https://www.cronista.com/finanzas-mercados/este-economista-liberal-marco-donde-esta-el-verdadero-riesgo-pais-por-que-el-mercado-mira-mas-alla-de-2027",
+    "https://www.cronista.com/finanzas-mercados/el-mercado-vaticina-el-futuro-de-milei-que-dicen-los-bonos-sobre-el-resultado-electoral-como-anticiparse",
+    "https://www.cronista.com/finanzas-mercados/atravesar-el-desierto-la-estrategia-que-recomienda-un-analista-de-mercados-para-invertir-en-ano-electoral",
+    "https://www.cronista.com/finanzas-mercados/se-debatira-en-diputados-la-ley-de-morosidad-todos-los-detalles-de-lo-que-se-viene",
+    "https://www.perfil.com/noticias/bloomberg/bc-lideres-financieros-rechazan-temores-de-burbuja-de-ia-tras-dichos-de-griffin.phtml",
+    "https://www.perfil.com/noticias/masperfil/mineria-y-energia-crecen-pero-la-economia-interna-sigue-en-retroceso-el-desafio-de-conectar-ambos-sectores.phtml",
+    "https://www.perfil.com/noticias/masperfil/industria-argentina-cuales-son-las-claves-de-la-reconversion-de-las-pymes.phtml",
+    "https://www.perfil.com/noticias/masperfil/rdeco-la-mineria-crece-en-argentina-pero-las-pymes-enfrentan-limites-para-participar-del-rigi.phtml",
+    "https://www.ambito.com/economia/roberto-cachanosky-duro-el-plan-economico-javier-milei-el-riesgo-pais-no-sube-el-riesgo-kuka-n6336153",
+    "https://www.cronista.com/finanzas-mercados/pagos-digitales-el-mercado-argentino-crecera-a-un-ritmo-del-55-anual-hasta-2030",
+    "https://www.ambito.com/economia/dialogos-wall-street-el-mercado-mantiene-el-optimismo-la-ia-pese-su-semana-negra-n6336057"
+  ]
+}
