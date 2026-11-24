@@ -17,7 +17,7 @@ name: Diario - edición diaria
 
 on:
   schedule:
-    - cron: "12 8 * * *"   # 05:13 Argentina, intento 1
+    - cron: "12 8 * * *"   # 05:12 Argentina, intento 1
     - cron: "13 10 * * *"  # 07:13 Argentina, intento 2
     - cron: "13 13 * * *"  # 10:13 Argentina, último intento
   workflow_dispatch:
@@ -31,6 +31,10 @@ on:
         type: boolean
         required: false
         default: false
+      intento:
+        description: "Solo para el disparador externo (1, 2 o 3). Vacío = corrida a mano."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -50,7 +54,10 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       LGC_MODELS: ${{ vars.LGC_MODELS }}
       FECHA_PEDIDA: ${{ inputs.fecha }}
-      ULTIMO_INTENTO: ${{ github.event_name == 'schedule' && github.event.schedule == '13 13 * * *' }}
+      # Corrida automática: la del horario de GitHub o la del disparador externo de Cloudflare
+      # (que manda "intento"). Las dos siguen las mismas reglas de reintento y publicación.
+      AUTOMATICA: ${{ github.event_name == 'schedule' || inputs.intento != '' }}
+      ULTIMO_INTENTO: ${{ (github.event_name == 'schedule' && github.event.schedule == '13 13 * * *') || inputs.intento == '3' }}
 
     steps:
       - name: Bajar el repositorio
@@ -70,7 +77,7 @@ jobs:
           CARPETA="docs/${FECHA//-//}"
           echo "FECHA=$FECHA" >> "$GITHUB_ENV"
           echo "CARPETA_EDICION=$CARPETA" >> "$GITHUB_ENV"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "$CARPETA/data.json" ]; then
+          if [ "$AUTOMATICA" = "true" ] && [ -f "$CARPETA/data.json" ]; then
             echo "La edición $FECHA ya está publicada: este reintento no hace falta."
             echo "SALTEAR=1" >> "$GITHUB_ENV"
           else
@@ -121,8 +128,8 @@ jobs:
       - name: Publicar (guardar en GitHub; Cloudflare la sube al sitio)
         if: >-
           success() && env.SALTEAR == '0' && (
-            (github.event_name == 'workflow_dispatch' && inputs.publicar) ||
-            (github.event_name == 'schedule' && (env.COMPLETA == '1' || env.ULTIMO_INTENTO == 'true'))
+            (env.AUTOMATICA != 'true' && inputs.publicar) ||
+            (env.AUTOMATICA == 'true' && (env.COMPLETA == '1' || env.ULTIMO_INTENTO == 'true'))
           )
         run: |
           git config user.name "diario-lagrancrisis[bot]"
@@ -137,7 +144,7 @@ jobs:
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Avisar que se espera al próximo intento
-        if: success() && env.SALTEAR == '0' && github.event_name == 'schedule' && env.COMPLETA == '0' && env.ULTIMO_INTENTO != 'true'
+        if: success() && env.SALTEAR == '0' && env.AUTOMATICA == 'true' && env.COMPLETA == '0' && env.ULTIMO_INTENTO != 'true'
         run: echo "::warning::La edición $FECHA salió incompleta. No se publica todavía; se reintenta en el próximo horario."
 
       - name: Guardar registros de la corrida (30 días)
