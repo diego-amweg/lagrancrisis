@@ -1,0 +1,744 @@
+{
+  "date": "2026-09-28",
+  "cadena_de_razonamiento": "Se usaron solo las noticias validadas provistas. El riesgo país subió más de 50% desde el mínimo de julio y volvió a niveles de abril, con factores externos (tasas internacionales, petróleo) y locales (reservas, financiamiento). La tasa a diez años de EEUU rozó 5,22%, máximo desde 2007, lo que encarece el acceso al crédito. JP Morgan recortó su proyección de 2026 a 1,5% y anticipa recesión en el tercer trimestre, mientras el Indec muestra caída de actividad y el Gobierno la niega. Los datos de empleo y pobreza refuerzan el deterioro. Los items sin asset_relevance aplicable se usaron solo como contexto.",
+  "resumen_ejecutivo": "El riesgo país volvió a niveles que no alcanzaba desde abril y subió más de 50% desde el mínimo de julio, con factores externos y dudas locales sobre reservas y financiamiento. La tasa a diez años de EEUU rozó 5,22%, máximo desde 2007, y encarece la colocación prevista de US$5000 millones en bonos locales. JP Morgan recortó de 2,7% a 1,5% su proyección de crecimiento para Argentina en 2026 y anticipa recesión en el tercer trimestre. El Indec confirma caída de la actividad mientras el Gobierno niega recesión. La pobreza subió a 32,3% en el primer semestre. En el frente cambiario, el agro liquidaría USD 40.000 millones en 2027 según proyección, y las personas humanas compraron USD 2.853 millones en agosto.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Riesgo país y shock global complican colocación de bonos por US$5000 millones",
+      "summary": "El programa financiero prevé colocar US$5000 millones en bonos en el mercado local. Las tasas encarecieron esa posibilidad. Analistas advierten que, si no mejora el acceso al crédito, el BCRA deberá comprar más divisas antes de las elecciones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Bonos",
+        "Riesgo país",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/la-suba-del-riesgo-pais-y-el-shock-global-complican-una-fuente-clave-de-dolares-que-caputo-espera-nid27092026",
+      "source_datetime": "2026-09-27T22:36:39+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "El riesgo país vuelve a niveles que no alcanzaba desde abril",
+      "summary": "El riesgo país volvió a niveles que no alcanzaba desde abril. Entre los factores señalados figuran las tasas de EEUU, las reservas, la deuda y las elecciones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/riesgo-pais-600-puntos-que-esta-mirando-el-mercado-y-que-preocupa-al-gobierno-n6327149",
+      "source_datetime": "2026-09-27T14:57:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Riesgo país sube más de 50% desde el mínimo de julio",
+      "summary": "El indicador de JP Morgan subió más de 50% desde el mínimo de julio. Entre los factores externos se citan la suba de tasas internacionales y el petróleo caro. Entre los locales se mencionan dudas sobre reservas, financiamiento y política nacional.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "JP Morgan",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/riesgo-pais-arriba-de-600-puntos-dos-factores-externos-y-tres-locales-detras-de-la-caida-de-los-bonos-argentinos",
+      "source_datetime": "2026-09-27T03:39:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Melconian advierte que el oficialismo enfrenta un escenario complejo",
+      "summary": "Melconian dijo que el oficialismo enfrenta un escenario complejo. El dilema combina pérdida de reservas, compra de dólares, control de la inflación y reactivación de la actividad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Reservas"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/melconian-advierte-sobre-el-precio-del-dolar-el-gobierno-va-a-tener-que-cambiar.phtml",
+      "source_datetime": "2026-09-27T12:15:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "La tasa a diez años de EEUU roza el 5,22%, máximo desde 2007",
+      "summary": "La tasa a diez años de EEUU rasguñó el 5,22%, un nivel que no se registraba desde 2007. El artículo sostiene que no hay una crisis de deuda, sino una economía que crece a un ritmo acelerado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Tasas EEUU",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/eeuu-tasas-largas-las-nubes-una-que-crece-al-rojo-vivo-n6327274",
+      "source_datetime": "2026-09-28T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Pobreza sube al 32,3% en el primer semestre de 2026",
+      "summary": "La pobreza volvió a subir al 32,3% en los primeros seis meses de 2026, según el Indec, tras tres semestres de caída. Un informe del Ieral sostiene que el fenómeno se explica por el deterioro del empleo y no por los precios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Pobreza",
+        "Indec",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/no-es-la-inflacion-el-trabajo-que-se-degrada-explica-la-nueva-suba-de-la-pobreza.phtml",
+      "source_datetime": "2026-09-27T02:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Menor actividad plantea dudas sobre la sustentabilidad fiscal",
+      "summary": "La menor actividad económica plantea dudas sobre la sustentabilidad fiscal. El salario se recuperaría en lo que resta del año, pero caería con relación al 2025.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Actividad",
+        "Fiscal",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-puede-ser-el-talon-aquiles-javier-milei-n6327312",
+      "source_datetime": "2026-09-28T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Inversores advierten por posible deterioro de condiciones financieras",
+      "summary": "Los inversores advierten por un posible deterioro de las condiciones financieras. Se mencionan la amenaza de recesión y las elecciones en EEUU.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Mercado",
+        "EEUU",
+        "Condiciones financieras"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/los-90-dias-que-inquietan-al-mercado-amenaza-recesion-elecciones-eeuu-y-un-fin-ano-cargado-tension-n6326985",
+      "source_datetime": "2026-09-27T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Dólar 10% más alto consumiría el margen fiscal del Presupuesto 2027",
+      "summary": "Análisis privado: un dólar 10% por encima de lo previsto consumiría el margen fiscal del Presupuesto 2027. El proyecto tiene un colchón acotado entre superávit primario e intereses de la deuda.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Presupuesto 2027",
+        "Dólar",
+        "Superávit primario"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/presupuesto-2027-advierten-que-un-dolar-10-encima-lo-previsto-consumiria-el-margen-fiscal-n6327165",
+      "source_datetime": "2026-09-27T16:04:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Crecimiento cercano a 3% mensual, necesario para el tercer trimestre",
+      "summary": "Se estima necesario un crecimiento cercano a 3% mensual para que el tercer trimestre arroje saldo positivo. La Secretaría de Finanzas considera que están dadas todas las condiciones para el rebote.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Actividad",
+        "Finanzas",
+        "Rebote"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/28/de-recesion-tecnica-a-recesion-a-secas-economia-espera-un-repunte-de-actividad-pero-los-privados-ven-dificil-revertir-la-fuerte-caida-de-julio",
+      "source_datetime": "2026-09-28T06:08:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Milei niega recesión y atribuye la caída de actividad a cambios bruscos",
+      "summary": "Milei negó que la economía vaya a entrar en recesión y atribuyó el último dato de caída de actividad a los cambios bruscos que sufre el país. Afirmó además que el consumo está en máximos históricos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Milei",
+        "Actividad",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/politica/2026/09/27/javier-milei-nego-que-la-economia-vaya-a-entrar-en-recesion-hay-una-desaceleracion-del-ritmo-de-expansion",
+      "source_datetime": "2026-09-28T00:54:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "JP Morgan recorta a 1,5% su previsión para Argentina en 2026",
+      "summary": "JP Morgan había proyectado crecimiento de 2,7% para 2026 y recortó la estimación a 1,5% tras el dato de actividad de julio. Prevé una contracción anualizada de 4% en el tercer trimestre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "JP Morgan",
+        "Actividad",
+        "Proyecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/jp-morgan-cambio-su-pronostico-para-la-argentina-en-apenas-cuatro-dias-y-ahora-anticipa-una-recesion.phtml",
+      "source_datetime": "2026-09-27T20:37:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Milei niega riesgo de recesión y cuestiona los indicadores de actividad",
+      "summary": "Milei negó el riesgo de recesión y habló de desaceleración. Cuestionó las mediciones que muestran caída de la actividad y sostuvo que los cambios estructurales de la economía distorsionan esos indicadores.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Milei",
+        "Indicadores",
+        "Recesión"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/javier-milei-nego-el-riesgo-recesion-los-indicadores-desestacionalizados-estan-arrojando-cualquier-cosa-n6327281",
+      "source_datetime": "2026-09-28T00:55:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "Datos del Indec confirman que la actividad productiva ya está cayendo",
+      "summary": "Los datos oficiales del Indec confirman que la actividad productiva ya está cayendo. El discurso oficial celebra meses de expansión.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Indec",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/a-un-paso-la-recesion-los-numeros-del-indec-desmienten-el-relato-oficial-crecimiento-n6327240",
+      "source_datetime": "2026-09-27T21:27:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "JP Morgan recorta de 2,7% a 1,5% su proyección y anticipa recesión",
+      "summary": "JP Morgan redujo de 2,7% a 1,5% su estimación de crecimiento para 2026 tras el desplome de la actividad en julio. Anticipó recesión en el tercer trimestre, y el desplome superó ampliamente sus previsiones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "JP Morgan",
+        "Recesión",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/jp-morgan-recorto-fuerte-su-proyeccion-actividad-economica-argentina-y-anticipo-una-recesion-el-tercer-trimestre-n6327194",
+      "source_datetime": "2026-09-27T18:17:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Sectores que más crecieron destruyeron 3.500 puestos formales",
+      "summary": "En los sectores que más crecieron en el último año se destruyeron 3.500 puestos formales. En junio había 246 mil puestos asalariados formales del sector privado menos que en noviembre de 2023. Hay desacople entre empleo y producto.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Mercado laboral"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/en-los-sectores-que-mas-crecieron-en-el-ultimo-ano-se-destruyeron-3500-puestos-de-trabajo-formales.phtml",
+      "source_datetime": "2026-09-27T05:39:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Agro liquidaría USD 40.000 millones en 2027, según proyección",
+      "summary": "La Bolsa de Comercio de Rosario proyecta que el agro liquidará USD 40.000 millones en 2027, el segundo mejor registro histórico, solo superado por 2022. Se atribuye a una cosecha récord y a una mejora sostenida de precios internacionales.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Liquidación de divisas",
+        "Cosecha"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/28/la-vaca-viva-proyectan-que-el-agro-liquidara-usd-40000-millones-en-2027",
+      "source_datetime": "2026-09-28T06:08:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "El atraso de impuestos a los combustibles desde 2024 podría impactar en los precios",
+      "summary": "Un informe calculó el atraso acumulado de impuestos a los combustibles desde 2024 y el impacto porcentual que tendría sobre los precios una eventual actualización.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Combustibles",
+        "Impuestos",
+        "Precios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/a-cuanto-llegaria-la-nafta-en-el-gran-buenos-aires-si-el-gobierno-decidiera-aplicar-los-impuestos-pendientes",
+      "source_datetime": "2026-09-27T14:16:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Pobreza: pérdida de empleo, menor poder adquisitivo y gastos básicos",
+      "summary": "La pérdida de dinamismo laboral, el menor poder adquisitivo y el encarecimiento de los gastos básicos fueron determinantes en la suba de la pobreza. Se analizan factores que podrían marcar su evolución en los próximos meses.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Pobreza",
+        "Empleo",
+        "Poder adquisitivo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/por-que-aumento-la-pobreza-en-el-primer-semestre-y-que-se-espera-para-el-resto-del-ano",
+      "source_datetime": "2026-09-27T21:09:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Inversión en maquinaria cae y el RIGI aún no revierte la anemia",
+      "summary": "El RIGI no revirtió aún la anemia en la formación de capital. Las ventas al exterior de hidrocarburos y gas crecen con fuerza, mientras la inversión en maquinaria cae y obliga a sostener la ocupación en rubros informales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "RIGI",
+        "Inversión",
+        "Empleo",
+        "Hidrocarburos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/exportacion-inversion-y-migraciones-internas-donde-esta-el-futuro-del-empleo-en-la-argentina",
+      "source_datetime": "2026-09-27T17:44:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Personas humanas compraron más dólares que cuatro sectores superavitarios",
+      "summary": "En agosto, la compra bruta de personas humanas fue de USD 2.853 millones. El superávit cambiario conjunto de Energía, Alimentos, Bebidas y Tabaco, Minería e Informática fue de USD 2.765 millones. Solo Oleaginosas y Cereales generó más dólares.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Balanza cambiaria",
+        "Agosto"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/en-agosto-los-argentinos-compraron-casi-100-millones-de-dolares-mas-que-los-que-aportaron-cuatro-de-los-sectores-mas-superavitarios-de-la-economia",
+      "source_datetime": "2026-09-27T23:21:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "Plazo fijo: las tasas cambiaron en septiembre y llegan hasta 23% anual",
+      "summary": "Las tasas de plazo fijo cambiaron en septiembre y llegan hasta 23% anual.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Plazo fijo",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/plazo-fijo-cuanto-rinde-invertir-7000000-30-dias-y-que-tasa-ofrece-cada-banco-n6326756",
+      "source_datetime": "2026-09-27T13:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Hipotecarios UVA: tasas desde 6,5% y plazos de hasta 30 años",
+      "summary": "Las entidades volvieron a competir con intereses desde 6,5% y plazos de hasta 30 años.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Créditos hipotecarios",
+        "UVA",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/creditos-hipotecarios-uva-2026-de-cuanto-es-la-cuota-mensual-la-baja-tasas-los-bancos-n6326384",
+      "source_datetime": "2026-09-27T10:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Vencen pesos por USD 113.000 millones en 15 meses; 53% es mercado",
+      "summary": "Vence deuda en pesos equivalente a USD 113.000 millones en los próximos 15 meses. El 47% son acreencias del propio sector público y el 53% del mercado, principalmente de los bancos. Hasta fin de 2026 vencen unos $80 billones. El 35% de los vencimientos de 2027 ocurren después de las elecciones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Deuda en pesos",
+        "Vencimientos",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/en-los-proximos-15-meses-vence-deuda-en-pesos-por-el-equivalente-a-usd-113000-millones",
+      "source_datetime": "2026-09-27T22:35:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Bancos refinancian a 115.000 clientes en mora por mes",
+      "summary": "Los bancos refinancian a 115.000 clientes en mora por mes. Apunta a que se vaya normalizando la irregularidad del sistema por la vía que quiere el Gobierno.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Mora",
+        "Refinanciación",
+        "Bancos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/acuerdo-entre-privados-los-bancos-estan-refinanciando-a-115000-clientes-en-mora-por-mes",
+      "source_datetime": "2026-09-27T03:40:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "El agro lidera el crecimiento de la actividad desde 2023 y suma empleo",
+      "summary": "El agro lideró el crecimiento de la actividad en referencia al 2023 y también potenció el aumento de trabajadores. Hubo caída en intermediación financiera, minería y turismo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Agro",
+        "Empleo",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/desafio-del-modelo-milei-ocho-los-diez-sectores-mayor-crecimiento-tienen-indice-negativo-empleo-n6327084",
+      "source_datetime": "2026-09-27T00:57:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Gobierno extiende hasta 2049 la concesión de 35 aeropuertos a Eurnekian",
+      "summary": "El Gobierno extendió hasta 2049 la concesión de 35 aeropuertos a la empresa de Eurnekian. El plazo podría ampliarse hasta 2056 si Aeropuertos Argentina acredita fondos para invertir US$600 millones y cumple el avance de obras previsto para 2031.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Aeropuertos",
+        "Concesiones",
+        "Eurnekian"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-gobierno-extendio-hasta-2049-la-concesion-de-35-aeropuertos-a-la-empresa-de-eurnekian-nid28092026",
+      "source_datetime": "2026-09-28T04:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "Cheques rechazados caen 16,2% y acumulan dos meses de baja",
+      "summary": "Los rechazos por fondos insuficientes se contrajeron 16,2% y hilvanaron el segundo mes consecutivo de baja, aunque todavía superan los niveles de un año atrás.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cheques rechazados",
+        "Cadena de pagos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/alivio-parcial-en-la-cadena-de-pagos-volvio-a-caer-la-cantidad-de-cheques-rechazados-pero-sigue-14-por-encima-de-2025",
+      "source_datetime": "2026-09-27T21:33:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Quince empresas se reparten 683 MW en baterías de litio anti apagones",
+      "summary": "Quince empresas se repartieron 683 MW de potencia en baterías de litio para reforzar los nodos críticos de Edenor y Edesur. Las baterías buscan amortiguar los picos de demanda antes de la temporada de calor.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Energía",
+        "Baterías de litio",
+        "Edenor",
+        "Edesur"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/baterias-anti-apagones-los-detalles-del-plan-que-ideo-el-gobierno-para-evitar-los-cortes-de-luz-en-el-verano",
+      "source_datetime": "2026-09-27T19:47:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "47",
+      "headline": "Justicia de EE.UU. habilita embargos por reclamo de USD 391 millones",
+      "summary": "La Justicia de EE.UU. habilitó embargos por un reclamo de USD 391 millones por la expropiación de Aerolíneas. El demandante es el fondo Titan Consortium, que puede iniciar procedimientos desde este lunes. Burford Capital llevó su reclamo al Tribunal del Banco Mundial hace diez días.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Aerolíneas Argentinas",
+        "Justicia",
+        "Embargos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/la-justicia-de-eeuu-habilito-embargos-por-un-reclamo-de-usd-391-millones-por-la-expropiacion-de-aerolineas",
+      "source_datetime": "2026-09-27T17:36:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Milei viajará a Francia para la segunda Argentina Week en París",
+      "summary": "Javier Milei viajará a Francia junto al equipo económico, gobernadores y empresarios argentinos. Es la segunda edición del evento que promueve inversiones estratégicas. El objetivo es sumar inversiones europeas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Argentina Week",
+        "Inversiones",
+        "Francia"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/argentina-week-paris-los-detalles-del-evento-donde-el-gobierno-buscara-sumar-inversiones-europeas-n6327166",
+      "source_datetime": "2026-09-27T16:35:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Argentina Week en París busca explicar cambios y captar inversiones",
+      "summary": "El evento en Francia tendrá lugar la semana siguiente. El objetivo es explicar los cambios que lleva adelante el Gobierno y captar inversiones.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Argentina Week",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/clima-de-negocios-quienes-son-los-empresarios-de-la-economia-que-vuela-que-acompanaran-a-milei-en-la-argentina-week-de-paris",
+      "source_datetime": "2026-09-27T11:45:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Caputo y Kicillof, con agendas separadas ante inversores en Nueva York",
+      "summary": "El ministro de Economía y el gobernador bonaerense mantuvieron agendas separadas ante inversores estadounidenses en Nueva York. Tuvieron resultados y mensajes opuestos. Las reacciones generaron repercusiones dentro del oficialismo nacional.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Caputo",
+        "Kicillof",
+        "Inversores"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/09/27/caputo-y-kicillof-en-nueva-york-ante-inversores-con-que-se-volvio-cada-uno-y-lo-que-lograron-sin-coincidir-en-una-sola-palabra",
+      "source_datetime": "2026-09-27T03:39:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.lanacion.com.ar/economia/la-suba-del-riesgo-pais-y-el-shock-global-complican-una-fuente-clave-de-dolares-que-caputo-espera-nid27092026",
+    "https://www.ambito.com/economia/riesgo-pais-600-puntos-que-esta-mirando-el-mercado-y-que-preocupa-al-gobierno-n6327149",
+    "https://www.infobae.com/economia/2026/09/27/riesgo-pais-arriba-de-600-puntos-dos-factores-externos-y-tres-locales-detras-de-la-caida-de-los-bonos-argentinos",
+    "https://www.perfil.com/noticias/economia/melconian-advierte-sobre-el-precio-del-dolar-el-gobierno-va-a-tener-que-cambiar.phtml",
+    "https://www.ambito.com/economia/eeuu-tasas-largas-las-nubes-una-que-crece-al-rojo-vivo-n6327274",
+    "https://www.perfil.com/noticias/cordoba/no-es-la-inflacion-el-trabajo-que-se-degrada-explica-la-nueva-suba-de-la-pobreza.phtml",
+    "https://www.ambito.com/economia/la-puede-ser-el-talon-aquiles-javier-milei-n6327312",
+    "https://www.ambito.com/economia/los-90-dias-que-inquietan-al-mercado-amenaza-recesion-elecciones-eeuu-y-un-fin-ano-cargado-tension-n6326985",
+    "https://www.ambito.com/economia/presupuesto-2027-advierten-que-un-dolar-10-encima-lo-previsto-consumiria-el-margen-fiscal-n6327165",
+    "https://www.infobae.com/economia/2026/09/28/de-recesion-tecnica-a-recesion-a-secas-economia-espera-un-repunte-de-actividad-pero-los-privados-ven-dificil-revertir-la-fuerte-caida-de-julio",
+    "https://www.infobae.com/politica/2026/09/27/javier-milei-nego-que-la-economia-vaya-a-entrar-en-recesion-hay-una-desaceleracion-del-ritmo-de-expansion",
+    "https://www.perfil.com/noticias/economia/jp-morgan-cambio-su-pronostico-para-la-argentina-en-apenas-cuatro-dias-y-ahora-anticipa-una-recesion.phtml",
+    "https://www.ambito.com/economia/javier-milei-nego-el-riesgo-recesion-los-indicadores-desestacionalizados-estan-arrojando-cualquier-cosa-n6327281",
+    "https://www.ambito.com/economia/a-un-paso-la-recesion-los-numeros-del-indec-desmienten-el-relato-oficial-crecimiento-n6327240",
+    "https://www.ambito.com/economia/jp-morgan-recorto-fuerte-su-proyeccion-actividad-economica-argentina-y-anticipo-una-recesion-el-tercer-trimestre-n6327194",
+    "https://www.perfil.com/noticias/economia/en-los-sectores-que-mas-crecieron-en-el-ultimo-ano-se-destruyeron-3500-puestos-de-trabajo-formales.phtml",
+    "https://www.infobae.com/economia/2026/09/28/la-vaca-viva-proyectan-que-el-agro-liquidara-usd-40000-millones-en-2027",
+    "https://www.infobae.com/economia/2026/09/27/a-cuanto-llegaria-la-nafta-en-el-gran-buenos-aires-si-el-gobierno-decidiera-aplicar-los-impuestos-pendientes",
+    "https://www.infobae.com/economia/2026/09/27/por-que-aumento-la-pobreza-en-el-primer-semestre-y-que-se-espera-para-el-resto-del-ano",
+    "https://www.infobae.com/economia/2026/09/27/exportacion-inversion-y-migraciones-internas-donde-esta-el-futuro-del-empleo-en-la-argentina",
+    "https://www.infobae.com/economia/2026/09/27/en-agosto-los-argentinos-compraron-casi-100-millones-de-dolares-mas-que-los-que-aportaron-cuatro-de-los-sectores-mas-superavitarios-de-la-economia",
+    "https://www.ambito.com/economia/plazo-fijo-cuanto-rinde-invertir-7000000-30-dias-y-que-tasa-ofrece-cada-banco-n6326756",
+    "https://www.ambito.com/economia/creditos-hipotecarios-uva-2026-de-cuanto-es-la-cuota-mensual-la-baja-tasas-los-bancos-n6326384",
+    "https://www.infobae.com/economia/2026/09/27/en-los-proximos-15-meses-vence-deuda-en-pesos-por-el-equivalente-a-usd-113000-millones",
+    "https://www.infobae.com/economia/2026/09/27/acuerdo-entre-privados-los-bancos-estan-refinanciando-a-115000-clientes-en-mora-por-mes",
+    "https://www.ambito.com/economia/desafio-del-modelo-milei-ocho-los-diez-sectores-mayor-crecimiento-tienen-indice-negativo-empleo-n6327084",
+    "https://www.lanacion.com.ar/economia/el-gobierno-extendio-hasta-2049-la-concesion-de-35-aeropuertos-a-la-empresa-de-eurnekian-nid28092026",
+    "https://www.infobae.com/economia/2026/09/27/alivio-parcial-en-la-cadena-de-pagos-volvio-a-caer-la-cantidad-de-cheques-rechazados-pero-sigue-14-por-encima-de-2025",
+    "https://www.infobae.com/economia/2026/09/27/baterias-anti-apagones-los-detalles-del-plan-que-ideo-el-gobierno-para-evitar-los-cortes-de-luz-en-el-verano",
+    "https://www.infobae.com/economia/2026/09/27/la-justicia-de-eeuu-habilito-embargos-por-un-reclamo-de-usd-391-millones-por-la-expropiacion-de-aerolineas",
+    "https://www.ambito.com/economia/argentina-week-paris-los-detalles-del-evento-donde-el-gobierno-buscara-sumar-inversiones-europeas-n6327166",
+    "https://www.infobae.com/economia/2026/09/27/clima-de-negocios-quienes-son-los-empresarios-de-la-economia-que-vuela-que-acompanaran-a-milei-en-la-argentina-week-de-paris",
+    "https://www.infobae.com/economia/2026/09/27/caputo-y-kicillof-en-nueva-york-ante-inversores-con-que-se-volvio-cada-uno-y-lo-que-lograron-sin-coincidir-en-una-sola-palabra"
+  ]
+}
