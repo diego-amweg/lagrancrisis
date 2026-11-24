@@ -1,0 +1,751 @@
+{
+  "date": "2026-10-05",
+  "cadena_de_razonamiento": "La noticia de mayor impacto (ALTO) es que Warsh canceló la forward guidance en la Fed y los mercados prevén una suba de tasas en diciembre, con presión sobre los bonos. Scott Bessent, del Tesoro de EE.UU., destacó la estabilización argentina, dejó abierta una nueva intervención y reiteró el apoyo de Trump a Milei, lo que sostiene el canal de confianza externa. Localmente, el riesgo país subió durante la Argentina Week y los indicadores no mejoraron. El BCRA se llevó USD 369 millones del mercado en la última semana. La inflación de septiembre fue 2,1% y la base monetaria creció 11,7% anual frente a 33,6% de precios minoristas. La actividad real muestra debilidad, con ventas minoristas pyme y crédito en retroceso interanual.",
+  "resumen_ejecutivo": "Warsh canceló la forward guidance en la Fed y los mercados prevén una suba de tasas en diciembre, lo que presiona a los bonos. Scott Bessent destacó la estabilización argentina, dejó abierta nuevas intervenciones y reiteró el apoyo de Trump a Milei. Pese a ello, el riesgo país subió durante la Argentina Week. Barron's ve oportunidades en la deuda por sus altos rendimientos, y un economista destaca mayor credibilidad fiscal con alerta por los vencimientos de 2027. El BCRA se llevó USD 369 millones en la última semana. La inflación de septiembre fue 2,1% y las ventas de supermercados caen 15%, con solo 19,2% de empresas que prevé invertir. El crédito privado cae 1,4% interanual.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "La baja de tasas reactivó las consultas por créditos UVA",
+      "summary": "La baja de tasas reactivó consultas por créditos UVA. Se recomienda tener en cuenta la inflación y la evolución de los ingresos antes de endeudarse.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Créditos UVA",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/creditos-uva-la-region-cuyana-rentabilidad-morosidad-y-variables-macroeconomicas-n6329432",
+      "source_datetime": "2026-10-04T14:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Petróleo y minería ganan peso en el impacto electoral latinoamericano",
+      "summary": "Dos politólogos de Brasil analizan el impacto que precios y tasas tienen en las elecciones latinoamericanas. Lo nuevo es el peso del petróleo y la minería.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "Commodities",
+        "Elecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/05/la-soja-se-hizo-mileista-y-las-tasas-de-interes-se-volvieron-en-contra-como-afecta-ese-combo-a-los-presidentes-argentinos",
+      "source_datetime": "2026-10-05T05:20:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Barron's ve oportunidades en la deuda argentina por sus altos rendimientos",
+      "summary": "El semanario Barron's consideró que todavía hay oportunidades para los inversores en la deuda del país por sus elevados rendimientos y la posible continuidad del programa económico. Se menciona estancamiento e inflación en la economía argentina.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Bonos",
+        "Deuda"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/una-prestigiosa-revista-financiera-de-estados-unidos-advirtio-que-la-economia-argentina-se-debilita-aunque-sus-bonos-aun-son-atractivos",
+      "source_datetime": "2026-10-04T22:55:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Warsh cancela la forward guidance y los mercados prevén suba en diciembre",
+      "summary": "El titular de la Fed Kevin Warsh canceló la forward guidance, forzando un rescate por parte de John Williams y Phillip Jefferson. En tanto, los mercados esperan una suba de tasas en diciembre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Fed",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/rescatando-al-soldado-warsh-la-pataleta-los-bonos-n6329934",
+      "source_datetime": "2026-10-05T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Economista destaca mayor credibilidad fiscal que antes de la crisis de 2018",
+      "summary": "El economista aseguró que el país cuenta con una mayor credibilidad fiscal y menores desequilibrios que antes de la crisis de 2018. Advirtió por los vencimientos de deuda de 2027. Reformas impositiva, previsional y de coparticipación podrían generar efectos positivos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Credibilidad fiscal",
+        "Deuda 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/alberto-ades-el-dolar-el-tipo-cambio-esta-mas-apreciado-que-2017-pero-esto-no-es-2018-n6329729",
+      "source_datetime": "2026-10-03T18:47:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Secretario del Tesoro de EE.UU. deja abierta nueva intervención en Argentina",
+      "summary": "El secretario del Tesoro estadounidense afirmó que la estabilización argentina produjo un cambio radical en América Latina y dejó abierta la posibilidad de nuevas intervenciones. También habló de los bonos del Tesoro y descartó una \"burbuja IA\".",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Tesoro EE.UU.",
+        "Intervenciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/scott-bessent-destaco-el-rescate-argentina-y-resto-importancia-la-suba-del-rendimiento-los-bonos-eeuu-n6329905",
+      "source_datetime": "2026-10-04T19:18:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "El BCRA se llevó USD 369 millones del mercado en la última semana",
+      "summary": "La semana pasada el Banco Central, que conduce Santiago Bausili, se llevó USD 369 millones del mercado. Esa cifra es casi lo mismo que había comprado en todo septiembre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Reservas",
+        "Banco Central"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/05/tras-el-paso-del-fmi-el-banco-central-acelero-la-compra-de-reservas-a-que-poder-de-fuego-aspira-caputo-para-las-elecciones",
+      "source_datetime": "2026-10-05T05:21:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Precios minoristas suben 33,6% y base monetaria 11,7% en doce meses",
+      "summary": "Los precios minoristas aumentaron 33,6% en los últimos doce meses, contra 11,7% de la base monetaria. La base monetaria se contrajo 16% en términos reales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Base monetaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/moneda-y-precios-en-los-ultimos-doce-meses-la-inflacion-triplico-el-crecimiento-de-la-base-monetaria",
+      "source_datetime": "2026-10-04T16:10:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Inflación de septiembre fue 2,1% tras cortar la desaceleración de agosto",
+      "summary": "La inflación de septiembre fue 2,1%, tras el 1,8% de agosto. Las ventas minoristas de alimentos cayeron 8,3% interanual. El 88,8% de los hogares financia sus compras de comida.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/la-inflacion-de-septiembre-fue-21-y-se-acelera-la-canasta-basica-ya-supera-los-2-millones.phtml",
+      "source_datetime": "2026-10-04T22:00:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Argentina entrará al año electoral con una economía debilitada",
+      "summary": "Argentina entrará al año electoral con una economía debilitada. Economistas reconocidos presentan su visión sobre la coyuntura y el escenario futuro.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Economía",
+        "Elecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://noticias.perfil.com/noticias/economia/anticipo-de-tapa-de-noticias-economia-en-alerta.phtml",
+      "source_datetime": "2026-10-04T12:56:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Economista advierte 15 años de productividad en caída y macro que devalúa",
+      "summary": "La economista Bárbara Guerezta advierte que el freno actual es sólo la capa visible: 15 años de productividad en caída, un mercado laboral que no absorbe a quienes llegan y una macro que se acomodó devaluando.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Productividad",
+        "Mercado laboral"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/la-paradoja-que-enfrentan-milei-y-caputo-una-macro-que-mejora-con-una-economia-que-no-despega.phtml",
+      "source_datetime": "2026-10-04T01:59:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Caputo dejó fuera del registro gastos de 2026 que existieron",
+      "summary": "Para mostrar el equilibrio de 2026, Caputo tuvo que dejar fuera del registro gastos que existieron.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Fiscal",
+        "Gasto público"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-presupuesto-no-cierra-ni-en-el-excel-por-martin-pollera.phtml",
+      "source_datetime": "2026-10-04T05:24:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Bessent reiteró el apoyo de Trump al gobierno de Milei",
+      "summary": "Scott Bessent reiteró el apoyo del gobierno de Donald Trump al de Javier Milei, a cuya victoria electoral atribuyó un efecto benéfico sobre América Latina.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Bessent",
+        "Estados Unidos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/el-secretario-del-tesoro-de-eeuu-afirmo-que-en-caso-de-ser-necesario-volveria-a-apoyar-financieramente-a-la-argentina",
+      "source_datetime": "2026-10-04T23:09:08+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Financiamiento privado sube 0,3% real en septiembre pero cae interanual",
+      "summary": "El financiamiento al sector privado creció apenas 0,3% real en septiembre, pero quedó 1,4% por debajo de un año atrás. La mora y las condiciones de tasas y plazos golpearon a los préstamos personales. Los hipotecarios volvieron a destacarse.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Crédito",
+        "Préstamos personales"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-credito-sigue-despegar-los-prestamos-personales-volvieron-caer-septiembre-pero-crecen-hipotecarios-n6329909",
+      "source_datetime": "2026-10-04T19:18:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Sectores SBC exportaron USD 10.493 millones con alza de 10,2%",
+      "summary": "Entre junio de 2025 e igual mes de 2026, los sectores SBC exportaron USD 10.493 millones, con un crecimiento de 10,2%.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Servicios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/05/los-servicios-basados-en-el-conocimiento-lograron-un-record-exportador-historico-que-actividades-sobresalen",
+      "source_datetime": "2026-10-05T05:20:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "Actividad fabril 11,2% debajo de 2023; mediana mundial avanzó 5,9%",
+      "summary": "La actividad fabril quedó un 11,2% por debajo del nivel de 2023, frente a una mediana mundial que avanzó un 5,9%. Solo Palestina, Qatar y Bulgaria registraron resultados más negativos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Industria",
+        "Desempeño industrial"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/datos-la-onu-ubican-la-argentina-como-el-cuarto-peor-pais-desempeno-industrial-n6329799",
+      "source_datetime": "2026-10-03T22:55:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Informe califica el apoyo al agro en el Mercosur: Argentina obtiene -15",
+      "summary": "Un informe mide cuánto aportan las políticas públicas al campo en cada país del Mercosur. Las calificaciones son: Brasil 9, Uruguay 6, Paraguay 3 y Argentina -15.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Mercosur"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/la-libreta-de-calificaciones-del-apoyo-al-agro-en-el-mercosur-brasil-9-uruguay-6-paraguay-3-argentina-15",
+      "source_datetime": "2026-10-04T20:33:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Crece el empleo en construcción y transporte; cae en energía",
+      "summary": "Se reactiva el empleo en construcción y transporte, mientras cae en el sector energético. La industria manufacturera y la textil siguen en retroceso, en tanto investigación e informática sumaron trabajadores formales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Sectores"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/se-reactiva-el-empleo-la-construccion-y-el-transporte-pero-cae-el-sector-energetico-n6329764",
+      "source_datetime": "2026-10-03T20:35:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Puente Chaco-Corrientes: a un año de la promesa de Milei no hubo avances",
+      "summary": "En noviembre de 2023, la gestión anterior consiguió un préstamo a tasa subsidiada por US$ 700 millones, pero el Gobierno lo dejó caer. A un año de la promesa no hubo avances. Por el puente existente pasan 27 mil autos diarios.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Obra pública",
+        "Chaco",
+        "Corrientes",
+        "Infraestructura"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-puente-fantasma-que-milei-prometio-entre-chaco-y-corrientes.phtml",
+      "source_datetime": "2026-10-04T05:28:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "El ETF de Brasil subía 8% con inversores atentos a la elección",
+      "summary": "El ETF de Brasil subía 8 por ciento. El resultado final, aunque incierto, puede favorecer a la argentina. Las consultoras locales destacaron algunos datos positivos de la economía argentina.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Brasil",
+        "ETF",
+        "Elecciones",
+        "Mercados"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/05/los-inversores-del-mundo-y-la-ventaja-de-bolsonaro-en-primera-vuelta-el-etf-de-brasil-subia-8-por-ciento",
+      "source_datetime": "2026-10-05T05:20:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Brasil se polariza entre Lula y Flávio Bolsonaro",
+      "summary": "Los brasileños votan este domingo entre un proyecto con mayor presencia estatal y otro que propone recortes, privatizaciones y más espacio para el mercado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Brasil",
+        "Elecciones",
+        "Lula",
+        "Flávio Bolsonaro"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/brasil-se-polariza-lula-y-flavio-bolsonaro-definen-el-rumbo-economico-el-estado-presente-y-el-libre-mercado-n6328531",
+      "source_datetime": "2026-10-04T19:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Caen 15% las ventas de los súper en la era Milei",
+      "summary": "Las ventas de los súper caen 15% en la era Milei, atribuidas a salarios deprimidos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Supermercados",
+        "Salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/por-salarios-deprimidos-caen-15-las-ventas-de-los-super-en-la-era-milei.phtml",
+      "source_datetime": "2026-10-04T05:27:33+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "Solo 19,2% de las empresas consultadas prevé invertir en el semestre",
+      "summary": "Solo 19,2% de las empresas consultadas prevé invertir en el próximo semestre. Un 46,7% informó caída de sus ventas en volumen y el 61,6% considera que la situación económica del país empeorará.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inversión",
+        "Empresas",
+        "Expectativas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/aguantar-sin-invertir-solo-dos-de-cada-diez-pymes-planea-realizar-inversiones-en-los-proximos-seis-meses",
+      "source_datetime": "2026-10-04T22:12:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Ventas minoristas pyme suben 0,3% anual en septiembre",
+      "summary": "El consumo mostró una recuperación marginal frente al mismo mes de 2025, pero retrocedió 1,2% respecto de agosto. Las ventas online crecieron 19,4% interanual y el acumulado anual registra una caída de 2,1%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Pymes",
+        "Ventas minoristas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/las-ventas-minoristas-pyme-subieron-apenas-03-septiembre-y-acumulan-una-caida-del-21-anual-n6329896",
+      "source_datetime": "2026-10-04T18:18:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Préstamo bancario privado sube 0,7 puntos del PBI en agosto",
+      "summary": "El préstamo bancario privado aumentó 0,7 puntos porcentuales del PBI en agosto comparado con el final del año pasado. El leasing acumula diez trimestres consecutivos de crecimiento, con una expansión interanual de más de 15% a mitad de año. La mitad de la cartera de leasing son pymes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Crédito",
+        "Leasing",
+        "Pymes"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/como-financiar-una-empresa-sin-comprometer-su-liquidez.phtml",
+      "source_datetime": "2026-10-04T05:26:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Ventas minoristas pyme suben 0,3% anual en septiembre según CAME",
+      "summary": "CAME informó una suba mínima contra igual mes del año pasado, pero una caída del 1,2% respecto de agosto y del 2,1% en el acumulado de 9 meses.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "CAME",
+        "Consumo",
+        "Pymes"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/las-ventas-minoristas-pyme-aumentaron-03-anual-en-septiembre-que-diferencia-registro-el-consumo-online",
+      "source_datetime": "2026-10-04T20:13:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Argentina Week: riesgo país sube y los indicadores no mejoran",
+      "summary": "Tres días de optimismo del Gobierno basados en anuncios de inversiones y presencia de gobernadores. En Argentina, el riesgo país continuó subiendo y los últimos indicadores no fueron buenos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Argentina Week",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/fin-la-argentina-week-mejor-que-nueva-york-foco-energia-y-un-pedido-clave-inversores-luis-caputo-n6329842",
+      "source_datetime": "2026-10-04T14:54:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Experto argentino cuestiona supuestos del plan petrolero Sea Lion",
+      "summary": "Un experto argentino cuestiona supuestos implícitos en el plan de desarrollo hidrocarburífero en torno de las islas. El análisis se basa en datos del auditor texano y de otras exploraciones.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Malvinas",
+        "Sea Lion"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/no-lucen-razonables-segun-un-experto-argentino-los-datos-conocidos-hacen-dudar-de-la-viabilidad-del-proyecto-petrolero-sea-lion-en-malvinas",
+      "source_datetime": "2026-10-04T18:38:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Energía y alquileres suben su peso en el costo del comercio minorista",
+      "summary": "Un informe detectó que la incidencia de la electricidad aumentó cerca 150% desde 2023, y la de los locales 138%. La incidencia de los bienes se mantuvo casi inalterada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Comercio minorista",
+        "Energía",
+        "Alquileres"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/otra-economia-otros-costos-como-cambio-el-peso-de-la-energia-y-de-los-alquileres-en-el-comercio-minorista-desde-2023",
+      "source_datetime": "2026-10-04T17:34:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "38",
+      "headline": "Coloquio de IDEA busca instalar agenda de reformas de largo plazo",
+      "summary": "El Coloquio de IDEA buscó instalar una agenda de reformas estructurales para el largo plazo. Las tensiones de la economía y las presidenciales de 2027 marcaron los debates.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "IDEA",
+        "Reformas",
+        "Elecciones 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/empresarios-entran-modo-espera-y-surgen-alertas-el-clima-electoral-anticipado-que-atiza-javier-milei-n6329736",
+      "source_datetime": "2026-10-04T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Langostino superó USD 1.000 millones anuales en exportaciones",
+      "summary": "En la segunda mitad de la década pasada las ventas externas de langostino superaron USD 1.000 millones anuales y van camino de repetirlo. Buena parte de las ventas sale por otros países, y surgió un competidor de enorme volumen impulsado por China.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Langostino",
+        "Exportaciones",
+        "Pesca"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/dos-obstaculos-a-la-principal-exportacion-pesquera-de-la-argentina-y-el-intento-en-paris-para-superarlos",
+      "source_datetime": "2026-10-04T14:12:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "42",
+      "headline": "Se reducen ventas de modelos de referencia y cambia el ranking de autos",
+      "summary": "Inesperadamente, se redujo la venta de algunos modelos que eran referencia y cambió el ranking. Jugadores fuertes crecen a contramano de los autos tradicionales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Autos",
+        "Ventas",
+        "Septiembre"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/04/el-subibaja-de-los-autos-cuales-fueron-las-5-sorpresas-del-mercado-en-septiembre",
+      "source_datetime": "2026-10-04T12:59:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "Daza: la energía barata reemplazará a la mano de obra barata",
+      "summary": "José Luis Daza, viceministro de Economía, sostuvo que la energía barata reemplazará a la mano de obra barata. Según el funcionario, las condiciones naturales y el valor de los recursos humanos ofrecerán al país \"una oportunidad extraordinaria\".",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Energía",
+        "Empleo",
+        "Gobierno"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/optimismo-jose-luis-daza-la-proyeccion-argentina-la-energia-barata-reemplazara-la-mano-obra-barata-n6329782",
+      "source_datetime": "2026-10-03T21:44:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "Argentina Week: inversiones energéticas coparon la escena parisina",
+      "summary": "Las inversiones energéticas coparon la escena parisina durante Argentina Week. Se realizó una reunión con la Agencia Internacional de Energía y hubo una reunión clave de gobernadores con anuncios de inversión.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Argentina Week",
+        "Energía",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/argentina-week-finalizo-la-energia-el-centro-la-escena-reunion-clave-gobernadores-y-los-anuncios-inversion-n6329725",
+      "source_datetime": "2026-10-03T20:45:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/creditos-uva-la-region-cuyana-rentabilidad-morosidad-y-variables-macroeconomicas-n6329432",
+    "https://www.infobae.com/economia/2026/10/05/la-soja-se-hizo-mileista-y-las-tasas-de-interes-se-volvieron-en-contra-como-afecta-ese-combo-a-los-presidentes-argentinos",
+    "https://www.infobae.com/economia/2026/10/04/una-prestigiosa-revista-financiera-de-estados-unidos-advirtio-que-la-economia-argentina-se-debilita-aunque-sus-bonos-aun-son-atractivos",
+    "https://www.ambito.com/economia/rescatando-al-soldado-warsh-la-pataleta-los-bonos-n6329934",
+    "https://www.ambito.com/economia/alberto-ades-el-dolar-el-tipo-cambio-esta-mas-apreciado-que-2017-pero-esto-no-es-2018-n6329729",
+    "https://www.ambito.com/economia/scott-bessent-destaco-el-rescate-argentina-y-resto-importancia-la-suba-del-rendimiento-los-bonos-eeuu-n6329905",
+    "https://www.infobae.com/economia/2026/10/05/tras-el-paso-del-fmi-el-banco-central-acelero-la-compra-de-reservas-a-que-poder-de-fuego-aspira-caputo-para-las-elecciones",
+    "https://www.infobae.com/economia/2026/10/04/moneda-y-precios-en-los-ultimos-doce-meses-la-inflacion-triplico-el-crecimiento-de-la-base-monetaria",
+    "https://www.perfil.com/noticias/cordoba/la-inflacion-de-septiembre-fue-21-y-se-acelera-la-canasta-basica-ya-supera-los-2-millones.phtml",
+    "https://noticias.perfil.com/noticias/economia/anticipo-de-tapa-de-noticias-economia-en-alerta.phtml",
+    "https://www.perfil.com/noticias/cordoba/la-paradoja-que-enfrentan-milei-y-caputo-una-macro-que-mejora-con-una-economia-que-no-despega.phtml",
+    "https://www.perfil.com/noticias/economia/el-presupuesto-no-cierra-ni-en-el-excel-por-martin-pollera.phtml",
+    "https://www.infobae.com/economia/2026/10/04/el-secretario-del-tesoro-de-eeuu-afirmo-que-en-caso-de-ser-necesario-volveria-a-apoyar-financieramente-a-la-argentina",
+    "https://www.ambito.com/economia/el-credito-sigue-despegar-los-prestamos-personales-volvieron-caer-septiembre-pero-crecen-hipotecarios-n6329909",
+    "https://www.infobae.com/economia/2026/10/05/los-servicios-basados-en-el-conocimiento-lograron-un-record-exportador-historico-que-actividades-sobresalen",
+    "https://www.ambito.com/economia/datos-la-onu-ubican-la-argentina-como-el-cuarto-peor-pais-desempeno-industrial-n6329799",
+    "https://www.infobae.com/economia/2026/10/04/la-libreta-de-calificaciones-del-apoyo-al-agro-en-el-mercosur-brasil-9-uruguay-6-paraguay-3-argentina-15",
+    "https://www.ambito.com/economia/se-reactiva-el-empleo-la-construccion-y-el-transporte-pero-cae-el-sector-energetico-n6329764",
+    "https://www.perfil.com/noticias/economia/el-puente-fantasma-que-milei-prometio-entre-chaco-y-corrientes.phtml",
+    "https://www.infobae.com/economia/2026/10/05/los-inversores-del-mundo-y-la-ventaja-de-bolsonaro-en-primera-vuelta-el-etf-de-brasil-subia-8-por-ciento",
+    "https://www.ambito.com/economia/brasil-se-polariza-lula-y-flavio-bolsonaro-definen-el-rumbo-economico-el-estado-presente-y-el-libre-mercado-n6328531",
+    "https://www.perfil.com/noticias/economia/por-salarios-deprimidos-caen-15-las-ventas-de-los-super-en-la-era-milei.phtml",
+    "https://www.infobae.com/economia/2026/10/04/aguantar-sin-invertir-solo-dos-de-cada-diez-pymes-planea-realizar-inversiones-en-los-proximos-seis-meses",
+    "https://www.ambito.com/economia/las-ventas-minoristas-pyme-subieron-apenas-03-septiembre-y-acumulan-una-caida-del-21-anual-n6329896",
+    "https://www.perfil.com/noticias/economia/como-financiar-una-empresa-sin-comprometer-su-liquidez.phtml",
+    "https://www.infobae.com/economia/2026/10/04/las-ventas-minoristas-pyme-aumentaron-03-anual-en-septiembre-que-diferencia-registro-el-consumo-online",
+    "https://www.ambito.com/economia/fin-la-argentina-week-mejor-que-nueva-york-foco-energia-y-un-pedido-clave-inversores-luis-caputo-n6329842",
+    "https://www.infobae.com/economia/2026/10/04/no-lucen-razonables-segun-un-experto-argentino-los-datos-conocidos-hacen-dudar-de-la-viabilidad-del-proyecto-petrolero-sea-lion-en-malvinas",
+    "https://www.infobae.com/economia/2026/10/04/otra-economia-otros-costos-como-cambio-el-peso-de-la-energia-y-de-los-alquileres-en-el-comercio-minorista-desde-2023",
+    "https://www.ambito.com/economia/empresarios-entran-modo-espera-y-surgen-alertas-el-clima-electoral-anticipado-que-atiza-javier-milei-n6329736",
+    "https://www.infobae.com/economia/2026/10/04/dos-obstaculos-a-la-principal-exportacion-pesquera-de-la-argentina-y-el-intento-en-paris-para-superarlos",
+    "https://www.infobae.com/economia/2026/10/04/el-subibaja-de-los-autos-cuales-fueron-las-5-sorpresas-del-mercado-en-septiembre",
+    "https://www.ambito.com/economia/optimismo-jose-luis-daza-la-proyeccion-argentina-la-energia-barata-reemplazara-la-mano-obra-barata-n6329782",
+    "https://www.ambito.com/economia/argentina-week-finalizo-la-energia-el-centro-la-escena-reunion-clave-gobernadores-y-los-anuncios-inversion-n6329725"
+  ]
+}
