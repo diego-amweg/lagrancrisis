@@ -1,0 +1,825 @@
+{
+  "date": "2026-10-29",
+  "cadena_de_razonamiento": "Los activos argentinos sufren el contagio del resultado electoral en Brasil, con riesgo país en 763 puntos, ADR con caídas de hasta 4% y bonos Globales de hasta -1,6%. La estabilidad del dólar oficial en $1.560 convive con refinanciaciones de 105% a 107% de vencimientos, lo que indica que el Tesoro sostiene la liquidez sin presión visible sobre el tipo de cambio. El riesgo fiscal persiste tras la tercera revisión del FMI, que no alcanzó la meta del primer semestre y para la cual analistas anticipan incumplimiento anual. En el frente externo, la Fed mantuvo la tasa en 3,75%-4% y no descarta una suba en diciembre, lo que eleva el costo de capital para los emergentes. A nivel real, la industria acumula una caída de 12% frente a 2023 y la morosidad en microempresas ronda el 18%, factores que agregan presión sobre la actividad.",
+  "resumen_ejecutivo": "El shock originado por el resultado electoral en Brasil sigue incidiendo sobre los activos argentinos: el riesgo país escaló a 763 puntos, los bonos Globales cayeron hasta 1,6% y los ADR retrocedieron hasta 4%. Frente a ese contexto, el Tesoro refinanció entre 105% y 107% de los vencimientos, con demanda concentrada en bonos TAMAR y una extensión de 30% hacia después de 2027, mientras el dólar oficial se mantuvo estable y el BCRA no intervino en el mercado. El FMI aprobó la tercera revisión sin alcanzar la meta fiscal del primer semestre, y analistas anticipan incumplimiento de la meta anual. En el frente externo, la Fed mantuvo la tasa en 3,75%-4%, admitió inflación elevada y no descarta una suba en diciembre. En el plano real, la industria acumula una caída de 12% frente a 2023 y la morosidad en microempresas se aproxima al 18%.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "El Tesoro refinanció el 105% de los vencimientos y evitó subas del dólar",
+      "summary": "La salida de Flavio Bolsonaro, un día después de las elecciones, generó nerviosismo entre los inversores. El Tesoro refinanció el 105% de los vencimientos en Argentina para mantener controlada la liquidez y evitar subas del dólar.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Tesoro",
+        "Vencimientos",
+        "Liquidez"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/el-efecto-lula-sigue-pegando-en-argentina-los-bonos-sintieron-el-impacto-pero-el-tipo-de-cambio-aguanto",
+      "source_datetime": "2026-10-29T05:38:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Industria acumula caída de 12% frente a 2023 y calzado y textiles lideran pérdidas",
+      "summary": "La actividad manufacturera acumula una contracción del 12% frente a 2023. El calzado, los textiles y la maquinaria lideran las pérdidas, mientras la refinación de petróleo y la fabricación de equipos de transporte muestran resultados positivos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Industria",
+        "Actividad",
+        "Manufactura"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/industria-rojo-cuales-son-las-ramas-que-acumulan-caidas-39-2023-y-las-pocas-que-lograron-crecer-n6338711",
+      "source_datetime": "2026-10-28T12:12:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Riesgo país cerca de su máximo del año y acciones caen por tercera rueda",
+      "summary": "El MSCI Merval cedió 1,2% y los bonos cayeron 1,3% en promedio. El indicador de JP Morgan escaló a 763 puntos. El dólar siguió a $1.560 en el Banco Nación y el BCRA no intervino en el mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Acciones",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/el-riesgo-pais-quedo-al-borde-de-su-maximo-del-ano-y-las-acciones-argentinas-cayeron-por-tercera-rueda-seguida",
+      "source_datetime": "2026-10-29T00:23:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Dólar blue perdió $10 el miércoles 28 de octubre",
+      "summary": "El dólar blue perdió $10 el miércoles 28 de octubre. El contenido refiere a la brecha cambiaria con el tipo de cambio oficial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar blue",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-miercoles-28-de-octubre-con-el-mep-y-el-ccl",
+      "source_datetime": "2026-10-28T18:55:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Tesoro logró rollover de 107% y aspiró pesos de la plaza cambiaria",
+      "summary": "El Gobierno logró un rollover del 107% y aspiró pesos de la plaza cambiaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Rollover",
+        "Deuda",
+        "Licitación"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-tesoro-renovo-los-vencimientos-de-deuda-y-capto-11-billones-mas-que-bonos-eligio-el-mercado",
+      "source_datetime": "2026-10-28T20:54:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "La morosidad en microempresas es de casi 18%",
+      "summary": "La morosidad en microempresas es de casi 18%. Las firmas más pequeñas tienen baja incidencia en el monto total de deuda corporativa, pero enfrentan una situación crediticia preocupante. La mayoría de las empresas que refinanciaron sus compromisos no logra una mejora sostenida.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Morosidad",
+        "Microempresas",
+        "Crédito"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-morosidad-microempresas-es-casi-18-y-quintuplica-la-las-grandes-companias-n6338580",
+      "source_datetime": "2026-10-28T00:18:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Bonos Globales caen hasta 1,6% y acciones líderes pierden 1,4% en dólares",
+      "summary": "Los bonos Globales retrocedieron hasta 1,6%, mientras las acciones líderes perdieron 1,4% en dólares. Se menciona incertidumbre política hacia las elecciones de 2027 y baja exposición regional.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Bonos Globales",
+        "Acciones",
+        "Elecciones 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/argentina-el-unico-pais-de-la-region-que-sufre-por-brasil-los-inversores-dudan-y-hay-mas-riesgo-para-bonos-que-vencen-despues-de-2027",
+      "source_datetime": "2026-10-29T05:21:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Exviceministro cuestiona ancla cambiaria y carry trade: 'maratón cambiaria'",
+      "summary": "El exviceministro de Economía cuestionó con dureza el uso del ancla cambiaria y el esquema de carry trade. Afirmó: 'Vamos a tener una maratón cambiaria'.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Ancla cambiaria",
+        "Carry trade",
+        "Política cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/la-dura-respuesta-de-alvarez-agis-sobre-el-bcra-y-el-dolar-vamos-a-tener-una-maraton-cambiaria",
+      "source_datetime": "2026-10-28T20:49:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Exministro cuestiona intervención en el dólar y reclama eliminar el cepo",
+      "summary": "El exministro cuestionó la intervención en el dólar y comparó la gestión con el kirchnerismo. Reclamó la eliminación total del cepo, la extensión del RIGI a todas las empresas y criticó el freno a la obra pública.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Cepo",
+        "RIGI",
+        "Obra pública"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cavallo-lanzo-fuertes-criticas-y-comparo-al-gobierno-javier-milei-el-kirchnerismo-manejan-el-dolar-como-lo-moreno-n6338886",
+      "source_datetime": "2026-10-28T16:41:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Dólar oficial no tuvo cambios el miércoles 28 de octubre en los bancos",
+      "summary": "El dólar oficial no tuvo cambios el miércoles 28 de octubre. El contenido refiere a la cotización en bancos y la brecha con el blue.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-28-de-octubre",
+      "source_datetime": "2026-10-28T18:45:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Finanzas rolleó el 107% de los vencimientos con demanda en bonos TAMAR",
+      "summary": "La Secretaría de Finanzas rolleó el 107% de los vencimientos. La mayoría de la demanda se concentró en los bonos TAMAR y se logró extender 30% para después de 2027.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Rollover",
+        "Bonos TAMAR",
+        "Vencimientos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/28/en-medio-de-la-tension-que-genera-brasil-economia-renovo-vencimientos-y-retiro-pesos-del-mercado-efectos-sobre-la-tasa-y-el-dolar",
+      "source_datetime": "2026-10-28T22:06:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Fed sin sorpresas: no se descarta suba de tasas en diciembre",
+      "summary": "Pasó la reunión de la Fed sin sorpresas, pero con mucha información. Kevin Warsh se afianza en la Fed y no se descarta una suba de tasas en diciembre. Se mencionan disidencias en la votación.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Fed",
+        "Tasas",
+        "Kevin Warsh"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dialogos-wall-street-kevin-warsh-se-afianza-la-fed-y-no-descartan-suba-tasas-diciembre-n6339099",
+      "source_datetime": "2026-10-29T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "FMI alerta que la suba de rendimientos soberanos aumenta presiones fiscales",
+      "summary": "Un estudio reciente del FMI concluye que aumentan los rendimientos soberanos. El aumento de los rendimientos incrementa las presiones fiscales. Existe elevada deuda y la consolidación creíble es más urgente.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "FMI",
+        "Rendimientos soberanos",
+        "Deuda"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-fmi-alerta-riesgos-fiscales-la-suba-las-tasas-n6338619",
+      "source_datetime": "2026-10-28T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "Leve rebote de actividad en septiembre y crecimiento 2026 cerca de 1%",
+      "summary": "Se estima un leve rebote de la actividad en septiembre, pero el crecimiento acumulado de 2026 quedaría cerca del 1%. Las proyecciones de crecimiento para 2026 siguen en baja.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Crecimiento",
+        "Proyecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/estiman-un-leve-rebote-la-septiembre-pero-el-crecimiento-2026-quedaria-cerca-del-1-la-recesion-n6338872",
+      "source_datetime": "2026-10-28T16:17:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Calzado prevé fabricar 20 millones de pares menos que en 2025",
+      "summary": "El sector prevé fabricar 20 millones de pares menos que en 2025. Hay fuerte caída del consumo y avance de las importaciones. Se menciona un inminente vencimiento de una medida antidumping.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Calzado",
+        "Importaciones",
+        "Antidumping"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/menos-produccion-fabricas-cerradas-y-miles-de-despidos-la-industria-del-calzado-advierte-por-un-nuevo-golpe-en-diciembre",
+      "source_datetime": "2026-10-29T05:38:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Riesgo país trepa a 763 puntos y ADR caen hasta 4% por contagio de Brasil",
+      "summary": "El riesgo país trepó a 763 puntos y los ADR cayeron hasta 4%. Los bancos lideraron las pérdidas en medio del efecto contagio de Brasil. Cayeron las acciones y los bonos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "ADR",
+        "Brasil"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-trepo-a-763-puntos-y-los-adr-cayeron-hasta-4",
+      "source_datetime": "2026-10-28T21:41:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Resultado electoral en Brasil profundiza caída de activos argentinos",
+      "summary": "El resultado electoral en Brasil profundizó la caída de los activos argentinos y abrió un escenario de mayor volatilidad.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Brasil",
+        "Volatilidad",
+        "Elecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/bonos-y-ons-como-posicionar-inversiones-estrategicas-para-aprovechar-el-shock-de-los-mercados-brasilenos",
+      "source_datetime": "2026-10-28T15:59:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "FMI aprueba tercera revisión; analistas prevén incumplir meta fiscal anual",
+      "summary": "El FMI aprobó la tercera revisión del acuerdo, en la que no se alcanzó el objetivo fiscal del primer semestre. Analistas aseguran que el Gobierno va a incumplir la meta anual y que no hay lugar para recortar gastos de cara a la de diciembre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "FMI",
+        "Superávit fiscal",
+        "Meta fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/superavit-fiscal-el-gobierno-recibio-un-perdon-del-fmi-pero-para-los-economistas-va-a-incumplir-la-meta-anual",
+      "source_datetime": "2026-10-29T07:03:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "La Fed mantuvo la tasa en 3,75%-4% y admitió inflación elevada",
+      "summary": "La Reserva Federal dejó la tasa en el rango de 3,75% a 4%. La Fed admitió que la inflación en EEUU aún es elevada. Se plantea si habrá una nueva suba en diciembre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Fed",
+        "Tasas",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/la-fed-mantuvo-la-tasa-sin-cambios-pero-admitio-que-la-inflacion-en-eeuu-aun-es-elevada",
+      "source_datetime": "2026-10-28T19:56:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "La Fed anuncia si mantiene la tasa en 3,75%-4% este miércoles",
+      "summary": "La Reserva Federal anuncia este miércoles si mantiene la tasa en el rango de 3,75% a 4%. El mercado espera los balances de tecnológicas y las elecciones de medio término.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Fed",
+        "Tasas",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/la-fed-decide-si-mantiene-o-sube-la-tasa-y-wall-street-entra-en-modo-electoral",
+      "source_datetime": "2026-10-28T18:37:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "El consumo de carne vacuna está en su nivel más bajo de la historia",
+      "summary": "El consumo de carne vacuna está en el nivel más bajo de la historia. Entre las causas figuran el estancamiento de la producción, el avance del pollo y el cerdo y el encarecimiento relativo de la carne vacuna.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Carne vacuna",
+        "Consumo",
+        "Agro"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/por-que-el-consumo-de-carne-vacuna-esta-en-el-nivel-mas-bajo-de-la-historia-causas-detras-de-la-caida",
+      "source_datetime": "2026-10-29T05:18:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "La UIA recibirá a Caputo y pide acelerar la baja de impuestos",
+      "summary": "La UIA recibirá a Luis Caputo en su principal encuentro del año y pide acelerar la baja de impuestos. La presencia del ministro de Economía representa una distensión en el vínculo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "UIA",
+        "Caputo",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-uia-recibira-luis-caputo-su-principal-encuentro-del-ano-y-pide-acelerar-la-baja-impuestos-n6339030",
+      "source_datetime": "2026-10-28T23:53:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Jesús Rodríguez cuestionó la política exterior de Milei",
+      "summary": "Jesús Rodríguez advirtió que las tensiones diplomáticas pueden comprometer el acuerdo entre la Unión Europea y el Mercosur. También cuestionó el enfoque fiscal del Gobierno y alertó por la caída de la actividad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Mercosur",
+        "Unión Europea",
+        "Política exterior"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/28/jesus-rodriguez-cuestiono-a-milei-por-su-politica-exterior-la-argentina-necesita-llevarse-bien-con-brasil",
+      "source_datetime": "2026-10-28T23:06:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "Reino Unido anunció un paquete para 20 millones de familias",
+      "summary": "El ministro John Healey presentó un paquete presupuestario de urgencia que beneficiará a 20 millones de familias. Eliminará cargos fijos en el gas y busca contrarrestar el impacto del conflicto con Irán.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Reino Unido",
+        "Gas",
+        "Irán"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/reino-unido-anuncio-medidas-millones-libras-ayudar-los-hogares-frente-las-tormentas-economicas-mundiales-n6338947",
+      "source_datetime": "2026-10-28T19:20:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Google y Microsoft presentan hoy sus balances trimestrales",
+      "summary": "Google y Microsoft presentan hoy sus resultados trimestrales, al mismo tiempo que se reúne la Fed. Wall Street sube.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Big Tech",
+        "Balances",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/llegan-los-balances-big-tech-al-mercado-wall-street-sube-y-los-analistas-tienen-la-palabra",
+      "source_datetime": "2026-10-28T13:45:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Prat-Gay: Vaca Muerta es un boom que no arrastra al resto",
+      "summary": "Según Alfonso Prat-Gay, la minería y el petróleo crecen al 9% anual, mientras la economía no extractiva acumula años de estancamiento. Advierte que el RIGI aún no muestra un impacto significativo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Prat-Gay",
+        "Vaca Muerta",
+        "RIGI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dura-advertencia-alfonso-prat-gay-vaca-muerta-es-un-boom-que-no-arrastra-al-resto-la-n6338845",
+      "source_datetime": "2026-10-28T15:33:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Empresas se vuelcan a un bono del BCRA para dolarizarse",
+      "summary": "Las empresas se vuelcan al título del Banco Central. El título no tiene riesgo de default y vence en una fecha considerada oportuna para los inversores.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Bonos",
+        "BCRA",
+        "Dolarización"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/alta-demanda-del-bono-favorito-de-las-empresas-encepadas-para-dolarizarse-cuanto-rinden",
+      "source_datetime": "2026-10-28T12:04:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Cavallo criticó a Milei y pidió liberar la compra y venta de dólares",
+      "summary": "Domingo Cavallo criticó a Javier Milei y pidió liberar la compra y venta de dólares. Comparó la intervención oficial con los controles de Guillermo Moreno y reclamó extender los beneficios del RIGI a toda la economía.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Cavallo",
+        "Dólar",
+        "RIGI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/domingo-cavallo-critico-javier-milei-y-pidio-liberar-la-compra-y-venta-dolares-n6338608",
+      "source_datetime": "2026-10-27T23:50:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "La IA podría aportar USD 17.700 millones a la economía hacia 2030",
+      "summary": "Un estudio privado estima que la IA podría aportar USD 17.700 millones a la economía argentina hacia 2030. Ese valor se captaría solo si se acelera la adopción en empresas. Sin cambios, el impacto sería de USD 12.708 millones, el 1,5% del PBI.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "PBI",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/segun-un-estudio-privado-la-inteligencia-artificial-podria-aportar-usd-17700-millones-a-la-economia-argentina-hacia-2030",
+      "source_datetime": "2026-10-29T05:17:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "La victoria de Lula sorprendió y provocó caídas en acciones brasileñas",
+      "summary": "La victoria de Lula sorprendió al mercado y desató fuertes caídas en las acciones brasileñas. Algunos especialistas consideran que la corrección abre oportunidades.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Brasil",
+        "Lula",
+        "Acciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/brasil-en-la-mira-de-los-inversores-donde-ven-oportunidades",
+      "source_datetime": "2026-10-28T16:13:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "El mercado festeja el futuro desembolso del FMI y el riesgo país baja",
+      "summary": "El mercado festeja el futuro desembolso del FMI. El riesgo país retrocede a 735, en niveles de octubre del año pasado, aunque se mantiene por encima de los 700 puntos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "FMI",
+        "Riesgo país",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-mercado-festeja-el-futuro-desembolso-del-fmi-por-que-el-programa-financiero-esta-bajo-la-lupa",
+      "source_datetime": "2026-10-28T13:53:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Empresa de aeronaves cae 11% tras balance del tercer trimestre",
+      "summary": "Una empresa de aeronaves perdió cerca de 11% después de presentar sus resultados del tercer trimestre. Mejoró drásticamente su pérdida y superó las expectativas de flujo de caja.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Wall Street",
+        "Balances",
+        "Aeronáutica"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/sin-piedad-el-mercado-hizo-colapsar-la-cotizacion-de-un-gigante-y-no-es-la-unica-castigada-por-wall-street",
+      "source_datetime": "2026-10-28T13:43:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Empresarios piden al Congreso aprobar un acuerdo comercial con EEUU",
+      "summary": "En un evento de Amcham, empresarios y la embajada norteamericana pidieron la aprobación del acuerdo comercial en el Congreso. Se destacó la importancia del acuerdo entre ambos países y la competitividad fue uno de los ejes de la jornada.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Amcham",
+        "EEUU",
+        "Congreso"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/acuerdo-eeuu-empresarios-y-la-embajada-norteamericana-pidieron-su-aprobacion-el-congreso-n6338992",
+      "source_datetime": "2026-10-28T19:32:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Sube la proporción de trabajadores sin dinero antes del día 10",
+      "summary": "Un informe del Banco Provincia mide la proporción de trabajadores que se quedan sin dinero antes del día 10. Pasó de 17,9% en diciembre de 2023 a 23,2% en diciembre de 2025. En 2026 la situación se profundizó.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Salarios",
+        "Banco Provincia",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/salarios-caida-libre-casi-dos-tercios-los-trabajadores-bajos-ingresos-se-quedan-dinero-diez-dias-n6338954",
+      "source_datetime": "2026-10-28T19:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "El FMI mantiene la meta fiscal de 1,4% del PBI para 2026",
+      "summary": "El FMI mantiene la meta fiscal de 1,4% del PBI para 2026, a pesar de la caída de los ingresos. El organismo sostiene que el ancla fiscal es la piedra angular del programa argentino.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "FMI",
+        "Meta fiscal",
+        "Programa económico"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-fmi-mantiene-la-meta-fiscal-14-del-pbi-2026-pesar-la-caida-los-ingresos-n6338832",
+      "source_datetime": "2026-10-28T15:20:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "52",
+      "headline": "El Gobierno reunirá a 43 grandes empresas con proveedores nacionales",
+      "summary": "El Gobierno reunirá a 43 grandes empresas con proveedores nacionales. El encuentro se realizará este jueves en Rosario y contará con más de 2.400 reuniones comerciales. Participarán Luis Caputo, gobernadores y representantes del sector privado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Rosario",
+        "Proveedores",
+        "Caputo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/rigi-el-gobierno-reunira-43-grandes-empresas-proveedores-nacionales-impulsar-nuevas-inversiones-n6338763",
+      "source_datetime": "2026-10-28T13:33:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.infobae.com/economia/2026/10/29/el-efecto-lula-sigue-pegando-en-argentina-los-bonos-sintieron-el-impacto-pero-el-tipo-de-cambio-aguanto",
+    "https://www.ambito.com/economia/industria-rojo-cuales-son-las-ramas-que-acumulan-caidas-39-2023-y-las-pocas-que-lograron-crecer-n6338711",
+    "https://www.infobae.com/economia/2026/10/29/el-riesgo-pais-quedo-al-borde-de-su-maximo-del-ano-y-las-acciones-argentinas-cayeron-por-tercera-rueda-seguida",
+    "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-miercoles-28-de-octubre-con-el-mep-y-el-ccl",
+    "https://www.cronista.com/finanzas-mercados/el-tesoro-renovo-los-vencimientos-de-deuda-y-capto-11-billones-mas-que-bonos-eligio-el-mercado",
+    "https://www.ambito.com/economia/la-morosidad-microempresas-es-casi-18-y-quintuplica-la-las-grandes-companias-n6338580",
+    "https://www.infobae.com/economia/2026/10/29/argentina-el-unico-pais-de-la-region-que-sufre-por-brasil-los-inversores-dudan-y-hay-mas-riesgo-para-bonos-que-vencen-despues-de-2027",
+    "https://www.cronista.com/finanzas-mercados/la-dura-respuesta-de-alvarez-agis-sobre-el-bcra-y-el-dolar-vamos-a-tener-una-maraton-cambiaria",
+    "https://www.ambito.com/economia/cavallo-lanzo-fuertes-criticas-y-comparo-al-gobierno-javier-milei-el-kirchnerismo-manejan-el-dolar-como-lo-moreno-n6338886",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-28-de-octubre",
+    "https://www.infobae.com/economia/2026/10/28/en-medio-de-la-tension-que-genera-brasil-economia-renovo-vencimientos-y-retiro-pesos-del-mercado-efectos-sobre-la-tasa-y-el-dolar",
+    "https://www.ambito.com/economia/dialogos-wall-street-kevin-warsh-se-afianza-la-fed-y-no-descartan-suba-tasas-diciembre-n6339099",
+    "https://www.ambito.com/economia/el-fmi-alerta-riesgos-fiscales-la-suba-las-tasas-n6338619",
+    "https://www.ambito.com/economia/estiman-un-leve-rebote-la-septiembre-pero-el-crecimiento-2026-quedaria-cerca-del-1-la-recesion-n6338872",
+    "https://www.infobae.com/economia/2026/10/29/menos-produccion-fabricas-cerradas-y-miles-de-despidos-la-industria-del-calzado-advierte-por-un-nuevo-golpe-en-diciembre",
+    "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-trepo-a-763-puntos-y-los-adr-cayeron-hasta-4",
+    "https://www.cronista.com/finanzas-mercados/bonos-y-ons-como-posicionar-inversiones-estrategicas-para-aprovechar-el-shock-de-los-mercados-brasilenos",
+    "https://www.infobae.com/economia/2026/10/29/superavit-fiscal-el-gobierno-recibio-un-perdon-del-fmi-pero-para-los-economistas-va-a-incumplir-la-meta-anual",
+    "https://www.cronista.com/finanzas-mercados/la-fed-mantuvo-la-tasa-sin-cambios-pero-admitio-que-la-inflacion-en-eeuu-aun-es-elevada",
+    "https://www.cronista.com/finanzas-mercados/la-fed-decide-si-mantiene-o-sube-la-tasa-y-wall-street-entra-en-modo-electoral",
+    "https://www.infobae.com/economia/2026/10/29/por-que-el-consumo-de-carne-vacuna-esta-en-el-nivel-mas-bajo-de-la-historia-causas-detras-de-la-caida",
+    "https://www.ambito.com/economia/la-uia-recibira-luis-caputo-su-principal-encuentro-del-ano-y-pide-acelerar-la-baja-impuestos-n6339030",
+    "https://www.infobae.com/economia/2026/10/28/jesus-rodriguez-cuestiono-a-milei-por-su-politica-exterior-la-argentina-necesita-llevarse-bien-con-brasil",
+    "https://www.ambito.com/economia/reino-unido-anuncio-medidas-millones-libras-ayudar-los-hogares-frente-las-tormentas-economicas-mundiales-n6338947",
+    "https://www.cronista.com/finanzas-mercados/llegan-los-balances-big-tech-al-mercado-wall-street-sube-y-los-analistas-tienen-la-palabra",
+    "https://www.ambito.com/economia/dura-advertencia-alfonso-prat-gay-vaca-muerta-es-un-boom-que-no-arrastra-al-resto-la-n6338845",
+    "https://www.cronista.com/finanzas-mercados/alta-demanda-del-bono-favorito-de-las-empresas-encepadas-para-dolarizarse-cuanto-rinden",
+    "https://www.ambito.com/economia/domingo-cavallo-critico-javier-milei-y-pidio-liberar-la-compra-y-venta-dolares-n6338608",
+    "https://www.infobae.com/economia/2026/10/29/segun-un-estudio-privado-la-inteligencia-artificial-podria-aportar-usd-17700-millones-a-la-economia-argentina-hacia-2030",
+    "https://www.cronista.com/finanzas-mercados/brasil-en-la-mira-de-los-inversores-donde-ven-oportunidades",
+    "https://www.cronista.com/finanzas-mercados/el-mercado-festeja-el-futuro-desembolso-del-fmi-por-que-el-programa-financiero-esta-bajo-la-lupa",
+    "https://www.cronista.com/finanzas-mercados/sin-piedad-el-mercado-hizo-colapsar-la-cotizacion-de-un-gigante-y-no-es-la-unica-castigada-por-wall-street",
+    "https://www.ambito.com/economia/acuerdo-eeuu-empresarios-y-la-embajada-norteamericana-pidieron-su-aprobacion-el-congreso-n6338992",
+    "https://www.ambito.com/economia/salarios-caida-libre-casi-dos-tercios-los-trabajadores-bajos-ingresos-se-quedan-dinero-diez-dias-n6338954",
+    "https://www.ambito.com/economia/el-fmi-mantiene-la-meta-fiscal-14-del-pbi-2026-pesar-la-caida-los-ingresos-n6338832",
+    "https://www.ambito.com/economia/rigi-el-gobierno-reunira-43-grandes-empresas-proveedores-nacionales-impulsar-nuevas-inversiones-n6338763"
+  ]
+}
