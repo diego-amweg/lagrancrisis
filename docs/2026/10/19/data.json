@@ -1,0 +1,1132 @@
+{
+  "date": "2026-10-19",
+  "cadena_de_razonamiento": "Se supera el guard: hay más de 5 items y no todos son BAJO con NO_APLICA. Eje externo: tasas de bonos del Tesoro de EE.UU. en máximos (06) y petróleo arriba de USD 100 (08), que presionan riesgo país y bonos (02). Eje inflación: servicios y tarifas frenan la desinflación (03) y el índice no perfora 2% mensual (25). Eje cambiario y de reservas: la energía explica el 45% del superávit comercial (37), Caputo destaca el fortalecimiento de las arcas del BCRA (21) y Uribe atribuye las corridas a un origen fiscal (14). Eje actividad: morosidad de 12,81% (12), expectativas de contratación casi en cero (55) y reclamo de reactivación (33).",
+  "resumen_ejecutivo": "Los rendimientos de los bonos del Tesoro de EE.UU. alcanzaron máximos de dos décadas y encarecen el crédito global, mientras el riesgo país roza los 650 puntos. El petróleo superó USD 100 por caída de inventarios en EE.UU. y ataques iraníes en el Estrecho de Ormuz, y su suba impulsó la inflación mayorista y presiona los bonos locales. En lo doméstico, servicios y tarifas frenan la baja de la inflación, que no logra perforar el 2% mensual, y Cottani critica la estrategia oficial de corto plazo. En el frente externo, la energía explica el 45% del superávit comercial y Caputo destaca el fortalecimiento de las arcas del BCRA, aunque Uribe atribuye las corridas cambiarias a un origen fiscal. Bessent dice que volvería a ayudar a la Argentina, pero sin seguridad sobre el volumen. En actividad, la morosidad llegó a 12,81% sin baja prevista para 2026 y las consultoras piden reactivar la economía.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Tasas largas de EE.UU. se moderan mientras crece la preocupación por la IA",
+      "summary": "La moderación de las tasas largas en Estados Unidos coincide con una creciente preocupación por el financiamiento de la inteligencia artificial. También se menciona el impacto de la guerra sobre la inflación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Tasas",
+        "Estados Unidos",
+        "Inteligencia artificial"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/mercados-ahora-preocupa-el-pedal-la-ia-el-berrinche-las-tasas-largas-n6335117",
+      "source_datetime": "2026-10-19T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Riesgo país roza los 650 puntos y el petróleo a USD 110 presiona los bonos",
+      "summary": "La suba del petróleo hasta los 110 dólares generó un salto de la inflación y suba de tasas a nivel global, con impacto en los bonos locales. El riesgo país ya roza los 650 puntos. La imagen de aprobación de Milei se ubica en el 38 por ciento.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Petróleo",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/el-riesgo-pais-ya-roza-los-650-puntos-se-complico-el-frente-externo-y-las-encuestas-tampoco-ayudan",
+      "source_datetime": "2026-10-18T04:17:51+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Servicios y tarifas frenan la baja de la inflación, advierten analistas",
+      "summary": "Tarifas y transporte recuperaron terreno sobre el atraso previo a la gestión Milei. Analistas señalan el peso de la indexación y los mayores costos energéticos por la guerra. La desaceleración será más gradual.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación",
+        "Tarifas",
+        "Indexación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/advierten-que-los-servicios-impiden-que-baje-la-inflacion-aun-con-una-economia-debilitada-y-el-dolar-nid18102026",
+      "source_datetime": "2026-10-18T21:56:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Exdirector del BCRA: el plan oficial está trabado y golpea al empleo",
+      "summary": "El exdirector del Banco Central señaló que el plan del Gobierno está trabado en un estancamiento que golpea al empleo. Pese al uso del dólar como ancla cambiaria, la suba de precios oscila en valores elevados. Describe al país como atrapado en una 'economía bipolar'.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Empleo",
+        "Inflación",
+        "Ancla cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/carrera-milei-repite-el-error-de-sturzenegger-con-la-inflacion.phtml",
+      "source_datetime": "2026-10-18T04:52:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Solo el 3% de los menores de 40 años logra ahorrar, según encuesta",
+      "summary": "Solo el 3% de los menores de 40 años logra ahorrar. El 81,8% de los argentinos afirma que su salario pierde contra la inflación. El 67% pide algún tipo de intervención estatal frente a la morosidad.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Ahorro",
+        "Salarios",
+        "Morosidad"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-72-los-menores-40-anos-se-queda-plata-antes-del-dia-20-y-seis-cada-diez-se-endeudaron-n6335100",
+      "source_datetime": "2026-10-18T21:09:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Bonos del Tesoro de EE.UU. en máximos de dos décadas encarecen el crédito",
+      "summary": "Los rendimientos de los bonos del Tesoro estadounidense alcanzaron máximos de dos décadas y encarecen el crédito global. El movimiento suma presión sobre el índice de riesgo país, el programa financiero y las emisiones de deuda de empresas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Tesoro EE.UU.",
+        "Rendimientos",
+        "Deuda corporativa"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/cual-es-el-problema-con-la-suba-de-las-tasas-de-interes-en-estados-unidos-y-que-efecto-tiene-en-la-argentina",
+      "source_datetime": "2026-10-18T13:25:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Salarios duran menos, cae el ahorro y crece el uso del crédito",
+      "summary": "Los ingresos pierden capacidad para cubrir gastos cotidianos y crece el recurso al crédito. Los relevamientos registran evaluación negativa de la economía.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Salarios",
+        "Crédito",
+        "Ahorro"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-presion-los-salarios-duran-cada-vez-menos-cae-el-margen-ahorro-y-crece-el-endeudamiento-n6335007",
+      "source_datetime": "2026-10-18T13:15:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Caída de inventarios e Irán en Ormuz empujan al petróleo por encima de USD 100",
+      "summary": "Caída de inventarios en EE.UU. y ataques iraníes en el Estrecho de Ormuz impactaron la cotización del crudo. El barril superó USD 100 e impulsó la inflación mayorista. Factores a corto y mediano plazo llevarían los valores a niveles inferiores.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "Petróleo",
+        "Ormuz",
+        "Inflación mayorista"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/17/a-mas-de-usd-100-el-barril-impulso-la-inflacion-mayorista-pero-un-banco-de-wall-street-y-un-economista-global-preven-una-importante-baja-del-precio-del-petroleo",
+      "source_datetime": "2026-10-17T22:25:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Dólar blue, MEP y CCL: cotización del lunes 19 de octubre y brecha cambiaria",
+      "summary": "Se informa la cotización del dólar blue, el MEP y el CCL del lunes 19 de octubre. Se aborda la brecha cambiaria con el tipo de cambio oficial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar blue",
+        "MEP",
+        "CCL",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-lunes-19-de-octubre-con-el-mep-y-el-ccl",
+      "source_datetime": "2026-10-19T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Morosidad en 12,81% en septiembre y sin baja sustancial prevista para 2026",
+      "summary": "El incumplimiento en el pago de obligaciones alcanzó el 12,81% en el noveno mes del año, una leve baja de 0,13 puntos porcentuales respecto a julio. El sector financiero no espera una baja considerable del índice para 2026.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Morosidad",
+        "Crédito",
+        "Sector financiero"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/la-morosidad-se-mantiene-en-niveles-elevados-y-el-mercado-no-espera-una-baja-sustancial-este-ano.phtml",
+      "source_datetime": "2026-10-18T04:54:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Dólar oficial en bancos de la City el lunes 19 de octubre y brecha con el blue",
+      "summary": "Se informa la cotización del dólar oficial en bancos del lunes 19 de octubre. Se aborda el valor del blue y la brecha cambiaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Dólar blue",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-lunes-19-de-octubre",
+      "source_datetime": "2026-10-19T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Uribe: las corridas cambiarias tienen origen fiscal y no especulativo",
+      "summary": "Las corridas cambiarias tienen origen fiscal y no especulativo, según el economista. No todos los dólares que el Gobierno contabiliza como respaldo de cara a 2027 le pertenecen.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Reservas",
+        "Corridas cambiarias",
+        "Banco Central"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/martin-uribe-muchos-los-dolares-que-estan-el-banco-central-no-le-pertenecen-al-gobierno-n6335014",
+      "source_datetime": "2026-10-18T19:17:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Casi 40% de jóvenes no logra independizarse; más de 265 mil empleos perdidos",
+      "summary": "Casi el 40% de los jóvenes de 25 a 35 años no logra independizarse. Entre noviembre de 2023 y julio de este año, según Capital Humano, se perdieron más de 265 mil puestos de empleo formales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo formal",
+        "Vivienda",
+        "Jóvenes"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/envejecer-alquilando-como-la-informalidad-laboral-esta-transformando-el-acceso-a-la-vivienda-en-argentina.phtml",
+      "source_datetime": "2026-10-18T02:55:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Seguro por desempleo: 127.613 beneficiarios en septiembre",
+      "summary": "En septiembre, 127.613 personas cobraron la prestación por seguro de desempleo. El monto promedio quedó por debajo de la inflación interanual.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Seguro de desempleo",
+        "Empleo",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-seguro-desempleo-crecio-casi-30-los-despidos-industria-comercio-y-construccion-n6335063",
+      "source_datetime": "2026-10-18T17:23:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "Súper Niño: Banco Mundial estima pérdidas regionales por USD 60.000 millones",
+      "summary": "El Gobierno monitorea desbordes de ríos y podría haber más inundaciones hasta diciembre. El Banco Mundial estima pérdidas regionales por USD 60.000 millones. En el campo argentino estiman que podría no ser tan negativo para la producción.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Súper Niño",
+        "Inundaciones",
+        "Producción agropecuaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/clima-de-negocios-cual-sera-el-impacto-en-la-economia-argentina-de-un-super-nino-que-este-ano-llega-recargado-y-feroz",
+      "source_datetime": "2026-10-18T12:03:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Plazo fijo: el BCRA reúne las tasas informadas por los bancos",
+      "summary": "El Banco Central reúne las tasas informadas por las entidades financieras para comparar alternativas. Los porcentajes pueden variar según el plazo y el banco.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Plazo fijo",
+        "Tasas",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/plazo-fijo-cuanto-rinden-1000000-60-dias-n6334757",
+      "source_datetime": "2026-10-19T01:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Dos de cada tres personas se quedan sin dinero el 20 de cada mes",
+      "summary": "Dos de cada tres personas se quedan sin dinero el 20 de cada mes. Solo el 7,5% pide condonación de deudas. Casi el 85% de las respuestas sobre la intervención estatal sugiere regular el otorgamiento y las condiciones de crédito, y refinanciar deudas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Morosidad",
+        "Crédito",
+        "Encuesta"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/morosidad-dos-de-cada-tres-personas-se-quedan-sin-dinero-el-20-de-cada-mes-pero-solo-el-75-pide-condonacion-de-deudas",
+      "source_datetime": "2026-10-18T14:55:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Luis Caputo destaca el fortalecimiento de las arcas del BCRA",
+      "summary": "El ministro Luis Caputo destacó el fortalecimiento de las arcas del BCRA. También se señalan inconsistencias en sus afirmaciones sobre el escenario internacional.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "BCRA",
+        "Reservas",
+        "Caputo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/luis-caputo-busco-llevar-calma-los-mercados-argentina-tiene-un-excedente-dolares-n6334966",
+      "source_datetime": "2026-10-17T23:27:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Dólar hoy: cotización minuto a minuto del lunes 19 de octubre",
+      "summary": "Seguimiento minuto a minuto de la cotización del dólar blue, oficial, CCL y MEP del lunes 19 de octubre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "CCL",
+        "MEP"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-lunes-19-de-octubre-minuto-a-minuto",
+      "source_datetime": "2026-10-19T03:10:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Ventas por el Día de la Madre caen 1,4% y suman cinco años en baja",
+      "summary": "Las ventas por el Día de la Madre retrocedieron 1,4% y acumulan cinco años en caída, según CAME. El contexto es de consumo moderado.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "CAME",
+        "Día de la Madre"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/las-ventas-por-el-dia-de-la-madre-retrocedieron-14-y-acumulan-cinco-anos-en-caida-segun-la-came-nid18102026",
+      "source_datetime": "2026-10-18T22:33:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Cottani critica la estrategia para bajar la inflación en el corto plazo",
+      "summary": "Joaquín Cottani criticó la estrategia oficialista para bajar la inflación en el corto plazo. Dijo que el Gobierno pidió frenar una práctica 'artificial' y elogió la política económica de largo plazo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "Cottani",
+        "Política económica"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-exviceministro-de-caputo-critico-la-estrategia-para-bajar-la-inflacion-en-el-corto-plazo-no-dan-nid18102026",
+      "source_datetime": "2026-10-18T21:41:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "La inflación cede pero no perfora el 2% mensual",
+      "summary": "El alza de precios cedió, pero no logra bajar del 2% mensual. La oposición recuerda que a fines de 2015 los índices privados marcaban cifras parecidas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "Opinión",
+        "Índices privados"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/columnistas/como-puede-la-argentina-perforar-el-piso-del-2-mensual-por-carlos-burgueno.phtml",
+      "source_datetime": "2026-10-18T04:27:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Banco recomienda vender un bono CER que rinde el doble y comprar otro",
+      "summary": "Un banco recomienda salir de un bono que ofrece una tasa adicional sobre CER de 4,8% y pasar a otro que paga 2,4%. La clave está en el plazo, con seis meses más de duración.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos CER",
+        "Renta fija",
+        "Estrategia"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/un-banco-cambia-su-apuesta-en-bonos-cer-recomienda-vender-uno-que-rinde-el-doble-y-comprar-otro",
+      "source_datetime": "2026-10-18T09:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "ARBA lanzará moratoria con mayores bonificaciones para adhesiones tempranas",
+      "summary": "ARBA lanzará una moratoria impositiva. Las bonificaciones serán más altas para quienes adhieran en los primeros días. Siguen los sistemas de financiación tradicionales, con mayor cantidad de cuotas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "ARBA",
+        "Moratoria",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/arba-lanzara-una-moratoria-impositiva-que-deudas-se-podran-regularizar-con-que-descuento-y-en-cuantas-cuotas",
+      "source_datetime": "2026-10-18T04:16:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "ARBA habilitará la cancelación de deudas antes de fin de año",
+      "summary": "ARBA habilitará la cancelación de obligaciones pendientes antes de fin de año. Estar al día con impuestos será requisito para acceder a bonificaciones previstas para 2027.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "ARBA",
+        "Impuestos",
+        "Regularización"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/arba-lanza-un-plan-la-regularizacion-deudas-los-contribuyentes-n6334927",
+      "source_datetime": "2026-10-18T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Consorcio YPF, ENI y XRG licita caños de un ducto de 527 km en Vaca Muerta",
+      "summary": "El consorcio YPF, ENI y XRG licita los caños de un ducto de 527 kilómetros, enmarcado en la mayor inversión privada de la historia argentina. Cerca de USD 2.000 millones están en juego y hay un precedente conflictivo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Vaca Muerta",
+        "YPF",
+        "Gasoducto"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/19/argentina-lng-ypf-y-sus-socios-internacionales-definen-quien-proveera-los-tubos-del-gasoducto-mas-grande-de-vaca-muerta",
+      "source_datetime": "2026-10-19T05:33:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Sturzenegger destaca reformas en energía, minería, agro y logística",
+      "summary": "El ministro de Desregulación destacó reformas en energía, minería, agro, logística y mercados de capitales. Sostuvo que el legado del Presidente dependerá de que esos cambios se consoliden, y que deben permitir ampliar las exportaciones y la inversión.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Desregulación",
+        "Reformas",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-futuro-javier-milei-segun-federico-sturzenegger-las-reformas-las-que-busca-cambiar-la-argentina-n6335024",
+      "source_datetime": "2026-10-18T14:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Consultoras coinciden en que el Gobierno debe reactivar la economía",
+      "summary": "Consultoras coinciden en que el Gobierno necesita reactivar la economía. El nivel de producción y empleo son factores críticos que requieren respuesta oficial, y la reactivación serviría para reducir el riesgo país.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Consultoras",
+        "Riesgo país",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/19/coincidencia-de-las-principales-consultoras-el-gobierno-necesita-reactivar-la-economia-para-disminuir-la-incertidumbre-electoral",
+      "source_datetime": "2026-10-19T05:32:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Facturación minorista pyme cae 1,4% interanual por Día de la Madre",
+      "summary": "Según CAME, la facturación minorista pyme retrocedió 1,4% interanual a precios constantes. El ticket promedio fue de $63.197 y cuatro de los seis rubros relevados se ubicaron en terreno negativo.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "CAME",
+        "Pymes",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/dia-de-la-madre-las-ventas-cayeron-por-quinto-ano-consecutivo-pese-a-que-9-de-cada-10-comercios-ofrecieron-descuentos",
+      "source_datetime": "2026-10-18T20:11:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "La energía explica el 45% del superávit comercial argentino",
+      "summary": "Los hidrocarburos pasaron de presionar las cuentas de divisas a sostener una parte central del resultado favorable. La energía explica el 45% del superávit comercial, con récord acumulado y nuevos compradores para el petróleo local.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Balanza energética",
+        "Superávit comercial",
+        "Petróleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/la-argentina-dio-vuelta-su-balanza-energetica-en-menos-de-3-anos-la-energia-ya-explica-el-45-del-superavit-comercial",
+      "source_datetime": "2026-10-18T15:46:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Secretario de Minería expondrá ante inversores en la LME Week de Londres",
+      "summary": "El secretario de Minería, Luis Lucero, expondrá ante inversores en la LME Week de Londres. El Gobierno escaló la disputa sobre recursos naturales en el Atlántico Sur al presentarse ante el Tribunal del Mar.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Minería",
+        "Atlántico Sur",
+        "Tribunal del Mar"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/politica/2026/10/17/una-delegacion-argentina-viajo-al-reino-unido-en-medio-de-la-tension-por-la-soberania-y-el-petroleo-de-malvinas",
+      "source_datetime": "2026-10-17T18:51:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Flores Vidal: no hay crecimiento sostenido sin un sistema bimonetario",
+      "summary": "Flores Vidal, ex gerente general del Banco Central, afirma que no imagina un sendero de crecimiento sostenido sin un sistema bimonetario. Destacó que el equilibrio en el mercado de trabajo es más alcanzable con una Argentina abierta al mundo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Bimonetario",
+        "Crecimiento",
+        "Mercado laboral"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/mariano-flores-vidal-economista-de-hyperion-no-me-imagino-un-sendero-de-crecimiento-sostenido-sin-ir-a-un-sistema-bimonetario",
+      "source_datetime": "2026-10-18T04:15:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "FIX subió la calificación de Banco Coinag",
+      "summary": "FIX subió la calificación a Banco Coinag. El banco crece en negocios que integran tecnología y tokenización, con despliegue en el mercado de capitales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "FIX",
+        "Banco Coinag",
+        "Tokenización"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/mayor-rentabilidad-empujo-mejora-en-la-nota-de-un-banco-centrado-en-la-innovacion-financiera-digital",
+      "source_datetime": "2026-10-18T23:05:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "42",
+      "headline": "Ventas por Día de la Madre caen 1,4% y 65,3% agota ingresos antes del día 20",
+      "summary": "Las ventas por el Día de la Madre retrocedieron 1,4% interanual y acumulan cinco caídas consecutivas. El 65,3% de los consultados agota sus ingresos a más tardar el día 20.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Día de la Madre",
+        "Ingresos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-consumo-no-repunta-cayeron-las-ventas-por-el-dia-de-la-madre-y-dos-de-cada-tres-argentinos-agotan-sus-ingresos-antes-del-dia-20.phtml",
+      "source_datetime": "2026-10-18T21:05:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "ARBA presentará plan de pagos con descuentos de hasta el 40%",
+      "summary": "La ARBA presentará un plan de pagos de impuestos con descuentos de hasta el 40%, que abarca Ingresos Brutos, Sellos, Inmobiliario Básico y Complementario y Automotor y Embarcaciones Deportivas. No presentar pasivos será condición obligatoria para los beneficios en 2027.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "ARBA",
+        "Moratoria",
+        "Ingresos Brutos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/moratoria-en-buenos-aires-lanzan-un-plan-de-pagos-con-descuentos-de-hasta-el-40-nid18102026",
+      "source_datetime": "2026-10-18T16:15:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "Pymes podrán usar más fondos de garantías recíprocas para avalar créditos",
+      "summary": "Se permitirá una mayor utilización de los fondos de riesgo del sistema de garantías recíprocas. Los fondos sirven para avalar créditos y cheques de las pymes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Pymes",
+        "Garantías recíprocas",
+        "Crédito"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/estimulo-del-credito-mas-aire-para-que-las-pymes-tengan-garantias-para-acceder-a-financiamiento",
+      "source_datetime": "2026-10-18T22:40:28+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Lobistas llevan a Trump la disputa por minerales, medicamentos y nuclear",
+      "summary": "Empresarios y lobistas llevan a los despachos de Trump la disputa por minerales, medicamentos y energía nuclear. El respaldo político y financiero de EE.UU. viene acompañado de pedidos concretos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Estados Unidos",
+        "Minerales",
+        "Negociaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/negociaciones-en-washington-sobre-el-futuro-de-la-argentina-nid18102026",
+      "source_datetime": "2026-10-18T14:15:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Solo $500 mil millones de la recaudación para caminos irían a Vialidad en 2027",
+      "summary": "Para el año próximo, Caputo estipula recaudar un billón y medio de pesos por el impuesto a los combustibles con destino a caminos. El Presupuesto 2027 asigna $500 mil millones a la Dirección de Vialidad por esa vía. Este año también se subejecutan los fondos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Presupuesto 2027",
+        "Impuesto a los combustibles",
+        "Vialidad"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/preven-utilizar-solo-un-tercio-de-lo-recaudado-para-arreglar-rutas.phtml",
+      "source_datetime": "2026-10-18T04:49:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "El Gobierno evalúa postergar un mes el inicio de los FAL",
+      "summary": "Prorrogarían un mes el inicio de los FAL y ampliarían el período de carencia, por pedido de la industria financiera. Representa un alivio fiscal y político para el Gobierno.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "FAL",
+        "Fondos de despidos",
+        "Industria financiera"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-gobierno-analiza-prorrogar-un-mes-los-fondos-de-despidos-arrancaran-en-diciembre",
+      "source_datetime": "2026-10-17T14:03:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Consultora recomienda tomar ganancias en activos argentinos por 2027",
+      "summary": "La consultora advierte que la pérdida de puestos en sectores tradicionales no encuentra compensación en nuevas inversiones. Recomienda tomar ganancias en activos argentinos ante los riesgos económicos y políticos de cara a las elecciones de 2027.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Activos argentinos",
+        "Elecciones 2027",
+        "Riesgo político"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/una-prestigiosa-consultora-internacional-ve-riesgos-javier-milei-2027-y-recorta-su-apuesta-activos-argentinos-n6335066",
+      "source_datetime": "2026-10-18T17:46:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Ingresos de informales no llegan al 50% de los registrados, según INDEC",
+      "summary": "Los ingresos de los trabajadores informales no llegan ni al 50% de los registrados según el INDEC. Crece el porcentaje de personas sin acceso a cobertura de salud.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo informal",
+        "INDEC",
+        "Salud"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/javier-milei-elogia-el-empleo-informal-pero-los-trabajadores-cobran-la-mitad-y-pierden-la-obra-social-n6334935",
+      "source_datetime": "2026-10-18T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "54",
+      "headline": "Importación de servicios tecnológicos iguala a la inversión en maquinaria",
+      "summary": "Un informe privado comparó la inversión física del Indec con la adquisición en el exterior de elementos 'blandos'. La importación de servicios tecnológicos ya iguala a la inversión en maquinaria y equipo. Analiza impacto sobre la inversión total y la productividad.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inversión",
+        "Servicios tecnológicos",
+        "Productividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/19/de-los-fierros-a-la-nube-la-importacion-de-servicios-tecnologicos-ya-iguala-a-la-inversion-en-maquinaria-y-equipo",
+      "source_datetime": "2026-10-19T05:33:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "55",
+      "headline": "Expectativas de contratación de las empresas se mantienen casi en cero",
+      "summary": "Un informe oficial mostró que solo una proporción mínima de las firmas proyecta aumentar su dotación de personal. Comercio e Industria anticipan nuevos recortes de plantilla. Se registra un alto índice de despidos sin causa.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Despidos",
+        "Expectativas empresariales"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/las-expectativas-de-contratacion-de-personal-de-las-empresas-se-mantienen-casi-en-cero-para-los-proximos-tres-meses",
+      "source_datetime": "2026-10-18T23:57:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "56",
+      "headline": "Trigueros ven mejora de condiciones, pero persiste temor por enfermedades",
+      "summary": "Productores sojeros de la región núcleo apuntan a sembrar antes, intensificar planteos y acortar ciclos. Los trigueros ven una mejora de condiciones, pero el temor por enfermedades persiste.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Soja",
+        "Trigo",
+        "El Niño"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/soja-tactica-y-fusariosis-en-el-trigo-nuevas-palabras-y-problemas-del-campo-ante-el-fenomeno-de-el-nino",
+      "source_datetime": "2026-10-18T20:34:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Pagos digitales generan USD 5.200 millones anuales en Argentina",
+      "summary": "Pagos digitales generan ingresos por USD 5.200 millones por año en la Argentina. Un informe privado anticipa una expansión sostenida del sector hasta 2030, impulsada por pagos instantáneos, tarjetas y comercio agéntico.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Pagos digitales",
+        "Fintech",
+        "Comercio electrónico"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/18/el-boom-de-los-pagos-digitales-genera-ingresos-por-usd-5200-millones-por-ano-en-la-argentina-y-promete-mas-crecimiento",
+      "source_datetime": "2026-10-18T04:16:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "Recuperación económica lenta: frenazo financiero y caída de la inversión",
+      "summary": "Un combo de frenazo financiero, caída de la inversión y tensión política explica por qué el optimismo de comienzos de año se transformó en una de las proyecciones más bajas de los últimos tiempos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Recuperación económica",
+        "Inversión",
+        "Proyecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/10/18/una-recuperacion-economica-lenta-momento-para-pensar-mas-alla-del-corto-plazo",
+      "source_datetime": "2026-10-18T04:13:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "61",
+      "headline": "Con una hora de trabajo se produce 6% menos que hace una década",
+      "summary": "Aumentaron el número de horas trabajadas y la dotación de capital, pero cayeron la productividad laboral y la de conjunto. La caída se concentró en sectores que en el primer semestre de 2026 explicaron el 71% de las horas trabajadas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Productividad",
+        "Horas trabajadas",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/17/las-datos-que-muestran-por-que-con-una-hora-de-trabajo-en-la-argentina-de-hoy-se-produce-6-menos-que-hace-una-decada",
+      "source_datetime": "2026-10-17T21:15:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "62",
+      "headline": "Más de 100 líneas de colectivos del AMBA advierten recorte de frecuencias",
+      "summary": "Más de 100 líneas de colectivos del AMBA advierten que bajarán frecuencias si no se resuelve el problema de rentabilidad. Reclaman actualizar costos y compensar un desfasaje de $40.000 millones. Plantean una restricción 'progresiva' de servicios e 'Índice Bondi' de 2.500 pesos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Colectivos",
+        "AMBA",
+        "Transporte"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/17/mas-de-100-lineas-de-colectivos-del-amba-dicen-que-bajaran-frecuencias-si-no-se-resuelve-el-problema-de-rentabilidad",
+      "source_datetime": "2026-10-17T20:19:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "63",
+      "headline": "En el segundo trimestre, el trabajo informal remunera mejor en ciertos tramos",
+      "summary": "Los datos oficiales del segundo trimestre identifican tramos específicos donde se revierte la lógica habitual de que el empleo 'en blanco' es mejor.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo informal",
+        "Salarios",
+        "Registrado"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/17/salario-y-empleo-cuales-son-los-segmentos-de-ingreso-en-los-que-el-trabajo-informal-remunera-mejor-que-el-trabajo-registrado",
+      "source_datetime": "2026-10-17T18:43:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "USDA proyecta caída de más de 2 millones de toneladas en la oferta cárnica",
+      "summary": "El titular de la Sociedad Rural de Bella Vista (Corrientes) indicó que entre martes y miércoles el agua llegaría a la ciudad. El Departamento de Agricultura de EEUU proyectó para 2027 una caída de más de 2 millones de toneladas de la oferta cárnica global.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Carne",
+        "El Niño",
+        "USDA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/17/vacas-nadando-y-terneros-en-canoa-el-efecto-de-el-nino-godzilla-y-su-posible-incidencia-sobre-el-precio-de-la-carne",
+      "source_datetime": "2026-10-17T17:30:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/mercados-ahora-preocupa-el-pedal-la-ia-el-berrinche-las-tasas-largas-n6335117",
+    "https://www.infobae.com/economia/2026/10/18/el-riesgo-pais-ya-roza-los-650-puntos-se-complico-el-frente-externo-y-las-encuestas-tampoco-ayudan",
+    "https://www.lanacion.com.ar/economia/advierten-que-los-servicios-impiden-que-baje-la-inflacion-aun-con-una-economia-debilitada-y-el-dolar-nid18102026",
+    "https://www.perfil.com/noticias/economia/carrera-milei-repite-el-error-de-sturzenegger-con-la-inflacion.phtml",
+    "https://www.ambito.com/economia/el-72-los-menores-40-anos-se-queda-plata-antes-del-dia-20-y-seis-cada-diez-se-endeudaron-n6335100",
+    "https://www.infobae.com/economia/2026/10/18/cual-es-el-problema-con-la-suba-de-las-tasas-de-interes-en-estados-unidos-y-que-efecto-tiene-en-la-argentina",
+    "https://www.ambito.com/economia/la-presion-los-salarios-duran-cada-vez-menos-cae-el-margen-ahorro-y-crece-el-endeudamiento-n6335007",
+    "https://www.infobae.com/economia/2026/10/17/a-mas-de-usd-100-el-barril-impulso-la-inflacion-mayorista-pero-un-banco-de-wall-street-y-un-economista-global-preven-una-importante-baja-del-precio-del-petroleo",
+    "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-lunes-19-de-octubre-con-el-mep-y-el-ccl",
+    "https://www.perfil.com/noticias/economia/la-morosidad-se-mantiene-en-niveles-elevados-y-el-mercado-no-espera-una-baja-sustancial-este-ano.phtml",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-lunes-19-de-octubre",
+    "https://www.ambito.com/economia/martin-uribe-muchos-los-dolares-que-estan-el-banco-central-no-le-pertenecen-al-gobierno-n6335014",
+    "https://www.perfil.com/noticias/economia/envejecer-alquilando-como-la-informalidad-laboral-esta-transformando-el-acceso-a-la-vivienda-en-argentina.phtml",
+    "https://www.ambito.com/economia/el-seguro-desempleo-crecio-casi-30-los-despidos-industria-comercio-y-construccion-n6335063",
+    "https://www.infobae.com/economia/2026/10/18/clima-de-negocios-cual-sera-el-impacto-en-la-economia-argentina-de-un-super-nino-que-este-ano-llega-recargado-y-feroz",
+    "https://www.ambito.com/economia/plazo-fijo-cuanto-rinden-1000000-60-dias-n6334757",
+    "https://www.infobae.com/economia/2026/10/18/morosidad-dos-de-cada-tres-personas-se-quedan-sin-dinero-el-20-de-cada-mes-pero-solo-el-75-pide-condonacion-de-deudas",
+    "https://www.infobae.com/economia/2026/10/17/scott-bessent-japon-y-la-argentina-cuanto-puede-aportar-estados-unidos-a-la-bazuca-de-dolares-del-gobierno-de-milei",
+    "https://www.ambito.com/economia/luis-caputo-busco-llevar-calma-los-mercados-argentina-tiene-un-excedente-dolares-n6334966",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-lunes-19-de-octubre-minuto-a-minuto",
+    "https://www.lanacion.com.ar/economia/las-ventas-por-el-dia-de-la-madre-retrocedieron-14-y-acumulan-cinco-anos-en-caida-segun-la-came-nid18102026",
+    "https://www.lanacion.com.ar/economia/el-exviceministro-de-caputo-critico-la-estrategia-para-bajar-la-inflacion-en-el-corto-plazo-no-dan-nid18102026",
+    "https://www.perfil.com/noticias/columnistas/como-puede-la-argentina-perforar-el-piso-del-2-mensual-por-carlos-burgueno.phtml",
+    "https://www.cronista.com/finanzas-mercados/un-banco-cambia-su-apuesta-en-bonos-cer-recomienda-vender-uno-que-rinde-el-doble-y-comprar-otro",
+    "https://www.infobae.com/economia/2026/10/18/arba-lanzara-una-moratoria-impositiva-que-deudas-se-podran-regularizar-con-que-descuento-y-en-cuantas-cuotas",
+    "https://www.ambito.com/economia/arba-lanza-un-plan-la-regularizacion-deudas-los-contribuyentes-n6334927",
+    "https://www.infobae.com/economia/2026/10/19/argentina-lng-ypf-y-sus-socios-internacionales-definen-quien-proveera-los-tubos-del-gasoducto-mas-grande-de-vaca-muerta",
+    "https://www.ambito.com/economia/el-futuro-javier-milei-segun-federico-sturzenegger-las-reformas-las-que-busca-cambiar-la-argentina-n6335024",
+    "https://www.infobae.com/economia/2026/10/19/coincidencia-de-las-principales-consultoras-el-gobierno-necesita-reactivar-la-economia-para-disminuir-la-incertidumbre-electoral",
+    "https://www.infobae.com/economia/2026/10/18/dia-de-la-madre-las-ventas-cayeron-por-quinto-ano-consecutivo-pese-a-que-9-de-cada-10-comercios-ofrecieron-descuentos",
+    "https://www.infobae.com/economia/2026/10/18/la-argentina-dio-vuelta-su-balanza-energetica-en-menos-de-3-anos-la-energia-ya-explica-el-45-del-superavit-comercial",
+    "https://www.infobae.com/politica/2026/10/17/una-delegacion-argentina-viajo-al-reino-unido-en-medio-de-la-tension-por-la-soberania-y-el-petroleo-de-malvinas",
+    "https://www.infobae.com/economia/2026/10/18/mariano-flores-vidal-economista-de-hyperion-no-me-imagino-un-sendero-de-crecimiento-sostenido-sin-ir-a-un-sistema-bimonetario",
+    "https://www.cronista.com/finanzas-mercados/mayor-rentabilidad-empujo-mejora-en-la-nota-de-un-banco-centrado-en-la-innovacion-financiera-digital",
+    "https://www.perfil.com/noticias/economia/el-consumo-no-repunta-cayeron-las-ventas-por-el-dia-de-la-madre-y-dos-de-cada-tres-argentinos-agotan-sus-ingresos-antes-del-dia-20.phtml",
+    "https://www.lanacion.com.ar/economia/moratoria-en-buenos-aires-lanzan-un-plan-de-pagos-con-descuentos-de-hasta-el-40-nid18102026",
+    "https://www.cronista.com/finanzas-mercados/estimulo-del-credito-mas-aire-para-que-las-pymes-tengan-garantias-para-acceder-a-financiamiento",
+    "https://www.lanacion.com.ar/economia/negociaciones-en-washington-sobre-el-futuro-de-la-argentina-nid18102026",
+    "https://www.perfil.com/noticias/economia/preven-utilizar-solo-un-tercio-de-lo-recaudado-para-arreglar-rutas.phtml",
+    "https://www.cronista.com/finanzas-mercados/el-gobierno-analiza-prorrogar-un-mes-los-fondos-de-despidos-arrancaran-en-diciembre",
+    "https://www.ambito.com/economia/una-prestigiosa-consultora-internacional-ve-riesgos-javier-milei-2027-y-recorta-su-apuesta-activos-argentinos-n6335066",
+    "https://www.ambito.com/economia/javier-milei-elogia-el-empleo-informal-pero-los-trabajadores-cobran-la-mitad-y-pierden-la-obra-social-n6334935",
+    "https://www.infobae.com/economia/2026/10/19/de-los-fierros-a-la-nube-la-importacion-de-servicios-tecnologicos-ya-iguala-a-la-inversion-en-maquinaria-y-equipo",
+    "https://www.infobae.com/economia/2026/10/18/las-expectativas-de-contratacion-de-personal-de-las-empresas-se-mantienen-casi-en-cero-para-los-proximos-tres-meses",
+    "https://www.infobae.com/economia/2026/10/18/soja-tactica-y-fusariosis-en-el-trigo-nuevas-palabras-y-problemas-del-campo-ante-el-fenomeno-de-el-nino",
+    "https://www.infobae.com/economia/2026/10/18/el-boom-de-los-pagos-digitales-genera-ingresos-por-usd-5200-millones-por-ano-en-la-argentina-y-promete-mas-crecimiento",
+    "https://www.infobae.com/opinion/2026/10/18/una-recuperacion-economica-lenta-momento-para-pensar-mas-alla-del-corto-plazo",
+    "https://www.infobae.com/economia/2026/10/17/las-datos-que-muestran-por-que-con-una-hora-de-trabajo-en-la-argentina-de-hoy-se-produce-6-menos-que-hace-una-decada",
+    "https://www.infobae.com/economia/2026/10/17/mas-de-100-lineas-de-colectivos-del-amba-dicen-que-bajaran-frecuencias-si-no-se-resuelve-el-problema-de-rentabilidad",
+    "https://www.infobae.com/economia/2026/10/17/salario-y-empleo-cuales-son-los-segmentos-de-ingreso-en-los-que-el-trabajo-informal-remunera-mejor-que-el-trabajo-registrado",
+    "https://www.infobae.com/economia/2026/10/17/vacas-nadando-y-terneros-en-canoa-el-efecto-de-el-nino-godzilla-y-su-posible-incidencia-sobre-el-precio-de-la-carne"
+  ]
+}
