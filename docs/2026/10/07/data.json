@@ -1,0 +1,708 @@
+{
+  "date": "2026-10-07",
+  "cadena_de_razonamiento": "Las condiciones financieras mejoraron: el riesgo país cayó casi 90 puntos y los bonos extendieron ganancias, pero el repunte de las tasas largas en EE.UU. y la tensión en el estrecho de Ormuz condicionan el clima. El foco está en los vencimientos: el Tesoro evalúa refinanciar los Bonares para cubrir los pagos en dólares de 2027, y Alberto Ades advierte sobre una pared de vencimientos en ese año. El BCRA busca bajar tasas en préstamos personales, comercio y empresas, mientras el REM recorta el PBI 2026 a 1,5%. La inflación de la OCDE subió a 4,3% en agosto por energía, un dato externo que aporta presión inflacionaria en el contexto global.",
+  "resumen_ejecutivo": "El riesgo país cayó casi 90 puntos en dos días y los bonos extendieron ganancias, aunque las tasas largas de EE.UU. y la tensión en Ormuz condicionan el clima financiero. El Tesoro evalúa refinanciar los Bonares para cubrir vencimientos en dólares de 2027 y, si no consigue respaldo, el Gobierno asegura contar con recursos alternativos. En cambiario, el dólar mayorista cerró en $1.520 y el BCRA compró USD 41 millones, mientras Ades pide tolerar un dólar más alto y advierte sobre elevada apreciación cambiaria. En actividad, el REM proyecta PBI de 1,5% para 2026 y los analistas estiman una contracción de 1% intertrimestral entre julio y septiembre. En crédito, el Gobierno adjudicó $200.000 millones para créditos hipotecarios y el BCRA busca bajar tasas en tres frentes. Del lado externo, el déficit comercial de EE.UU. subió a USD 105,6 mil millones en agosto.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Economía evalúa refinanciar Bonares para cubrir vencimientos en dólares de 2027",
+      "summary": "El Tesoro apuesta a refinanciar los vencimientos de los Bonares para cubrir los compromisos en dólares del año próximo. Si no consigue respaldo de los inversores, el Gobierno asegura que cuenta con recursos alternativos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Deuda",
+        "Bonares",
+        "Tesoro"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/07/las-alternativas-que-evalua-economia-para-pagar-la-deuda-en-2027-ante-la-suba-de-tasas-y-el-freno-de-las-colocaciones-locales",
+      "source_datetime": "2026-10-07T06:01:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Riesgo país cayó casi 90 puntos en dos días y tasas en EEUU condicionan",
+      "summary": "Los títulos públicos locales extendieron las ganancias. El repunte de las tasas largas en Estados Unidos y la tensión en el estrecho de Ormuz condicionan el clima financiero.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Bonos",
+        "Tasas largas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/07/el-riesgo-pais-cayo-casi-90-puntos-en-dos-dias-pero-la-volatilidad-de-los-bonos-globales-enciende-una-alerta",
+      "source_datetime": "2026-10-07T05:59:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "REM proyecta PBI de 1,5% para 2026 con baja de 0,6 puntos",
+      "summary": "El REM anticipó un avance de la economía de 1,5% para 2026, lo que implica una baja de 0,6 puntos porcentuales respecto al relevamiento anterior. Las consultoras estimaron una inflación de 1,9% para septiembre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "REM",
+        "PBI",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/las-consultoras-que-releva-el-bcra-volvieron-a-recortar-el-crecimiento-del-pbi-y-estimaron-una-inflacion-de-19-para-septiembre",
+      "source_datetime": "2026-10-06T22:25:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Empresas y provincias liquidaron casi USD 20.000 millones en el último año",
+      "summary": "Empresas y provincias liquidaron casi USD 20.000 millones en el último año. El Banco Central monitorea los más de USD 4.000 millones que aún deben ingresar al mercado cambiario.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Liquidación de divisas",
+        "BCRA",
+        "Provincias"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/07/boom-de-endeudamiento-empresas-y-provincias-liquidaron-casi-usd-20000-millones-en-el-ultimo-ano-y-sostuvieron-al-dolar",
+      "source_datetime": "2026-10-07T06:00:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Bonos en dólares suben 1% y el BCRA compra USD 41 millones",
+      "summary": "Los bonos en dólares subieron un 1%. El indicador de JP Morgan cedió a los 573 puntos y el S&P Merval avanzó 1%. El dólar siguió a $1.540 en el Banco Nación y el BCRA compró USD 41 millones en el mercado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Mercado local",
+        "Bonos",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/otra-jornada-financiera-verde-el-record-de-wall-street-sostuvo-las-ganancias-de-activos-locales-y-volvio-a-bajar-el-riesgo-pais",
+      "source_datetime": "2026-10-06T21:36:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Analistas estiman contracción de 1% intertrimestral entre julio y septiembre",
+      "summary": "Los analistas estimaron una contracción intertrimestral del 1% entre julio y septiembre. Calcularon un 1,9% de inflación para el mes que acaba de terminar y prevén que el PBI crecerá 1,5% en 2026.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "REM",
+        "PBI",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/rem-septiembre-el-mercado-la-ya-entro-recesion-y-ahora-preve-que-el-pbi-crecera-solo-15-2026-n6330834",
+      "source_datetime": "2026-10-06T22:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Alberto Ades advierte por elevada apreciación cambiaria ante el Gabinete",
+      "summary": "Alberto Ades realizó una presentación ante el Gabinete por invitación del Presidente. El documento advierte sobre un elevado nivel de apreciación cambiaria y menciona el impacto negativo de la suba de tasas en EEUU.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Apreciación cambiaria",
+        "Gabinete",
+        "Tasas EEUU"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/07/que-hacer-con-el-dolar-y-a-que-paises-se-deberia-parecer-argentina-el-diagnostico-del-nuevo-economista-favorito-de-milei",
+      "source_datetime": "2026-10-07T06:01:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Dólar blue sube $5 con referencia al MEP y al CCL",
+      "summary": "El dólar blue sube $5, con referencias a las cotizaciones del MEP y el CCL.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar blue",
+        "MEP",
+        "CCL"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-martes-6-de-octubre-con-el-mep-y-el-ccl",
+      "source_datetime": "2026-10-06T14:34:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Merval sube 1% impulsado por Wall Street; bonos en dólares ganan 1%",
+      "summary": "Los bonos en dólares subieron un 1%. El indicador de JP Morgan cedió a los 573 puntos. El S&P Merval avanzó 1%, impulsado por la suba de las bolsas en Wall Street.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Merval",
+        "Bonos",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/mercados-vuelve-a-caer-fuerte-el-riesgo-pais-argentino-ante-una-mejoria-del-animo-inversor",
+      "source_datetime": "2026-10-06T20:35:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Inflación de la OCDE sube a 4,3% en agosto por repunte de la energía",
+      "summary": "La inflación de la OCDE aumentó al 4,3% en agosto, impulsada por el repunte de la energía. Los precios de los alimentos mantuvieron su trayectoria a la baja. La inflación general del G7 se mantuvo estable, mientras que en el G20 aumentó al 4,1%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "OCDE",
+        "Inflación",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-inflacion-la-ocde-aumento-al-43-agosto-impulsada-el-repunte-la-energia-n6330660",
+      "source_datetime": "2026-10-06T17:39:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Bonos frenan su caída y la Bolsa marca nuevos récords",
+      "summary": "Los bonos frenaron su caída y la Bolsa clavó nuevos récords.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Bonos",
+        "Bolsa",
+        "Mercado"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dialogos-wall-street-regreso-el-entusiasmo-los-mercados-o-es-un-breve-espejismo-n6330853",
+      "source_datetime": "2026-10-07T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "La curva CER rinde más del 10%",
+      "summary": "La curva CER rinde más del 10%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "CER",
+        "Curva",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/la-curva-cer-rinde-mas-del-10-se-abre-una-oportunidad-en-los-bonos",
+      "source_datetime": "2026-10-06T11:27:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "BCRA busca bajar tasas en préstamos personales, comercio y empresas",
+      "summary": "El BCRA sale a bajar tasa en 3 frentes: los personales, al comercio y a las empresas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "BCRA",
+        "Tasas",
+        "Crédito"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-bcra-sale-a-bajar-tasa-en-3-frentes-los-personales-al-comercio-y-a-las-empresas",
+      "source_datetime": "2026-10-06T10:19:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Ades pide tolerar dólar más alto y advierte pared de vencimientos en 2027",
+      "summary": "Alberto Ades tiene más de 30 años de experiencia en Wall Street. Habla de un 'compromiso mesiánico' de Milei con el equilibrio fiscal. Pide tolerar un dólar más alto y advierte por una 'pared de vencimientos' en 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Alberto Ades",
+        "Dólar",
+        "Vencimientos 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/quien-es-el-economista-argentino-radicado-en-eeuu-que-eligio-milei-para-participar-y-exponer-en-la-ultima-reunion-de-gabinete",
+      "source_datetime": "2026-10-06T22:02:08+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "El dólar mayorista cierra a $1.520 por tercer día; en Brasil baja a 4,98 reales",
+      "summary": "El dólar mayorista cerró a $1.520 por tercer día. Al público siguió a $1.540 en el Banco Nación. En Brasil, el dólar cayó a 4,98 reales, un piso en cinco meses.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar mayorista",
+        "Real brasileño",
+        "Tipo de cambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/el-dolar-siguio-estable-pero-mejoro-la-competitividad-cambiaria-por-la-suba-del-real-brasileno",
+      "source_datetime": "2026-10-06T19:26:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Gobierno firma contratos de ocho corredores viales por 20 años",
+      "summary": "Economía firmó los contratos de ocho corredores de la Red Federal de Concesiones que suman casi 4.000 kilómetros en 11 provincias. Los contratos tienen vigencia de 20 años. Forman parte de la privatización de Corredores Viales S.A.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Concesiones",
+        "Rutas nacionales",
+        "Corredores Viales"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/el-gobierno-oficializo-la-concesion-de-3900-kilometros-de-rutas-nacionales-que-tramos-quedaron-bajo-gestion-privada",
+      "source_datetime": "2026-10-06T20:50:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "36.000 empleos formales perdidos desde la reforma laboral",
+      "summary": "Desde la reforma laboral se perdieron 36.000 empleos formales y cerraron 6.905 empresas. El empleo privado registrado acumula 13 meses consecutivos de caída. La informalidad alcanza al 45% de los ocupados.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Reforma laboral",
+        "Informalidad"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/desde-la-implementacion-de-la-reforma-laboral-se-perdieron-36000-empleos-formales-y-cerraron-6905-empresas-a40.phtml",
+      "source_datetime": "2026-10-06T23:54:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Déficit con Brasil se redujo 91% anual en septiembre",
+      "summary": "Las importaciones desde el país vecino se hundieron 24,5% interanual, mientras que las exportaciones crecieron 5,5%. El rojo previsto para 2026 sería menos de la mitad respecto del de 2025.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Comercio exterior",
+        "Brasil",
+        "Balanza comercial"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-deficit-brasil-se-redujo-91-anual-septiembre-derrumbe-las-importaciones-que-factores-influyeron-n6330894",
+      "source_datetime": "2026-10-07T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Créditos hipotecarios UVA: un cambio permite a más familias acceder",
+      "summary": "Con las nuevas condiciones, más familias tienen chances de entrar al programa y buscar financiamiento para una vivienda.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Créditos hipotecarios",
+        "UVA",
+        "Vivienda"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/creditos-hipotecarios-uva-el-cambio-clave-que-permite-mas-familias-acceder-un-prestamo-n6330655",
+      "source_datetime": "2026-10-07T01:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Gobierno firmó concesiones para más de 3.900 km de rutas nacionales",
+      "summary": "El Gobierno anunció la firma de concesiones para más de 3.900 km de rutas nacionales. Los ocho corredores abarcan 11 provincias y quedarán bajo gestión privada. Caputo aseguró que desde el miércoles habrá obras en los más de 9.000 km comprendidos por el programa.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Concesiones viales",
+        "Obra pública",
+        "Rutas nacionales"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-gobierno-anuncio-la-firma-concesiones-mas-3900-kilometros-rutas-nacionales-n6330839",
+      "source_datetime": "2026-10-06T21:21:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Inversores conservadores: en qué invierte el 80% de los clientes de un banco",
+      "summary": "El 80% de los clientes de un banco argentino son inversores conservadores. La información apunta al destino de sus inversiones.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inversores",
+        "Bancos",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/inversores-conservadores-en-que-pone-la-plata-el-80-de-los-clientes-de-un-banco-argentino",
+      "source_datetime": "2026-10-06T13:50:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Acción con potencial de suba del 74% según Wall Street",
+      "summary": "Una acción tendría potencial de suba del 74%, según Wall Street, en el marco de un plan de expansión que impulsaría su apuesta.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Acciones",
+        "Wall Street",
+        "Potencial de suba"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/una-accion-con-potencial-de-suba-del-74-segun-wall-street-el-plan-de-expansion-que-impulsa-su-apuesta",
+      "source_datetime": "2026-10-06T12:49:11+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "38",
+      "headline": "AySA: se conocerán las propuestas por el control de la empresa",
+      "summary": "El Ejecutivo revelará este jueves las propuestas de los interesados en controlar AySA, empresa que brinda servicios sanitarios a 14 millones de personas del AMBA. Los montos ofertados serían menores a los USD 500 millones que espera Economía.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "AySA",
+        "Privatización",
+        "Servicios sanitarios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/07/manana-se-define-la-privatizacion-de-aysa-que-consorcios-compiten-por-el-control-de-una-empresa-de-servicios-clave",
+      "source_datetime": "2026-10-07T06:00:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Gobierno adjudicó $200.000 millones para créditos hipotecarios",
+      "summary": "El Gobierno adjudicó otros $200.000 millones para impulsar créditos hipotecarios. Se adjudicaron nuevos plazos fijos UVA con fondos del FGS entre 12 bancos, con el objetivo de financiar la compra de inmuebles.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Créditos hipotecarios",
+        "Plazos fijos UVA",
+        "FGS"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/06/creditos-hipotecarios-el-gobierno-adjudico-otros-200000-millones-para-impulsar-el-financiamiento-destinado-a-vivienda",
+      "source_datetime": "2026-10-06T22:09:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "PIB global de 3,2% en 2026 y 3,1% en 2027, según proyecciones del PIIE",
+      "summary": "El PIB real global se proyecta en 3,2% para 2026 y 3,1% para 2027. El boom de la inteligencia artificial compensaría precios de energía, inflación y tasas de interés más altas. El PIB real de EE.UU. se proyecta en 2,3% para 2026 y 2,2% para 2027, y se espera que la Reserva Federal siga subiendo tasas. El índice PCE se proyecta en 3,7% en los cuatro trimestres de 2026; el PCE core en 3,3%.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Crecimiento global",
+        "Inflación",
+        "Reserva Federal"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/newsroom/press-releases/2026/despite-turbulence-global-growth-stays-track",
+      "source_datetime": "2026-10-06T12:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Economía global seguiría creciendo, con tasas altas como freno",
+      "summary": "La economía global seguiría expandiéndose a un ritmo sólido, según el análisis del PIIE. El PIB real global se proyecta en 3,2% para 2026 y 3,1% para 2027. Las tasas de interés más altas serán una fuerza importante que frenará el crecimiento el año próximo, aunque la caída gradual de los precios de la energía atenuaría ese efecto.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Crecimiento global",
+        "Tasas de interés",
+        "Energía"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2026/global-growth-remains-solid-challenging-environment",
+      "source_datetime": "2026-10-06T17:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "42",
+      "headline": "PIIE presentará sus perspectivas económicas de otoño 2026",
+      "summary": "El PIIE presenta sus Global Economic Prospects de otoño 2026, con perspectiva semestral para EE.UU. y la economía global. Karen Dynan presentará el panorama de las principales economías, incluyendo crecimiento, inflación y decisiones de política. Se analizará la nueva mezcla de política fiscal de EE.UU. (impuestos, aranceles y gasto).",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Perspectivas económicas",
+        "Política fiscal",
+        "EE.UU."
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/events/2026/global-economic-prospects-fall-2026",
+      "source_datetime": "2026-10-06T17:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "Actas de septiembre del subcomité de mercados monetarios del Reino Unido",
+      "summary": "Se publican las actas del Money Markets Code Sub-Committee de septiembre de 2026. El comité es un foro para discutir el mercado de depósitos no garantizados y de financiamiento en el Reino Unido. También se discuten los mercados de préstamo de valores y de repo.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Reino Unido",
+        "Mercados monetarios",
+        "Repo"
+      ],
+      "is_argentina": false,
+      "source_name": "Bank of England News",
+      "source_url": "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026",
+      "source_datetime": "2026-10-06T13:07:03+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Déficit comercial de EE.UU. sube a 105,6 mil millones en agosto",
+      "summary": "El déficit comercial de bienes y servicios de EE.UU. aumentó en agosto de 2026. Pasó de 92,8 mil millones de dólares en julio (revisado) a 105,6 mil millones en agosto. El déficit de bienes subió 12,8 mil millones de dólares hasta 136,6 mil millones, y el superávit de servicios se ubicó en 31,0 mil millones de dólares.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Balanza comercial",
+        "EE.UU.",
+        "Importaciones"
+      ],
+      "is_argentina": false,
+      "source_name": "US BEA News",
+      "source_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "source_datetime": "2026-10-06T12:30:00+00:00",
+      "status": "OFICIAL",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Capitalismo de Estado de Trump habría alcanzado su punto máximo",
+      "summary": "El capitalismo de Estado implica que el gobierno de EE.UU. toma participaciones accionarias en empresas privadas. Durante la crisis financiera 2008-10 el gobierno tomó participaciones en General Motors, Chrysler y AIG. Bajo la presidencia de Donald Trump, el capitalismo de Estado habría alcanzado un punto máximo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Capitalismo de Estado",
+        "EE.UU.",
+        "Participaciones estatales"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2026/trumps-state-capitalism-reaches-high-water-mark",
+      "source_datetime": "2026-10-06T13:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "La IA podría reconfigurar productividad y empleo, con ganancias desiguales",
+      "summary": "La inteligencia artificial podría reconfigurar productividad, crecimiento económico, empleo y niveles de vida. Las ganancias de la IA probablemente no se distribuyan de manera uniforme entre países. El evento reunirá a Anton Korinek, Filiz Unsal y Martin Chorzempa.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Productividad",
+        "Crecimiento"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/events/2026/ai-and-economic-transformation-growth-adoption-and-who-captures-gains",
+      "source_datetime": "2026-10-06T13:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.infobae.com/economia/2026/10/07/las-alternativas-que-evalua-economia-para-pagar-la-deuda-en-2027-ante-la-suba-de-tasas-y-el-freno-de-las-colocaciones-locales",
+    "https://www.infobae.com/economia/2026/10/07/el-riesgo-pais-cayo-casi-90-puntos-en-dos-dias-pero-la-volatilidad-de-los-bonos-globales-enciende-una-alerta",
+    "https://www.infobae.com/economia/2026/10/06/las-consultoras-que-releva-el-bcra-volvieron-a-recortar-el-crecimiento-del-pbi-y-estimaron-una-inflacion-de-19-para-septiembre",
+    "https://www.infobae.com/economia/2026/10/07/boom-de-endeudamiento-empresas-y-provincias-liquidaron-casi-usd-20000-millones-en-el-ultimo-ano-y-sostuvieron-al-dolar",
+    "https://www.infobae.com/economia/2026/10/06/otra-jornada-financiera-verde-el-record-de-wall-street-sostuvo-las-ganancias-de-activos-locales-y-volvio-a-bajar-el-riesgo-pais",
+    "https://www.ambito.com/economia/rem-septiembre-el-mercado-la-ya-entro-recesion-y-ahora-preve-que-el-pbi-crecera-solo-15-2026-n6330834",
+    "https://www.infobae.com/economia/2026/10/07/que-hacer-con-el-dolar-y-a-que-paises-se-deberia-parecer-argentina-el-diagnostico-del-nuevo-economista-favorito-de-milei",
+    "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-martes-6-de-octubre-con-el-mep-y-el-ccl",
+    "https://www.infobae.com/economia/2026/10/06/mercados-vuelve-a-caer-fuerte-el-riesgo-pais-argentino-ante-una-mejoria-del-animo-inversor",
+    "https://www.ambito.com/economia/la-inflacion-la-ocde-aumento-al-43-agosto-impulsada-el-repunte-la-energia-n6330660",
+    "https://www.ambito.com/economia/dialogos-wall-street-regreso-el-entusiasmo-los-mercados-o-es-un-breve-espejismo-n6330853",
+    "https://www.cronista.com/finanzas-mercados/la-curva-cer-rinde-mas-del-10-se-abre-una-oportunidad-en-los-bonos",
+    "https://www.cronista.com/finanzas-mercados/el-bcra-sale-a-bajar-tasa-en-3-frentes-los-personales-al-comercio-y-a-las-empresas",
+    "https://www.infobae.com/economia/2026/10/06/quien-es-el-economista-argentino-radicado-en-eeuu-que-eligio-milei-para-participar-y-exponer-en-la-ultima-reunion-de-gabinete",
+    "https://www.infobae.com/economia/2026/10/06/el-dolar-siguio-estable-pero-mejoro-la-competitividad-cambiaria-por-la-suba-del-real-brasileno",
+    "https://www.infobae.com/economia/2026/10/06/el-gobierno-oficializo-la-concesion-de-3900-kilometros-de-rutas-nacionales-que-tramos-quedaron-bajo-gestion-privada",
+    "https://www.perfil.com/noticias/economia/desde-la-implementacion-de-la-reforma-laboral-se-perdieron-36000-empleos-formales-y-cerraron-6905-empresas-a40.phtml",
+    "https://www.ambito.com/economia/el-deficit-brasil-se-redujo-91-anual-septiembre-derrumbe-las-importaciones-que-factores-influyeron-n6330894",
+    "https://www.ambito.com/economia/creditos-hipotecarios-uva-el-cambio-clave-que-permite-mas-familias-acceder-un-prestamo-n6330655",
+    "https://www.ambito.com/economia/el-gobierno-anuncio-la-firma-concesiones-mas-3900-kilometros-rutas-nacionales-n6330839",
+    "https://www.cronista.com/finanzas-mercados/inversores-conservadores-en-que-pone-la-plata-el-80-de-los-clientes-de-un-banco-argentino",
+    "https://www.cronista.com/finanzas-mercados/una-accion-con-potencial-de-suba-del-74-segun-wall-street-el-plan-de-expansion-que-impulsa-su-apuesta",
+    "https://www.infobae.com/economia/2026/10/07/manana-se-define-la-privatizacion-de-aysa-que-consorcios-compiten-por-el-control-de-una-empresa-de-servicios-clave",
+    "https://www.infobae.com/economia/2026/10/06/creditos-hipotecarios-el-gobierno-adjudico-otros-200000-millones-para-impulsar-el-financiamiento-destinado-a-vivienda",
+    "https://www.piie.com/newsroom/press-releases/2026/despite-turbulence-global-growth-stays-track",
+    "https://www.piie.com/blogs/realtime-economics/2026/global-growth-remains-solid-challenging-environment",
+    "https://www.piie.com/events/2026/global-economic-prospects-fall-2026",
+    "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026",
+    "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+    "https://www.piie.com/blogs/realtime-economics/2026/trumps-state-capitalism-reaches-high-water-mark",
+    "https://www.piie.com/events/2026/ai-and-economic-transformation-growth-adoption-and-who-captures-gains"
+  ]
+}
