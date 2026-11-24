@@ -1,0 +1,785 @@
+{
+  "date": "2026-08-24",
+  "cadena_de_razonamiento": "La curva de bonos refleja mayor probabilidad de derrota del Gobierno en 2027 y los bonos que vencen después de las elecciones exigen más tasa. La suba de rendimientos en EE.UU. y del petróleo, tras el fracaso del acuerdo con Irán, complica el financiamiento y lleva a recompras de bonos largos. La menor oferta estacional de divisas reduce la absorción oficial y Barclays advierte que el riesgo electoral limitará el crédito en dólares. La actividad cae tras el endurecimiento monetario, con industria y construcción debajo de 2023.",
+  "resumen_ejecutivo": "Predomina la presión sobre los bonos argentinos: la curva refleja mayor probabilidad de derrota del Gobierno en 2027 y los papeles posteriores a las elecciones exigen más tasa. En el frente externo, la suba de rendimientos en EE.UU. y del petróleo tras el fracaso del acuerdo con Irán encarece el financiamiento. En el mercado cambiario, la menor oferta estacional de divisas reduce la absorción oficial y Barclays advierte que el riesgo electoral limitará el crédito en dólares. En actividad, el endurecimiento monetario llega tras la caída del segundo trimestre, con crecimiento concentrado en agro, minería y finanzas. El Gobierno buscará la media sanción de la reforma del BCRA e Inocencia Fiscal II en Diputados, y una licitación del Tesoro será clave para el mercado de capitales.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "El mercado sigue la nueva colocación del Tesoro y los datos cambiarios del BCRA",
+      "summary": "El mercado seguirá la nueva colocación del Tesoro y los datos del BCRA sobre el mercado cambiario. En el plano internacional, la atención estará puesta en Jackson Hole, la inflación de Estados Unidos y los resultados de Nvidia.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Tesoro",
+        "BCRA",
+        "Agenda económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/agenda-economica-la-semana-licitacion-deuda-balances-tecnologicos-y-jackson-hole-n6313870",
+      "source_datetime": "2026-08-23T19:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "La curva de bonos refleja mayor probabilidad de derrota del Gobierno en 2027",
+      "summary": "La curva de bonos soberanos refleja un salto abrupto en la probabilidad de derrota del Gobierno en 2027. La inflación dejó de ser el centro de la agenda, que ahora está dominada por el empleo y las deudas. Las empresas alertaron por la crisis.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos soberanos",
+        "Riesgo electoral",
+        "2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-triple-play-de-la-incertidumbre-electoral-el-mercado-el-circulo-rojo-e-inversionistas-avizoran-una-argentina-sin-milei.phtml",
+      "source_datetime": "2026-08-23T02:55:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Suba de rendimientos en EE.UU. complica el financiamiento argentino",
+      "summary": "El repunte de los rendimientos en el mercado estadounidense complica el financiamiento argentino. Consultoras advierten que la estrategia oficial con el tipo de cambio enfrenta desafíos crecientes. También preocupan la debilidad de la actividad y el clima político.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Tipo de cambio",
+        "Rendimientos",
+        "Financiamiento"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/un-techo-incomodo-para-el-dolar-tension-electoral-y-suba-de-tasas-en-eeuu-las-senales-de-alerta-que-preocupan-a-los-analistas",
+      "source_datetime": "2026-08-24T06:02:36+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Menor oferta de divisas reduce la absorción oficial de dólares",
+      "summary": "La menor oferta estacional de divisas redujo la absorción oficial en el mercado. Los inversores pusieron atención en el frente cambiario.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Mercado cambiario",
+        "Divisas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/23/reservas-del-banco-central-por-que-agosto-podria-cerrar-con-la-compra-de-dolares-mas-baja-de-2026",
+      "source_datetime": "2026-08-23T15:23:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "El secretario del Tesoro busca calmar a los bonos largos con recompras",
+      "summary": "Tras el fracaso del acuerdo con Irán y la suba del petróleo, el secretario del Tesoro busca contener el nerviosismo de los bonos largos con recompras de deuda.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos largos",
+        "Recompra de deuda",
+        "Petróleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/scott-bessent-al-rescate-del-mercado-bonos-tendra-exito-o-le-doblaran-el-brazo-n6313904",
+      "source_datetime": "2026-08-24T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "El rally del oro eleva la valuación de los lingotes oficiales",
+      "summary": "El rally global del oro elevó la valuación de los lingotes que ya estaban en el balance oficial. El Banco Central expandió sus reservas por otras vías.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Oro",
+        "Reservas",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/el-activo-que-el-actual-banco-central-no-compro-pero-ya-vale-el-doble-dentro-de-las-reservas",
+      "source_datetime": "2026-08-24T06:03:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "El endurecimiento monetario llega tras la caída de la actividad",
+      "summary": "El endurecimiento monetario llega después de una caída de la actividad en el segundo trimestre. El crecimiento se concentra en el agro, la minería y las finanzas, mientras la industria, la construcción y el comercio continúan por debajo de 2023.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Política monetaria",
+        "Segundo trimestre"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-plan-del-gobierno-para-sostener-el-dolar-debajo-de-1500-amenaza-con-hacer-mas-lenta-la-nid23082026",
+      "source_datetime": "2026-08-23T21:35:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Mayor cautela en los bonos argentinos por incertidumbre política",
+      "summary": "Apareció en el mercado una mayor cautela debido a la incertidumbre que genera el escenario político. La cautela se observa en los movimientos de los papeles argentinos y en las tasas de interés.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos argentinos",
+        "Escenario político",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/se-adelanto-el-nerviosismo-electoral-los-bonos-argentinos-empiezan-a-incorporar-el-riesgo-por-las-nid23082026",
+      "source_datetime": "2026-08-23T10:35:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Barclays advierte que el riesgo electoral limitará el crédito en dólares",
+      "summary": "El mercado reclama mayor pragmatismo al Gobierno. Barclays advierte que la incertidumbre política y electoral limitará el impacto de la expansión del crédito en dólares.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Barclays",
+        "Crédito en dólares",
+        "Riesgo electoral"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-mercado-cambia-ahora-le-pide-javier-milei-gastar-mas-y-barclays-alerta-el-riesgo-electoral-n6313629",
+      "source_datetime": "2026-08-23T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "La Argentina no estaría en recesión técnica, pero la industria sigue en crisis",
+      "summary": "Técnicamente no se puede considerar a la Argentina en recesión todavía, y falta conocer el PBI del segundo trimestre. El agro, la minería, la energía, las exportaciones y las finanzas sostienen la actividad. La industria, el comercio y la construcción enfrentan cierres, despidos y caída de ventas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "PBI",
+        "Recesión",
+        "Industria"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/columnistas/el-pbi-puede-evitar-la-recesion-pero-la-industria-y-el-consumo-siguen-en-crisis-por-carlos-burgueno.phtml",
+      "source_datetime": "2026-08-23T05:07:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Bonos que vencen tras las elecciones de 2027 exigen mayor tasa",
+      "summary": "El mercado empezó a ponerle precio al escenario político de 2027. Los bonos que vencen después de las elecciones exigen una mayor tasa.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Bonos soberanos",
+        "Elecciones 2027",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/ao27-ao28-y-ao29-los-bonos-soberanos-que-conviene-mirar-segun-el-perfil-de-cada-inversor",
+      "source_datetime": "2026-08-22T20:31:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Las pymes desmienten a Milei sobre el endeudamiento por televisores",
+      "summary": "Las pymes desmienten que el sobreendeudamiento se deba a la compra de televisores, como afirmó Milei.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "CAME",
+        "Endeudamiento familiar",
+        "Milei"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/la-came-salio-al-cruce-del-gobierno-y-aseguro-que-las-familias-se-endeudan-para-pagar-alimentos-y-remedios.phtml",
+      "source_datetime": "2026-08-23T20:42:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Dólar hoy: la cotización se mantiene igual que el último día hábil",
+      "summary": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil. Entre las cotizaciones se incluye el dólar blue y los dólares financieros.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Dólar blue",
+        "Dólares financieros"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-23-de-agosto-nid23082026",
+      "source_datetime": "2026-08-23T12:40:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "CAME: la caída del poder adquisitivo obliga a financiar alimentos y remedios",
+      "summary": "El vocero de CAME, Salvador Femenía, sostuvo que la caída del poder adquisitivo obliga a financiar alimentos y remedios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "CAME",
+        "Poder adquisitivo",
+        "Consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/came-desmintio-la-teoria-del-gobierno-el-endeudamiento-las-familias-es-financiar-alimentos-y-remedios-n6313885",
+      "source_datetime": "2026-08-23T21:17:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "El Gobierno adjudicó ocho tramos de rutas nacionales por 20 años",
+      "summary": "El Gobierno adjudicó ocho tramos de rutas nacionales a operadores privados por 20 años. La resolución 1379/2026 formalizó la Etapa III de la Red Federal de Concesiones.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Concesiones viales",
+        "Red Federal de Concesiones",
+        "Obra pública"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/el-gobierno-adjudico-ocho-tramos-de-rutas-nacionales-a-operadores-privados-por-20-anos",
+      "source_datetime": "2026-08-24T07:07:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "El Gobierno buscará la media sanción de la reforma del BCRA e Inocencia Fiscal II",
+      "summary": "El Gobierno buscará la media sanción en la Cámara de Diputados de ambos proyectos: la reforma del BCRA y Inocencia Fiscal II. Persisten dudas sobre la adhesión de los contribuyentes. Habrá un test clave en el mercado de capitales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Reforma del BCRA",
+        "Inocencia Fiscal II",
+        "Congreso"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/reforma-del-bcra-inocencia-fiscal-ii-y-una-licitacion-decisiva-los-desafios-del-gobierno-en-una-semana-de-alto-voltaje",
+      "source_datetime": "2026-08-24T06:04:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "CAME vincula el aumento del endeudamiento con la pérdida de poder adquisitivo",
+      "summary": "CAME vincula el aumento del endeudamiento con la pérdida de poder adquisitivo. Además, rechaza que el crédito se destine principalmente a consumos suntuarios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "CAME",
+        "Endeudamiento",
+        "Crédito al consumo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/pymes-advierten-el-endeudamiento-llegar-fin-mes-el-sueldo-no-alcanza-n6313856",
+      "source_datetime": "2026-08-23T18:48:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Milei afirma tener cerrado el financiamiento hasta fin del mandato",
+      "summary": "Milei afirma que tiene cerrado el financiamiento hasta fin del mandato. Defendió las políticas económicas en el Council de las Americas y en la Bolsa de Comercio de Rosario, y desestimó el problema del crecimiento del endeudamiento familiar.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Milei",
+        "Financiamiento",
+        "Endeudamiento familiar"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/javier-milei-envio-un-mensaje-los-mercados-tenemos-cerrado-el-financiamiento-fin-del-mandato-n6313717",
+      "source_datetime": "2026-08-22T21:38:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "La actividad económica muestra un desempeño muy dispar según el sector",
+      "summary": "La actividad económica mostró un desempeño muy dispar según el sector. Algunos rubros acumularon ganancias y otros aún no recuperaron el terreno perdido.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Sectores"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/la-economia-a-dos-velocidades-cual-fue-la-diferencia-de-crecimiento-entre-los-ganadores-y-los-perdedores-en-la-era-milei",
+      "source_datetime": "2026-08-24T06:04:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Martín Rapetti afirma que el programa desinflacionario está agotado",
+      "summary": "Martín Rapetti, de Equilibra, afirma que el programa desinflacionario está agotado. Advierte sobre el nivel de actividad y cambios en el mercado de trabajo, cuestiona la política cambiaria y plantea una estrategia productiva para la industria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Actividad",
+        "Política cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/martin-rapetti-el-programa-desinflacionario-esta-agotado-y-el-grueso-la-depresion-n6313559",
+      "source_datetime": "2026-08-23T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Mercado laboral debilitado: hogares recurren a changas y crédito",
+      "summary": "Ante la falta de trabajo formal y más presión sobre el bolsillo, los hogares recurren a changas, ocupaciones adicionales y crédito para cubrir gastos corrientes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Consumo de hogares"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/con-un-mercado-laboral-debilitado-las-estrategias-para-llegar-a-fin-de-mes-empiezan-a-encontrar-limites",
+      "source_datetime": "2026-08-24T06:04:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Cobro de cuotas con transferencia debiera entrar en vigencia el 31 de agosto",
+      "summary": "El nuevo mecanismo de cobro con transferencia debiera entrar en vigencia el 31 de agosto. Bancos y fintech ven pocas chances de utilización como vía para mejorar el débito de cuotas, en un contexto de morosidad creciente.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Crédito",
+        "Morosidad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/23/cobro-con-transferencia-en-medio-del-debate-por-la-mora-hay-dudas-por-el-nuevo-sistema-para-debitar-las-cuotas-de-los-creditos",
+      "source_datetime": "2026-08-23T13:15:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "INTA brinda recomendaciones para la campaña 2026/2027 ante el Súper Niño",
+      "summary": "Especialistas del INTA brindaron recomendaciones para la campaña 2026/2027 sobre manejo de cultivos y ganadería. Se refiere al fenómeno 'Súper Niño'.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Clima",
+        "INTA"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/super-nino-proyectan-cuanto-durara-el-fenomeno-y-adelantan-un-importante-consejo-nid22082026",
+      "source_datetime": "2026-08-24T03:01:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Presupuesto de Vialidad cae 79% en términos reales frente a 2023",
+      "summary": "Vialidad dispone este año de $563.000 millones, 79% menos que en 2023 en términos reales. Seis de cada diez kilómetros relevados están en estado malo o regular. Hay recortes de hasta 85% en algunas provincias.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Obra pública",
+        "Rutas nacionales"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-presupuesto-para-las-rutas-nacionales-toco-el-nivel-mas-bajo-en-treinta-anos-y-hay-provincias-con-nid23082026",
+      "source_datetime": "2026-08-23T23:21:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Informe privado estima costo fiscal neto de 4,7% del PBI en 2027",
+      "summary": "Un informe privado estima que en 2027 el costo fiscal neto, entre medidas que incrementan y que reducen los recursos, llegaría al 4,7% del Producto Bruto Interno.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Política fiscal",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/menor-recaudacion-los-cambios-impositivos-del-gobierno-de-milei-impactan-en-un-3-del-pbi-nid23082026",
+      "source_datetime": "2026-08-23T13:38:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Tucumán y Jujuy respaldan el proyecto de biocombustibles de Bullrich",
+      "summary": "En la II Cumbre de Bioetanol, Tucumán y Jujuy expresaron su apoyo al proyecto de Patricia Bullrich, para generar más inversiones en la industria azucarera. Entre los siete proyectos presentados, el de Bullrich cuenta con el consenso de varios gobernadores.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Biocombustibles",
+        "Azúcar",
+        "Legislación"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/ley-de-biocombustibles-provincias-del-norte-presionan-el-tratamiento.phtml",
+      "source_datetime": "2026-08-23T06:49:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Caputo acumula $1,4 billones del impuesto a combustibles para rutas",
+      "summary": "El ministro de Economía acumula $ 1,4 billones recaudados del impuesto a los combustibles líquidos para mejorar el sistema vial que no ejecuta. Mantener anualmente un kilómetro puede costar entre US$ 15 mil y US$ 40 mil, y reconstruirlo puede llegar hasta US$ 3,5 millones. Se menciona privatización de caminos y creación de nuevos peajes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Rutas",
+        "Impuesto a combustibles",
+        "Peajes"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-plan-de-luis-caputo-cobrar-dos-veces-por-el-arreglo-de-las-rutas-nacionales.phtml",
+      "source_datetime": "2026-08-23T06:48:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Empresarios describen consumo en caída y menor margen para las familias",
+      "summary": "Empresarios defendieron el modelo mileista pero describieron un escenario de consumo en caída, menor margen para las familias y creciente incertidumbre. El dueño de AGD advirtió sobre una sociedad que no llega a mitad de mes.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Empresas"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/el-circulo-rojo-agitado-por-urquia-y-por-las-medidas-de-milei-que-no-llegan.phtml",
+      "source_datetime": "2026-08-23T01:57:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "411.000 puestos de trabajo registrados menos en la peor caída desde 2003",
+      "summary": "El país tiene menos compañías activas que durante la pandemia. Hay 411.000 puestos de trabajo registrados menos, en la peor caída registrada en los primeros 30 meses de cualquier gobierno desde 2003.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empleo",
+        "Cierre de empresas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/cierre-de-empresas-los-casos-de-la-semana-que-paso-y-los-mas-resonantes-a-lo-largo-del-ultimo-ano",
+      "source_datetime": "2026-08-24T06:04:11+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "22 de 24 distritos con supermercados facturando bajo el promedio de 8 años",
+      "summary": "En 22 de 24 distritos los supermercados facturan por debajo del promedio de los últimos 8 años. En los casos más extremos las caídas superan el 30 por ciento. Sólo Neuquén y Río Negro muestran un repunte del consumo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Supermercados"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/24/en-22-de-24-distritos-de-argentina-los-supermercados-estan-facturando-por-debajo-del-promedio-de-los-ultimos-8-anos",
+      "source_datetime": "2026-08-24T06:02:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Seis de cada diez argentinos cree que estará peor en los próximos meses",
+      "summary": "La percepción sobre la economía se deterioró pese a la estabilización de algunas variables macroeconómicas. El 64% teme por la pérdida del empleo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Expectativas",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/fuerte-caida-las-expectativas-economicas-6-cada-10-argentinos-cree-que-estara-peor-los-proximos-meses-n6313863",
+      "source_datetime": "2026-08-23T18:41:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Spotorno: la macro mejoró pero hay mucha gente que hoy está peor",
+      "summary": "Fausto Spotorno, director de OJ Ferreres y del Instituto de Economía de UADE, explicó por qué persiste el malestar social. También aborda la situación de la mora y la fragilidad del programa económico.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Entrevista",
+        "Mora",
+        "Malestar social"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/23/fausto-spotorno-la-macro-mejoro-pero-hay-mucha-gente-que-efectivamente-hoy-esta-peor",
+      "source_datetime": "2026-08-24T02:46:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "47",
+      "headline": "Gobierno resignaría casi 5 puntos del PBI de recaudación en cuatro años",
+      "summary": "Se estima una pérdida de recaudación de casi 5 puntos del PBI en cuatro años de gestión. Pese a la suba en Ganancias y Combustibles, el fin del Impuesto PAIS y los recortes en Retenciones y Bienes Personales consolidan una fuerte pérdida de recaudación anual para el Estado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Recaudación",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cambios-tributarios-el-gobierno-resignaria-casi-5-puntos-del-pbi-recaudacion-cuatro-anos-gestion-n6313830",
+      "source_datetime": "2026-08-23T15:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Impuestos podrían bajar hasta 4,7% del PBI para fines de 2027",
+      "summary": "Estiman que para fines de 2027, la baja o reducción de impuestos podría llegar a 4,7% del PBI. Se analiza de qué dependerá la reducción, y se menciona una medida que podría volver a prorrogarse.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Impuestos",
+        "Política fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/08/23/el-nuevo-mapa-de-los-impuestos-cuales-bajaron-que-puntos-siguen-en-debate-y-hasta-donde-llegara-el-recorte-del-gobierno",
+      "source_datetime": "2026-08-23T21:09:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Grinman reconoce preocupación por la situación de algunas empresas",
+      "summary": "Mario Grinman, presidente de la Cámara Argentina de Comercio y Servicios, reconoció preocupación por la situación de algunas compañías y defendió el programa económico del Gobierno. Las declaraciones se hicieron en el Council of the Americas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Empresas",
+        "Programa económico"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/mario-grinman-ratifico-sus-dichos-el-cierre-empresas-es-la-realidad-la-que-estamos-n6313695",
+      "source_datetime": "2026-08-22T20:16:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/agenda-economica-la-semana-licitacion-deuda-balances-tecnologicos-y-jackson-hole-n6313870",
+    "https://www.perfil.com/noticias/economia/el-triple-play-de-la-incertidumbre-electoral-el-mercado-el-circulo-rojo-e-inversionistas-avizoran-una-argentina-sin-milei.phtml",
+    "https://www.infobae.com/economia/2026/08/24/un-techo-incomodo-para-el-dolar-tension-electoral-y-suba-de-tasas-en-eeuu-las-senales-de-alerta-que-preocupan-a-los-analistas",
+    "https://www.infobae.com/economia/2026/08/23/reservas-del-banco-central-por-que-agosto-podria-cerrar-con-la-compra-de-dolares-mas-baja-de-2026",
+    "https://www.ambito.com/economia/scott-bessent-al-rescate-del-mercado-bonos-tendra-exito-o-le-doblaran-el-brazo-n6313904",
+    "https://www.infobae.com/economia/2026/08/24/el-activo-que-el-actual-banco-central-no-compro-pero-ya-vale-el-doble-dentro-de-las-reservas",
+    "https://www.lanacion.com.ar/economia/el-plan-del-gobierno-para-sostener-el-dolar-debajo-de-1500-amenaza-con-hacer-mas-lenta-la-nid23082026",
+    "https://www.lanacion.com.ar/economia/se-adelanto-el-nerviosismo-electoral-los-bonos-argentinos-empiezan-a-incorporar-el-riesgo-por-las-nid23082026",
+    "https://www.ambito.com/economia/el-mercado-cambia-ahora-le-pide-javier-milei-gastar-mas-y-barclays-alerta-el-riesgo-electoral-n6313629",
+    "https://www.perfil.com/noticias/columnistas/el-pbi-puede-evitar-la-recesion-pero-la-industria-y-el-consumo-siguen-en-crisis-por-carlos-burgueno.phtml",
+    "https://www.cronista.com/finanzas-mercados/ao27-ao28-y-ao29-los-bonos-soberanos-que-conviene-mirar-segun-el-perfil-de-cada-inversor",
+    "https://www.perfil.com/noticias/economia/la-came-salio-al-cruce-del-gobierno-y-aseguro-que-las-familias-se-endeudan-para-pagar-alimentos-y-remedios.phtml",
+    "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-23-de-agosto-nid23082026",
+    "https://www.ambito.com/economia/came-desmintio-la-teoria-del-gobierno-el-endeudamiento-las-familias-es-financiar-alimentos-y-remedios-n6313885",
+    "https://www.infobae.com/economia/2026/08/24/el-gobierno-adjudico-ocho-tramos-de-rutas-nacionales-a-operadores-privados-por-20-anos",
+    "https://www.infobae.com/economia/2026/08/24/reforma-del-bcra-inocencia-fiscal-ii-y-una-licitacion-decisiva-los-desafios-del-gobierno-en-una-semana-de-alto-voltaje",
+    "https://www.ambito.com/economia/pymes-advierten-el-endeudamiento-llegar-fin-mes-el-sueldo-no-alcanza-n6313856",
+    "https://www.ambito.com/economia/javier-milei-envio-un-mensaje-los-mercados-tenemos-cerrado-el-financiamiento-fin-del-mandato-n6313717",
+    "https://www.infobae.com/economia/2026/08/24/la-economia-a-dos-velocidades-cual-fue-la-diferencia-de-crecimiento-entre-los-ganadores-y-los-perdedores-en-la-era-milei",
+    "https://www.ambito.com/economia/martin-rapetti-el-programa-desinflacionario-esta-agotado-y-el-grueso-la-depresion-n6313559",
+    "https://www.infobae.com/economia/2026/08/24/con-un-mercado-laboral-debilitado-las-estrategias-para-llegar-a-fin-de-mes-empiezan-a-encontrar-limites",
+    "https://www.ambito.com/economia/escala-la-guerra-comercial-eeuu-y-canada-aranceles-del-50-y-trump-amenazo-consecuencias-desvastadoras-n6313839",
+    "https://www.infobae.com/economia/2026/08/23/cobro-con-transferencia-en-medio-del-debate-por-la-mora-hay-dudas-por-el-nuevo-sistema-para-debitar-las-cuotas-de-los-creditos",
+    "https://www.lanacion.com.ar/economia/campo/super-nino-proyectan-cuanto-durara-el-fenomeno-y-adelantan-un-importante-consejo-nid22082026",
+    "https://www.lanacion.com.ar/economia/el-presupuesto-para-las-rutas-nacionales-toco-el-nivel-mas-bajo-en-treinta-anos-y-hay-provincias-con-nid23082026",
+    "https://www.lanacion.com.ar/economia/menor-recaudacion-los-cambios-impositivos-del-gobierno-de-milei-impactan-en-un-3-del-pbi-nid23082026",
+    "https://www.perfil.com/noticias/economia/ley-de-biocombustibles-provincias-del-norte-presionan-el-tratamiento.phtml",
+    "https://www.perfil.com/noticias/economia/el-plan-de-luis-caputo-cobrar-dos-veces-por-el-arreglo-de-las-rutas-nacionales.phtml",
+    "https://www.perfil.com/noticias/cordoba/el-circulo-rojo-agitado-por-urquia-y-por-las-medidas-de-milei-que-no-llegan.phtml",
+    "https://www.infobae.com/economia/2026/08/24/cierre-de-empresas-los-casos-de-la-semana-que-paso-y-los-mas-resonantes-a-lo-largo-del-ultimo-ano",
+    "https://www.infobae.com/economia/2026/08/24/en-22-de-24-distritos-de-argentina-los-supermercados-estan-facturando-por-debajo-del-promedio-de-los-ultimos-8-anos",
+    "https://www.ambito.com/economia/fuerte-caida-las-expectativas-economicas-6-cada-10-argentinos-cree-que-estara-peor-los-proximos-meses-n6313863",
+    "https://www.infobae.com/economia/2026/08/23/fausto-spotorno-la-macro-mejoro-pero-hay-mucha-gente-que-efectivamente-hoy-esta-peor",
+    "https://www.ambito.com/economia/cambios-tributarios-el-gobierno-resignaria-casi-5-puntos-del-pbi-recaudacion-cuatro-anos-gestion-n6313830",
+    "https://www.infobae.com/economia/2026/08/23/el-nuevo-mapa-de-los-impuestos-cuales-bajaron-que-puntos-siguen-en-debate-y-hasta-donde-llegara-el-recorte-del-gobierno",
+    "https://www.ambito.com/economia/mario-grinman-ratifico-sus-dichos-el-cierre-empresas-es-la-realidad-la-que-estamos-n6313695"
+  ]
+}
