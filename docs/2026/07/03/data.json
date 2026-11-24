@@ -1,0 +1,3359 @@
+{
+  "date": "2026-07-03",
+  "cadena_de_razonamiento": "El BCRA continúa comprando dólares, sumando 120 ruedas consecutivas, y las reservas superan los USD 48.000 millones. El riesgo país desciende a mínimos de 8 años (415 puntos), impulsado por la suba de bonos y acciones argentinas. El dólar mayorista extiende su racha alcista, pero el BCRA modera la suba sin vender reservas. La industria enfrenta presión por el alto precio del gas, con empresas evaluando reducir actividad, mientras el Gobierno defiende la suba de tarifas y acumula deuda con energéticas. Se anuncia un proyecto privado para una nueva central nuclear por USD 1.200 millones. La reforma de la Carta Orgánica del BCRA genera debate, con ex presidentes criticando la medida y el Presidente calificándolos de \"analfabetos económicos\". El mercado evalúa positivamente la reforma como un paso para reforzar la credibilidad del programa económico.",
+  "resumen_ejecutivo": "El Banco Central (BCRA) mantiene su racha de compras de dólares, elevando las reservas a más de USD 48.000 millones, mientras el riesgo país desciende a mínimos de 8 años, reflejando una mayor confianza en los activos locales. El mercado de valores local muestra un comportamiento alcista. Sin embargo, la industria enfrenta desafíos por el alto costo del gas, lo que lleva a algunas empresas a considerar reducir su actividad. El Gobierno, por su parte, avanza en la defensa de la suba de tarifas y en la reforma de la Carta Orgánica del BCRA, iniciativa que genera debate pero es vista positivamente por el mercado como un refuerzo a la credibilidad económica.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Gobierno defiende suba de tarifas y acumula deuda millonaria con energéticas",
+      "summary": "El Gobierno defiende el aumento de tarifas, pero interviene y acumula una deuda millonaria con las empresas energéticas. El objetivo de estas acciones es sostener el superávit fiscal.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Tarifas",
+        "Deuda",
+        "Superávit"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-gobierno-defiende-la-suba-de-tarifas-pero-interviene-y-acumula-una-deuda-millonaria-con-las-energeticas-para-sostener-el-superavit-a40.phtml",
+      "source_datetime": "2026-07-02T13:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Baja de retenciones impulsa negocio de fertilizantes con potencial en Vaca Muerta",
+      "summary": "Una reducción en las retenciones busca impulsar un negocio de fertilizantes. Esta medida podría ganar relevancia si avanzan las inversiones para aumentar la producción de urea, con proyectos vinculados a Vaca Muerta que podrían transformar el mercado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Fertilizantes",
+        "Vaca Muerta"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/con-gas-de-vaca-muerta-una-baja-de-las-retenciones-apunta-a-un-negocio-que-miran-grandes-jugadores-nid02072026",
+      "source_datetime": "2026-07-02T22:13:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Industria se frena por alto precio del gas; empresas evalúan reducir actividad",
+      "summary": "La industria enfrenta una desaceleración debido al elevado precio del gas en invierno. El Gobierno ha dispuesto que el sector absorba el sobrecosto del combustible importado, llevando a que al menos la mitad de las empresas consideren disminuir su actividad este mes.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Industria",
+        "Gas",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/se-frena-la-industria-por-el-alto-precio-del-gas-en-invierno-nid02072026",
+      "source_datetime": "2026-07-02T15:01:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Riesgo país en mínimo desde 2018; Merval sube y reservas superan USD 48.000 millones",
+      "summary": "El riesgo país descendió por cuarta jornada consecutiva, alcanzando su nivel más bajo desde 2018. El índice S&P Merval registró un alza del 1,1%, y las reservas internacionales del Banco Central superaron los 48.000 millones de dólares.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Mercado de Valores",
+        "Reservas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/jornada-financiera-el-riesgo-pais-bajo-por-cuarta-rueda-seguida-y-toco-un-nuevo-minimo-desde-2018",
+      "source_datetime": "2026-07-02T20:57:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Ex presidentes del BCRA critican reforma de Carta Orgánica impulsada por Milei",
+      "summary": "Ex presidentes del Banco Central expresaron críticas hacia la reforma de la Carta Orgánica propuesta por Javier Milei. Manifestaron preocupación por los posibles efectos de la medida en la economía, la inflación y el nivel de actividad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Central",
+        "Reforma",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/ex-presidentes-del-banco-central-criticaron-la-reforma-de-la-carta-organica-que-impulsa-javier-milei-el-fmi-lo-esta-pidiendo.phtml",
+      "source_datetime": "2026-07-02T23:16:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Gobierno acumula deuda con energéticas mientras aumenta presión sobre la industria",
+      "summary": "El Gobierno mantiene pagos pendientes con las empresas energéticas, lo que incrementa la presión sobre la industria. La situación se agrava por el aumento de tarifas y las dificultades en el abastecimiento de gas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "Deuda",
+        "Energía",
+        "Industria"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/gas-tarifas-y-deuda-eugenia-muzio-advirtio-que-el-gobierno-acumula-pagos-pendientes-con-energeticas-mientras-crece-la-presion-sobre-la-ind.phtml",
+      "source_datetime": "2026-07-02T20:46:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "BCRA suma 120 ruedas de compra de dólares; reservas superan USD 48.000 millones",
+      "summary": "El Banco Central ha registrado 120 ruedas consecutivas de adquisición de dólares, elevando las reservas a más de 48.000 millones de dólares. En la jornada, la autoridad monetaria compró 25 millones de dólares.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Central",
+        "Reservas",
+        "Dólar"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-banco-central-sumo-120-ruedas-seguidas-con-compras-de-dolares-y-las-reservas-superaron-los-usd-48000-millones",
+      "source_datetime": "2026-07-02T21:25:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Dólar mayorista extiende racha alcista; BCRA modera suba sin vender reservas",
+      "summary": "El precio mayorista del dólar continúa su tendencia alcista con volúmenes de negociación inusualmente altos. El Banco Central está implementando mecanismos alternativos para controlar el ritmo de la suba sin recurrir a la venta directa de reservas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Banco Central",
+        "Mercado Cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-dolar-sigue-en-alza-a-cuanto-puede-llegar-sin-la-intervencion-del-gobierno-segun-la-nueva-banda-cambiaria",
+      "source_datetime": "2026-07-02T10:52:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "BCRA facilita consulta de tasas de plazos fijos con tabla comparativa",
+      "summary": "El Banco Central de la República Argentina (BCRA) ha puesto a disposición de los ahorristas una herramienta para conocer el rendimiento de los plazos fijos en pesos. Se presenta una tabla comparativa de las tasas ofrecidas por diferentes entidades.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Plazo Fijo",
+        "Tasas de Interés",
+        "Ahorro"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-jueves-2-de-julio-nid02072026",
+      "source_datetime": "2026-07-02T16:16:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Milei defiende reforma del BCRA; Sturzenegger trabaja en proyecto para modificar artículos clave",
+      "summary": "El presidente Javier Milei defendió su plan para reformar el estatuto del Banco Central. El equipo liderado por Federico Sturzenegger está elaborando el proyecto, que se enfoca en modificar los artículos 3° y 20° de la ley.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Central",
+        "Reforma",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/analfabetos-economicos-milei-cruzo-a-los-ex-titulares-del-bcra-que-cuestionaron-la-reforma-de-la-carta-organica",
+      "source_datetime": "2026-07-02T23:56:28+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Dólar blue estable a $1525; BCRA compra USD 25 millones y reservas suben",
+      "summary": "El dólar blue cerró la jornada sin variaciones, cotizando a $1.525. En paralelo, el Banco Central adquirió 25 millones de dólares, lo que contribuyó a un aumento de las reservas por 948 millones de dólares.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar Blue",
+        "Banco Central",
+        "Reservas"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/el-dolar-blue-cerro-sin-cambios-este-jueves-2-de-julio-y-el-banco-central-volvio-a-comprar-dolares.phtml",
+      "source_datetime": "2026-07-02T20:05:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Dólar oficial estable en $1.510; acciones y bonos argentinos suben, riesgo país cae",
+      "summary": "El dólar oficial se mantuvo sin cambios en $1.510, en niveles altos desde noviembre de 2025. Simultáneamente, las acciones y bonos argentinos experimentaron avances en Wall Street, y el riesgo país perforó los 420 puntos básicos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "ACCIONES",
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Dólar",
+        "Mercado de Valores",
+        "Riesgo País"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-dolar-oficial-se-mantiene-estable-en-1510-mientras-caen-el-riesgo-pais-y-suben-los-activos-argentinos-a40.phtml",
+      "source_datetime": "2026-07-02T21:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Riesgo País argentino cae a 417 puntos impulsado por repunte de títulos en dólares",
+      "summary": "El Riesgo País de Argentina descendió a 417 puntos básicos, marcando una tendencia bajista consolidada. Esta caída fue impulsada por la recuperación de los títulos públicos en dólares en el mercado financiero, reflejando una mayor confianza en los activos locales.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Bonos",
+        "Confianza"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-de-la-argentina-quiebra-la-barrera-de-los-420-puntos-impulsado-por-los-bonos-de-deuda-a35.phtml",
+      "source_datetime": "2026-07-02T21:02:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Industria en riesgo de parates productivos por frío y alto precio del gas",
+      "summary": "La industria podría enfrentar parates productivos debido a la combinación de una ola de frío y el elevado precio del gas. Las pymes, que comparten redes de suministro con domicilios, podrían verse obligadas a recurrir a GNL ante picos de demanda.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Industria",
+        "Gas",
+        "Producción"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-industria-puede-enfrentar-un-escenario-parates-productivos-la-ola-frio-y-el-precio-del-gas-n6295228",
+      "source_datetime": "2026-07-02T14:24:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Reforma de Carta Orgánica del BCRA: reclamo del FMI y debate sobre independencia",
+      "summary": "La modificación de la Carta Orgánica del Banco Central es un reclamo recurrente del FMI. El debate se centra en la independencia del organismo y su rol en el control de la inflación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Central",
+        "Reforma",
+        "FMI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/carta-organica-del-bcra-que-dice-la-ley-que-el-gobierno-quiere-reformarla-y-cual-es-la-opinion-los-economistas-n6295013",
+      "source_datetime": "2026-07-01T21:13:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Inflación en zona euro retrocede a 2,8% en junio, frenando alza de cuatro meses",
+      "summary": "La inflación en la zona euro se desaceleró al 2,8% en junio, tras registrar un 3,2% en mayo. Este dato, inferior a las previsiones del mercado, marca el fin de cuatro meses de aumentos consecutivos y podría reducir la urgencia del Banco Central Europeo para nuevas medidas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Zona Euro",
+        "Banco Central Europeo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-inflacion-la-zona-euro-retrocede-al-28-junio-cuatro-meses-al-alza-n6294747",
+      "source_datetime": "2026-07-01T11:59:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Industria alerta por freno en producción: Gobierno traslada costo de gas importado",
+      "summary": "La industria advierte sobre un freno en la producción debido a un nuevo costo impuesto por el Gobierno. Las fábricas deben absorber el precio del gas natural licuado importado, encarecido por el conflicto en Medio Oriente, lo que ha llevado a paros y cortes en unas 130 plantas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Industria",
+        "Gas",
+        "Producción"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/estoy-generando-multas-sin-producir-alerta-en-la-industria-por-un-costo-que-frena-la-produccion-de-cientos-de-fabricas",
+      "source_datetime": "2026-07-03T05:50:43+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Aseguran que no faltará gas en los hogares",
+      "summary": "El Secretario de Energía y Minería aseguró que no habrá escasez de gas en los domicilios. Detalló actualizaciones sobre tarifas, subsidios y la situación del sistema energético ante la llegada de bajas temperaturas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Energía",
+        "Gas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/no-va-a-faltar-gas-en-los-domicilios-en-la-medida-que-no-haya-un-imponderable-aseguro-el-secretario-de-energia-y-mineria",
+      "source_datetime": "2026-07-02T12:42:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Gobierno impulsa cambios en la Carta Orgánica del BCRA",
+      "summary": "El Gobierno trabaja en modificaciones a la Carta Orgánica del Banco Central de la República Argentina (BCRA) para fortalecer su autonomía y limitar las herramientas de financiamiento al Tesoro. El mercado evalúa positivamente esta iniciativa, considerándola un paso para reforzar la credibilidad del programa económico a mediano plazo.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Política Económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/que-cambios-le-quiere-hacer-javier-milei-al-bcra-y-que-opina-el-mercado-a40.phtml",
+      "source_datetime": "2026-07-02T14:21:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Dólar al público y blue: cotizaciones del jueves 2 de julio",
+      "summary": "El billete al público se ofreció a $1.510 para la venta en el Banco Nación, alcanzando un máximo desde octubre. El dólar blue se vendió a $1.525. El Banco Central de la República Argentina (BCRA) compró USD 25 millones en el mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/dolar-hoy-en-vivo-a-cuanto-se-operan-todas-las-cotizaciones-minuto-a-minuto-este-jueves-2-de-julio",
+      "source_datetime": "2026-07-02T20:32:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Riesgo País cerca de 400 puntos: Argentina se acerca al mercado internacional",
+      "summary": "El riesgo país argentino se aproxima a los 400 puntos, alcanzando su nivel más bajo en más de ocho años. Este descenso acerca al país a la posibilidad de regresar al mercado internacional de deuda, impulsado por una menor presión sobre las tasas en Estados Unidos y el buen desempeño de los bonos locales.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Deuda"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/el-riesgo-pais-se-aproxima-a-los-400-puntos-y-la-argentina-queda-cerca-de-poder-volver-al-mercado-internacional",
+      "source_datetime": "2026-07-03T05:48:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Banco Provincia baja tasas para refinanciar deudas",
+      "summary": "Banco Provincia lanzó el programa \"Ponete al día\", que permite refinanciar deudas con tasas de interés reducidas y plazos de hasta 72 meses. El beneficio incluye un esquema especial para mantener operativas las tarjetas de crédito.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Crédito",
+        "Tasas de Interés"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/banco-provincia-bajo-tasas-de-interes-para-refinanciar-deudas-quienes-pueden-acceder.phtml",
+      "source_datetime": "2026-07-02T17:38:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "28",
+      "headline": "Asesor de Economía: \"Esperamos un portón\" para volver al mercado de deuda",
+      "summary": "Felipe Núñez, asesor del Ministerio de Economía, afirmó que la emisión de deuda en el exterior es una opción, no una obligación. Se anticipa un \"portón\" de oportunidad para regresar al mercado de deuda, en lugar de una simple \"ventana\".",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Deuda",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/un-asesor-de-caputo-hablo-sobre-la-vuelta-al-mercado-de-deuda-no-esperamos-una-ventana-de-oportunidad-esperamos-un-porton",
+      "source_datetime": "2026-07-02T19:24:43+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Menor actividad económica impacta en recaudación y aumenta informalidad",
+      "summary": "La menor actividad económica está afectando la recaudación fiscal y se analiza el peso de la economía informal. Se explican los alcances del proyecto de inocencia fiscal.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Recaudación",
+        "Economía Informal"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/dolares-del-colchon-e-informalidad-por-que-cae-la-recaudacion-y-como-funcionara-el-regimen-de-inocencia-fiscal.phtml",
+      "source_datetime": "2026-07-02T20:26:43+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Trigo: frío y humedad favorables para la cosecha",
+      "summary": "Las buenas reservas de humedad y las bajas temperaturas crean un escenario propicio para el cultivo de trigo. El sector proyecta una producción superior a los 21 millones de toneladas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Trigo",
+        "Cosecha"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/trigo-por-que-el-frio-favorece-la-campana-y-cual-es-la-proyeccion-para-la-cosecha.phtml",
+      "source_datetime": "2026-07-02T20:31:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "Presupuesto 2027 anticipa estabilidad macroeconómica y mejoras",
+      "summary": "El Informe de Avance sobre la Elaboración del Presupuesto, presentado al Congreso, proyecta un escenario de estabilidad macroeconómica con mejoras en todas las variables. El documento también detalla la evolución de la ejecución presupuestaria durante 2026.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "ACCIONES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Presupuesto",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/inflacion-pobreza-y-desempleo-que-dice-el-documento-oficial-que-anticipa-el-presupuesto-2027",
+      "source_datetime": "2026-07-02T04:37:51+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Anses: suba por inflación y bonos extraordinarios en julio",
+      "summary": "El organismo aplicará la suba correspondiente a la inflación de mayo y sumará bonos extraordinarios. Se esperan cambios en los montos a cobrar y en las fechas de acreditación para jubilados, pensionados y beneficiarios de planes sociales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Anses",
+        "Jubilados"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/de-cuanto-son-las-asignaciones-de-anses-en-julio-2026",
+      "source_datetime": "2026-07-02T09:51:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Riesgo País en 421 puntos: expectativa por pago de Bonares",
+      "summary": "El riesgo país finalizó la jornada en 421 puntos, mostrando margen de compresión para converger con países de similar calificación. La atención se centra en el pago de USD 4.200 millones de Bonares la próxima semana, con potencial reinversión.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-riesgo-pais-toco-minimos-en-ocho-anos-pueden-seguir-subiendo-los-bonos-argentinos-en-dolares",
+      "source_datetime": "2026-07-02T04:40:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Riesgo País perfora 420 puntos; bonos, ADR y Merval al alza",
+      "summary": "El riesgo país argentino superó la barrera de los 420 puntos. En paralelo, los bonos, ADRs y el índice Merval operaron con tendencia alcista.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Riesgo País",
+        "Mercado de Valores"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-perfora-los-420-puntos-los-bonos-adr-y-merval-operan-al-alza",
+      "source_datetime": "2026-07-02T20:13:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "35",
+      "headline": "86% de argentinos: salario pierde contra inflación; 64% ve mal la economía",
+      "summary": "Una encuesta revela que el 86% de los argentinos percibe que su salario pierde poder adquisitivo frente a la inflación. El 64% califica la situación económica del país como mala o muy mala, y el 41,7% extiende este diagnóstico a su economía personal.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inflación",
+        "Encuesta"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/encuesta-el-86-de-los-argentinos-dice-que-su-salario-pierde-contra-la-inflacion-a40.phtml",
+      "source_datetime": "2026-07-02T22:21:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Cedears: estrategia para cobrar dividendos en dólares anualmente",
+      "summary": "Algunas compañías distribuyen parte de sus ganancias a los accionistas a través de dividendos, un ingreso adicional acreditado en dólares. Se detallan las claves para construir una cartera de Cedears que genere renta periódica.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Cedears",
+        "Dividendos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/cedear-como-armar-una-cartera-para-cobrar-dividendos-en-dolares-todos-los-anos",
+      "source_datetime": "2026-07-02T19:39:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Economista: inflación podría acercarse al 1% mensual a fin de año",
+      "summary": "El economista Santiago Casas observa que el proceso de desinflación continúa y estima que la inflación podría aproximarse al 1% mensual hacia finales de año.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inflación",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/santiago-casas-analizo-el-ipc-en-junio-seguramente-no-se-alcanzara-el-15.phtml",
+      "source_datetime": "2026-07-02T17:55:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "38",
+      "headline": "Gobierno regularizará deudas de obra pública con bonos",
+      "summary": "La Secretaría de Finanzas emitirá títulos para saldar compromisos pendientes con empresas contratistas de obra pública, correspondientes a deudas generadas entre enero de 2022 y diciembre de 2025. La condición para acceder a esta regularización es desistir de reclamos judiciales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Obra Pública",
+        "Deuda"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/el-gobierno-regularizara-deudas-por-obra-publica-con-bonos-a-cuanto-asciende-la-cifra-que-pagara",
+      "source_datetime": "2026-07-03T05:48:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Economista cercano a Milei propone 10 cambios a la Carta Orgánica del BCRA",
+      "summary": "Un economista afín al gobierno de Javier Milei ha elaborado una propuesta de reforma a la Carta Orgánica del Banco Central de la República Argentina (BCRA), detallando 10 cambios específicos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Política Económica"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/un-economista-cercano-a-milei-redacto-su-propia-carta-organica-para-el-bcra-los-10-cambios-que-propone",
+      "source_datetime": "2026-07-02T21:17:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "BCRA: plan de \"poder de fuego\" de casi u$s 20.000 millones para evitar corrida en 2027",
+      "summary": "El Banco Central de la República Argentina (BCRA) ha diseñado una estrategia para prevenir una corrida financiera en 2027, respaldada por un \"poder de fuego\" estimado en casi 20.000 millones de dólares.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "BCRA",
+        "Reservas"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/que-plan-tiene-el-banco-central-para-evitar-una-corrida-en-2027-un-poder-de-fuego-de-casi-us-20000-millones",
+      "source_datetime": "2026-07-02T09:58:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "41",
+      "headline": "Gobierno busca reformar Carta Orgánica del Banco Central",
+      "summary": "El Ejecutivo planea modificar la Carta Orgánica del Banco Central con el objetivo de revertir los cambios implementados por el kirchnerismo en 2012. La defensa del valor de la moneda se encuentra en el centro del debate.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Central",
+        "Reforma",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/uno-por-uno-los-cambios-que-planea-milei-para-la-carta-organica-del-banco-central-nid02072026",
+      "source_datetime": "2026-07-02T14:59:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "42",
+      "headline": "Mejora en cuentas externas, pero persiste déficit comercial",
+      "summary": "El intercambio del sector con el resto del mundo continúa siendo deficitario, aunque muestra una notoria recuperación respecto a los niveles récords del año pasado. El pago de intereses y dividendos empieza a pesar más en las cuentas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Comercio Exterior",
+        "Balanza de Pagos",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/reservas-sigue-el-deficit-servicios-pero-mejoraron-las-cuentas-mayo-n6294654",
+      "source_datetime": "2026-07-01T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "43",
+      "headline": "Especialista pronostica dólar a $1500 en los próximos meses",
+      "summary": "Un especialista anticipa un escenario alentador para el dólar en los próximos meses, mencionando la cifra de $1500 como una posible cotización.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Pronóstico",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-a-1500-el-escenario-alentador-que-pronostica-este-especialista-para-los-proximos-meses",
+      "source_datetime": "2026-07-01T16:05:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "El Niño favorecería producción agrícola, advierten por excesos hídricos",
+      "summary": "Un informe de la Bolsa de Comercio de Rosario señala que el fenómeno El Niño favorecería la producción agrícola. Sin embargo, los especialistas advierten sobre el riesgo de excesos hídricos hacia la cosecha.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Campo",
+        "El Niño",
+        "Producción Agrícola"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/deberia-ser-un-gran-ano-un-pronostico-despeja-una-incognita-sobre-el-fenomeno-el-nino-nid03072026",
+      "source_datetime": "2026-07-03T06:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Economía del Conocimiento superó los u$s10.000 millones en exportaciones",
+      "summary": "La Economía del Conocimiento superó por primera vez los u$s10.000 millones en exportaciones en los últimos doce meses, registrando un aumento del 11,7% interanual. Los servicios profesionales y los informáticos lideraron el crecimiento, consolidando al sector como la tercera mayor generadora de divisas del país.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Economía del Conocimiento",
+        "Divisas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-del-conocimiento-rompio-un-record-y-supero-primera-vez-los-us10000-millones-exportaciones-n6294824",
+      "source_datetime": "2026-07-01T14:07:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Histórica fábrica de cosechadoras Vassalli retoma producción",
+      "summary": "La fábrica de cosechadoras Vassalli retomará su actividad industrial tras ocho meses de parálisis. El primer objetivo será entregar una máquina pendiente mientras avanza el cambio de dueños y un plan para recuperar gradualmente las tres plantas. La empresa se venderá por US$1.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Industria",
+        "Campo",
+        "Producción"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/tras-ocho-meses-de-paralisis-vuelve-a-producir-la-historica-fabrica-de-cosechadoras-que-se-vende-por-nid02072026",
+      "source_datetime": "2026-07-02T23:42:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "47",
+      "headline": "Gobierno proyecta menor inflación y recuperación del salario real para 2027",
+      "summary": "El Gobierno proyecta para 2027 una menor inflación, una recuperación del salario real y una baja en los índices de pobreza. Se anticipa continuidad del crecimiento, mayor inversión, mejora del empleo y consolidación de la estabilidad macroeconómica.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación",
+        "Salario Real",
+        "Pobreza",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/presupuesto-2027-el-gobierno-proyecta-menos-inflacion-recuperacion-del-salario-real-y-baja-la-pobreza-n6295222",
+      "source_datetime": "2026-07-02T12:29:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "48",
+      "headline": "Confianza del campo aumenta 14%, pero persiste prudencia en inversiones",
+      "summary": "La confianza del campo aumentó un 14%, recuperando el optimismo tras la caída de marzo. Sin embargo, persiste la prudencia en cuanto a las inversiones a largo plazo debido a altos costos, bajos precios agrícolas e incertidumbre política.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Campo",
+        "Confianza",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/indicador-aumento-un-14-la-confianza-del-campo-mientras-persiste-la-prudencia-por-las-inversiones-a-nid02072026",
+      "source_datetime": "2026-07-02T19:02:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "Modelo combina datos macro y FIFA para predecir Mundial 2026",
+      "summary": "Un modelo desarrollado por M&G utiliza datos macroeconómicos y el ranking FIFA para proyectar el rendimiento de las selecciones en el Mundial 2026. El análisis incluye variables como población, PBI e inflación.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Fútbol",
+        "Modelo Predictivo",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/mundial-2026-puede-la-predecir-los-resultados-del-torneo-n6294599",
+      "source_datetime": "2026-07-01T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "Cortes de GNC por el frío en estaciones del interior",
+      "summary": "Se reportan cortes en el suministro de Gas Natural Comprimido (GNC) en estaciones del interior del país debido al frío. Las principales zonas afectadas son La Plata y sus alrededores, donde se registraron cortes en la provisión a distribuidoras con contrato interrumpible.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "GNC",
+        "Energía",
+        "Clima"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/por-el-frio-reportan-cortes-en-el-suministro-de-gnc-en-estaciones-del-interior-nid02072026",
+      "source_datetime": "2026-07-02T21:18:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Diferencias en tasas bancarias impactan ganancia de plazos fijos",
+      "summary": "Las diferencias en las tasas de interés que ofrecen los bancos pueden modificar significativamente la ganancia final obtenida en un depósito a plazo fijo, incluso en operaciones de corto plazo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Plazo Fijo",
+        "Tasas de Interés",
+        "Bancos"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/plazo-fijo-cuanto-se-obtiene-al-invertir-750000-n6294956",
+      "source_datetime": "2026-07-01T18:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "52",
+      "headline": "Milei impulsa reforma de Carta Orgánica del Banco Central",
+      "summary": "El Presidente Javier Milei prepara una reforma de la Carta Orgánica del Banco Central para revertir las modificaciones implementadas por el kirchnerismo en 2012. La defensa del valor de la moneda es un eje central del debate.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Central",
+        "Reforma",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/milei-prepara-una-reforma-de-la-carta-organica-del-banco-central-para-revertir-los-cambios-que-el-nid01072026",
+      "source_datetime": "2026-07-02T14:35:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "53",
+      "headline": "Eliminan retenciones a productos industriales y reducen para otros bienes",
+      "summary": "El Poder Ejecutivo eliminó las retenciones para productos industriales, fijando alícuotas del 0% para un grupo de mercaderías. También se dispuso una reducción gradual de derechos de exportación para otros bienes, incluyendo derivados del petróleo, a partir del 1 de julio.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Retenciones",
+        "Exportaciones",
+        "Industria"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/eliminan-retenciones-productos-industriales-y-reducen-forma-escalonada-los-derechos-exportacion-otros-bienes-n6294717",
+      "source_datetime": "2026-07-01T13:05:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "54",
+      "headline": "Secretario de Energía asegura que no faltará gas en invierno",
+      "summary": "El secretario de Energía, Daniel González, aseguró que no habrá faltante de gas en los hogares durante el invierno. Afirmó que el sistema funciona \"perfectamente bien\" a pesar de las bajas temperaturas registradas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Energía",
+        "Gas",
+        "Invierno"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-secretario-de-energia-aseguro-que-no-va-a-faltar-gas-en-las-casas-en-la-medida-que-no-haya-un-nid02072026",
+      "source_datetime": "2026-07-02T14:19:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "55",
+      "headline": "Cuenta DNI renueva descuentos en gastronomía para julio",
+      "summary": "La aplicación Cuenta DNI renovó sus descuentos para julio, ofreciendo un 25% de reintegro en gastronomía todos los días. El tope de ahorro se elevó a $10.000, ideal para las vacaciones de invierno.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Cuenta DNI",
+        "Descuentos",
+        "Gastronomía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/cuenta-dni-renovo-sus-descuentos-julio-2026-uno-uno-todos-los-reintegros-n6294762",
+      "source_datetime": "2026-07-01T12:17:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "56",
+      "headline": "Tesla revierte caída con aumento del 25% en ventas y prevé fuerte inversión",
+      "summary": "Tesla ha dejado atrás la caída de 2025 con un aumento del 25% en las ventas de autos. La empresa planea destinar más de US$25.000 millones en inversiones durante este año para mantener su ritmo de crecimiento.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Tesla",
+        "Ventas",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/bloomberg/bc-tesla-deja-atras-caida-de-2025-con-aumento-de-25-en-las-ventas-de-autos.phtml",
+      "source_datetime": "2026-07-02T23:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "57",
+      "headline": "Milei busca prohibir por ley emisión de pesos para financiar déficit",
+      "summary": "El gobierno de Javier Milei busca prohibir por ley la emisión de pesos para financiar el déficit fiscal, emulando restricciones similares a las establecidas en Perú hace más de 30 años a través de su Constitución. El objetivo es modificar la Carta Orgánica del Banco Central.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Emisión Monetaria",
+        "Déficit Fiscal",
+        "Banco Central"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/milei-quiere-prohibir-por-ley-la-emision-de-pesos-para-financiar-el-deficit-similitudes-y-diferencias-con-el-modelo-peruano",
+      "source_datetime": "2026-07-03T05:51:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Confianza del campo mejora, pero inversión sigue contenida",
+      "summary": "La confianza del sector agropecuario ha mejorado, ubicándose cerca de récords previos. Sin embargo, esta mejora no se refleja aún en un mayor nivel de inversión, ya que los productores mantienen la prudencia ante los altos costos y la incertidumbre.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Campo",
+        "Confianza",
+        "Inversión"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/la-confianza-del-campo-mejoro-pero-no-se-refleja-en-el-nivel-de-inversion-a40.phtml",
+      "source_datetime": "2026-07-02T22:58:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "59",
+      "headline": "Caída del consumo golpea a la gastronomía",
+      "summary": "La caída del consumo está afectando fuertemente al sector gastronómico. Locales en Palermo operan con márgenes negativos debido a cambios en los hábitos de consumo y una competencia intensa.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Consumo",
+        "Gastronomía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/la-caida-del-consumo-golpea-a-la-gastronomia-el-relato-de-un-empresario-que-abrio-el-debate-entre-colegas-del-sector",
+      "source_datetime": "2026-07-02T23:02:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "Gobierno asegura suministro de gas y defiende RIGI",
+      "summary": "El Gobierno nacional afirmó que no habrá faltante de gas en los domicilios y que el sistema energético funciona correctamente. Se defendieron los beneficios del RIGI para la generación de empleo y el desarrollo de infraestructura.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Energía",
+        "Gobierno"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-gobierno-dice-que-no-va-a-faltar-gas-en-los-domicilios-en-la-medida-que-no-haya-un-imponderable.phtml",
+      "source_datetime": "2026-07-02T13:36:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "61",
+      "headline": "Empresas de gas y electricidad deben registrarse en Oficina Anticorrupción",
+      "summary": "El Ente Nacional Regulador del Gas y la Electricidad ha dispuesto que las compañías bajo su supervisión tienen un plazo de un año para inscribir sus programas de integridad en el RITE.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Regulación",
+        "Energía"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-gobierno-obliga-a-las-empresas-de-gas-y-electricidad-a-inscribirse-en-un-registro-de-la-oficina-anticorrupcion",
+      "source_datetime": "2026-07-02T15:26:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "62",
+      "headline": "Contratación en EE.UU. se desacelera y frena impulso del mercado laboral",
+      "summary": "Las nóminas no agrícolas en Estados Unidos aumentaron solo 57.000 puestos en junio, cifra inferior a meses previos. La tasa de desempleo bajó al 4,2% debido a una fuerte caída en la participación laboral.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Mercado Laboral",
+        "Estados Unidos"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/bloomberg/bc-contratacion-en-eeuu-se-desacelera-con-fuerza-y-frena-el-impulso-del-mercado-laboral.phtml",
+      "source_datetime": "2026-07-02T21:58:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "63",
+      "headline": "Sector tambero alerta por crisis de rentabilidad",
+      "summary": "El sector tambero advierte sobre una crisis de rentabilidad. La falta de previsibilidad, los altos costos de producción y la escasa rentabilidad ponen en riesgo la continuidad de miles de tambos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/el-sector-tambero-alerta-por-la-crisis-de-rentabilidad-los-costos-son-muy-altos.phtml",
+      "source_datetime": "2026-07-02T21:19:08+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "Frigorífico de La Pampa reanuda actividad y reincorpora empleados",
+      "summary": "Un frigorífico en La Pampa reactivó su planta y reincorporó a 450 empleados. La firma, paralizada desde fines de 2025 y en concurso preventivo, retomó su actividad de la mano de un operador argentino.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Industria",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/01/luego-de-suspender-a-todo-su-personal-el-frigorifico-creador-de-paty-retomo-su-actividad-y-reincorporo-a-450-empleados",
+      "source_datetime": "2026-07-02T13:44:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "65",
+      "headline": "Campaña de maíz en Entre Ríos con balance positivo",
+      "summary": "La campaña de maíz en Entre Ríos ha tenido un balance positivo, logrando recuperar más del 85% de la superficie sembrada. Este aumento en la superficie sembrada contribuyó al pico de producción.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Producción"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/balance-positivo-en-la-campana-de-maiz-para-entre-rios-se-ha-recuperado-la-superficie-en-mas-de-un-85.phtml",
+      "source_datetime": "2026-07-02T15:06:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "66",
+      "headline": "Pronostican repunte económico en mayo tras caída en abril",
+      "summary": "Las consultoras privadas anticipan un repunte en la actividad económica durante mayo, luego de registrarse una caída en abril. Sin embargo, se mantiene la tendencia de \"dos economías\" y persisten dudas sobre el avance de variables clave.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES",
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Economía",
+        "Actividad Económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/arrancan-los-mejores-18-meses-tras-la-caida-de-la-actividad-en-abril-las-consultoras-pronostican-un-repunte-en-mayo",
+      "source_datetime": "2026-07-02T04:36:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "67",
+      "headline": "Metalfor en crisis: debe sueldos y abrió procedimiento preventivo",
+      "summary": "La firma Metalfor adeuda sueldos a sus 600 trabajadores y ha iniciado un procedimiento preventivo de crisis. La empresa acumula deudas con 23 bancos por $52.000 millones y opera a mitad de su capacidad instalada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Industria",
+        "Empleo",
+        "Finanzas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/la-crisis-de-metalfor-la-firma-de-maquinaria-le-debe-sueldos-a-sus-600-trabajadores-y-abrio-un-procedimiento-preventivo-de-crisis",
+      "source_datetime": "2026-07-03T05:49:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "68",
+      "headline": "Colombia buscará refinanciar su deuda pública",
+      "summary": "Colombia planea refinanciar su deuda pública con el objetivo de aliviar las cuentas fiscales y recuperar la confianza de los mercados. Se iniciarán gestiones con bancos internacionales y organismos multilaterales para extender plazos y reducir costos.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Deuda Pública",
+        "Colombia",
+        "Finanzas"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/bloomberg/bc-de-la-espriella-buscara-refinanciar-la-deuda-publica-de-colombia.phtml",
+      "source_datetime": "2026-07-02T21:49:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "69",
+      "headline": "Inversiones en startups argentinas superan los US$400 millones en 2026",
+      "summary": "Las inversiones en startups argentinas ya superaron los US$400 millones en 2026. El capital emprendedor argentino atraviesa un primer semestre récord, con grandes inversiones y creciente participación de startups del interior del país.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inversiones",
+        "Startups",
+        "Tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/capital-emprendedor-las-inversiones-en-startups-argentinas-ya-superan-los-us400-millones-en-2026.phtml",
+      "source_datetime": "2026-07-02T21:26:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "70",
+      "headline": "Dólar opera estable y corta racha de subas",
+      "summary": "El dólar al público se negoció sin variantes a $1.510 en el Banco Nación, cortando una racha de tres subas consecutivas. El dólar mayorista cedió un peso, con una retracción en el volumen de negocios.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Monedas",
+        "Mercado Cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-dolar-opero-estable-y-corto-una-racha-de-tres-subas-consecutivas",
+      "source_datetime": "2026-07-02T19:02:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "71",
+      "headline": "Acciones y bonos argentinos se afirman; riesgo país cerca de 400 puntos",
+      "summary": "El S&P Merval ganó 1,1% y los ADRs avanzaron hasta 4% en Wall Street. Los títulos públicos subieron 0,2%, mientras que el riesgo país medido por JP Morgan cayó a 415 unidades, su nivel más bajo desde abril de 2018.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Mercado de Capitales",
+        "Bonos",
+        "Acciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/mercados-se-afirman-las-acciones-y-los-bonos-argentinos-mientras-el-riesgo-pais-se-acerca-a-los-400-puntos",
+      "source_datetime": "2026-07-02T20:45:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "73",
+      "headline": "Mercado de capitales: más de 24 millones de cuentas abiertas en Argentina",
+      "summary": "El mercado de capitales argentino ha alcanzado un récord con más de 24 millones de cuentas abiertas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Mercado de Capitales",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/crece-el-mercado-de-capitales-ya-hay-mas-de-24-millones-de-cuentas-abiertas-en-argentina",
+      "source_datetime": "2026-07-02T22:26:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "74",
+      "headline": "Casi 30% de argentinos opera en mercado de capitales local",
+      "summary": "Casi el 30% de los argentinos opera en el mercado de capitales local, que experimenta una expansión acelerada con aumento de cuentas, operaciones y diversidad de instrumentos. Se observa una presencia cada vez más federal y mayor participación de mujeres inversoras.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Mercado de Capitales",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/casi-el-30-de-los-argentinos-opera-en-el-mercado-que-inversiones-eligen-y-que-provincias-lideran-el-ranking",
+      "source_datetime": "2026-07-02T20:17:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "75",
+      "headline": "Expansión de \"Todo x $2\" reaviva debate sobre consumo y competencia",
+      "summary": "La expansión del formato comercial \"Todo x $2\" ha reavivado la discusión sobre nuevas formas de consumo y las reglas de competencia. Cámaras empresarias solicitan mayores fiscalizaciones, mientras especialistas analizan las razones de su crecimiento.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Consumo",
+        "Comercio",
+        "Regulación"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/consumo-joven-precios-bajos-falta-controles-boom-nuevos-todo-x-2-a40-a40.phtml",
+      "source_datetime": "2026-07-02T15:50:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "76",
+      "headline": "Solo cinco ON argentinas con calificación crediticia AAA",
+      "summary": "Únicamente cinco compañías argentinas cuentan con emisiones de Obligaciones Negociables (ON) que ostentan la máxima calificación crediticia (AAA). Este sello refleja una capacidad excepcional para cumplir con sus obligaciones financieras.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "Bonos",
+        "Finanzas Corporativas",
+        "Calificación Crediticia"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/las-unicas-5-on-argentinas-con-calificacion-aaa-cuales-son-y-por-que-las-eligen-los-inversores",
+      "source_datetime": "2026-07-02T18:52:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "77",
+      "headline": "Tasas de plazo fijo varían según el banco en julio",
+      "summary": "Las tasas ofrecidas por entidades financieras para depósitos en pesos en julio presentan variaciones. Los rendimientos de los plazos fijos dependen del banco y la modalidad de constitución elegida por el inversor.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "plazo fijo",
+        "tasas de interés",
+        "bancos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/calculadora-del-plazo-fijo-en-julio-2026-cuanto-gano-en-cada-banco-si-invierto-300000",
+      "source_datetime": "2026-07-02T17:33:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "78",
+      "headline": "Dólar oficial en Banco Nación: cotización del 2 de julio",
+      "summary": "El dólar oficial en el Banco Nación se vende a 1.460 pesos y se compra a 1.510 pesos para la fecha del 2 de julio.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "dólar oficial",
+        "Banco Nación",
+        "cotización"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-2-de-julio-020726.phtml",
+      "source_datetime": "2026-07-02T15:08:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "80",
+      "headline": "Tasas de plazo fijo a 30 días varían más de ocho puntos",
+      "summary": "Las tasas ofrecidas por los bancos para depósitos en pesos a 30 días presentan una variación de más de ocho puntos porcentuales. El rendimiento final depende de la entidad bancaria y la modalidad de constitución del depósito.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "plazo fijo",
+        "tasas de interés",
+        "bancos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/06/29/plazo-fijo-cuanto-pagan-los-principales-bancos-por-depositar-1-millon-a-30-dias",
+      "source_datetime": "2026-07-02T17:04:52+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "81",
+      "headline": "7 millones de personas no podrán ser sujetos de crédito por años",
+      "summary": "Siete millones de personas se encuentran en mora crediticia y, como consecuencia, no podrán ser consideradas sujetos de crédito durante varios años. Esta situación impacta en su acceso a financiamiento futuro.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "mora",
+        "crédito",
+        "acceso a financiamiento"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/modo-fontevecchia/el-mayor-problema-de-los-7-millones-de-personas-que-no-pudieron-pagar-sus-cuotas-es-que-por-anos-no-volveran-a-ser-sujetos-de-credito-modf.phtml",
+      "source_datetime": "2026-07-02T14:57:39+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "82",
+      "headline": "Mora: 4 millones de personas perdieron su tarjeta de crédito",
+      "summary": "Debido a la mora, cuatro millones de personas han dejado de tener acceso a tarjetas de crédito. Esta situación representa una alerta financiera y limita las opciones de consumo y financiamiento para un segmento de la población.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "mora",
+        "tarjeta de crédito",
+        "alerta financiera"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/alerta-financiera-por-la-mora-4-millones-de-personas-dejaron-de-tener-tarjeta-de-credito",
+      "source_datetime": "2026-07-02T15:50:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "84",
+      "headline": "Exportación de granos impulsará liquidación de dólares en segundo semestre",
+      "summary": "Se proyecta un buen nivel de liquidación de dólares durante el segundo semestre del año, impulsado por la actividad de exportación de granos y sus productos derivados. Se espera un flujo positivo de divisas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "exportación",
+        "granos",
+        "dólares",
+        "agroexportador"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/fuerte-liquidacion-del-complejo-agroexportador-usd-3000-millones-por-parte-de-la-exportacion-de-granos-y-sus-productos.phtml",
+      "source_datetime": "2026-07-02T14:19:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "85",
+      "headline": "Dos empresas globales con calificación crediticia AAA",
+      "summary": "Únicamente dos compañías estadounidenses ostentan la máxima calificación crediticia (AAA) a nivel mundial. Esta distinción financiera les otorga ventajas significativas frente a otras empresas y las posiciona como inversiones seguras según analistas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "calificación crediticia",
+        "AAA",
+        "inversiones seguras",
+        "empresas"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/las-unicas-2-empresas-con-calificacion-aaa-que-los-analistas-las-consideran-como-las-inversiones-mas-seguras",
+      "source_datetime": "2026-07-02T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "86",
+      "headline": "Fintech adquiere plataforma de inversiones en Brasil por USD 60 millones",
+      "summary": "Una fintech, tras la compra de un banco local, ha desembarcado en Brasil mediante la adquisición de una plataforma de inversiones por aproximadamente 60 millones de dólares. La operación, pendiente de aprobación regulatoria, podría administrar cerca de USD 5.000 millones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "fintech",
+        "inversiones",
+        "Brasil",
+        "adquisición"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/la-fintech-que-acaba-de-comprar-un-banco-local-desembarco-en-brasil-pago-unos-usd-60-millones-por-una-plataforma-de-inversiones",
+      "source_datetime": "2026-07-02T14:31:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "87",
+      "headline": "Dólar paralelo subió $5 el jueves 2 de julio",
+      "summary": "La divisa estadounidense en su versión paralela experimentó una suba de 5 pesos durante la rueda cambiaria del jueves 2 de julio, iniciando la semana con una tendencia alcista.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "dólar paralelo",
+        "cotización",
+        "mercado cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/a-cuanto-cotizael-dolar-hoy-jueves-2-de-julio-de-2026.phtml",
+      "source_datetime": "2026-07-02T13:55:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "88",
+      "headline": "Bank of America anticipa corrección en el S&P 500",
+      "summary": "Bank of America ha emitido una advertencia sobre el mercado bursátil, anticipando una corrección significativa para el índice S&P 500. La entidad sugiere que el rally actual podría estar llegando a su fin.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "S&P 500",
+        "Bank of America",
+        "corrección de mercado",
+        "acciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/correccion-en-tres-fases-hasta-donde-puede-caer-el-sp-500-segun-bank-of-america",
+      "source_datetime": "2026-07-02T09:37:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "89",
+      "headline": "Elección de calefacción eléctrica impacta en factura de luz",
+      "summary": "La elección de artefactos eléctricos para calefaccionar sin depender de gas natural tiene un impacto directo en la factura de electricidad. El consumo de cada aparato es un factor clave a considerar para evitar gastos excesivos.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "calefacción",
+        "electricidad",
+        "consumo energético",
+        "factura de luz"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/aire-acondicionado-caloventor-o-placas-cual-elegir-para-calefacionarse-sin-gastar-de-mas-en-electricidad",
+      "source_datetime": "2026-07-02T14:23:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "90",
+      "headline": "Complejo deportivo de argentinos en Miami suma inversor clave",
+      "summary": "Un complejo deportivo promovido por deportistas argentinos en Miami ha incorporado un nuevo inversor estratégico. La instalación, que incluirá una escuela secundaria pupila y podría becar a deportistas extranjeros, tiene prevista su apertura para el próximo año.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "inversión",
+        "deportes",
+        "Miami",
+        "complejo deportivo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-ambicioso-complejo-que-encaran-deportistas-argentinos-en-miami-sumo-un-nuevo-inversor-clave-y-nid02072026",
+      "source_datetime": "2026-07-03T00:54:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "91",
+      "headline": "Litigiosidad récord en riesgos del trabajo",
+      "summary": "El sistema de riesgos del trabajo registra una litigiosidad récord a 30 años de su creación. Las aseguradoras solicitan a las provincias la designación de cuerpos forenses, ya que la alta conflictividad judicial consume la mayor parte de las cuotas empresariales para previsionar juicios.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "riesgos del trabajo",
+        "litigiosidad",
+        "aseguradoras",
+        "juicios"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/a-30-anos-creacion-del-sistema-riesgos-del-trabajo-la-litigiosidad-es-record-n6295461",
+      "source_datetime": "2026-07-02T20:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "94",
+      "headline": "Luis Caputo planea baja de impuestos y apoyo a infraestructura",
+      "summary": "El ministro Luis Caputo tiene como objetivo continuar con la reducción de impuestos y fortalecer la infraestructura. Además, buscará impulsar la economía tras el Mundial, brindándole mayor dinamismo.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Luis Caputo",
+        "impuestos",
+        "infraestructura",
+        "economía"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/semana-de-alto-voltaje-empresario-un-brindis-que-sono-a-campana-y-un-desayuno-cargado-de-pronosticos-nid02072026",
+      "source_datetime": "2026-07-03T00:21:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "96",
+      "headline": "Costo de infraestructura para IA se disparó a USD 3.000 millones",
+      "summary": "El costo promedio global de las obras de infraestructura destinadas a inteligencia artificial (IA) ha experimentado un salto drástico, pasando de 150 millones a 3.000 millones de dólares en un año. Estas obras presentan nuevas exigencias en energía, agua y regulación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "inteligencia artificial",
+        "infraestructura",
+        "costos",
+        "tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/07/02/construir-los-cimientos-de-la-inteligencia-artificial-los-desafios-de-la-infraestructura-del-futuro",
+      "source_datetime": "2026-07-02T12:25:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "97",
+      "headline": "Sector avícola pide apoyo político para reabrir China y bajar impuestos",
+      "summary": "El sector avícola reclama apoyo político para mejorar su competitividad, con el objetivo de reabrir el mercado de China y avanzar en una reducción de impuestos. El presidente de CEPA, Franco Santángelo, enfatizó la necesidad de medidas específicas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "avicultura",
+        "China",
+        "impuestos",
+        "competitividad"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/negocio-avicola-reclaman-apoyo-politico-para-reabrir-china-y-avanzar-con-una-baja-de-impuestos-nid02072026",
+      "source_datetime": "2026-07-02T23:37:25+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "98",
+      "headline": "China y UE formalizan diálogo anual sobre comercio e inversión",
+      "summary": "Pekín y Bruselas establecieron un mecanismo de reuniones ministeriales anuales para abordar el comercio y la inversión. La UE considera \"insostenible\" el déficit bilateral de 360.000 millones de euros con China.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Comercio Internacional",
+        "Unión Europea",
+        "China"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/china-y-la-ue-profundizan-su-dialogo-comercio-e-inversion-una-nueva-reunion-que-esta-juego-n6295213",
+      "source_datetime": "2026-07-02T12:44:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "99",
+      "headline": "Oficialismo busca aprobación en Senado de reforma en subsidios al gas",
+      "summary": "El oficialismo busca obtener la media sanción en el Senado de una iniciativa que redefine las zonas del país que reciben subsidios al gas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Energía",
+        "Subsidios",
+        "Senado"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/zonas-frias-cuanto-ahorraria-el-gobierno-si-se-modifica-el-regimen-y-que-ofrecio-a-cambio-para-aprobar-el-proyecto",
+      "source_datetime": "2026-07-02T11:47:43+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "100",
+      "headline": "Prodeman construye planta de molienda de maíz en Córdoba",
+      "summary": "Prodeman está construyendo una planta de molienda de maíz en Córdoba. La instalación tendrá una capacidad de producción mensual de aproximadamente 3.000 toneladas de sémolas y harinas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agroindustria",
+        "Maíz",
+        "Inversión"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/uno-de-los-lideres-del-mani-se-mete-en-un-importante-negocio-del-maiz-nid02072026",
+      "source_datetime": "2026-07-02T21:33:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "102",
+      "headline": "Dólar global alcanza máximo de 19 meses, impactando mercados",
+      "summary": "El dólar ha alcanzado su punto más alto en 19 meses a nivel global. Este fortalecimiento de la moneda estadounidense genera movimientos financieros a nivel mundial, afectando también al mercado argentino.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Dólar",
+        "Mercados Internacionales",
+        "Finanzas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-dolar-toco-su-punto-mas-alto-en-19-meses-a-nivel-global-que-impacto-tiene-en-la-argentina",
+      "source_datetime": "2026-07-02T04:35:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "104",
+      "headline": "UIA propone acuerdo nacional para bajar impuestos y se reunirá con Caputo",
+      "summary": "La Unión Industrial Argentina (UIA) impulsa un acuerdo nacional para reducir la carga impositiva y presentará la propuesta a Luis Caputo. La entidad tiene agendada una visita con el Ministro de Economía en agosto. Una encuesta de la UIA indica que Argentina posee la mayor presión tributaria efectiva entre 30 países.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Impuestos",
+        "Industria",
+        "Política Fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-uia-impulsa-un-acuerdo-nacional-bajar-impuestos-y-se-lo-presentaran-luis-caputo-n6295001",
+      "source_datetime": "2026-07-01T20:25:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "105",
+      "headline": "Récord de participación bursátil: uno de cada dos argentinos activos invierte",
+      "summary": "La participación bursátil en Argentina ha alcanzado niveles récord, con uno de cada dos argentinos económicamente activos poseyendo una cuenta de inversión. Los Cedear son los activos más operados, impulsados por herramientas tecnológicas y el interés en proteger ahorros ante la volatilidad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Inversiones",
+        "Mercado de Capitales",
+        "Ahorro"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/uno-de-cada-dos-argentinos-economicamente-activos-tiene-una-cuenta-de-inversion-nid02072026",
+      "source_datetime": "2026-07-02T20:44:29+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "106",
+      "headline": "Recaudación impositiva de junio cayó casi 8% real",
+      "summary": "La recaudación de impuestos en junio alcanzó los $20 billones, registrando una caída real de casi el 8%. Tras un aumento en mayo debido al ingreso de Ganancias de empresas, la recaudación volvió a descender.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Recaudación Fiscal",
+        "Impuestos",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/la-recaudacion-impuestos-junio-alcanzo-los-20-billones-y-cayo-casi-8-real-n6295011",
+      "source_datetime": "2026-07-01T19:47:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "108",
+      "headline": "Moody's destaca a Argentina en recuperación crediticia regional",
+      "summary": "Moody's ha señalado a Argentina como un caso de recuperación crediticia dentro de la región. América Latina mantiene una perspectiva estable, impulsada por reformas en algunos países, aunque enfrenta desafíos como crecimiento moderado y altos costos de financiamiento.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Calificación Crediticia",
+        "Moody's",
+        "América Latina"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/moodys-destaco-la-argentina-como-un-caso-recuperacion-crediticia-la-region-n6294925",
+      "source_datetime": "2026-07-01T17:29:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "109",
+      "headline": "Aeropuertos Argentina invierte US$2 millones en Operativo Nieve 2026 con IA",
+      "summary": "Aeropuertos Argentina ha lanzado el Operativo Nieve 2026 con una inversión de US$2 millones. El plan, que utiliza drones e inteligencia artificial, se implementará en ocho aeropuertos para asegurar las operaciones durante el invierno.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Infraestructura",
+        "Aeropuertos",
+        "Tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/inversion-de-us2-millones-aeropuertos-argentina-lanzo-el-operativo-nieve-2026-con-drones-e-ia-nid02072026",
+      "source_datetime": "2026-07-02T19:54:41+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "110",
+      "headline": "Industria manufacturera china registra mejor trimestre desde 2020",
+      "summary": "La industria manufacturera china experimentó su mejor trimestre desde 2020. El índice PMI manufacturero de junio se ubicó en 51,7 puntos, superando las expectativas y manteniéndose en zona de expansión. Los nuevos pedidos crecieron por decimotercer mes consecutivo, marcando la mejor racha desde 2018.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Industria",
+        "China",
+        "PMI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-industria-manufacturera-china-cerro-su-mejor-trimestre-2020-pese-la-leve-desaceleracion-junio-n6294929",
+      "source_datetime": "2026-07-01T17:21:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "112",
+      "headline": "Empleo privado en EEUU se desacelera en junio a 98.000 puestos",
+      "summary": "La creación de empleo privado en Estados Unidos se desaceleró en junio, con la generación de 98.000 puestos. Esta cifra representa una merma respecto al mes anterior y muestra un crecimiento dispar entre sectores. Los datos son un anticipo del informe oficial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Empleo",
+        "Estados Unidos",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/empleo-privado-eeuu-se-desacelera-junio-y-queda-debajo-las-expectativas-n6294858",
+      "source_datetime": "2026-07-01T14:47:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "113",
+      "headline": "Gobierno anuncia construcción de reactor nuclear con inversión de Meitner Energy",
+      "summary": "El Gobierno ha anunciado la construcción de un reactor nuclear en el país, iniciativa presentada por la empresa estadounidense Meitner Energy. El proyecto, que se enmarcaría en el Súper RIGI, generaría aproximadamente 2.000 empleos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Energía Nuclear",
+        "Inversión",
+        "Tecnología"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-gobierno-anuncio-la-construccion-de-un-reactor-nuclear-en-el-pais-nid02072026",
+      "source_datetime": "2026-07-02T19:31:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "114",
+      "headline": "Venta de electrodomésticos en unidades cae 3% hasta mayo",
+      "summary": "La venta de electrodomésticos en unidades ha registrado una caída acumulada del 3% hasta mayo. A pesar de la baja general, categorías como televisores y pequeños electrodomésticos muestran un crecimiento significativo.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Consumo",
+        "Electrodomésticos",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/electrodomesticos-cae-la-venta-unidades-pese-al-crecimiento-tres-segmentos-clave-n6294849",
+      "source_datetime": "2026-07-01T14:26:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "117",
+      "headline": "Productores rechazan proyecto de ley en La Pampa por \"barreras\" al comercio",
+      "summary": "Más de 40 cabañeros, entidades rurales y productores de La Pampa han rechazado un proyecto de ley. Consideran que la iniciativa crearía nuevos controles, aranceles y barreras para el comercio de reproductores, beneficiando a un colegio veterinario.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Legislación",
+        "Comercio"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/quieren-un-senasa-paralelo-revuelo-en-la-pampa-por-un-polemico-proyecto-de-ley-que-beneficiaria-a-un-nid02072026",
+      "source_datetime": "2026-07-02T18:54:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "118",
+      "headline": "Agro liquidó US$3.007 millones en junio, pero ingreso de divisas es menor al año pasado",
+      "summary": "El sector agroindustrial liquidó u$s3.007 millones durante junio. A pesar de este monto, el ingreso de divisas se mantiene por debajo de los niveles registrados el año anterior.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Agro",
+        "Divisas",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/el-agro-liquido-us3007-millones-junio-pero-el-ingreso-divisas-sigue-debajo-del-ano-pasado-n6294753",
+      "source_datetime": "2026-07-01T12:10:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "122",
+      "headline": "Buenos Aires actualiza valor de referencia para tasas de agua y efluentes",
+      "summary": "La provincia de Buenos Aires actualizó el valor de referencia para el cálculo de la tasa de efluentes y el canon por uso de agua. La Autoridad del Agua fijó el metro cúbico en $292,50, con vigencia desde el 1 de junio y tomando como referencia la tarifa de ABSA.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Servicios Públicos",
+        "Provincia de Buenos Aires",
+        "Tarifas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-provincia-buenos-aires-actualizo-el-valor-referencia-calcular-la-tasa-efluentes-y-el-canon-el-uso-del-agua-n6294720",
+      "source_datetime": "2026-07-01T11:23:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "125",
+      "headline": "Industria del biodiésel alerta por pérdida de competitividad y plantas paradas",
+      "summary": "Empresas del sector del biodiésel advierten que Argentina está perdiendo competitividad frente a países como Brasil, Estados Unidos, Indonesia y Paraguay debido al bajo desarrollo del mercado interno. Señalan que la capacidad instalada permanece ociosa, a pesar de millonarias inversiones previas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Energía",
+        "Biodiésel",
+        "Competitividad"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/hay-plantas-paradas-una-industria-que-demando-millonarias-inversiones-no-puede-aprovechar-un-negocio-nid01072026",
+      "source_datetime": "2026-07-02T17:47:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "127",
+      "headline": "Google multado con US$4700 millones en Europa",
+      "summary": "Google deberá pagar una multa récord de US$4700 millones en Europa. La Justicia europea ratificó por segunda vez la condena, definida en 2018, por forzar a los fabricantes de celulares a incluir su navegador en la plataforma Android.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Tecnología",
+        "Regulación",
+        "Multas"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/tecnologia/google-debera-pagar-una-multa-record-de-us4700-millones-en-europa-nid02072026",
+      "source_datetime": "2026-07-02T16:28:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "129",
+      "headline": "Europa endurece regulación cripto con MiCA; Binance afectada",
+      "summary": "Europa endurece la regulación cripto con la entrada en vigor de MiCA. Binance quedó entre las empresas afectadas. La normativa apunta a dar mayor seguridad jurídica y fortalecer el mercado. Solo alrededor de 210 empresas lograron la autorización completa.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Criptomonedas",
+        "Regulación",
+        "Fintech"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/IA/europa-endurece-la-regulacion-cripto-entro-en-vigor-mica-y-binance-quedo-entre-las-empresas-nid02072026",
+      "source_datetime": "2026-07-02T15:50:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "131",
+      "headline": "Cocos Capital compra plataforma brasileña Warren y proyecta facturar US$100M",
+      "summary": "Cocos Capital firmó un acuerdo para comprar Warren, una plataforma de inversiones brasileña. La fintech argentina ya compró el banco Voii en Argentina. Si obtiene la aprobación regulatoria, administrará unos US$5000 millones en activos y proyecta facturar US$100 millones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "FINTECH"
+      ],
+      "tags": [
+        "Inversiones",
+        "Adquisiciones",
+        "Fintech"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/negocios/cocos-capital-apuesta-por-brasil-firmo-un-acuerdo-para-comprar-warren-y-proyecta-facturar-us100-nid02072026",
+      "source_datetime": "2026-07-02T15:02:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "132",
+      "headline": "Economista advierte por caída de recaudación y menor consumo",
+      "summary": "El economista Martín Burgos analizó la caída de la recaudación tributaria. Advirtió que el menor consumo y la reducción de impuestos complican el objetivo de mantener el superávit fiscal.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Economía",
+        "Recaudación",
+        "Superávit Fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/martin-burgos-advirtio-por-la-caida-de-la-recaudacion-hay-un-problema-de-demanda-que-el-gobierno-no-esta-atendiendo.phtml",
+      "source_datetime": "2026-07-02T17:58:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "133",
+      "headline": "OpenAI analiza ceder 5% de la compañía al gobierno de EE.UU.",
+      "summary": "OpenAI analiza cederle al gobierno de EE.UU. una participación del 5% en la compañía, según el Financial Times.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Tecnología",
+        "IA",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/tecnologia/openai-analiza-cederle-al-gobierno-de-eeuu-una-participacion-del-5-en-la-compania-nid02072026",
+      "source_datetime": "2026-07-02T14:59:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "134",
+      "headline": "Baja en recaudación se atribuye a cambios impositivos; se espera repunte",
+      "summary": "En junio los ingresos tributarios tuvieron una variación real negativa del 7,1%. El equipo económico asegura que la baja en la recaudación responde a la reducción impositiva y el cambio en el calendario de vencimiento. Para el próximo mes se espera una suba por el pago de un impuesto clave.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Economía",
+        "Recaudación",
+        "Impuestos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/el-gobierno-atribuye-la-baja-en-la-recaudacion-a-cambios-impositivos-por-que-podria-repuntar-en-julio",
+      "source_datetime": "2026-07-03T05:51:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "135",
+      "headline": "Mercosur busca acuerdos comerciales tras \"cuarto de siglo de letargo\"",
+      "summary": "Martín Simonetta afirmó que \"Mercosur está desesperadamente intentando firmar acuerdos con otros países luego de un cuarto de siglo de letargo\". Se discute si los países pueden firmar acuerdos de manera individual.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Comercio Exterior",
+        "Mercosur",
+        "Acuerdos Internacionales"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/martin-simonetta-mercosur-esta-desesperadamente-intentando-firmar-acuerdos-con-otros-paises-luego-de-un-cuarto-de-siglo-de-letargo.phtml",
+      "source_datetime": "2026-07-02T17:57:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "136",
+      "headline": "Genneia inicia trámite para primera oferta de acciones argentinas en Wall Street en 8 años",
+      "summary": "Genneia inició el trámite para hacer la primera oferta argentina de acciones en Wall Street en más de ocho años. La empresa presentó ante la SEC el prospecto preliminar para una eventual salida a bolsa en Nueva York y Buenos Aires. La operación aún no tiene definido monto, precio ni fecha y dependerá de las condiciones de mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Finanzas",
+        "Mercado de Capitales",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/genneia-inicio-el-tramite-para-hacer-la-primera-oferta-argentina-de-acciones-en-wall-street-en-mas-nid02072026",
+      "source_datetime": "2026-07-02T14:41:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "137",
+      "headline": "Negociaciones para reanudar importación de autos desde México avanzan",
+      "summary": "Las negociaciones para volver a importar autos desde México están a punto de retomarse y el acuerdo caído podría resolverse pronto. Si se resuelve, se podrán volver a traer autos desde México sin arancel de importación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Comercio Exterior",
+        "Automotriz",
+        "Acuerdos Internacionales"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/03/volver-a-importar-autos-desde-mexico-las-negociaciones-estan-a-punto-de-retomarse-y-el-acuerdo-caido-podria-resolverse-pronto",
+      "source_datetime": "2026-07-03T05:50:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "139",
+      "headline": "Trump ingresó US$1400M en criptomonedas en su segundo mandato",
+      "summary": "Trump ingresó US$1400 millones en criptomonedas en el primer año de su segundo mandato. El presidente de Estados Unidos ha adoptado políticas para favorecer esa industria, en la que sus beneficios personales se han multiplicado por nueve desde su regreso a la Casa Blanca.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Criptomonedas",
+        "Política",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/IA/trump-ingreso-us1400-millones-en-criptomonedas-en-el-primer-ano-de-su-segundo-mandato-nid02072026",
+      "source_datetime": "2026-07-02T14:05:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "140",
+      "headline": "Gobierno anuncia proyecto privado para nueva central nuclear por US$1200M",
+      "summary": "El Gobierno anunció un proyecto privado de Meitner Energy, del Ansari Group y con participación del Invap, para construir una nueva central nuclear por USD 1.200 millones. Plantea un reactor modular de 300 MWe con capitales estadounidenses y podría entrar al Súper RIGI. La noticia surge en medio de la crisis en la CNEA.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Energía",
+        "Nuclear",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-gobierno-anuncio-un-proyecto-privado-para-hacer-una-nueva-central-nuclear-por-usd-1200-millones",
+      "source_datetime": "2026-07-02T21:05:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "141",
+      "headline": "Econovo invierte US$20M, expande planta y diseña equipos para Europa",
+      "summary": "Econovo invierte US$ 20 millones para expandir su planta en Oncativo y diseña equipos para Europa. Paralelamente, impulsa un circuito de turismo regional.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Industria",
+        "Inversiones",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/cordoba/econovo-invierte-us-20-millones-expande-su-planta-en-oncativo-y-disena-equipos-para-europa.phtml",
+      "source_datetime": "2026-07-02T16:20:27+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "142",
+      "headline": "Tres polos productivos proyectan US$100.000M anuales",
+      "summary": "Tres polos productivos redibujan el mapa económico argentino: Gran Rosario, Vaca Muerta y minería en la cordillera generarían unos US$100.000 millones anuales.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Economía",
+        "Producción",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/tres-polos-productivos-redibujan-el-mapa-economico-argentino-con-la-promesa-de-un-boom-de-nid02072026",
+      "source_datetime": "2026-07-02T13:42:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "143",
+      "headline": "Aeropuertos patagónicos usarán IA para temporada de invierno",
+      "summary": "Los aeropuertos de la Patagonia se preparan para la temporada de invierno con una nueva tecnología de IA. Aeropuertos Argentina ya implementó un sistema que permite aterrizajes seguros incluso durante nevadas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Tecnología",
+        "IA",
+        "Infraestructura"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/operativo-nieve-los-aeropuertos-de-la-patagonia-se-preparan-para-la-temporada-de-invierno-con-una-nueva-tecnologia-de-ia",
+      "source_datetime": "2026-07-02T20:01:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "144",
+      "headline": "Mejor nutrición de cultivos podría aumentar rendimientos 30-50%",
+      "summary": "El responsable de Mercados de Fertilizar, Franco Córdoba, señaló que los rendimientos de los cultivos pueden crecer entre un 30% y un 50% con una mejor nutrición.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Campo",
+        "Agricultura",
+        "Tecnología Agrícola"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/nutricion-de-cultivos-como-una-mejor-nutricion-puede-contribuir-a-cerrar-las-brechas-de-rendimiento-y-calidad.phtml",
+      "source_datetime": "2026-07-02T15:55:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "145",
+      "headline": "Bayer: \"Si hay trabas, se decide no lanzar desarrollos seguros\"",
+      "summary": "Gonzalo Rovira, de Bayer, señaló que cuando una empresa enfrenta trabas para lanzar un desarrollo de manera segura en el mercado, la decisión es no avanzar.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Empresas",
+        "Regulación",
+        "Innovación"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/propiedad-intelectual-un-ejecutivo-de-una-multinacional-hablo-de-la-fotocopia-de-las-semillas-y-dejo-nid02072026",
+      "source_datetime": "2026-07-02T13:16:17+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "147",
+      "headline": "Riesgo país en su nivel más bajo en 8 años; acciones y bonos suben",
+      "summary": "El riesgo país anotó su nivel más bajo en 8 años, llegando a los 418 puntos. Los títulos soberanos locales subieron 1%, mientras que las acciones argentinas operaron con alzas de hasta 4% en Wall Street.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Finanzas",
+        "Mercado de Capitales",
+        "Economía"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/el-riesgo-pais-anota-su-nivel-mas-bajo-en-8-anos-y-llega-a-los-418-puntos-a40.phtml",
+      "source_datetime": "2026-07-02T15:39:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "148",
+      "headline": "Empleo doméstico: aumento del 1,4% en julio de 2026",
+      "summary": "El personal que trabaja en casas particulares tendrá un incremento salarial del 1,4% en julio de 2026.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "empleo domestico",
+        "salarios"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/empleo-domestico-cuanto-cobran-en-julio-2026-por-hora-y-mes-tras-el-aumento-confirmado-nid02072026",
+      "source_datetime": "2026-07-02T12:35:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "149",
+      "headline": "Genneia busca cotizar en Wall Street",
+      "summary": "La empresa energética Genneia presentó un prospecto preliminar ante la SEC para cotizar en la Bolsa de Nueva York (NYSE) y en Buenos Aires bajo el símbolo GENN. Sería la primera empresa argentina en realizar esta operación desde 2019, sujeta a las condiciones del mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "mercado de capitales",
+        "inversiones",
+        "energia"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/cual-es-la-empresa-energetica-que-empezo-los-tramites-para-cotizar-en-wall-street-seria-la-primera-argentina-en-hacerlo-desde-2019",
+      "source_datetime": "2026-07-02T15:56:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "150",
+      "headline": "Productor agro: priorizó venta de girasol y trigo sobre soja",
+      "summary": "La especialista en finanzas del agro, Mónica Ortolani, señaló que el productor agropecuario priorizó la venta de girasol y trigo para generar liquidez, en lugar de la soja.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "agro",
+        "soja",
+        "girasol",
+        "trigo"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/informe-trimestral-del-usda-el-productor-deberia-anticiparse-y-planificar-la-comercializacion.phtml",
+      "source_datetime": "2026-07-02T15:21:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "151",
+      "headline": "Metalúrgica Metalfor en crisis financiera",
+      "summary": "La fabricante de pulverizadoras y fertilizadoras Metalfor inició un Procedimiento Preventivo de Crisis debido a atrasos en el pago de sueldos y una crisis financiera generalizada.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "industria",
+        "crisis financiera",
+        "empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/metalfor-abrio-un-procedimiento-preventivo-de-crisis-por-atrasos-en-pagos-de-sueldos-nid02072026",
+      "source_datetime": "2026-07-02T12:12:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "152",
+      "headline": "Despedida de histórica camioneta argentina; sucesora en 2027",
+      "summary": "Una camioneta icónica del mercado argentino, fabricada desde 2010, se despedirá. Su sucesora, un vehículo completamente nuevo, llegará en 2027.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "industria automotriz",
+        "vehiculos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/una-historica-y-potente-camioneta-del-mercado-argentino-ya-se-empieza-a-despedir-cual-la-reemplazara",
+      "source_datetime": "2026-07-02T15:46:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "153",
+      "headline": "Informalidad en la cadena de la carne eleva precios",
+      "summary": "El presidente de la CAMyA, Ariel Morales Antón, denunció informalidad en toda la cadena de la carne, desde el frigorífico hasta las carnicerías, lo que resulta en un sobreprecio del 30% sobre el valor mayorista.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "carne",
+        "precios",
+        "informalidad"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/canal-e/de-las-puertas-del-frigorifico-a-las-carnicerias-es-donde-esta-la-informalidad-denuncio-el-presidente-de-la-camya.phtml",
+      "source_datetime": "2026-07-02T14:32:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "154",
+      "headline": "Empleadas domésticas: último tramo de aumento en julio",
+      "summary": "Las empleadas domésticas recibirán en julio de 2026 el último tramo de su aumento paritario, que representa un 1,4%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "empleo domestico",
+        "salarios",
+        "paritarias"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/paritaria-con-aumento-cuanto-cobran-las-empleadas-domesticas-en-julio-2026-nid30062026",
+      "source_datetime": "2026-07-02T11:07:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "155",
+      "headline": "Mercado de electrodomésticos en baja, excepto algunas categorías",
+      "summary": "El mercado de electrodomésticos registró una caída del 3% en unidades hasta mayo, aunque algunos segmentos mantuvieron un desempeño positivo. Las ventas de celulares experimentaron una fuerte baja.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "consumo",
+        "electrodomesticos",
+        "ventas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/el-mercado-de-electrodomesticos-sigue-en-caida-pero-una-categoria-crece-a-dos-digitos-que-revela-el-nuevo-mapa-de-consumo",
+      "source_datetime": "2026-07-02T15:27:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "156",
+      "headline": "Euro blue a la baja: cae $27",
+      "summary": "El euro informal (blue) inició la rueda cambiaria de la semana con una tendencia a la baja, registrando una caída de $27.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "euro",
+        "divisas",
+        "mercado cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Perfil Economía",
+      "source_url": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-euro-blue-hoy-jueves-2-de-julio.phtml",
+      "source_datetime": "2026-07-02T13:37:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "157",
+      "headline": "Empleados bancarios: nuevo reajuste salarial mensual",
+      "summary": "Se cerró una nueva paritaria para empleados bancarios, quienes recibirán un reajuste salarial mensual. Se informa el nuevo salario inicial y el valor percibido por el Día del Bancario.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "bancos",
+        "salarios",
+        "paritarias"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cerraron-nueva-paritaria-cuanto-cobran-los-empleados-bancarios-a-partir-de-junio-de-2026-nid22062026",
+      "source_datetime": "2026-07-02T11:07:03+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "158",
+      "headline": "Empresa de bebidas con 70 años entra en concurso preventivo",
+      "summary": "Una empresa de bebidas con siete décadas de historia ha entrado en concurso preventivo, atribuyendo su crisis a la caída del consumo. La firma registra cheques sin fondos por más de $1.000 millones.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "empresas",
+        "consumo",
+        "crisis"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/una-empresa-de-bebidas-con-70-anos-de-historia-entro-en-concurso-preventivo-y-atribuyo-su-crisis-a-la-caida-del-consumo",
+      "source_datetime": "2026-07-02T15:08:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "159",
+      "headline": "Jubilados: ajuste del 2,15% en haberes de julio",
+      "summary": "Los haberes previsionales se ajustarán un 2,15% en julio de 2026. Se detalla el valor del haber mínimo, incluyendo el bono extraordinario.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "jubilados",
+        "pensiones",
+        "ajuste"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/cuanto-cobran-de-minima-los-jubilados-en-julio-2026-nid01072026",
+      "source_datetime": "2026-07-02T11:07:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "160",
+      "headline": "Tensión diplomática por proyecto petrolero en Malvinas",
+      "summary": "Financial Times destacó el enojo del gobierno argentino por el proyecto de explotación petrolera \"Sea Lion\" en Malvinas. El desarrollo podría triplicar el PBI de las islas y aumentar la tensión diplomática con el Reino Unido.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "BONOS"
+      ],
+      "tags": [
+        "Malvinas",
+        "petroleo",
+        "tension diplomatica",
+        "reino unido"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/financial-times-destaco-el-enojo-del-gobierno-argentino-por-el-proyecto-de-explotacion-petrolera-en-malvinas",
+      "source_datetime": "2026-07-02T12:55:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "161",
+      "headline": "Capital global se enfoca en la próxima economía tecnológica",
+      "summary": "El capital global está migrando de los flujos de caja hacia la dominación de capas críticas de la futura economía, incluyendo computación, centros de datos, conectividad satelital y energía.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "inversiones",
+        "tecnologia",
+        "energia"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/07/02/la-financiarizacion-del-futuro",
+      "source_datetime": "2026-07-02T12:25:23+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "163",
+      "headline": "ANSES: cronograma de pagos y montos de julio 2026",
+      "summary": "ANSES detalló los montos a percibir por cada titular según la prestación en julio de 2026, considerando diferencias por bono, libreta y zona de residencia.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "ANSES",
+        "jubilados",
+        "pensiones",
+        "asignaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/anses-cuando-cobro-en-julio-2026-si-mi-dni-termina-en-0",
+      "source_datetime": "2026-07-02T11:05:06+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "164",
+      "headline": "Sector petrolero: sueldos de hasta $18,5 millones",
+      "summary": "La mediana salarial neta en el sector petrolero es de $8 millones mensuales, pudiendo alcanzar hasta $18,5 millones. Existen pronunciadas diferencias salariales entre la Patagonia y el resto del país.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "TASAS"
+      ],
+      "tags": [
+        "petroleo",
+        "salarios",
+        "trabajo",
+        "patagonia"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/sueldos-de-hasta-185-millones-por-mes-como-son-las-condiciones-laborales-del-sector-que-mas-crece",
+      "source_datetime": "2026-07-02T10:29:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "165",
+      "headline": "Ley de Inocencia Fiscal: tratamiento en espera",
+      "summary": "El Gobierno aún no ha girado la nueva versión de la Ley de Inocencia Fiscal al Congreso. Se espera una reunión de la mesa política la próxima semana para avanzar en su tratamiento.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "ley",
+        "fiscal",
+        "gobierno",
+        "congreso"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/superada-la-paralisis-en-el-congreso-como-sigue-el-tratamiento-de-la-nueva-ley-de-inocencia-fiscal",
+      "source_datetime": "2026-07-02T04:38:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "166",
+      "headline": "Mercado de autos: recuperación en el último mes tras caída interanual",
+      "summary": "A pesar de una caída interanual del 10% en el mercado de autos, las principales automotrices experimentaron una recuperación notable en las ventas durante el último mes. Se anticipa un repunte en el segundo semestre del año.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "automotriz",
+        "ventas",
+        "recuperación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/07/02/se-recupera-el-mercado-de-los-autos-que-muestran-los-numeros-de-las-cinco-marcas-que-mas-0-km-venden-en-el-pais",
+      "source_datetime": "2026-07-02T04:36:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "167",
+      "headline": "Reino Unido: Consulta sobre futura infraestructura de pagos minoristas",
+      "summary": "El Retail Payments Infrastructure Board (RPIB), liderado por el Banco de Inglaterra, ha lanzado una consulta sobre la futura infraestructura de pagos minoristas. El Payment Vision Delivery Committee (PVDC), compuesto por representantes del Tesoro de Su Majestad, la FCA, el Banco de Inglaterra y el PSR, ha proporcionado contexto adicional para apoyar la consulta.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "pagos",
+        "infraestructura",
+        "regulación"
+      ],
+      "is_argentina": false,
+      "source_name": "FCA News",
+      "source_url": "https://www.fca.org.uk/news/statements/payments-vision-delivery-committee-update-future-retail-payments-infrastructure",
+      "source_datetime": "2026-07-02T11:15:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "168",
+      "headline": "Banco de Inglaterra preside Subcomité Legal del FXJSC",
+      "summary": "El Banco de Inglaterra lidera el Subcomité Legal del London Foreign Exchange Joint Standing Committee (FXJSC). Este comité está integrado por participantes del mercado, proveedores de infraestructura y los reguladores financieros del Reino Unido.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "regulación",
+        "mercado financiero",
+        "divisas"
+      ],
+      "is_argentina": false,
+      "source_name": "Bank of England News",
+      "source_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-legal-sub-committee-meeting-17-march-2026",
+      "source_datetime": "2026-07-02T09:26:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "169",
+      "headline": "Nuevos presidentes en paneles de la FCA para política financiera",
+      "summary": "Kirsty Cooper asumirá la presidencia del Listing Authority Advisory Panel (LAAP). Clare Woodman y Matt Hammerstein han sido reelegidos como presidentes del FCA Markets Practitioner Panel y FCA Practitioner Panel, respectivamente. Estos paneles asisten a la FCA en el desarrollo de políticas, representando los intereses de consumidores y empresas de servicios financieros.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "regulación",
+        "servicios financieros",
+        "política"
+      ],
+      "is_argentina": false,
+      "source_name": "FCA News",
+      "source_url": "https://www.fca.org.uk/news/press-releases/statutory-panel-chair-appointments-confirmed-fca-listing-authority-and-practitioner-panels",
+      "source_datetime": "2026-07-01T10:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "170",
+      "headline": "SEC publica estadísticas actualizadas del mercado de capitales de EE. UU.",
+      "summary": "La División de Análisis Económico y de Riesgos (DERA) de la SEC ha publicado estadísticas y visualizaciones de datos actualizadas sobre segmentos clave de los mercados de capitales de EE. UU., incluyendo tres nuevas emisiones de valores respaldados por activos (ABS). Las estadísticas resaltan un incremento en las Ofertas Públicas Iniciales (IPOs) y los fondos recaudados.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "mercado de capitales",
+        "IPOs",
+        "finanzas"
+      ],
+      "is_argentina": false,
+      "source_name": "SEC Press Releases",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
+      "source_datetime": "2026-07-01T12:47:58+00:00",
+      "status": "OFICIAL",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "172",
+      "headline": "Suspensión parcial del esquema de financiación de motor en Reino Unido",
+      "summary": "El Upper Tribunal ha emitido una orden que suspende parcialmente el esquema de financiación de motor. Esta medida permite a las empresas continuar preparándose para el esquema y avanzar con las reclamaciones en la medida de lo posible, al tiempo que exige informar a los reclamantes que no tienen derecho a compensación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "financiación de motor",
+        "regulación",
+        "consumidores"
+      ],
+      "is_argentina": false,
+      "source_name": "FCA News",
+      "source_url": "https://www.fca.org.uk/news/statements/motor-finance-scheme-partially-suspended",
+      "source_datetime": "2026-07-02T12:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "173",
+      "headline": "FCA propone simplificar la comunicación de costos de inversión",
+      "summary": "La FCA propone simplificar la forma en que plataformas, asesores y gestores de patrimonio comunican los costos de inversión, buscando que se utilicen términos claros y comprensibles en lugar de jerga técnica. El objetivo es alinear estas comunicaciones con reformas anteriores y crear un marco más consistente para que las empresas proporcionen información más útil a los clientes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "inversión",
+        "regulación",
+        "comunicación"
+      ],
+      "is_argentina": false,
+      "source_name": "FCA News",
+      "source_url": "https://www.fca.org.uk/news/press-releases/financial-regulator-simplify-investment-disclosure-regime",
+      "source_datetime": "2026-07-02T10:36:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "174",
+      "headline": "Resiliencia de la cadena de suministro: preocupación estratégica global",
+      "summary": "La resiliencia de la cadena de suministro se ha convertido en una preocupación estratégica clave para empresas y gobiernos a nivel mundial. Ante la proliferación de controles de exportación, prohibiciones de importación y escasez de componentes, se han invertido miles de millones de dólares para identificar puntos débiles, almacenar insumos y diversificar proveedores.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "cadena de suministro",
+        "estrategia",
+        "comercio"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2026/fable-mythos-saga-ad-hoc-us-ai-model-controls-could-help-china",
+      "source_datetime": "2026-07-02T19:54:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "175",
+      "headline": "Restricciones a inmigración de baja cualificación impactan empresas y trabajadores en EE. UU.",
+      "summary": "Las restricciones a la inmigración de baja cualificación en Estados Unidos afectan a empresas y trabajadores. Industrias como jardinería, hostelería, construcción, silvicultura y envasado de mariscos dependen de trabajadores con visa H-2B. Las empresas que pueden emplear más de estos trabajadores tienden a aumentar su producción, inversión y beneficios.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "inmigración",
+        "mercado laboral",
+        "economía"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/publications/working-papers/2026/effect-low-skill-immigration-restrictions-us-firms-and-workers",
+      "source_datetime": "2026-07-02T12:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "176",
+      "headline": "EE. UU. implementa cambios significativos en política de inmigración",
+      "summary": "El gobierno de EE. UU. ha realizado un cambio sustancial en su política de inmigración. Mientras se restringe la inmigración no autorizada, la administración ha optado por aplicar restricciones maximalistas a la inmigración legal.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "inmigración",
+        "política",
+        "gobierno"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2026/firms-allowed-hire-immigrant-manual-laborers-expand-hire-more",
+      "source_datetime": "2026-07-02T13:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "177",
+      "headline": "Dinamismo impulsa el éxito económico de EE. UU. a nivel global",
+      "summary": "El dominio económico global de Estados Unidos se ha mantenido durante al menos 110 años. El éxito continuo de la economía estadounidense, tanto a nivel nacional como internacional, se atribuye a su dinamismo inherente.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "economía global",
+        "dinamismo",
+        "EE. UU."
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/commentary/op-eds/2026/americas-future-post-american-world-economy",
+      "source_datetime": "2026-07-02T12:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "178",
+      "headline": "Debate sobre comercio y aranceles en EE. UU. supera los 250 años",
+      "summary": "Estados Unidos mantiene una larga tradición de debate sobre comercio y aranceles, que se remonta a más de 250 años. Las discrepancias sobre el rol de EE. UU. en la economía mundial se han intensificado recientemente, en un contexto de crecientes tensiones geopolíticas. Desde principios del siglo XVII, los colonos británicos en América del Norte dependían del comercio exterior para su bienestar.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES",
+        "DOLAR"
+      ],
+      "tags": [
+        "comercio",
+        "aranceles",
+        "economía mundial"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2026/americas-been-arguing-over-trade-more-250-years",
+      "source_datetime": "2026-07-01T13:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.perfil.com/noticias/economia/el-gobierno-defiende-la-suba-de-tarifas-pero-interviene-y-acumula-una-deuda-millonaria-con-las-energeticas-para-sostener-el-superavit-a40.phtml",
+    "https://www.lanacion.com.ar/economia/campo/con-gas-de-vaca-muerta-una-baja-de-las-retenciones-apunta-a-un-negocio-que-miran-grandes-jugadores-nid02072026",
+    "https://www.lanacion.com.ar/economia/se-frena-la-industria-por-el-alto-precio-del-gas-en-invierno-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/jornada-financiera-el-riesgo-pais-bajo-por-cuarta-rueda-seguida-y-toco-un-nuevo-minimo-desde-2018",
+    "https://www.perfil.com/noticias/economia/ex-presidentes-del-banco-central-criticaron-la-reforma-de-la-carta-organica-que-impulsa-javier-milei-el-fmi-lo-esta-pidiendo.phtml",
+    "https://www.perfil.com/noticias/canal-e/gas-tarifas-y-deuda-eugenia-muzio-advirtio-que-el-gobierno-acumula-pagos-pendientes-con-energeticas-mientras-crece-la-presion-sobre-la-ind.phtml",
+    "https://www.infobae.com/economia/2026/07/02/el-banco-central-sumo-120-ruedas-seguidas-con-compras-de-dolares-y-las-reservas-superaron-los-usd-48000-millones",
+    "https://www.infobae.com/economia/2026/07/02/el-dolar-sigue-en-alza-a-cuanto-puede-llegar-sin-la-intervencion-del-gobierno-segun-la-nueva-banda-cambiaria",
+    "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-jueves-2-de-julio-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/analfabetos-economicos-milei-cruzo-a-los-ex-titulares-del-bcra-que-cuestionaron-la-reforma-de-la-carta-organica",
+    "https://www.perfil.com/noticias/canal-e/el-dolar-blue-cerro-sin-cambios-este-jueves-2-de-julio-y-el-banco-central-volvio-a-comprar-dolares.phtml",
+    "https://www.perfil.com/noticias/economia/el-dolar-oficial-se-mantiene-estable-en-1510-mientras-caen-el-riesgo-pais-y-suben-los-activos-argentinos-a40.phtml",
+    "https://www.perfil.com/noticias/economia/el-riesgo-pais-de-la-argentina-quiebra-la-barrera-de-los-420-puntos-impulsado-por-los-bonos-de-deuda-a35.phtml",
+    "https://www.ambito.com/economia/la-industria-puede-enfrentar-un-escenario-parates-productivos-la-ola-frio-y-el-precio-del-gas-n6295228",
+    "https://www.ambito.com/economia/carta-organica-del-bcra-que-dice-la-ley-que-el-gobierno-quiere-reformarla-y-cual-es-la-opinion-los-economistas-n6295013",
+    "https://www.ambito.com/economia/la-inflacion-la-zona-euro-retrocede-al-28-junio-cuatro-meses-al-alza-n6294747",
+    "https://www.lanacion.com.ar/economia/milei-cruzo-a-dos-exfuncionarios-del-banco-central-por-la-modificacion-de-la-carta-organica-nid02072026",
+    "https://www.infobae.com/economia/2026/07/03/estoy-generando-multas-sin-producir-alerta-en-la-industria-por-un-costo-que-frena-la-produccion-de-cientos-de-fabricas",
+    "https://www.infobae.com/economia/2026/07/02/no-va-a-faltar-gas-en-los-domicilios-en-la-medida-que-no-haya-un-imponderable-aseguro-el-secretario-de-energia-y-mineria",
+    "https://www.perfil.com/noticias/economia/que-cambios-le-quiere-hacer-javier-milei-al-bcra-y-que-opina-el-mercado-a40.phtml",
+    "https://www.infobae.com/economia/2026/07/02/dolar-hoy-en-vivo-a-cuanto-se-operan-todas-las-cotizaciones-minuto-a-minuto-este-jueves-2-de-julio",
+    "https://www.infobae.com/economia/2026/07/03/el-riesgo-pais-se-aproxima-a-los-400-puntos-y-la-argentina-queda-cerca-de-poder-volver-al-mercado-internacional",
+    "https://www.perfil.com/noticias/economia/banco-provincia-bajo-tasas-de-interes-para-refinanciar-deudas-quienes-pueden-acceder.phtml",
+    "https://www.infobae.com/economia/2026/07/02/un-asesor-de-caputo-hablo-sobre-la-vuelta-al-mercado-de-deuda-no-esperamos-una-ventana-de-oportunidad-esperamos-un-porton",
+    "https://www.perfil.com/noticias/canal-e/dolares-del-colchon-e-informalidad-por-que-cae-la-recaudacion-y-como-funcionara-el-regimen-de-inocencia-fiscal.phtml",
+    "https://www.perfil.com/noticias/canal-e/trigo-por-que-el-frio-favorece-la-campana-y-cual-es-la-proyeccion-para-la-cosecha.phtml",
+    "https://www.infobae.com/economia/2026/07/02/inflacion-pobreza-y-desempleo-que-dice-el-documento-oficial-que-anticipa-el-presupuesto-2027",
+    "https://www.infobae.com/economia/2026/07/02/de-cuanto-son-las-asignaciones-de-anses-en-julio-2026",
+    "https://www.infobae.com/economia/2026/07/02/el-riesgo-pais-toco-minimos-en-ocho-anos-pueden-seguir-subiendo-los-bonos-argentinos-en-dolares",
+    "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-perfora-los-420-puntos-los-bonos-adr-y-merval-operan-al-alza",
+    "https://www.perfil.com/noticias/economia/encuesta-el-86-de-los-argentinos-dice-que-su-salario-pierde-contra-la-inflacion-a40.phtml",
+    "https://www.cronista.com/finanzas-mercados/cedear-como-armar-una-cartera-para-cobrar-dividendos-en-dolares-todos-los-anos",
+    "https://www.perfil.com/noticias/canal-e/santiago-casas-analizo-el-ipc-en-junio-seguramente-no-se-alcanzara-el-15.phtml",
+    "https://www.infobae.com/economia/2026/07/03/el-gobierno-regularizara-deudas-por-obra-publica-con-bonos-a-cuanto-asciende-la-cifra-que-pagara",
+    "https://www.cronista.com/finanzas-mercados/un-economista-cercano-a-milei-redacto-su-propia-carta-organica-para-el-bcra-los-10-cambios-que-propone",
+    "https://www.cronista.com/finanzas-mercados/que-plan-tiene-el-banco-central-para-evitar-una-corrida-en-2027-un-poder-de-fuego-de-casi-us-20000-millones",
+    "https://www.lanacion.com.ar/economia/uno-por-uno-los-cambios-que-planea-milei-para-la-carta-organica-del-banco-central-nid02072026",
+    "https://www.ambito.com/economia/reservas-sigue-el-deficit-servicios-pero-mejoraron-las-cuentas-mayo-n6294654",
+    "https://www.cronista.com/finanzas-mercados/dolar-a-1500-el-escenario-alentador-que-pronostica-este-especialista-para-los-proximos-meses",
+    "https://www.lanacion.com.ar/economia/campo/deberia-ser-un-gran-ano-un-pronostico-despeja-una-incognita-sobre-el-fenomeno-el-nino-nid03072026",
+    "https://www.ambito.com/economia/la-del-conocimiento-rompio-un-record-y-supero-primera-vez-los-us10000-millones-exportaciones-n6294824",
+    "https://www.lanacion.com.ar/economia/campo/tras-ocho-meses-de-paralisis-vuelve-a-producir-la-historica-fabrica-de-cosechadoras-que-se-vende-por-nid02072026",
+    "https://www.ambito.com/economia/presupuesto-2027-el-gobierno-proyecta-menos-inflacion-recuperacion-del-salario-real-y-baja-la-pobreza-n6295222",
+    "https://www.lanacion.com.ar/economia/campo/indicador-aumento-un-14-la-confianza-del-campo-mientras-persiste-la-prudencia-por-las-inversiones-a-nid02072026",
+    "https://www.ambito.com/economia/mundial-2026-puede-la-predecir-los-resultados-del-torneo-n6294599",
+    "https://www.lanacion.com.ar/economia/por-el-frio-reportan-cortes-en-el-suministro-de-gnc-en-estaciones-del-interior-nid02072026",
+    "https://www.ambito.com/economia/plazo-fijo-cuanto-se-obtiene-al-invertir-750000-n6294956",
+    "https://www.lanacion.com.ar/economia/milei-prepara-una-reforma-de-la-carta-organica-del-banco-central-para-revertir-los-cambios-que-el-nid01072026",
+    "https://www.ambito.com/economia/eliminan-retenciones-productos-industriales-y-reducen-forma-escalonada-los-derechos-exportacion-otros-bienes-n6294717",
+    "https://www.lanacion.com.ar/economia/el-secretario-de-energia-aseguro-que-no-va-a-faltar-gas-en-las-casas-en-la-medida-que-no-haya-un-nid02072026",
+    "https://www.ambito.com/economia/cuenta-dni-renovo-sus-descuentos-julio-2026-uno-uno-todos-los-reintegros-n6294762",
+    "https://www.perfil.com/noticias/bloomberg/bc-tesla-deja-atras-caida-de-2025-con-aumento-de-25-en-las-ventas-de-autos.phtml",
+    "https://www.infobae.com/economia/2026/07/03/milei-quiere-prohibir-por-ley-la-emision-de-pesos-para-financiar-el-deficit-similitudes-y-diferencias-con-el-modelo-peruano",
+    "https://www.perfil.com/noticias/economia/la-confianza-del-campo-mejoro-pero-no-se-refleja-en-el-nivel-de-inversion-a40.phtml",
+    "https://www.infobae.com/economia/2026/07/02/la-caida-del-consumo-golpea-a-la-gastronomia-el-relato-de-un-empresario-que-abrio-el-debate-entre-colegas-del-sector",
+    "https://www.perfil.com/noticias/economia/el-gobierno-dice-que-no-va-a-faltar-gas-en-los-domicilios-en-la-medida-que-no-haya-un-imponderable.phtml",
+    "https://www.infobae.com/economia/2026/07/02/el-gobierno-obliga-a-las-empresas-de-gas-y-electricidad-a-inscribirse-en-un-registro-de-la-oficina-anticorrupcion",
+    "https://www.perfil.com/noticias/bloomberg/bc-contratacion-en-eeuu-se-desacelera-con-fuerza-y-frena-el-impulso-del-mercado-laboral.phtml",
+    "https://www.perfil.com/noticias/canal-e/el-sector-tambero-alerta-por-la-crisis-de-rentabilidad-los-costos-son-muy-altos.phtml",
+    "https://www.infobae.com/economia/2026/07/01/luego-de-suspender-a-todo-su-personal-el-frigorifico-creador-de-paty-retomo-su-actividad-y-reincorporo-a-450-empleados",
+    "https://www.perfil.com/noticias/canal-e/balance-positivo-en-la-campana-de-maiz-para-entre-rios-se-ha-recuperado-la-superficie-en-mas-de-un-85.phtml",
+    "https://www.infobae.com/economia/2026/07/02/arrancan-los-mejores-18-meses-tras-la-caida-de-la-actividad-en-abril-las-consultoras-pronostican-un-repunte-en-mayo",
+    "https://www.infobae.com/economia/2026/07/03/la-crisis-de-metalfor-la-firma-de-maquinaria-le-debe-sueldos-a-sus-600-trabajadores-y-abrio-un-procedimiento-preventivo-de-crisis",
+    "https://www.perfil.com/noticias/bloomberg/bc-de-la-espriella-buscara-refinanciar-la-deuda-publica-de-colombia.phtml",
+    "https://www.perfil.com/noticias/canal-e/capital-emprendedor-las-inversiones-en-startups-argentinas-ya-superan-los-us400-millones-en-2026.phtml",
+    "https://www.infobae.com/economia/2026/07/02/el-dolar-opero-estable-y-corto-una-racha-de-tres-subas-consecutivas",
+    "https://www.infobae.com/economia/2026/07/02/mercados-se-afirman-las-acciones-y-los-bonos-argentinos-mientras-el-riesgo-pais-se-acerca-a-los-400-puntos",
+    "https://www.perfil.com/noticias/economia/a-cuanto-cerro-el-dolar-hoy-2-de-julio.phtml",
+    "https://www.cronista.com/finanzas-mercados/crece-el-mercado-de-capitales-ya-hay-mas-de-24-millones-de-cuentas-abiertas-en-argentina",
+    "https://www.infobae.com/economia/2026/07/02/casi-el-30-de-los-argentinos-opera-en-el-mercado-que-inversiones-eligen-y-que-provincias-lideran-el-ranking",
+    "https://www.perfil.com/noticias/economia/consumo-joven-precios-bajos-falta-controles-boom-nuevos-todo-x-2-a40-a40.phtml",
+    "https://www.cronista.com/finanzas-mercados/las-unicas-5-on-argentinas-con-calificacion-aaa-cuales-son-y-por-que-las-eligen-los-inversores",
+    "https://www.infobae.com/economia/2026/07/02/calculadora-del-plazo-fijo-en-julio-2026-cuanto-gano-en-cada-banco-si-invierto-300000",
+    "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-2-de-julio-020726.phtml",
+    "https://www.cronista.com/finanzas-mercados/puede-meta-subir-casi-un-50-la-tesis-que-entusiasma-a-wall-street-pese-a-su-millonaria-apuesta-por-la-ia",
+    "https://www.infobae.com/economia/2026/06/29/plazo-fijo-cuanto-pagan-los-principales-bancos-por-depositar-1-millon-a-30-dias",
+    "https://www.perfil.com/noticias/modo-fontevecchia/el-mayor-problema-de-los-7-millones-de-personas-que-no-pudieron-pagar-sus-cuotas-es-que-por-anos-no-volveran-a-ser-sujetos-de-credito-modf.phtml",
+    "https://www.cronista.com/finanzas-mercados/alerta-financiera-por-la-mora-4-millones-de-personas-dejaron-de-tener-tarjeta-de-credito",
+    "https://www.infobae.com/america/america-latina/2026/07/02/alemania-insto-a-ratificar-e-implementar-el-acuerdo-entre-la-union-europea-y-el-mercosur",
+    "https://www.perfil.com/noticias/canal-e/fuerte-liquidacion-del-complejo-agroexportador-usd-3000-millones-por-parte-de-la-exportacion-de-granos-y-sus-productos.phtml",
+    "https://www.cronista.com/finanzas-mercados/las-unicas-2-empresas-con-calificacion-aaa-que-los-analistas-las-consideran-como-las-inversiones-mas-seguras",
+    "https://www.infobae.com/economia/2026/07/02/la-fintech-que-acaba-de-comprar-un-banco-local-desembarco-en-brasil-pago-unos-usd-60-millones-por-una-plataforma-de-inversiones",
+    "https://www.perfil.com/noticias/economia/a-cuanto-cotizael-dolar-hoy-jueves-2-de-julio-de-2026.phtml",
+    "https://www.cronista.com/finanzas-mercados/correccion-en-tres-fases-hasta-donde-puede-caer-el-sp-500-segun-bank-of-america",
+    "https://www.infobae.com/economia/2026/07/02/aire-acondicionado-caloventor-o-placas-cual-elegir-para-calefacionarse-sin-gastar-de-mas-en-electricidad",
+    "https://www.lanacion.com.ar/economia/el-ambicioso-complejo-que-encaran-deportistas-argentinos-en-miami-sumo-un-nuevo-inversor-clave-y-nid02072026",
+    "https://www.ambito.com/economia/a-30-anos-creacion-del-sistema-riesgos-del-trabajo-la-litigiosidad-es-record-n6295461",
+    "https://www.lanacion.com.ar/economia/semana-de-alto-voltaje-empresario-un-brindis-que-sono-a-campana-y-un-desayuno-cargado-de-pronosticos-nid02072026",
+    "https://www.infobae.com/opinion/2026/07/02/construir-los-cimientos-de-la-inteligencia-artificial-los-desafios-de-la-infraestructura-del-futuro",
+    "https://www.lanacion.com.ar/economia/campo/negocio-avicola-reclaman-apoyo-politico-para-reabrir-china-y-avanzar-con-una-baja-de-impuestos-nid02072026",
+    "https://www.ambito.com/economia/china-y-la-ue-profundizan-su-dialogo-comercio-e-inversion-una-nueva-reunion-que-esta-juego-n6295213",
+    "https://www.infobae.com/economia/2026/07/02/zonas-frias-cuanto-ahorraria-el-gobierno-si-se-modifica-el-regimen-y-que-ofrecio-a-cambio-para-aprobar-el-proyecto",
+    "https://www.lanacion.com.ar/economia/campo/uno-de-los-lideres-del-mani-se-mete-en-un-importante-negocio-del-maiz-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/el-dolar-toco-su-punto-mas-alto-en-19-meses-a-nivel-global-que-impacto-tiene-en-la-argentina",
+    "https://www.lanacion.com.ar/economia/el-riesgo-pais-sigue-en-baja-y-cae-a-un-nuevo-valor-minimo-desde-abril-de-2018-nid02072026",
+    "https://www.ambito.com/economia/la-uia-impulsa-un-acuerdo-nacional-bajar-impuestos-y-se-lo-presentaran-luis-caputo-n6295001",
+    "https://www.lanacion.com.ar/economia/uno-de-cada-dos-argentinos-economicamente-activos-tiene-una-cuenta-de-inversion-nid02072026",
+    "https://www.ambito.com/la-recaudacion-impuestos-junio-alcanzo-los-20-billones-y-cayo-casi-8-real-n6295011",
+    "https://www.ambito.com/economia/moodys-destaco-la-argentina-como-un-caso-recuperacion-crediticia-la-region-n6294925",
+    "https://www.lanacion.com.ar/economia/inversion-de-us2-millones-aeropuertos-argentina-lanzo-el-operativo-nieve-2026-con-drones-e-ia-nid02072026",
+    "https://www.ambito.com/economia/la-industria-manufacturera-china-cerro-su-mejor-trimestre-2020-pese-la-leve-desaceleracion-junio-n6294929",
+    "https://www.ambito.com/economia/empleo-privado-eeuu-se-desacelera-junio-y-queda-debajo-las-expectativas-n6294858",
+    "https://www.lanacion.com.ar/economia/el-gobierno-anuncio-la-construccion-de-un-reactor-nuclear-en-el-pais-nid02072026",
+    "https://www.ambito.com/economia/electrodomesticos-cae-la-venta-unidades-pese-al-crecimiento-tres-segmentos-clave-n6294849",
+    "https://www.lanacion.com.ar/economia/campo/quieren-un-senasa-paralelo-revuelo-en-la-pampa-por-un-polemico-proyecto-de-ley-que-beneficiaria-a-un-nid02072026",
+    "https://www.ambito.com/economia/el-agro-liquido-us3007-millones-junio-pero-el-ingreso-divisas-sigue-debajo-del-ano-pasado-n6294753",
+    "https://www.ambito.com/economia/la-provincia-buenos-aires-actualizo-el-valor-referencia-calcular-la-tasa-efluentes-y-el-canon-el-uso-del-agua-n6294720",
+    "https://www.lanacion.com.ar/economia/campo/hay-plantas-paradas-una-industria-que-demando-millonarias-inversiones-no-puede-aprovechar-un-negocio-nid01072026",
+    "https://www.lanacion.com.ar/tecnologia/google-debera-pagar-una-multa-record-de-us4700-millones-en-europa-nid02072026",
+    "https://www.lanacion.com.ar/economia/IA/europa-endurece-la-regulacion-cripto-entro-en-vigor-mica-y-binance-quedo-entre-las-empresas-nid02072026",
+    "https://www.perfil.com/noticias/economia/la-justicia-europea-confirmo-la-multa-de-us-4700-millones-a-google-a40.phtml",
+    "https://www.lanacion.com.ar/economia/negocios/cocos-capital-apuesta-por-brasil-firmo-un-acuerdo-para-comprar-warren-y-proyecta-facturar-us100-nid02072026",
+    "https://www.perfil.com/noticias/canal-e/martin-burgos-advirtio-por-la-caida-de-la-recaudacion-hay-un-problema-de-demanda-que-el-gobierno-no-esta-atendiendo.phtml",
+    "https://www.lanacion.com.ar/tecnologia/openai-analiza-cederle-al-gobierno-de-eeuu-una-participacion-del-5-en-la-compania-nid02072026",
+    "https://www.infobae.com/economia/2026/07/03/el-gobierno-atribuye-la-baja-en-la-recaudacion-a-cambios-impositivos-por-que-podria-repuntar-en-julio",
+    "https://www.perfil.com/noticias/canal-e/martin-simonetta-mercosur-esta-desesperadamente-intentando-firmar-acuerdos-con-otros-paises-luego-de-un-cuarto-de-siglo-de-letargo.phtml",
+    "https://www.lanacion.com.ar/economia/genneia-inicio-el-tramite-para-hacer-la-primera-oferta-argentina-de-acciones-en-wall-street-en-mas-nid02072026",
+    "https://www.infobae.com/economia/2026/07/03/volver-a-importar-autos-desde-mexico-las-negociaciones-estan-a-punto-de-retomarse-y-el-acuerdo-caido-podria-resolverse-pronto",
+    "https://www.lanacion.com.ar/economia/IA/trump-ingreso-us1400-millones-en-criptomonedas-en-el-primer-ano-de-su-segundo-mandato-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/el-gobierno-anuncio-un-proyecto-privado-para-hacer-una-nueva-central-nuclear-por-usd-1200-millones",
+    "https://www.perfil.com/noticias/cordoba/econovo-invierte-us-20-millones-expande-su-planta-en-oncativo-y-disena-equipos-para-europa.phtml",
+    "https://www.lanacion.com.ar/economia/tres-polos-productivos-redibujan-el-mapa-economico-argentino-con-la-promesa-de-un-boom-de-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/operativo-nieve-los-aeropuertos-de-la-patagonia-se-preparan-para-la-temporada-de-invierno-con-una-nueva-tecnologia-de-ia",
+    "https://www.perfil.com/noticias/canal-e/nutricion-de-cultivos-como-una-mejor-nutricion-puede-contribuir-a-cerrar-las-brechas-de-rendimiento-y-calidad.phtml",
+    "https://www.lanacion.com.ar/economia/campo/propiedad-intelectual-un-ejecutivo-de-una-multinacional-hablo-de-la-fotocopia-de-las-semillas-y-dejo-nid02072026",
+    "https://www.perfil.com/noticias/economia/el-riesgo-pais-anota-su-nivel-mas-bajo-en-8-anos-y-llega-a-los-418-puntos-a40.phtml",
+    "https://www.lanacion.com.ar/economia/empleo-domestico-cuanto-cobran-en-julio-2026-por-hora-y-mes-tras-el-aumento-confirmado-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/cual-es-la-empresa-energetica-que-empezo-los-tramites-para-cotizar-en-wall-street-seria-la-primera-argentina-en-hacerlo-desde-2019",
+    "https://www.perfil.com/noticias/canal-e/informe-trimestral-del-usda-el-productor-deberia-anticiparse-y-planificar-la-comercializacion.phtml",
+    "https://www.lanacion.com.ar/economia/campo/metalfor-abrio-un-procedimiento-preventivo-de-crisis-por-atrasos-en-pagos-de-sueldos-nid02072026",
+    "https://www.infobae.com/economia/2026/07/02/una-historica-y-potente-camioneta-del-mercado-argentino-ya-se-empieza-a-despedir-cual-la-reemplazara",
+    "https://www.perfil.com/noticias/canal-e/de-las-puertas-del-frigorifico-a-las-carnicerias-es-donde-esta-la-informalidad-denuncio-el-presidente-de-la-camya.phtml",
+    "https://www.lanacion.com.ar/economia/paritaria-con-aumento-cuanto-cobran-las-empleadas-domesticas-en-julio-2026-nid30062026",
+    "https://www.infobae.com/economia/2026/07/02/el-mercado-de-electrodomesticos-sigue-en-caida-pero-una-categoria-crece-a-dos-digitos-que-revela-el-nuevo-mapa-de-consumo",
+    "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-euro-blue-hoy-jueves-2-de-julio.phtml",
+    "https://www.lanacion.com.ar/economia/cerraron-nueva-paritaria-cuanto-cobran-los-empleados-bancarios-a-partir-de-junio-de-2026-nid22062026",
+    "https://www.infobae.com/economia/2026/07/02/una-empresa-de-bebidas-con-70-anos-de-historia-entro-en-concurso-preventivo-y-atribuyo-su-crisis-a-la-caida-del-consumo",
+    "https://www.lanacion.com.ar/economia/cuanto-cobran-de-minima-los-jubilados-en-julio-2026-nid01072026",
+    "https://www.infobae.com/economia/2026/07/02/financial-times-destaco-el-enojo-del-gobierno-argentino-por-el-proyecto-de-explotacion-petrolera-en-malvinas",
+    "https://www.infobae.com/opinion/2026/07/02/la-financiarizacion-del-futuro",
+    "https://www.infobae.com/economia/2026/07/02/asi-es-el-revolucionario-motor-disenado-por-la-petrolera-mas-grande-del-mundo-y-que-busca-salvar-a-los-autos-a-combustion",
+    "https://www.infobae.com/economia/2026/07/02/anses-cuando-cobro-en-julio-2026-si-mi-dni-termina-en-0",
+    "https://www.infobae.com/economia/2026/07/02/sueldos-de-hasta-185-millones-por-mes-como-son-las-condiciones-laborales-del-sector-que-mas-crece",
+    "https://www.infobae.com/economia/2026/07/02/superada-la-paralisis-en-el-congreso-como-sigue-el-tratamiento-de-la-nueva-ley-de-inocencia-fiscal",
+    "https://www.infobae.com/economia/2026/07/02/se-recupera-el-mercado-de-los-autos-que-muestran-los-numeros-de-las-cinco-marcas-que-mas-0-km-venden-en-el-pais",
+    "https://www.fca.org.uk/news/statements/payments-vision-delivery-committee-update-future-retail-payments-infrastructure",
+    "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-legal-sub-committee-meeting-17-march-2026",
+    "https://www.fca.org.uk/news/press-releases/statutory-panel-chair-appointments-confirmed-fca-listing-authority-and-practitioner-panels",
+    "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
+    "https://www.fca.org.uk/news/press-releases/pension-firms-must-do-more-customers-older-pensions-fund-savings",
+    "https://www.fca.org.uk/news/statements/motor-finance-scheme-partially-suspended",
+    "https://www.fca.org.uk/news/press-releases/financial-regulator-simplify-investment-disclosure-regime",
+    "https://www.piie.com/blogs/realtime-economics/2026/fable-mythos-saga-ad-hoc-us-ai-model-controls-could-help-china",
+    "https://www.piie.com/publications/working-papers/2026/effect-low-skill-immigration-restrictions-us-firms-and-workers",
+    "https://www.piie.com/blogs/realtime-economics/2026/firms-allowed-hire-immigrant-manual-laborers-expand-hire-more",
+    "https://www.piie.com/commentary/op-eds/2026/americas-future-post-american-world-economy",
+    "https://www.piie.com/blogs/realtime-economics/2026/americas-been-arguing-over-trade-more-250-years"
+  ]
+}
