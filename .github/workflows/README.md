@@ -7,7 +7,7 @@ Desde noviembre de 2026 el Diario se arma y se publica solo desde GitHub, sin de
 
 | Archivo | Cuándo corre | Qué hace |
 |---|---|---|
-| `diario.yml` | Todos los días a las 05:13 de Argentina, con reintentos a las 07:13 y 10:13; también a mano | Corre las pruebas, arma la edición del día y la sube a GitHub; Cloudflare Pages la publica en daily.lagrancrisis.com. Los reintentos corren solo si la edición de hoy no se publicó. Los dos primeros intentos publican solo una edición completa; el último publica lo que haya. Guarda los registros 30 días. |
+| `diario.yml` | Todos los días a las 05:12 de Argentina, con reintentos a las 07:13 y 10:13; también a mano | Corre las pruebas, arma la edición del día y la sube a GitHub; Cloudflare Pages la publica en daily.lagrancrisis.com. Los reintentos corren solo si la edición de hoy no se publicó. Los dos primeros intentos publican solo una edición completa; el último publica lo que haya. Guarda los registros 30 días. |
 | `probar-gemini.yml` | Solo a mano | Dice si cada modelo de IA configurado responde hoy y qué modelos de Gemini ve la clave. No publica. |
 | `atrasadas.yml` | Solo a mano | Modo `prueba`: arma 5 fechas viejas con Gemini y con Claude, sin publicar, y deja el informe comparativo y una revisión a ciegas en la rama `resultados-prueba`. Modo `reproceso`: arma y publica todas las ediciones atrasadas (15/05 al 21/11/2026) en orden, relanzándose solo hasta terminar. |
 

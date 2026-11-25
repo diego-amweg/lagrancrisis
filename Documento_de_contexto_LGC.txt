@@ -1,106 +1,98 @@
 <contexto_fundacional>
+<!-- Diario de La Gran Crisis (daily.lagrancrisis.com). Actualizado: 25/11/2026. -->
 
   <memoria_semantica>
 
     <proyecto>
-      - Nombre: La Gran Crisis
-      - Dominio: lagrancrisis.com
+      - Nombre: La Gran Crisis — Diario
+      - Dominio: lagrancrisis.com · el Diario se publica en daily.lagrancrisis.com
       - Tagline: Los datos no entran en pánico
-      - Definición: Retrodiario web automatizado y estático de curación macroeconómica, financiera y política (AR y Global) con validación estricta de fuentes.
+      - Definición: Diario web automatizado y estático de curación macroeconómica, financiera y política
+        (Argentina y global), armado solo con hechos de las fuentes y con validación estricta.
+      - Repositorio: https://github.com/diego-amweg/lagrancrisis (público)
+      - Los demás productos de La Gran Crisis se trabajan en sus propios chats; este documento es solo del Diario.
     </proyecto>
 
     <hipotesis_arquitectura>
-      - Validada: Infraestructura 100% gratuita, asíncrona y estática. Resistencia alta a fallos con costos operativos cercanos a cero.
+      - Validada (nov-2026): el Diario se arma y publica solo, sin depender de la PC del usuario.
+      - Ya no es "costo cero": la IA es de pago (Claude y Gemini con facturación activa).
+        Costo medido en la prueba del 23/11: ~USD 0,21 por edición con Claude Haiku 5.5
+        (USD 1,05 por 5 días; Gemini 2.5 flash-lite costó USD 2,78 por los mismos 5 días).
+        El costo de cada corrida queda en el resumen de la corrida en GitHub.
     </hipotesis_arquitectura>
 
     <stack_tecnologico>
-      - Scraping y lógica: Python (feedparser, requests)
-      - LLM: Gemini 2.5 flash-lite primario, fallback a Gemini 2.5 flash
-      - Templating: Jinja2 3.1.6
-      - Dependencias actualizadas (30/04/2026): feedparser 6.0.12, google-genai 1.74.0,
-        Jinja2 3.1.6, cryptography 47.0.0, pydantic 2.13.3, python-dotenv 1.2.2,
-        tzdata 2026.2, certifi 2026.4.22, grpcio-status 1.80.0, google-auth 2.50.0
-      - isort 8.0.1 instalado en venv y fijado en requirements.txt
-      - Publicación: docs estático + GitHub Pages
-      - Runtime local operativo:
-        - modo intradía (--accumulate)
-        - modo cierre (--close)
-        - locks por modo
-        - logs separados por modo
-      - Orquestación editorial activa:
-        - Paso A factual
-        - Paso B Redactor + Editor por chunks
-        - Paso D síntesis global
-        - Paso E Juez
-      - Hardening LLM:
-        - parser robusto (objeto/lista, saneo, quote repair)
-        - reparación JSON automática post-falla de parseo
-        - métrica crítica: llm_json_parse_unrecovered_total
-        - métricas observacionales: parse total, repair attempts, repair success
-      - Observabilidad operativa:
-        - pipeline_metrics diario
-        - daily_review diario
-        - health_check diario de outputs
-        - intraday_guard horario (frescura + códigos de rechazo scheduler)
-      - Automatización local Task Scheduler:
-        - LGC-IntradayAccumulate
-        - LGC-DailyClose
-        - LGC-Review (05:30)
-        - LGC-UpdateHoja (05:35)
-        - LGC-HealthCheck
-        - LGC-IntradayGuard
-        - LGC-PostCloseSchedulerAudit (07:00, diaria)
-      - Ajustes de estabilidad scheduler:
-        - ejecución permitida en batería
-        - no detener al pasar a batería
-        - start when available
-      - Gestión documental reciente:
-        - placeholders de faltante documentado para 2026-04-25 y 2026-04-26
-        - índice con etiqueta visual Faltante documentado
-      - Separación visual Argentina / Internacional (30/04/2026):
-        - Campo is_argentina propagado en 4 puntos de main.py (builder functions)
-        - _is_argentina_article() infiere por source_category, URL (.com.ar, .gob.ar) y source_name
-        - template diario.html.j2 dividido en dos <section class="news-group">:
-            Argentina: {% for item in noticias_destacadas if item.is_argentina %}
-            Internacional: {% for item in noticias_destacadas if not item.is_argentina %}
-        - builder.py: _enrich_is_argentina() como fallback on-the-fly para data.json viejos
-          (infiere por URL y tokens estrictos de source_name; evita falsos positivos de medios)
-        - CSS: columnas aplicadas por .news-group (no en .news-feed global)
-          .news-group + .news-group separado con border-top: 3px double + margin
-          .news-group > h2 con column-span: all
-          look-financial y look-historic corregidos para apuntar a .news-group
-        - Re-render masivo de los 28 días de abril 2026 con nuevo template (28/28 OK)
-      - Ingesta RSS (fetch_rss.py):
-        - Normalización UTC-aware: _to_utc() evita recortes por comparación naive/aware
-        - max_entries_per_source configurable (default 40); antes fijo en 10
-        - hours_back configurable vía LGC_FEED_HOURS_BACK (default 48h)
-        - max entries vía LGC_FEED_MAX_ENTRIES_PER_SOURCE (default 40)
-        - Helper _get_env_int() con fallback seguro en main.py
-      - Fuentes argentinas (sources.json) — URLs corregidas (30/04/2026):
-        - El Cronista: finanzas.xml (42 entries)
-        - La Nación Economía: arc/outboundfeeds/rss/category/economia (98 entries)
-        - Infobae Economía: arc/outboundfeeds/rss/category/economia (100 entries)
-        - Perfil Economía: /feed/economia (70 entries)
-        - BCRA / Casa Rosada / MinEconomía → argentina.gob.ar/rss.xml
-        - INDEC y Boletín Oficial: pendiente (sirven HTML, no RSS válido)
-      - Parser de fechas (fetch_rss.py + backfill_april_2026.py):
-        - Regex "DD de Mes de YYYY" y "Mes YYYY" para feeds sin metadatos (ej. FIEL)
-        - Eliminado fallback datetime.now() para FIEL (evitaba fechas falsas)
+      - Lenguaje: Python 3.13. Plantillas: Jinja2 3.1.6.
+      - Dependencias principales: feedparser 6.0.12, requests 2.32.3, google-genai >=1.74,
+        anthropic >=2.12 (sin parámetro temperature), RapidFuzz 3.14.5, python-dotenv 1.2.2.
+      - Fuentes RSS: src/sources.json (Argentina: 5 oficiales + 7 medios; global: 12 oficiales).
+        Ventana de 48 h (LGC_FEED_HOURS_BACK), hasta 40 noticias por fuente
+        (LGC_FEED_MAX_ENTRIES_PER_SOURCE), corte de 30 s por fuente que no responde (LGC_FEED_TIMEOUT_SECONDS).
+      - Recorrido de una edición: descarga RSS → quitar duplicados → clasificar y filtrar → IA → página → publicar.
+        - Paso A: extracción de hechos (de a 30 noticias)
+        - Paso B: redactor + editor (de a 18)
+        - Paso C: autocorrección
+        - Paso D: resumen ejecutivo del día
+        - Paso E: juez
+      - Modelos de IA (src/llm.py), en orden de uso:
+        1. claude-haiku-5-5 (redactor principal)
+        2. gemini-2.5-flash-lite (respaldo)
+        3. gemini-2.5-flash (segundo respaldo)
+        Juez: claude-haiku-5-5. Se cambian sin tocar código con las variables LGC_MODELS y LGC_JUDGE_MODELS.
+      - Antes de procesar, el sistema prueba qué modelos responden y usa solo esos.
+        Si un modelo devuelve error de clave, permiso, cuota o modelo inexistente (400/401/403/404/429),
+        se deja de usar en esa corrida y pasa al siguiente. Si está saturado (503), reintenta con espera.
+        El texto de un error de la IA nunca se publica.
+      - Publicación: el proceso guarda la edición en docs/ dentro de GitHub; Cloudflare Pages la publica.
+      - Automatización (GitHub Actions, carpeta .github/workflows):
+        - diario.yml "Diario - edición diaria": tres intentos por día, 05:12, 07:13 y 10:13 de Argentina.
+          Cada intento corre solo si la edición de hoy todavía no está publicada.
+          Los dos primeros publican solo una edición completa; el tercero publica lo que haya salido.
+          Antes de armar corre las pruebas automáticas (20 pruebas); si fallan, no publica.
+          También se corre a mano desde Actions ("Run workflow"), con fecha y opción de publicar.
+        - atrasadas.yml "Diario - ediciones atrasadas": modo prueba (compara modelos, no publica)
+          y modo reproceso (arma y publica las fechas pendientes, se relanza solo si no terminó).
+        - probar-gemini.yml: diagnóstico de qué modelos responden.
+      - Disparador externo: los horarios propios de GitHub no son confiables (llegaron ~11 h tarde o no
+        corrieron). Un Worker de Cloudflare (diario-disparador.diegojamweg.workers.dev, código en
+        cloudflare/disparador-diario.js) le pide a GitHub las tres corridas a las 08:12, 10:13 y 13:13 UTC.
+        Si los dos mecanismos corren, el segundo ve la edición publicada y no hace nada.
+      - Secretos en GitHub (Settings > Secrets and variables > Actions):
+        GEMINI_API_KEY, ANTHROPIC_API_KEY, INSUMOS_CLAVE.
+        Secreto en Cloudflare: GITHUB_TOKEN (token de GitHub de permisos finos, solo este repositorio,
+        Actions lectura y escritura, sin vencimiento).
+      - Ramas auxiliares de GitHub:
+        - insumos-atrasadas: noticias guardadas de 15/05 a 21/11, cifradas (el repo es público y la
+          política legal no permite republicar el texto de los medios). Se puede borrar al terminar las atrasadas.
+        - resultados-prueba: resultados de la prueba de modelos y la revisión a ciegas.
+      - Herramientas de revisión (scripts/): check_gemini.py (qué modelos responden), resumen_corrida.py
+        (tabla de la corrida con costo), edicion_completa.py, reprocesar_atrasadas.py, comparar_prueba.py.
+      - Separación Argentina / Internacional: sigue vigente (is_argentina, dos secciones en la plantilla).
+      - Ya no se usa: Windows Task Scheduler ni el acumulado intradía en la PC (tareas LGC-* borradas el 22/11).
     </stack_tecnologico>
 
     <directrices_editoriales>
-      - Anti-ruido estricto
-      - Síntesis causal Top-Down y Bottom-Up
-      - Cero alucinación: solo hechos de RSS procesado
-      - Español obligatorio
-      - Continuidad narrativa entre días
-      - Summary por noticia 500-1000 caracteres
-      - Cobertura forzada del universo no-ruido
+      - Anti-ruido estricto. Cero alucinación: solo hechos que están en la fuente.
+      - Español obligatorio. Lo que no se pudo pasar al español no se publica.
+      - Continuidad entre días: cada edición lee el resumen del día anterior.
+      - Reglas vigentes desde el 23/11/2026:
+        - El resumen de cada noticia tiene el largo de sus hechos: hasta 700 caracteres, sin mínimo.
+        - Prohibido rellenar. Prohibidas las frases sobre la propia noticia o sobre el sistema
+          ("esta nota informa…", "no hay más datos…").
+        - Prohibidas las conclusiones o interpretaciones que la fuente no dice.
+        - No se publican noticias que no dicen nada: solo título, sin texto propio y sin ningún dato
+          en el título (una fecha o un año no cuentan como dato).
+        - No se publican noticias con fecha posterior a la de la edición.
+        - Resumen ejecutivo: hasta 900 caracteres, sin relleno.
+      - Reemplaza la regla anterior "summary de 500 a 1000 caracteres" (generaba relleno).
     </directrices_editoriales>
 
     <restricciones_legales>
-      - Prohibido asesoramiento financiero
-      - Solo información factual verificada
+      - Prohibido asesoramiento financiero.
+      - Solo información factual verificada.
+      - No republicar texto de los medios (LEGAL_SOURCES.md); por eso los insumos guardados van cifrados.
+      - Fuentes con interés comercial: señalarlo. Claude evaluó a Claude en la prueba de modelos:
+        conflicto de interés declarado; la decisión se apoyó en la revisión a ciegas del usuario.
     </restricciones_legales>
 
   </memoria_semantica>
@@ -108,93 +100,87 @@
   <memoria_episodica>
 
     <fases_del_mvp>
-      - Fase 1: completada (pipeline local funcional)
-      - Fase 1-bis: completada (cobertura/español/métricas/hardening)
-      - Fase 1-ter: completada (robustez parseo + debug hygiene)
-      - Fase 2: en curso (validación local pre-Actions con monitoreo automático)
-      - Fase 3: pendiente (GitHub Actions)
+      - Fase 1, 1-bis y 1-ter: completadas (pipeline local, cobertura, español, robustez).
+      - Fase 2 (validación local en la PC): cerrada en nov-2026, reemplazada por la Fase 3.
+      - Fase 3 (publicación automática desde GitHub): en marcha desde el 25/11/2026.
+        Primera edición publicada sola por el disparador: 25/11 a las 05:22.
     </fases_del_mvp>
 
     <decisiones_tomadas>
-      - Se consolidó operación local con acumulado intradía + cierre único diario.
-      - Se corrigieron tareas locales y se eliminaron rechazos por condiciones de energía.
-      - Se agregó guardia horaria de intradía para detección temprana.
-      - Se implementó health check diario automático de artefactos esperados.
-      - Se automatizó revisión diaria y actualización de hoja operativa.
-      - Se auditó raw vs docs para 24-27/04:
-        - 24 y 27 válidos
-        - 25 y 26 faltante documentado (sin reconstrucción artificial)
-      - Se actualizó índice para mostrar etiqueta de faltante documentado.
-      - Se endureció KPI operativo de parse:
-        - crítico: no recuperados
-        - observacional: parse total
-      - Validación reciente:
-        - corrida controlada exitosa con:
-          - llm_json_parse_failures_total > 0
-          - llm_json_parse_unrecovered_total = 0
-          - checklist diario 10/10 OK
-      - Sesión 30/04/2026 — Auditoría completa del repositorio:
-        - Diagnóstico: is_argentina MISSING en data.json pre-existentes → fallback en builder OK
-        - Diagnóstico: CSS multicolumna en .news-feed desdibujaba el corte de secciones → movido a .news-group
-        - Diagnóstico: isort no instalado en venv → instalado + fijado en requirements.txt
-        - Auditoría imports src/: 6 archivos corregidos por isort (solo orden, sin cambios funcionales)
-        - Auditoría tareas Windows: 7 LGC-* todas en Ready, LastResult vacío (primer día del Operational log)
-        - Auditoría outputs 28/28: todos con index.html + data.json presentes
-        - Auditoría HTML 28/28: todas las páginas con secciones Argentina + Internacional
-        - CSS static/ ↔ docs/static/ sincronizados (MD5 idéntico)
-        - Dependencias actualizadas (ver stack_tecnologico)
-      - Sesión 30/04/2026 — Diagnóstico y corrección de fuentes argentinas:
-        - Causa raíz: 7 de 12 endpoints RSS argentinos devolvían 404 o 0 entries.
-        - Resultado anterior: solo entraba Ámbito Financiero (~10 artículos/día).
-        - URLs corregidas en sources.json (detalle en stack_tecnologico).
-        - Backfill histórico #1 abril 2026: 23/23 días OK con pipeline LLM completo.
-        - Backfill histórico #2 abril 2026: 27/27 días OK con fuentes corregidas.
-        - Corrida de prueba 30/04: 154 descargadas → 146 publicadas, cobertura 94.81%.
-        - Parser de fechas mejorado para feeds sin metadatos (FIEL y similares).
-        - Ajuste de producción: ingesta UTC-aware, max 40 entries/fuente, ventana 48h.
+      - Abril 2026 (resumen): backfill de abril 27/27, fuentes argentinas corregidas, separación
+        Argentina/Internacional, 25 y 26/04 como faltante documentado.
+      - 21/11/2026: se retoma el Diario; objetivo: que se publique solo desde GitHub, sin la PC.
+        Se decide publicar las 101 ediciones que la PC había armado y no publicado, reprocesadas.
+      - 22/11/2026:
+        - Reintentos del mismo día, solo si falla (tres intentos).
+        - Si falla un modelo, se pasa a otro; antes de procesar se prueba qué modelos responden.
+        - Se borran todas las tareas programadas LGC-* de la PC.
+        - Se activa la facturación de Gemini.
+        - Prueba Gemini contra Claude con noticias reales de 5 días.
+        - Se recuperan los días capturados sin edición: 80 reconstruidos del acumulado por hora
+          (solo artículos anteriores a las 05:00 y de las 48 h previas). Total a reprocesar: 181 fechas.
+      - 23/11/2026:
+        - Claude Haiku 5.5 pasa a ser el redactor principal y el juez; Gemini queda de respaldo.
+          Base de la decisión:
+          - revisión a ciegas del usuario: marcó 4 de 20 noticias de Claude y 18 de 20 de Gemini;
+          - medición automática de cifras sin respaldo: 1,5 % en Claude, 3,7 % en Gemini;
+          - costo de los 5 días: USD 1,05 Claude, USD 2,78 Gemini.
+        - Nuevas reglas editoriales (ver directrices_editoriales).
+        - Se lanza el reproceso de las 181 fechas.
+      - 24/11/2026: GitHub no corre sus horarios a tiempo → se crea el disparador en Cloudflare.
+        Reproceso terminado: 0 fallidas, 0 pendientes.
+      - 25/11/2026:
+        - Primera publicación automática vía disparador (05:22).
+        - Revisión de 184 ediciones nuevas: no hay textos del sistema publicados (16 coincidencias eran
+          contenido legítimo; 2 frases interpretativas menores).
+        - Se limpia la edición del 22/11 (89 → 87 noticias).
+        - Se borra el 21/08 (había salido incompleto) para volver a armarlo una vez con el reproceso.
     </decisiones_tomadas>
 
+    <estado_ediciones>
+      - Desde el 15/05/2026 hay edición publicada todos los días, salvo:
+        - 21/08: pendiente de volver a armar (correr "Diario - ediciones atrasadas" en modo reproceso).
+        - 10 días sin noticias capturadas (la PC no capturó nada): 15, 16 y 17/08; 19 y 27/09;
+          04, 11 y 21/10; 09 y 14/11. No tienen edición ni marca de "faltante documentado".
+      - 31/08 figura como faltante documentado: solo 12 noticias, por debajo del mínimo de 15 para armar edición.
+    </estado_ediciones>
+
     <proximo_hito>
-      - Completar 3 días consecutivos de cierre local exitoso post-hardening.
-      - Validar estabilidad de:
-        - locks
-        - scheduler
-        - health_check
-        - intraday_guard
-      - Recién después activar GitHub Actions con cron 05:00 ART + test de summaries obligatorio.
+      - Confirmar que el 21/08 quedó bien armado después del reproceso.
+      - Ver una semana de publicaciones automáticas seguidas sin intervención.
+      - Decidir (pendiente del usuario) si los 10 días sin captura llevan la marca de faltante documentado.
+      - Decidir (pendiente del usuario) qué reemplaza a la revisión diaria y a la hoja operativa,
+        que corrían en la PC y se apagaron el 22/11. Hoy el control es el resumen de cada corrida en GitHub.
+      - Borrar la rama insumos-atrasadas cuando no queden atrasadas.
     </proximo_hito>
 
     <solucion_de_problemas_comunes>
-      - Si una tarea intradía no corre:
-        - revisar estado de tareas LGC
-        - revisar intraday.lock (stale lock)
-        - revisar intraday.log
-        - validar intraday_guard en logs/health
-      - Si falla parseo LLM:
-        - revisar parse_unrecovered (crítico)
-        - revisar debug_response y failed responses en raw/YYYY-MM-DD/debug
-        - no bloquear operación por parse recuperado
-      - Si falta publicación diaria:
-        - correr health_check
-        - revisar close.log y artefactos en raw/docs del día
-        - registrar incidente en hoja operativa
-      - Si las secciones Argentina/Internacional no se ven separadas en el HTML:
-        - verificar que .news-feed no tenga column-count (solo .news-group lo tiene)
-        - ejecutar re-render: python -c "from src.builder import render_daily_page; ..."
-        - si data.json no tiene is_argentina: _enrich_is_argentina() en builder lo infiere automáticamente
-        - si falsos positivos en Argentina (noticias internacionales mal clasificadas):
-          revisar tokens de source_name en _enrich_is_argentina y fuentes sin .com.ar en URL
-      - Si una fuente argentina no aparece en raw.json:
-        - verificar URL con requests.get(url, timeout=30) + feedparser.parse()
-        - revisar status HTTP y len(feed.entries)
-        - comparar contra tabla de URLs activas en stack_tecnologico
-        - si devuelve 0 entries con 200 OK: el sitio sirve HTML (ej. INDEC), no tiene solución directa sin scraping
-        - actualizar sources.json con URL activa y relanzar
-      - Si el volumen por día es bajo (< 30 artículos con todas las fuentes activas):
-        - verificar LGC_FEED_MAX_ENTRIES_PER_SOURCE (default 40)
-        - verificar LGC_FEED_HOURS_BACK (default 48)
-        - revisar si alguna fuente nueva expiró o cambió su endpoint
+      - Si hoy no salió la edición:
+        - En GitHub > Actions > "Diario - edición diaria", ver si hubo corridas hoy y en qué paso falló.
+        - Si no hubo ninguna corrida: revisar el disparador en Cloudflare (Workers > diario-disparador >
+          registros) y que el token GITHUB_TOKEN siga vigente.
+        - Para forzarla: "Run workflow" con "publicar" marcado.
+      - Si una corrida falla por la IA: correr "probar-gemini" y ver qué modelos responden y por qué
+        (sin clave, sin cuota, sin acceso, saturado).
+      - Si en una edición aparece texto del sistema o un mensaje de error: no debería pasar
+        (hay pruebas que lo impiden); avisar y revisar src/main.py (_strip_meta_sentences).
+      - Si una fuente deja de aparecer: probar su URL; si el sitio sirve HTML en vez de RSS (INDEC,
+        Boletín Oficial) no hay arreglo sin scraping dedicado, fuera del alcance actual.
+      - Si el volumen del día es bajo: revisar LGC_FEED_MAX_ENTRIES_PER_SOURCE y LGC_FEED_HOURS_BACK,
+        y si alguna fuente cambió de dirección.
+      - Si las secciones Argentina/Internacional no se ven separadas: la columna va en .news-group, no en .news-feed.
     </solucion_de_problemas_comunes>
+
+    <lecciones_aprendidas>
+      - Los horarios de GitHub Actions no son confiables para una hora fija: hace falta un disparador externo.
+      - Un error de la IA llegó a publicarse como resumen de noticia: ahora el texto del error queda fuera
+        de lo publicado y hay pruebas automáticas que lo controlan.
+      - Una fuente que no responde podía colgar la corrida: ahora hay corte por tiempo.
+      - Exigir un largo mínimo hacía que la IA rellenara: se eliminó el mínimo.
+      - El resumen de respaldo sin IA inventaba contexto: ahora usa un texto neutro.
+      - Instrucciones de pantallas: si Claude no ve la pantalla, pide una captura antes de dar pasos y usa
+        los nombres de menú en el idioma en que los ve el usuario (las de Cloudflare del 24/11 fueron malas).
+    </lecciones_aprendidas>
 
   </memoria_episodica>
 
