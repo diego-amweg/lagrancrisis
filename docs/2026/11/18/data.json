@@ -1,0 +1,532 @@
+{
+  "date": "2026-11-18",
+  "cadena_de_razonamiento": "La presión externa (avance del VIX y alza de los rendimientos del Tesoro de EEUU) explica la suba de los dólares financieros y la ampliación de la brecha cambiaria. La compra de u$s317 millones del Tesoro al BCRA y las compras previstas de divisas para vencimientos muestran que la acumulación de fondos sigue siendo el punto sensible para enero. Del lado político, la suspensión de las PASO podría dar aire al riesgo país si el Senado avanza la semana próxima. La desaceleración de la inflación mayorista y la licitación a 4,79% más UVA ubican la tasa en un escenario de absorción de pesos. En acciones, el balance de Nvidia y la IPO de Anthropic concentran el foco de volatilidad.",
+  "resumen_ejecutivo": "Los dólares financieros subieron y la brecha cambiaria se amplió, con presión del avance del VIX y del alza de los rendimientos de los bonos del Tesoro de EEUU. El riesgo país se ubicó en 854 puntos y el dólar oficial en el Banco Nación cerró en $1.575, mientras el MSCI Merval rebotó 2%. El Tesoro compró más de u$s317 millones al BCRA, aunque en la city advierten que los fondos no alcanzan para enero. Se prevén nuevas compras de divisas del BCRA y mayor demanda de pesos en diciembre. La licitación del BCRA recibió 33 posturas por $273.000 millones a una tasa promedio de 4,79% más UVA. La inflación mayorista se desaceleró a 1,6% en octubre. En Wall Street, las tecnológicas de IA atraviesan una corrección, y Nvidia superó expectativas en su balance sin definir sucesor de Jensen Huang.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Suben los dólares financieros y se amplía la brecha cambiaria",
+      "summary": "El avance del VIX y el rendimiento de los bonos del Tesoro de EEUU aceleraron la fuga de fondos en la región. La jornada tuvo mayor presión sobre las cotizaciones paralelas y hay dudas por el nivel de actividad local.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Dólar financiero",
+        "Brecha cambiaria",
+        "VIX"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/18/suben-los-dolares-financieros-y-se-amplia-la-brecha-mientras-un-indicador-global-enciende-las-alarmas-en-el-mercado",
+      "source_datetime": "2026-11-18T04:06:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "El Tesoro compró más de u$s317 millones al BCRA",
+      "summary": "El Tesoro compró más de u$s317 millones al BCRA, pero en la city advierten que los fondos no alcanzan para enero. Además, hay dudas sobre los dólares de 2027 por el alza del riesgo país.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Tesoro",
+        "BCRA",
+        "Riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/deuda-pese-otra-compra-al-bcra-el-tesoro-necesita-sumar-mas-dolares-llegar-enero-cuantos-le-faltan-n6346200",
+      "source_datetime": "2026-11-17T20:33:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Prevén compras de divisas del BCRA y más demanda de pesos en diciembre",
+      "summary": "El especialista prevé que el Banco Central comprará divisas para afrontar vencimientos de deuda y que diciembre traerá mayor demanda de pesos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "BCRA",
+        "Vencimientos de deuda"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-guru-del-blue-anticipo-el-dolar-de-fin-de-ano-y-dejo-una-recomendacion-clave-para-los-ahorristas-de-cara-a-2027",
+      "source_datetime": "2026-11-17T10:09:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Acciones y bonos argentinos resisten una rueda bajista de Wall Street",
+      "summary": "Indicadores de EEUU cedieron hasta 1,6% antes del balance de Nvidia. El MSCI Merval rebotó 2% y los bonos finalizaron mixtos, con riesgo país en 854 puntos. El dólar siguió a $1.575 en el Banco Nación y el BCRA compró USD 74 millones en el mercado.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "MSCI Merval",
+        "Riesgo país",
+        "Nvidia"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/17/las-acciones-y-los-bonos-argentinos-resistieron-a-una-rueda-bajista-de-wall-street",
+      "source_datetime": "2026-11-18T00:32:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Werning pone el foco en recuperar la actividad sin política expansiva",
+      "summary": "El vicepresidente del BCRA, Vladimir Werning, puso el foco en recuperar la actividad y advirtió sobre no volver a una política monetaria expansiva. Mencionó como principales desafíos el crédito, el ahorro doméstico y los precios relativos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "BCRA",
+        "Política monetaria",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-bcra-ve-que-el-crecimiento-es-ya-una-urgencia-economica-y-senala-que-la-carga-fiscal-es-el-problema-del-credito",
+      "source_datetime": "2026-11-17T20:28:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Morosidad de micropymes llega a 17,60%, más grave en gastronomía",
+      "summary": "La tasa de morosidad para las compañías de menor tamaño se ubica en 17,60%. La situación es más grave en gastronomía y construcción.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Micropymes",
+        "Morosidad",
+        "Crédito"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/18/mas-de-18000-micropymes-de-todo-el-pais-tienen-deudas-en-mora-cuanto-deben-y-cuales-son-las-regiones-mas-comprometidas",
+      "source_datetime": "2026-11-18T04:06:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "La inflación mayorista se desacelera al 1,6% en octubre",
+      "summary": "La inflación mayorista se desaceleró al 1,6% en octubre. El aumento se explicó por la suba de 1,6% en los productos nacionales, mientras que los importados avanzaron apenas 0,9%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación mayorista",
+        "Precios",
+        "Importados"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-inflacion-mayorista-se-desacelero-al-16-octubre-el-freno-del-aumento-del-petroleo-n6346291",
+      "source_datetime": "2026-11-17T21:05:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Cómo funcionó el amortiguador de precios de YPF con el petróleo",
+      "summary": "Un estudio comparó lo que pagaron los conductores con lo que habrían pagado si la nafta hubiera acompañado al barril. Lo pendiente para YPF y la evolución del crudo definen si habrá margen para una baja.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "YPF",
+        "Petróleo",
+        "Combustibles"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/18/como-funciono-el-amortiguador-de-precios-de-ypf-durante-la-disparada-del-petroleo-los-valores-en-el-surtidor-y-el-impacto-en-el-bolsillo",
+      "source_datetime": "2026-11-18T04:08:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Milei sostiene que Argentina paga décadas de defaults y controles",
+      "summary": "El Presidente sostuvo que la Argentina todavía paga el costo de décadas de defaults, controles y expropiaciones. Cuestionó a quienes reclaman devaluación, más gasto o mayor emisión y ratificó su plan económico.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Milei",
+        "Riesgo país",
+        "Plan económico"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/las-razones-de-milei-para-la-suba-del-riesgo-pais-apunto-contra-la-historia-financiera-argentina-y-ratifico-el-rumbo",
+      "source_datetime": "2026-11-17T21:28:16+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Jorge Macri pone en marcha el RIMI CABA para captar inversiones",
+      "summary": "Jorge Macri anunció la implementación de la ley del RIMI CABA aprobada en la Legislatura. La iniciativa contempla beneficios fiscales para inversiones productivas y está enfocada en sectores determinados. La Libertad Avanza cuestionó la falta de reconocimiento de la autoría a Pilar Ramírez.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "CABA",
+        "RIMI",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/jorge-macri-puso-marcha-el-rimi-caba-captar-inversiones-y-reactivar-la-actividad-miras-la-reeleccion-n6346245",
+      "source_datetime": "2026-11-17T19:59:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Tecnológicas de IA atraviesan corrección en medio de baja de Wall Street",
+      "summary": "Las acciones ligadas a la inteligencia artificial atraviesan una etapa de corrección en medio de una baja generalizada del mercado estadounidense. Se analizan compañías con fundamentos sólidos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Tecnológicas",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/tras-la-caida-las-tecnologicas-quedan-bajo-la-lupa-de-wall-street-cuales-miran-los-especialistas",
+      "source_datetime": "2026-11-17T20:12:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Licitación del BCRA recibe 33 posturas por $273.000 millones",
+      "summary": "En la licitación del BCRA hubo 33 posturas presentadas por un total de $ 273.000 millones, a una tasa promedio del 4,79% más UVA, por encima del 4,5% previsto.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "BCRA",
+        "Licitación",
+        "UVA"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/creditos-hipotecarios-siete-bancos-entraron-y-cinco-quedaron-afuera-en-la-licitacion-de-fondos-de-la-anses",
+      "source_datetime": "2026-11-17T19:34:33+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Spotorno evalúa el riesgo país y qué pasa si no es reelegido el Gobierno",
+      "summary": "El riesgo país está por encima de los 800 puntos, y Spotorno evaluó qué puede pasar si el Gobierno no es reelegido el año que viene.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Spotorno",
+        "Elecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/esta-fuera-de-contexto-spotorno-explico-por-que-sube-el-riesgo-pais-y-advirtio-que-puede-pasar-con-el-dolar-en-2027",
+      "source_datetime": "2026-11-17T18:02:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Nvidia y Anthropic: Wall Street sigue bajo fuego intenso",
+      "summary": "Wall Street sigue bajo fuego intenso y las tribulaciones de Nvidia no terminan. Se pregunta si la colocación de Anthropic podrá calmar al mercado.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Nvidia",
+        "Anthropic",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dialogos-wall-street-la-saga-nvidia-no-termina-podra-anthropic-calmar-al-mercado-n6346425",
+      "source_datetime": "2026-11-18T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Oficialismo impulsa suspender las PASO y apunta a aprobarlo en el Senado",
+      "summary": "El oficialismo impulsa la suspensión de las PASO. No consiguió dictamen ayer y volverá a intentarlo hoy, con el objetivo de aprobar la reforma política en el Senado la semana próxima.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS"
+      ],
+      "tags": [
+        "PASO",
+        "Reforma política",
+        "Senado"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/18/el-factor-politico-que-podria-darle-aire-al-riesgo-pais-y-que-el-mercado-ve-como-un-evento-positivo",
+      "source_datetime": "2026-11-18T04:08:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Plazo fijo en noviembre: las diferencias entre bancos pueden ser clave",
+      "summary": "Las diferencias entre los bancos pueden hacerse sentir en el bolsillo, por lo que vale la pena comparar antes de invertir.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Plazo fijo",
+        "Bancos",
+        "Ahorro"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/plazo-fijo-noviembre-banco-banco-cuales-pagan-mas-la-tercera-semana-del-mes-n6346188",
+      "source_datetime": "2026-11-17T21:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "La UIA presentó a Guberman propuestas para sumar competitividad industrial",
+      "summary": "La UIA entregó su propuesta a Carlos Guberman. Plantea acuerdos con provincias y municipios y un esquema gradual de seis años orientado a la creación de empleo registrado.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "UIA",
+        "Competitividad",
+        "Carga fiscal"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/18/las-6-claves-de-la-uia-los-industriales-presentaron-sus-propuestas-para-reducir-la-carga-fiscal-y-sumar-competitividad",
+      "source_datetime": "2026-11-18T04:07:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Toyota fabricará pickup híbrida con capacidad de 50.000 unidades anuales",
+      "summary": "La nueva instalación comenzará a producir en 2030 con capacidad inicial de hasta 50.000 unidades anuales. Al menos el 70% del volumen se destinará a la exportación.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Toyota",
+        "Pickup híbrida",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/18/toyota-confirmo-cuanto-invertira-para-fabricar-su-pickup-hibrida-la-medida-del-gobierno-que-permitio-que-el-proyecto-se-concrete",
+      "source_datetime": "2026-11-18T04:07:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Nvidia supera expectativas en su balance y no define sucesor de Huang",
+      "summary": "El balance del tercer trimestre de 2026 de Nvidia superó las expectativas del mercado, y su guidance para el próximo período fue más optimista. La compañía descartó el regreso de Jensen Huang y no definió un sucesor.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Nvidia",
+        "Balance",
+        "Resultados",
+        "Jensen Huang",
+        "Acciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/nvidia-supero-una-prueba-clave-pero-continua-el-misterio-por-la-sucesion-de-jensen-huang",
+      "source_datetime": "2026-11-17T22:39:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Wall Street espera el balance de Nvidia y anticipa volatilidad",
+      "summary": "Se espera que hoy por la tarde se publique el balance de Nvidia, un evento clave en Wall Street esta semana. Los inversores anticipan volatilidad.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Nvidia",
+        "Balance",
+        "Volatilidad",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/los-inversores-se-preparan-para-el-balance-de-nvidia-y-anticipan-un-shock-de-volatilidad-en-el-mercado",
+      "source_datetime": "2026-11-17T15:34:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Anthropic sale a bolsa: la IPO fijará el valor de su negocio de IA",
+      "summary": "La IPO de Anthropic fijará el precio de las expectativas sobre su negocio de inteligencia artificial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Inteligencia artificial",
+        "Valuación"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/anthropic-sale-a-bolsa-cuanto-tiene-que-crecer-para-justificar-una-valuacion-de-hasta-us-14-billones",
+      "source_datetime": "2026-11-17T15:24:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "ANSES licitará plazos fijos y modifica créditos hipotecarios",
+      "summary": "El Gobierno aceptó una propuesta de la industria y los bancos sobre créditos hipotecarios con fondos de ANSES. Se pondrá en marcha la licitación de plazos fijos del Fondo de Garantía de Sustentabilidad de la ANSES, en la que se sumarían desarrolladores.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "ANSES",
+        "Créditos hipotecarios",
+        "Plazos fijos",
+        "Vivienda"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/creditos-hipotecarios-cambio-clave-de-anses-para-comprar-viviendas-disparara-las-obras-nuevas",
+      "source_datetime": "2026-11-17T08:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Cómo se opera en acciones del Reino Unido: una visión completa",
+      "summary": "Las firmas pueden elegir dónde y cómo operan en el mercado actual. Un análisis previo halló que esta competencia beneficia a las firmas en mercados mayoristas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Reino Unido",
+        "Acciones",
+        "Trading",
+        "Mercados mayoristas"
+      ],
+      "is_argentina": false,
+      "source_name": "FCA News",
+      "source_url": "https://www.fca.org.uk/news/blogs/getting-full-picture-trading-uk-shares",
+      "source_datetime": "2026-11-17T10:12:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.infobae.com/economia/2026/11/18/suben-los-dolares-financieros-y-se-amplia-la-brecha-mientras-un-indicador-global-enciende-las-alarmas-en-el-mercado",
+    "https://www.ambito.com/economia/deuda-pese-otra-compra-al-bcra-el-tesoro-necesita-sumar-mas-dolares-llegar-enero-cuantos-le-faltan-n6346200",
+    "https://www.cronista.com/finanzas-mercados/el-guru-del-blue-anticipo-el-dolar-de-fin-de-ano-y-dejo-una-recomendacion-clave-para-los-ahorristas-de-cara-a-2027",
+    "https://www.infobae.com/economia/2026/11/17/las-acciones-y-los-bonos-argentinos-resistieron-a-una-rueda-bajista-de-wall-street",
+    "https://www.cronista.com/finanzas-mercados/el-bcra-ve-que-el-crecimiento-es-ya-una-urgencia-economica-y-senala-que-la-carga-fiscal-es-el-problema-del-credito",
+    "https://www.infobae.com/economia/2026/11/18/mas-de-18000-micropymes-de-todo-el-pais-tienen-deudas-en-mora-cuanto-deben-y-cuales-son-las-regiones-mas-comprometidas",
+    "https://www.ambito.com/economia/la-inflacion-mayorista-se-desacelero-al-16-octubre-el-freno-del-aumento-del-petroleo-n6346291",
+    "https://www.infobae.com/economia/2026/11/18/como-funciono-el-amortiguador-de-precios-de-ypf-durante-la-disparada-del-petroleo-los-valores-en-el-surtidor-y-el-impacto-en-el-bolsillo",
+    "https://www.cronista.com/finanzas-mercados/las-razones-de-milei-para-la-suba-del-riesgo-pais-apunto-contra-la-historia-financiera-argentina-y-ratifico-el-rumbo",
+    "https://www.ambito.com/economia/jorge-macri-puso-marcha-el-rimi-caba-captar-inversiones-y-reactivar-la-actividad-miras-la-reeleccion-n6346245",
+    "https://www.cronista.com/finanzas-mercados/tras-la-caida-las-tecnologicas-quedan-bajo-la-lupa-de-wall-street-cuales-miran-los-especialistas",
+    "https://www.cronista.com/finanzas-mercados/creditos-hipotecarios-siete-bancos-entraron-y-cinco-quedaron-afuera-en-la-licitacion-de-fondos-de-la-anses",
+    "https://www.cronista.com/finanzas-mercados/esta-fuera-de-contexto-spotorno-explico-por-que-sube-el-riesgo-pais-y-advirtio-que-puede-pasar-con-el-dolar-en-2027",
+    "https://www.ambito.com/economia/dialogos-wall-street-la-saga-nvidia-no-termina-podra-anthropic-calmar-al-mercado-n6346425",
+    "https://www.infobae.com/economia/2026/11/18/el-factor-politico-que-podria-darle-aire-al-riesgo-pais-y-que-el-mercado-ve-como-un-evento-positivo",
+    "https://www.ambito.com/economia/plazo-fijo-noviembre-banco-banco-cuales-pagan-mas-la-tercera-semana-del-mes-n6346188",
+    "https://www.infobae.com/economia/2026/11/18/las-6-claves-de-la-uia-los-industriales-presentaron-sus-propuestas-para-reducir-la-carga-fiscal-y-sumar-competitividad",
+    "https://www.infobae.com/economia/2026/11/18/toyota-confirmo-cuanto-invertira-para-fabricar-su-pickup-hibrida-la-medida-del-gobierno-que-permitio-que-el-proyecto-se-concrete",
+    "https://www.cronista.com/finanzas-mercados/nvidia-supero-una-prueba-clave-pero-continua-el-misterio-por-la-sucesion-de-jensen-huang",
+    "https://www.cronista.com/finanzas-mercados/los-inversores-se-preparan-para-el-balance-de-nvidia-y-anticipan-un-shock-de-volatilidad-en-el-mercado",
+    "https://www.cronista.com/finanzas-mercados/anthropic-sale-a-bolsa-cuanto-tiene-que-crecer-para-justificar-una-valuacion-de-hasta-us-14-billones",
+    "https://www.cronista.com/finanzas-mercados/cambia-el-presidente-de-uno-de-los-mercados-mas-importantes-del-pais-quien-sera-su-nuevo-numero-uno",
+    "https://www.cronista.com/finanzas-mercados/creditos-hipotecarios-cambio-clave-de-anses-para-comprar-viviendas-disparara-las-obras-nuevas",
+    "https://www.fca.org.uk/news/blogs/getting-full-picture-trading-uk-shares"
+  ]
+}
