@@ -1,0 +1,865 @@
+{
+  "date": "2026-11-16",
+  "cadena_de_razonamiento": "La inflación es la principal tensión: el IPC de octubre se aceleró 0,4 puntos hasta 2,2% y JP Morgan proyecta 31% para 2026. Kiguel y Melconian cuestionan la capacidad del Gobierno para desinflar. La brecha entre el dólar oficial y las cotizaciones financieras se amplía porque el tipo de cambio se atrasa en términos reales. El petróleo superó a la soja como principal exportación (USD 7.753 millones entre enero y septiembre) y la caída del oro restó valor a las reservas del BCRA. En Wall Street, las tensiones por Nvidia e inflación dieron paso a una recuperación parcial.",
+  "resumen_ejecutivo": "La agenda macro combina presión inflacionaria con un tipo de cambio que se retrasa en términos reales. El IPC de octubre se aceleró a 2,2% y JP Morgan proyecta 31% para 2026 y 23% para 2027. Miguel Kiguel advierte que el Gobierno subestimó la inercia de precios, y Carlos Melconian descarta que pueda bajarla. La brecha entre el dólar oficial y las cotizaciones financieras se amplía, en un contexto de riesgo país al alza. En el frente externo, el petróleo desplazó a la harina de soja como principal exportación, mientras la caída del oro redujo el valor en dólares de las reservas del BCRA. La actividad sigue estancada, las consultoras muestran dudas y la suba de tasas complica el panorama de la economía mundial.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "El oro cayó desde su pico de enero y resta valor a las reservas del BCRA",
+      "summary": "El valor internacional del oro tuvo un pico en enero y luego se derrumbó. Las tenencias del Banco Central no variaron, pero su valor en dólares sufrió un retroceso importante.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Oro",
+        "Reservas",
+        "Banco Central"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/14/la-baja-del-precio-del-oro-le-resto-mas-de-usd-1800-millones-a-las-reservas-del-banco-central-desde-su-maximo-del-ano",
+      "source_datetime": "2026-11-14T17:13:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Wall Street sufrió tensiones por Nvidia, inflación y financiamiento de la IA",
+      "summary": "La Bolsa estadounidense atravesó una semana de tensiones por el escándalo de Nvidia, las dudas sobre el financiamiento de la inteligencia artificial y el repunte de la inflación. El mercado logró recuperar terreno y hay expectativas puestas en la salida a Bolsa de Anthropic.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "TASAS"
+      ],
+      "tags": [
+        "Wall Street",
+        "Nvidia",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/wall-street-sufrio-nvidia-la-inflacion-y-las-tasas-largas-pero-ya-esta-lista-retomar-los-records-la-mano-anthropic-n6345464",
+      "source_datetime": "2026-11-16T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "JP Morgan proyecta inflación de 31% para 2026 y 23% para 2027",
+      "summary": "El banco global proyecta que el IPC cierre 2026 en 31%, casi igual que en 2025, y calcula un 23% para 2027. Los aumentos de tarifas dificultan una desaceleración más marcada.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "JP Morgan",
+        "Inflación",
+        "Proyecciones"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/jp-morgan-preve-que-la-inflacion-llegue-a-las-elecciones-cerca-del-2-mensual-y-dejo-una-advertencia-nid15112026",
+      "source_datetime": "2026-11-15T22:58:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Crece la brecha entre el dólar oficial y las cotizaciones financieras",
+      "summary": "La brecha entre el dólar oficial y las cotizaciones financieras se amplía. En 2026 bajaron los precios de acciones y bonos y subió el índice de riesgo país, pero el tipo de cambio no acompañó y se atrasa en términos reales.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Brecha cambiaria",
+        "Riesgo país",
+        "Tipo de cambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/16/por-que-crece-la-brecha-entre-el-dolar-oficial-y-las-cotizaciones-financieras",
+      "source_datetime": "2026-11-16T05:47:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Dólar blue, MEP y CCL: cotización del lunes 16 de noviembre",
+      "summary": "Se publica la cotización del dólar blue, MEP y CCL del lunes 16 de noviembre, con una referencia a la brecha cambiaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar blue",
+        "Dólar MEP",
+        "Dólar CCL"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-este-lunes-16-de-noviembre-con-el-mep-y-el-ccl",
+      "source_datetime": "2026-11-16T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Melconian descartó que el Gobierno pueda bajar la inflación",
+      "summary": "Carlos Melconian descartó que el Gobierno pueda bajar la inflación y cuestionó el margen de la gestión para desacelerar los precios sin resignar actividad ni estabilidad cambiaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación",
+        "Melconian",
+        "Estabilidad cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/queda-el-proximo-carlos-melconian-descarto-que-el-gobierno-pueda-bajar-la-inflacion-n6345314",
+      "source_datetime": "2026-11-14T22:51:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Venezuela encabeza el ranking de inflación anual con 456,6%",
+      "summary": "Siete países tienen inflación anual superior al 20%. El ranking lo encabeza con 456,6% Venezuela. Guerras, sanciones y monedas en caída libre explican guarismos de ese nivel.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inflación internacional",
+        "Venezuela",
+        "Ranking"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/siete-paises-en-el-mundo-tienen-una-inflacion-anual-superior-al-20-anual-cuales-son-y-cuantos-superan-a-la-argentina",
+      "source_datetime": "2026-11-15T17:58:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "JP Morgan y Goldman Sachs recortan hasta 33% precios objetivo de Nvidia",
+      "summary": "JP Morgan y Goldman Sachs recortaron hasta 33% sus precios objetivo sobre Nvidia. El balance se presenta el martes y el mercado buscará señales sobre márgenes, pedidos y financiamiento.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Nvidia",
+        "Precios objetivo",
+        "Balance"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/wall-street-le-baja-el-precio-a-nvidia-pero-no-se-baja-que-ven-cinco-bancos-antes-del-balance",
+      "source_datetime": "2026-11-15T09:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "10",
+      "headline": "Dólar oficial en bancos hoy: cotización del lunes 16 de noviembre",
+      "summary": "Se publica a cuánto cotiza el dólar oficial en bancos el lunes 16 de noviembre, junto con el valor del blue y la brecha cambiaria entre ambos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Bancos",
+        "Brecha cambiaria"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-oficial-a-cuanto-cotiza-en-los-bancos-hoy-lunes-16-de-noviembre",
+      "source_datetime": "2026-11-16T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "El mercado de futuros sobreestimó la devaluación oficial en 29 de 35 meses",
+      "summary": "El mercado de futuros sobreestimó la devaluación oficial en 29 de los últimos 35 meses. Las proyecciones de consultoras superaron mayormente al tipo de cambio realizado, salvo tras el ajuste inicial de diciembre de 2023 y enero de 2024.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Devaluación",
+        "Mercado de futuros",
+        "Tipo de cambio"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/11/15/el-mercado-de-futuros-sobreestimo-la-devaluacion-oficial-en-29-de-los-ultimos-35-meses",
+      "source_datetime": "2026-11-15T04:07:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Economista: el año cierra con macro sólida pero actividad estancada",
+      "summary": "El año cierra con una macro sólida, pero con la actividad estancada. Apunta al crédito en dólares como clave para la recuperación y descarta una turbulencia cambiaria como la de 2025.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Crédito en dólares",
+        "Macro"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/santiago-migone-exfuncionario-javier-milei-a-principios-ano-nadie-vio-venir-el-estancamiento-actual-n6345246",
+      "source_datetime": "2026-11-15T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "ARCA suspende embargos hasta mayo de 2027 y suma medidas para la actividad",
+      "summary": "Se anuncia la suspensión de embargos de ARCA hasta mayo de 2027. Las medidas incluyen facilidades para regularizar deudas, compensación de saldos a favor y financiamiento a la industria automotriz.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "ARCA",
+        "Embargos",
+        "Industria automotriz"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/03/economia-anuncio-la-suspension-de-embargos-de-arca-para-pymes-y-otras-tres-medidas-para-impulsar-la-actividad",
+      "source_datetime": "2026-11-15T20:03:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Advierten que el Gobierno subestimó la inercia de la inflación",
+      "summary": "La inflación presenta una fuerte inercia que dificulta su desaceleración. Hay dudas sobre las prioridades económicas del Gobierno y la recuperación deberá acelerarse para llegar a las elecciones de 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Prioridades económicas",
+        "Elecciones 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/miguel-kiguel-advirtio-que-el-gobierno-subestimo-la-inflacion-y-pidio-priorizar-la-actividad-economica-y-el-empleo-n6345408",
+      "source_datetime": "2026-11-15T14:53:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "El Gobierno subestimó la inercia de la inflación, según el análisis",
+      "summary": "El Gobierno subestimó la inercia de la inflación. Lo más importante hoy es la actividad, el empleo, el empleo formal y el riesgo país.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "Empleo",
+        "Riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/14/miguel-kiguel-no-se-si-hoy-las-preferencias-del-gobierno-son-las-mismas-que-tiene-la-sociedad",
+      "source_datetime": "2026-11-14T13:49:14+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Año electoral: meseta en la actividad y falta de crédito para los hogares",
+      "summary": "Los ingresos de los hogares sufren el encarecimiento diario y hay falta de crédito. La actividad general atraviesa una marcada meseta que limita la recuperación del gasto cotidiano de las familias.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Actividad",
+        "Crédito",
+        "Hogares"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/11/15/la-coyuntura-ante-el-ano-electoral",
+      "source_datetime": "2026-11-15T04:07:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Argentina, segundo país con mayor inflación de Latinoamérica en octubre",
+      "summary": "El 2,2% de octubre dejó al país nuevamente entre los de mayor aumento de precios de la región, sólo por detrás de Venezuela.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Inflación",
+        "Latinoamérica",
+        "Octubre"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/argentina-volvio-quedar-el-segundo-puesto-paises-mayor-inflacion-latinoamerica-n6345351",
+      "source_datetime": "2026-11-15T01:03:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "El IPC de octubre se aceleró 0,4 puntos y superó el 2% mensual",
+      "summary": "En octubre el IPC se aceleró 0,4 puntos porcentuales y volvió a superar el 2% mensual. Para los analistas la suba responde a factores internos, y el Gobierno está lejos de cumplir su objetivo de un dígito anual.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "IPC",
+        "Inflación",
+        "Octubre"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/inflacion-octubre-el-dato-que-sorprendio-a-casi-todos-y-la-distancia-que-persiste-con-los-parametros-internacionales",
+      "source_datetime": "2026-11-15T20:37:43+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Inflación nacional de octubre en 2,2% con fuerte dispersión provincial",
+      "summary": "El índice nacional de octubre marcó 2,2%. Los relevamientos de los institutos estadísticos propios muestran una fuerte dispersión entre jurisdicciones.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Inflación",
+        "Provincias",
+        "Octubre"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/14/cuales-fueron-las-provincias-con-mayor-inflacion-en-octubre-y-donde-subieron-menos-los-precios",
+      "source_datetime": "2026-11-14T22:52:12+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Proyecto para permitir siembra al costado de rutas suma apoyo de otros bloques",
+      "summary": "Un proyecto impulsado por el diputado nacional Javier Sánchez Wrba busca volver a permitir la siembra al costado de las rutas nacionales. Según su autor, la iniciativa sumaría más de 50.000 hectáreas a la producción agrícola y tiene apoyo de otros bloques. La comisión que debe tratarla no se reúne desde hace tres meses.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Agro",
+        "Congreso",
+        "Producción agrícola"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/el-pro-reclama-que-avance-un-proyecto-para-volver-a-permitir-la-siembra-al-costado-de-las-rutas-nid13112026",
+      "source_datetime": "2026-11-15T13:49:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Caen expectativas de crecimiento y se profundiza la pérdida de empleo formal",
+      "summary": "Caen las expectativas de crecimiento y se profundiza la pérdida de empleo formal. Aumenta la preocupación empresaria por la falta de demanda interna.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Empleo",
+        "Demanda interna"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/tras-la-visita-leon-xiv-la-vuelve-al-centro-la-escena-luces-rojas-la-actividad-y-el-empleo-n6345250",
+      "source_datetime": "2026-11-15T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "El petróleo superó a la soja como principal producto exportado en 2026",
+      "summary": "El petróleo superó a la soja como principal producto de exportación en 2026. Sus exportaciones crecieron 58% interanual y alcanzaron u$s7.753 millones de enero a septiembre. La soja lideraba el rubro desde 2002.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Petróleo",
+        "Soja"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/exportaciones-lo-que-va-del-2026-el-petroleo-destrono-la-soja-como-principal-producto-n6345334",
+      "source_datetime": "2026-11-15T01:39:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Neuquén firmó acuerdos preliminares con dos empresas brasileñas por gas",
+      "summary": "Neuquén firmó acuerdos preliminares con dos empresas brasileñas. Mientras Bolivia deja un vacío de mercado, el gasoducto Manuel Belgrano estaría listo en 2029 para operar.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Gas",
+        "Vaca Muerta",
+        "Brasil"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/de-la-patagonia-a-san-pablo-empieza-a-tomar-forma-el-proyecto-de-exportar-gas-de-vaca-muerta-a-brasil",
+      "source_datetime": "2026-11-15T16:34:04+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "31",
+      "headline": "La venta externa de crudo alcanzó USD 7.753 millones en nueve meses",
+      "summary": "En los primeros nueve meses del año la venta externa de crudo generó USD 7.753 millones, 58% más que en igual período de 2025. El producto sojero aumentó 7,4%. La oferta de soja aumentó más que la demanda mundial.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Petróleo",
+        "Harina de soja"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/14/el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exportacion-de-la-argentina",
+      "source_datetime": "2026-11-14T21:16:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Entra en vigencia plan de facilidades para regularizar deudas vencidas",
+      "summary": "Entra en vigencia un plan de facilidades para regularizar deudas vencidas en hasta 18 cuotas, alcanzando deudas vencidas hasta el 31 de octubre. Es una de las 3 medidas que adelantó Caputo ante la Unión Industrial.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Pymes",
+        "Deudas",
+        "Medidas económicas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/16/entra-en-vigencia-este-lunes-un-plan-de-arca-con-el-que-economia-busca-ayudar-a-las-pyme",
+      "source_datetime": "2026-11-16T05:47:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Parte del saldo comercial tendrá como destino el pago de la deuda externa",
+      "summary": "Parte del saldo comercial tendrá como destino el pago de la deuda externa. El análisis abarca los efectos del nuevo escenario mundial tras las elecciones de medio término en Estados Unidos y las presidenciales en Brasil. También menciona la creciente apertura comercial del Gobierno argentino.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Saldo comercial",
+        "Deuda externa",
+        "Apertura comercial"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/marcela-cristini-economista-de-fiel-parte-del-saldo-comercial-tendra-como-destino-el-pago-de-la-deuda-externa",
+      "source_datetime": "2026-11-15T04:07:55+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "35",
+      "headline": "Se agudiza la suba de tasas y la economía mundial se complica",
+      "summary": "Se agudiza la suba de tasas y la economía mundial se complica. En la Argentina las consultoras exhiben dudas sobre el futuro de la economía.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Tasas de interés",
+        "Economía mundial",
+        "Consultoras"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/16/se-agudiza-la-suba-de-tasas-y-se-complica-la-economia-mundial",
+      "source_datetime": "2026-11-16T05:47:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Inversores pendientes de si habrá o no PASO en medio de la estabilidad cambiaria",
+      "summary": "Los inversores están pendientes de si hay o no PASO. El Gobierno cuida la estabilidad cambiaria y apuesta a un rebote de la actividad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "PASO",
+        "Estabilidad cambiaria",
+        "Actividad económica"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/a-milei-no-le-sobra-nada-para-la-reeleccion-cuida-la-estabilidad-cambiaria-y-se-juega-a-un-rebote-de-la-actividad",
+      "source_datetime": "2026-11-15T13:29:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "San Juan acumula inversiones por USD 22.400 millones desde 2023 por RIGI",
+      "summary": "San Juan acumula inversiones por USD 22.400 millones desde diciembre de 2023, con impulso del RIGI. Los principales emprendimientos están vinculados a la actividad cuprífera y aurífera. El monto abarca las iniciativas anunciadas e inauguradas durante la gestión del gobernador Marcelo Orrego.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "RIGI",
+        "Minería",
+        "San Juan",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/14/con-el-impulso-del-rigi-san-juan-acumula-un-boom-de-inversiones-por-usd-22400-millones-desde-diciembre-de-2023",
+      "source_datetime": "2026-11-14T20:13:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "38",
+      "headline": "Cerraron casi 10.000 empresas en lo que va de 2026",
+      "summary": "Cerraron casi 10.000 empresas en lo que va de 2026. Los rubros con más bajas están vinculados a la producción y venta de bienes.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Cierre de empresas",
+        "Producción",
+        "Comercio"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/14/cerraron-casi-10000-empresas-en-lo-que-va-de-2026-cuales-fueron-los-sectores-mas-afectados",
+      "source_datetime": "2026-11-14T14:01:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "Conflicto de LDC con la Aduana abre pregunta sobre quién fija retenciones",
+      "summary": "El reciente desenlace del conflicto entre Louis Dreyfus Company (LDC) y la Aduana plantea la pregunta sobre quién puede fijar las retenciones y bajo qué límites.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Retenciones",
+        "Agro",
+        "LDC"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/retenciones-el-fallo-de-la-corte-que-reabre-una-discusion-pendiente-entre-el-campo-y-el-estado-nid14112026",
+      "source_datetime": "2026-11-15T13:50:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "54",
+      "headline": "Ola de fusiones se intensifica antes de cambio en defensa de la competencia",
+      "summary": "Se intensificó una ola de fusiones en las últimas semanas. Grupos empresarios apuraron el cierre de operaciones millonarias debido al inminente cambio regulatorio en defensa de la competencia.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Fusiones",
+        "Competencia",
+        "Regulación"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/16/dia-burger-king-tia-maruca-ola-de-fusiones-de-ultimo-momento-antes-de-que-entre-en-vigor-un-cambio-regulatorio-en-materia-de-competencia",
+      "source_datetime": "2026-11-16T05:47:51+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "56",
+      "headline": "Exportaciones del agro superan 100 millones de toneladas en diez meses",
+      "summary": "Según un informe privado, a octubre los envíos al exterior del agro sumaron 101 millones de toneladas. Se trata de un récord histórico en diez meses.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR"
+      ],
+      "tags": [
+        "Exportaciones agro",
+        "Récord",
+        "Comercio exterior"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/record-historico-de-las-exportaciones-del-agro-en-diez-meses-superaron-los-100-millones-de-toneladas",
+      "source_datetime": "2026-11-15T23:19:40+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Consumo de carne vacuna cayó 11% en un año",
+      "summary": "El consumo de carne vacuna cayó 11% en un año según Ciccra. La ingesta promedio por habitante fue de 44,5 kilos. La oferta interna se redujo 11,5% por el avance de las exportaciones y hay retracción de la faena.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Carne vacuna",
+        "Consumo",
+        "Faena"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/el-consumo-de-carne-vacuna-cayo-11-en-un-ano-los-argentinos-comen-56-kilos-menos-que-en-2025",
+      "source_datetime": "2026-11-15T21:50:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "Demora en definir cupo de híbridos y eléctricos deja 4 meses de stock",
+      "summary": "La demora en definir el cupo de autos híbridos y eléctricos generó 4 meses de stock a las automotrices. El mercado quedó por debajo de las previsiones y los vehículos chinos elevaron su participación al 15%. El Gobierno busca dar margen a las fábricas para reducir inventarios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Automotrices",
+        "Autos híbridos y eléctricos",
+        "Stock"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/menos-ventas-mas-stock-la-demora-en-definir-el-cupo-de-autos-hibridos-y-electricos-genero-4-meses-de-colchon-a-las-automotrices",
+      "source_datetime": "2026-11-15T15:42:48+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "62",
+      "headline": "Alimentos importados aún tienen baja participación en góndolas",
+      "summary": "Pese a la liberación del comercio exterior, los productos extranjeros aún tienen baja participación en las góndolas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Alimentos importados",
+        "Supermercados",
+        "Comercio exterior"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/por-que-los-alimentos-importados-todavia-no-lograron-ganar-terreno-en-los-supermercados",
+      "source_datetime": "2026-11-15T15:36:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "Lazzari propone bajar impuestos para lograr superávit fiscal",
+      "summary": "Gustavo Lazzari, economista y empresario, plantea que el superávit fiscal también puede lograrse bajando impuestos. Señala que la excesiva carga impositiva saca a los productores del sistema y pide despejar la transición de un corto plazo hacia reformas de largo plazo.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Superávit fiscal",
+        "Impuestos",
+        "Reformas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/15/gustavo-lazzari-la-pelea-por-el-superavit-fiscal-tambien-se-puede-hacer-bajando-impuestos",
+      "source_datetime": "2026-11-15T13:46:38+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "67",
+      "headline": "Flexibilidad cambiaria permitiría absorber pérdida de valor de divisa vecina",
+      "summary": "La flexibilidad cambiaria actual permitiría a las autoridades absorber la pérdida de valor de la divisa vecina sin una crisis extrema. El texto compara el esquema actual con el de la convertibilidad, que hundió hace dos décadas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Tipo de cambio",
+        "Convertibilidad",
+        "Régimen cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/11/15/shocks-externos",
+      "source_datetime": "2026-11-15T04:07:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "71",
+      "headline": "Régimen FAL cambia menor carga tributaria por cobertura de indemnización",
+      "summary": "El régimen FAL cambia una menor carga tributaria por un sistema de cobertura de contingencias por indemnización a un trabajador.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Régimen FAL",
+        "Empleo",
+        "Carga tributaria"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/opinion/2026/11/14/fal-una-herramienta-para-combatir-la-informalidad-laboral",
+      "source_datetime": "2026-11-14T12:37:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.infobae.com/economia/2026/11/14/la-baja-del-precio-del-oro-le-resto-mas-de-usd-1800-millones-a-las-reservas-del-banco-central-desde-su-maximo-del-ano",
+    "https://www.ambito.com/economia/wall-street-sufrio-nvidia-la-inflacion-y-las-tasas-largas-pero-ya-esta-lista-retomar-los-records-la-mano-anthropic-n6345464",
+    "https://www.lanacion.com.ar/economia/jp-morgan-preve-que-la-inflacion-llegue-a-las-elecciones-cerca-del-2-mensual-y-dejo-una-advertencia-nid15112026",
+    "https://www.infobae.com/economia/2026/11/16/por-que-crece-la-brecha-entre-el-dolar-oficial-y-las-cotizaciones-financieras",
+    "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-este-lunes-16-de-noviembre-con-el-mep-y-el-ccl",
+    "https://www.ambito.com/economia/queda-el-proximo-carlos-melconian-descarto-que-el-gobierno-pueda-bajar-la-inflacion-n6345314",
+    "https://www.infobae.com/economia/2026/11/15/siete-paises-en-el-mundo-tienen-una-inflacion-anual-superior-al-20-anual-cuales-son-y-cuantos-superan-a-la-argentina",
+    "https://www.cronista.com/finanzas-mercados/wall-street-le-baja-el-precio-a-nvidia-pero-no-se-baja-que-ven-cinco-bancos-antes-del-balance",
+    "https://www.cronista.com/finanzas-mercados/dolar-oficial-a-cuanto-cotiza-en-los-bancos-hoy-lunes-16-de-noviembre",
+    "https://www.infobae.com/opinion/2026/11/15/el-mercado-de-futuros-sobreestimo-la-devaluacion-oficial-en-29-de-los-ultimos-35-meses",
+    "https://www.ambito.com/economia/santiago-migone-exfuncionario-javier-milei-a-principios-ano-nadie-vio-venir-el-estancamiento-actual-n6345246",
+    "https://www.infobae.com/economia/2026/11/03/economia-anuncio-la-suspension-de-embargos-de-arca-para-pymes-y-otras-tres-medidas-para-impulsar-la-actividad",
+    "https://www.ambito.com/economia/miguel-kiguel-advirtio-que-el-gobierno-subestimo-la-inflacion-y-pidio-priorizar-la-actividad-economica-y-el-empleo-n6345408",
+    "https://www.infobae.com/economia/2026/11/14/miguel-kiguel-no-se-si-hoy-las-preferencias-del-gobierno-son-las-mismas-que-tiene-la-sociedad",
+    "https://www.infobae.com/opinion/2026/11/15/la-coyuntura-ante-el-ano-electoral",
+    "https://www.ambito.com/economia/argentina-volvio-quedar-el-segundo-puesto-paises-mayor-inflacion-latinoamerica-n6345351",
+    "https://www.infobae.com/economia/2026/11/15/inflacion-octubre-el-dato-que-sorprendio-a-casi-todos-y-la-distancia-que-persiste-con-los-parametros-internacionales",
+    "https://www.infobae.com/economia/2026/11/14/cuales-fueron-las-provincias-con-mayor-inflacion-en-octubre-y-donde-subieron-menos-los-precios",
+    "https://www.lanacion.com.ar/economia/campo/el-pro-reclama-que-avance-un-proyecto-para-volver-a-permitir-la-siembra-al-costado-de-las-rutas-nid13112026",
+    "https://www.ambito.com/economia/tras-la-visita-leon-xiv-la-vuelve-al-centro-la-escena-luces-rojas-la-actividad-y-el-empleo-n6345250",
+    "https://www.ambito.com/economia/exportaciones-lo-que-va-del-2026-el-petroleo-destrono-la-soja-como-principal-producto-n6345334",
+    "https://www.infobae.com/economia/2026/11/15/de-la-patagonia-a-san-pablo-empieza-a-tomar-forma-el-proyecto-de-exportar-gas-de-vaca-muerta-a-brasil",
+    "https://www.infobae.com/economia/2026/11/14/el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exportacion-de-la-argentina",
+    "https://www.infobae.com/economia/2026/11/16/entra-en-vigencia-este-lunes-un-plan-de-arca-con-el-que-economia-busca-ayudar-a-las-pyme",
+    "https://www.infobae.com/economia/2026/11/15/marcela-cristini-economista-de-fiel-parte-del-saldo-comercial-tendra-como-destino-el-pago-de-la-deuda-externa",
+    "https://www.infobae.com/economia/2026/11/16/se-agudiza-la-suba-de-tasas-y-se-complica-la-economia-mundial",
+    "https://www.infobae.com/economia/2026/11/15/a-milei-no-le-sobra-nada-para-la-reeleccion-cuida-la-estabilidad-cambiaria-y-se-juega-a-un-rebote-de-la-actividad",
+    "https://www.infobae.com/economia/2026/11/14/con-el-impulso-del-rigi-san-juan-acumula-un-boom-de-inversiones-por-usd-22400-millones-desde-diciembre-de-2023",
+    "https://www.infobae.com/economia/2026/11/14/cerraron-casi-10000-empresas-en-lo-que-va-de-2026-cuales-fueron-los-sectores-mas-afectados",
+    "https://www.lanacion.com.ar/economia/campo/retenciones-el-fallo-de-la-corte-que-reabre-una-discusion-pendiente-entre-el-campo-y-el-estado-nid14112026",
+    "https://www.infobae.com/economia/2026/11/16/dia-burger-king-tia-maruca-ola-de-fusiones-de-ultimo-momento-antes-de-que-entre-en-vigor-un-cambio-regulatorio-en-materia-de-competencia",
+    "https://www.infobae.com/economia/2026/11/15/record-historico-de-las-exportaciones-del-agro-en-diez-meses-superaron-los-100-millones-de-toneladas",
+    "https://www.infobae.com/economia/2026/11/15/el-consumo-de-carne-vacuna-cayo-11-en-un-ano-los-argentinos-comen-56-kilos-menos-que-en-2025",
+    "https://www.infobae.com/economia/2026/11/15/menos-ventas-mas-stock-la-demora-en-definir-el-cupo-de-autos-hibridos-y-electricos-genero-4-meses-de-colchon-a-las-automotrices",
+    "https://www.infobae.com/economia/2026/11/15/por-que-los-alimentos-importados-todavia-no-lograron-ganar-terreno-en-los-supermercados",
+    "https://www.infobae.com/economia/2026/11/15/gustavo-lazzari-la-pelea-por-el-superavit-fiscal-tambien-se-puede-hacer-bajando-impuestos",
+    "https://www.infobae.com/opinion/2026/11/15/shocks-externos",
+    "https://www.infobae.com/opinion/2026/11/14/fal-una-herramienta-para-combatir-la-informalidad-laboral"
+  ]
+}
