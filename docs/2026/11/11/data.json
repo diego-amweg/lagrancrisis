@@ -1,0 +1,544 @@
+{
+  "date": "2026-11-11",
+  "cadena_de_razonamiento": "Se usan solo noticias validadas. La suba de tasas de la Fed es el eje transversal: la inflación de Estados Unidos superó lo esperado y reforzó las apuestas por un ajuste, con dólar firme que presiona al oro. Para Argentina, la baja del riesgo país y la suba de bonos conviven con presión cambiaria por el real brasileño y con actividad local limitada por feriados. El petróleo a la baja y la soja al alza marcan el frente de commodities. Se excluyen las notas sin confirmar de PIIE.",
+  "resumen_ejecutivo": "La inflación de Estados Unidos superó lo esperado en octubre y reforzó las apuestas por una suba de tasas de la Fed, con debate sobre un ajuste de medio punto en diciembre. El dólar firme y los altos rendimientos llevaron al oro debajo de US$4000 antes de un rebote. El Brent cayó debajo de USD 90, su nivel más bajo desde agosto, por menor tensión en Medio Oriente y perspectivas de exceso de oferta. La soja subió en Chicago tras un recorte de existencias en Estados Unidos. En Argentina, el riesgo país bajó a 853 puntos y los bonos subieron, mientras los ADR cayeron hasta 3% y el real brasileño presionó al peso. Las expectativas de desempleo en Estados Unidos subieron a niveles de 2020, y Nvidia cayó a mínimos de más de un año por la investigación sobre Jensen Huang. Perú colocó US$4500 millones con tasas de hasta 6,45%, mientras el mercado argentino aguarda definiciones sobre el programa 2027.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "Inflación en EEUU reaviva la apuesta por suba de tasas y encarece el financiamiento",
+      "summary": "La inflación estadounidense reavivó la expectativa de una suba más agresiva de tasas y encareció el financiamiento global. Los bonos argentinos mantuvieron la firmeza, la soja aportó una señal favorable y el petróleo siguió en baja.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Inflación EEUU",
+        "Tasas",
+        "Financiamiento global"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/11/con-tasas-mas-altas-en-estados-unidos-el-mercado-mira-el-riesgo-electoral-argentino",
+      "source_datetime": "2026-11-11T03:29:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "El nuevo dato del IPC refuerza la expectativa de suba de tasas de la Fed",
+      "summary": "El nuevo dato del IPC robustece las expectativas de una suba de tasas de la Fed en diciembre. El mercado prevé un alza de 25 puntos básicos el mes que viene.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Fed",
+        "IPC",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-inflacion-eeuu-subio-mas-lo-previsto-octubre-y-presiona-las-tasas-la-fed-n6343564",
+      "source_datetime": "2026-11-10T15:46:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "El oro rebota tras caer debajo de US$4000 por dólar firme y tasas de la Fed",
+      "summary": "El oro rebotó tras una fuerte caída por debajo de los 4000 dólares. La baja había sido impulsada por el dólar firme, los altos rendimientos de los bonos y las expectativas sobre las tasas de la Fed. Un resultado electoral cambió el escenario para el oro.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "DOLAR",
+        "TASAS"
+      ],
+      "tags": [
+        "Oro",
+        "Dólar",
+        "Tasas de la Fed"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-oro-volvio-a-subir-y-recupero-los-us-4100-en-un-nuevo-contexto-mundial-las-razones-detras-del-alza",
+      "source_datetime": "2026-11-10T13:56:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "Bonos argentinos suben y el riesgo país baja a 853 unidades",
+      "summary": "Los bonos argentinos cerraron en alza y el riesgo país bajó a 853 unidades. La inflación subyacente de Estados Unidos superó las expectativas y alimentó las apuestas por una suba mayor de tasas de la Fed. El petróleo profundizó sus bajas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Bonos argentinos",
+        "Riesgo país",
+        "Inflación subyacente"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/10/los-bonos-argentinos-operan-con-una-leve-suba-y-el-riesgo-pais-vuelve-a-ceder",
+      "source_datetime": "2026-11-11T00:53:26+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Inflación de octubre por encima de lo esperado y debate por suba de medio punto",
+      "summary": "La inflación de octubre fue más alta de lo esperado y se especula con ruidos dentro de la Fed. Se evalúa una posible suba de tasas de medio punto en diciembre.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Inflación",
+        "Fed",
+        "Tasas"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dialogos-wall-street-acechan-nubarrones-el-mercado-y-truenos-la-fed-tasas-e-inflacion-n6343753",
+      "source_datetime": "2026-11-11T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Petróleo cae debajo de US$90 por barril, su nivel más bajo desde agosto",
+      "summary": "El barril de petróleo cayó por debajo de los 90 dólares, su precio más bajo desde agosto. La menor tensión en Medio Oriente y las perspectivas de un exceso de oferta global impulsaron una nueva caída de las cotizaciones internacionales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Petróleo",
+        "Medio Oriente",
+        "Exceso de oferta"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/10/el-barril-de-petroleo-cae-por-debajo-de-los-90-dolares-su-precio-mas-bajo-desde-agosto",
+      "source_datetime": "2026-11-10T16:57:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Expectativas de desempleo en EEUU suben a niveles de 2020",
+      "summary": "Las expectativas de desempleo en Estados Unidos subieron a niveles de 2020, según una encuesta publicada por el Banco de la Reserva Federal de Nueva York.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Desempleo EEUU",
+        "Reserva Federal de Nueva York",
+        "Mercado laboral"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/las-expectativas-desempleo-estados-unidos-subieron-niveles-2020-revelo-la-fed-n6343271",
+      "source_datetime": "2026-11-09T18:57:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Dólar hoy: cotizaciones del oficial, blue, CCL y MEP del 10 de noviembre",
+      "summary": "Seguimiento de las cotizaciones del dólar blue, oficial, CCL y MEP del martes 10 de noviembre.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "CCL",
+        "MEP"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-martes-10-de-noviembre-minuto-a-minuto",
+      "source_datetime": "2026-11-10T13:58:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Soja sube en Chicago y cierra a US$451,21 por tonelada",
+      "summary": "La posición enero en la Bolsa de Chicago cerró a 451,21 dólares por tonelada, con una reacción alcista tras un informe que recortó existencias en Estados Unidos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Soja",
+        "Bolsa de Chicago",
+        "Existencias EEUU"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/se-disparo-la-soja-el-precio-en-el-mercado-internacional-aumento-us146-por-tonelada-nid10112026",
+      "source_datetime": "2026-11-10T22:20:54+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Perú tomó US$4500 millones en el mercado global con tasas de hasta 6,45%",
+      "summary": "Perú tomó US$4500 millones del mercado global a 12 y 30 años, con tasas de hasta 6,45% anual. El mercado argentino aguarda definiciones sobre el programa 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Perú",
+        "Emisión global",
+        "Programa 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/peru-tomo-us4500-millones-del-mercado-global-a-12-y-30-anos-a-tasas-de-hasta-645-anual-nid10112026",
+      "source_datetime": "2026-11-10T21:09:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Brent volvió casi a su valor inicial y los combustibles tuvieron suba discreta",
+      "summary": "El Brent escaló USD 31 en poco más de dos meses y luego volvió casi a su valor inicial. El valor interno de los combustibles tuvo una suba discreta, contenida por la postergación de las subas impositivas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Brent",
+        "Combustibles",
+        "Nafta"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/11/baja-del-petroleo-cuanto-costaba-la-nafta-en-la-argentina-la-ultima-vez-que-el-barril-estuvo-por-debajo-de-los-usd-90",
+      "source_datetime": "2026-11-11T03:29:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Riesgo país baja a 853 puntos mientras los ADR caen hasta 3%",
+      "summary": "El riesgo país bajó a 853 puntos, pero los ADR cayeron hasta 3%. La rueda fue sin actividad en el mercado local.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "ADR",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/los-bonos-vuelven-a-subir-y-el-riesgo-pais-se-toma-un-respiro",
+      "source_datetime": "2026-11-10T21:06:33+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "Ford prevé un mercado automotor de 530.000 unidades este año",
+      "summary": "El presidente de Ford Argentina valoró los cambios del Gobierno para el cupo 2027, que ponderan producción y solidez de las marcas. Anticipó un mercado de 530.000 unidades este año.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Ford",
+        "Mercado automotor",
+        "Cupo 2027"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/11/martin-galdeano-presidente-de-ford-hay-marcas-que-son-oportunistas-trajeron-autos-y-no-dan-servicio-de-posventa",
+      "source_datetime": "2026-11-11T03:29:30+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Bonos suben, riesgo país cae a 853 y el real presiona al peso",
+      "summary": "La plaza local permaneció cerrada por feriados. Los bonos argentinos subieron, el riesgo país cayó a 853 puntos y los ADR terminaron mayormente en baja en Wall Street. La depreciación del real brasileño también sumó presión sobre el peso argentino.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Real brasileño",
+        "Peso argentino",
+        "Riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/11/tras-dos-feriados-el-mercado-argentino-tendra-que-ponerse-al-dia-con-limitaciones-por-el-dia-festivo-en-eeuu",
+      "source_datetime": "2026-11-11T03:31:46+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Analista ve oportunidad en la baja de activos con riesgo país sobre 800 puntos",
+      "summary": "El riesgo país está por encima de los 800 puntos. El analista Salvador Di Stefano plantea que la baja de los activos argentinos es una oportunidad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Activos argentinos",
+        "Opinión de analista"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/con-el-riesgo-pais-por-encima-de-los-800-puntos-que-bonos-recomienda-comprar-el-guru-del-blue",
+      "source_datetime": "2026-11-10T18:49:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "ADR argentinos caen en Wall Street con el Brent en USD 92,01",
+      "summary": "Los ADR argentinos terminaron mayormente en rojo, en una rueda con bajas en Wall Street, con el Brent a USD 92,01. Los bonos subieron y el riesgo país cayó a 853 puntos.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "ADR",
+        "Wall Street",
+        "Brent"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/10/las-acciones-argentinas-caen-en-wall-street-por-la-baja-del-petroleo-y-el-dato-de-inflacion-de-eeuu",
+      "source_datetime": "2026-11-10T23:58:45+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Riesgo país cae 66 puntos y cierra en 873 con bonos en recuperación",
+      "summary": "El riesgo país cayó 66 puntos y cerró en 873 unidades. Los bonos argentinos recuperaron parte del terreno perdido, en una jornada de recuperación global con subas de hasta 2,7% en Wall Street.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Bonos argentinos",
+        "Wall Street"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/riesgo-pais-los-bonos-argentinos-rebotan-hasta-33-en-una-jornada-sin-actividad-en-la-plaza-local",
+      "source_datetime": "2026-11-09T23:07:59+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Informe: dos tercios de importaciones podrían abastecerse con industria local",
+      "summary": "Un informe de la Cámara de Industriales de Proyectos de Ingeniería de Bienes de Capital advierte que dos tercios de las importaciones pueden ser abastecidas por la industria local. El Gobierno parece reconocer el problema productivo con la agenda de rondas de negocios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Importaciones",
+        "Industria local",
+        "Bienes de capital",
+        "RIGI"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/rigi-advierten-que-dos-tercios-las-importaciones-pueden-ser-abastecidas-la-industria-local-n6343676",
+      "source_datetime": "2026-11-10T20:47:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "36",
+      "headline": "Nvidia cayó a mínimos de más de un año en Wall Street",
+      "summary": "Nvidia cayó a mínimos en más de un año en Wall Street. El CEO de la empresa de Inteligencia Artificial admitió haber mantenido una relación con una mujer sospechada de ser espía china.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Nvidia",
+        "Wall Street",
+        "Inteligencia artificial",
+        "Espionaje"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/la-novela-de-espionaje-detras-del-desplome-de-nvidia-en-wall-street-cayo-a-minimos-en-mas-de-un-ano",
+      "source_datetime": "2026-11-10T21:07:32+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Investigación sobre Jensen Huang eleva incertidumbre sobre valor de Nvidia",
+      "summary": "La investigación sobre la relación de Jensen Huang con una empresaria china y el riesgo de una eventual salida del CEO elevan la incertidumbre sobre el valor de Nvidia.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Incertidumbre",
+        "Gobierno corporativo"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/11/los-numeros-detras-del-escandalo-de-infidelidad-y-espionaje-en-nvidia-cuanto-pueden-perder-la-empresa-y-los-accionistas",
+      "source_datetime": "2026-11-11T03:31:02+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "39",
+      "headline": "Exportaciones de vino subieron 19% en octubre pero siguen negativas en el año",
+      "summary": "Las exportaciones de vino se dispararon 19% en octubre, aunque siguen en terreno negativo en el acumulado del año. El repunte se dio tanto en los envíos de vino fraccionado como en las ventas a granel.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Exportaciones",
+        "Vino",
+        "Comercio exterior"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/11/las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-aun-siguen-en-terreno-negativo-en-el-acumulado-del-ano",
+      "source_datetime": "2026-11-11T03:27:05+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "46",
+      "headline": "Simulador con modelo FRB/US evalúa subas de tasas y shocks de mercado",
+      "summary": "Econvitals añadió un Macroeconomic Simulator que utiliza el modelo FRB/US de la Reserva Federal y permite evaluar subas de tasas de la Fed, recortes de impuestos y shocks como alza del precio del petróleo o caída de las bolsas. La expansión de centros de datos figura entre las mayores inversiones en tiempos de paz en la historia estadounidense.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Reserva Federal",
+        "Simulador macroeconómico",
+        "Centros de datos",
+        "Inteligencia artificial"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/blogs/realtime-economics/2026/ai-booms-two-engines",
+      "source_datetime": "2026-11-09T18:48:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "50",
+      "headline": "México enfrenta renegociaciones del USMCA con impacto en el comercio regional",
+      "summary": "Brasil realizó una segunda vuelta presidencial el 25 de octubre. Hubo cambios de liderazgo en otros cinco países de Latinoamérica en un año de transiciones políticas. México enfrenta renegociaciones del USMCA con implicancias para el comercio regional.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Brasil",
+        "Latinoamérica",
+        "USMCA",
+        "Elecciones"
+      ],
+      "is_argentina": false,
+      "source_name": "PIIE",
+      "source_url": "https://www.piie.com/events/2026/after-brazils-election-whats-next-latin-america",
+      "source_datetime": "2026-11-10T15:00:00+00:00",
+      "status": "SIN CONFIRMAR",
+      "verified": false,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.infobae.com/economia/2026/11/11/con-tasas-mas-altas-en-estados-unidos-el-mercado-mira-el-riesgo-electoral-argentino",
+    "https://www.ambito.com/economia/la-inflacion-eeuu-subio-mas-lo-previsto-octubre-y-presiona-las-tasas-la-fed-n6343564",
+    "https://www.cronista.com/finanzas-mercados/el-oro-volvio-a-subir-y-recupero-los-us-4100-en-un-nuevo-contexto-mundial-las-razones-detras-del-alza",
+    "https://www.infobae.com/economia/2026/11/10/los-bonos-argentinos-operan-con-una-leve-suba-y-el-riesgo-pais-vuelve-a-ceder",
+    "https://www.ambito.com/economia/dialogos-wall-street-acechan-nubarrones-el-mercado-y-truenos-la-fed-tasas-e-inflacion-n6343753",
+    "https://www.infobae.com/economia/2026/11/10/el-barril-de-petroleo-cae-por-debajo-de-los-90-dolares-su-precio-mas-bajo-desde-agosto",
+    "https://www.ambito.com/economia/las-expectativas-desempleo-estados-unidos-subieron-niveles-2020-revelo-la-fed-n6343271",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-martes-10-de-noviembre-minuto-a-minuto",
+    "https://www.lanacion.com.ar/economia/campo/se-disparo-la-soja-el-precio-en-el-mercado-internacional-aumento-us146-por-tonelada-nid10112026",
+    "https://www.lanacion.com.ar/economia/peru-tomo-us4500-millones-del-mercado-global-a-12-y-30-anos-a-tasas-de-hasta-645-anual-nid10112026",
+    "https://www.ambito.com/economia/el-futuro-la-trumponomics-acuerdo-o-fracaso-n6343720",
+    "https://www.infobae.com/economia/2026/11/11/baja-del-petroleo-cuanto-costaba-la-nafta-en-la-argentina-la-ultima-vez-que-el-barril-estuvo-por-debajo-de-los-usd-90",
+    "https://www.cronista.com/finanzas-mercados/los-bonos-vuelven-a-subir-y-el-riesgo-pais-se-toma-un-respiro",
+    "https://www.infobae.com/economia/2026/11/11/martin-galdeano-presidente-de-ford-hay-marcas-que-son-oportunistas-trajeron-autos-y-no-dan-servicio-de-posventa",
+    "https://www.infobae.com/economia/2026/11/11/tras-dos-feriados-el-mercado-argentino-tendra-que-ponerse-al-dia-con-limitaciones-por-el-dia-festivo-en-eeuu",
+    "https://www.cronista.com/finanzas-mercados/con-el-riesgo-pais-por-encima-de-los-800-puntos-que-bonos-recomienda-comprar-el-guru-del-blue",
+    "https://www.infobae.com/economia/2026/11/10/las-acciones-argentinas-caen-en-wall-street-por-la-baja-del-petroleo-y-el-dato-de-inflacion-de-eeuu",
+    "https://www.cronista.com/finanzas-mercados/riesgo-pais-los-bonos-argentinos-rebotan-hasta-33-en-una-jornada-sin-actividad-en-la-plaza-local",
+    "https://www.ambito.com/economia/rigi-advierten-que-dos-tercios-las-importaciones-pueden-ser-abastecidas-la-industria-local-n6343676",
+    "https://www.cronista.com/finanzas-mercados/la-novela-de-espionaje-detras-del-desplome-de-nvidia-en-wall-street-cayo-a-minimos-en-mas-de-un-ano",
+    "https://www.infobae.com/economia/2026/11/11/los-numeros-detras-del-escandalo-de-infidelidad-y-espionaje-en-nvidia-cuanto-pueden-perder-la-empresa-y-los-accionistas",
+    "https://www.infobae.com/economia/2026/11/11/las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-aun-siguen-en-terreno-negativo-en-el-acumulado-del-ano",
+    "https://www.piie.com/blogs/realtime-economics/2026/ai-booms-two-engines",
+    "https://www.piie.com/events/2026/after-brazils-election-whats-next-latin-america"
+  ]
+}
