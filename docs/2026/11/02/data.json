@@ -1,0 +1,1114 @@
+{
+  "date": "2026-11-02",
+  "cadena_de_razonamiento": "Se priorizaron noticias de impacto ALTO sobre riesgo país, reservas y tasas. El riesgo país en 787 puntos (26) y el efecto del real devaluado (37) explican la presión sobre bonos y acciones. El BCRA compró USD 1.395 millones en octubre (21), pero Cavallo reclama USD 15.000 millones (05) y Santangelo advierte compras de al menos USD 10.000 millones en 2027 (17). La caída industrial (04) y el pronóstico de 1% de crecimiento con posible recesión técnica (34) limitan el margen. La Fed sin cambios (01) y las elecciones de EE.UU. (11) marcan el frente externo. Los dólares no se movieron (22, 23).",
+  "resumen_ejecutivo": "El riesgo país saltó casi 30% en octubre y cerró en 787 puntos, su nivel más alto del año, con presión externa y efecto Brasil sobre bonos y acciones. La inflación de octubre se estima entre 1,8% y 2%, con alimentos como principal presión. La Fed mantuvo las tasas sin cambios y el mercado mira las elecciones legislativas de EE.UU. del martes. Localmente, el BCRA compró USD 1.395 millones en octubre, mientras Cavallo y Santangelo reclaman compras de reservas de magnitud mayor. La actividad industrial cayó 2,8% interanual en septiembre y las consultoras recortan el crecimiento a 1%, con riesgo de recesión técnica. El Gobierno debe cubrir un vencimiento de USD 800 millones con el FMI y evalúa financiamiento alternativo, incluyendo crédito hipotecario y una reforma de Mercados de Capitales.",
+  "noticias_destacadas": [
+    {
+      "id_referencia": "01",
+      "headline": "La Fed mantiene sin cambios las tasas de interés",
+      "summary": "La Fed decidió no modificar las tasas de interés, sorprendiendo a algunos analistas. Hay inflación elevada y crecimiento económico.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Fed",
+        "Tasas",
+        "Inflación"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-fed-no-tiene-prisa-los-mercados-volvieron-trabajar-ella-n6340339",
+      "source_datetime": "2026-11-02T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "02",
+      "headline": "Consultoras prevén inflación de octubre cerca del 2%",
+      "summary": "Consultoras privadas estiman que el IPC de octubre podría ubicarse en torno al 2%, por la suba de alimentos. El Banco Central anticipó presiones sobre el indicador en el cuarto trimestre por carne y combustibles.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "IPC",
+        "Inflación",
+        "Consultoras"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/02/que-esperan-las-consultoras-privadas-para-el-dato-de-inflacion-de-octubre",
+      "source_datetime": "2026-11-02T05:40:31+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "03",
+      "headline": "Dólar blue, oficial, MEP y CCL del 2 de noviembre",
+      "summary": "Cotizaciones del dólar blue, oficial, MEP y CCL del lunes 2 de noviembre, con referencia a la brecha cambiaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar",
+        "Brecha cambiaria",
+        "Cotizaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-lunes-2-de-noviembre-con-el-mep-y-el-ccl",
+      "source_datetime": "2026-11-02T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "04",
+      "headline": "La actividad industrial cayó 2,8% interanual en septiembre",
+      "summary": "La actividad industrial registró en septiembre una baja del 2,8% interanual. La baja demanda interna es el principal freno a la producción. Proyecciones privadas estiman el cierre de 3.300 industrias y la pérdida de 105.000 puestos de trabajo.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "BONOS"
+      ],
+      "tags": [
+        "Industria",
+        "Actividad",
+        "Empleo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/la-caida-la-industria-baja-demanda-interna-y-sueldos-dolares-altos-n6340338",
+      "source_datetime": "2026-11-02T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "05",
+      "headline": "Cavallo pide compras de reservas por u$s15.000 millones",
+      "summary": "El exministro Cavallo pidió compras por u$s15.000 millones para acumular reservas. Cuestionó el esquema cambiario y reclamó eliminar el cepo para las empresas. Sostuvo que el Banco Central debería financiar la compra de divisas con emisión monetaria.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Reservas",
+        "Cepo",
+        "Cavallo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/tras-las-criticas-javier-milei-domingo-cavallo-insistio-la-necesidad-acumular-reservas-y-pidio-compras-us15000-millones-n6340188",
+      "source_datetime": "2026-11-01T03:05:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "06",
+      "headline": "Dólar oficial hoy lunes 2 de noviembre en bancos",
+      "summary": "Cotización del dólar oficial del lunes 2 de noviembre, junto con el valor del blue y la brecha cambiaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Brecha cambiaria",
+        "Cotizaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-lunes-2-de-noviembre",
+      "source_datetime": "2026-11-02T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "07",
+      "headline": "Riesgo país elevado y reservas limitadas en la Argentina",
+      "summary": "El impacto político externo encuentra a la Argentina con riesgo país elevado, reservas todavía limitadas, presión sobre la competitividad y una actividad que pierde dinamismo.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Reservas",
+        "Actividad"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/brasil-ya-golpeo-a-los-activos-argentinos-y-eeuu-asoma-como-el-proximo-test-para-el-mercado-local",
+      "source_datetime": "2026-11-01T20:20:20+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "08",
+      "headline": "Producción de gas en récord histórico entre enero y septiembre",
+      "summary": "Entre enero y septiembre se extrajeron 40.300 millones de metros cúbicos de gas, un valor sin precedentes para ese período.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Gas",
+        "Producción",
+        "Récord"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/31/la-produccion-de-gas-alcanzo-un-record-historico-en-2026-por-la-explotacion-no-convencional-de-vaca-muerta",
+      "source_datetime": "2026-10-31T21:15:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "09",
+      "headline": "Banco Nación licitará deuda en dólares que vence en el próximo Gobierno",
+      "summary": "El Banco Nación licitará una obligación negociable este martes. El título es en dólares y vence en el próximo Gobierno.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Banco Nación",
+        "Deuda en dólares",
+        "Obligaciones negociables"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/banco-nacion-sale-a-captar-deuda-en-dolares-vence-en-el-proximo-gobierno",
+      "source_datetime": "2026-10-31T14:04:39+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "11",
+      "headline": "Elecciones de medio término en EE.UU. y efectos en la Argentina",
+      "summary": "Este martes se renuevan los dos tercios del Congreso de Estados Unidos. Su resultado puede afectar a la Argentina.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Estados Unidos",
+        "Elecciones",
+        "Congreso"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/02/guerra-tasas-y-riesgo-pais-que-efectos-pueden-tener-en-la-argentina-las-elecciones-de-medio-termino-de-estados-unidos",
+      "source_datetime": "2026-11-02T05:41:19+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "12",
+      "headline": "Noviembre llega con aumentos en transporte, salud y servicios",
+      "summary": "Colectivos, peajes, luz, gas, prepagas, colegios y telefonía tendrán actualizaciones en noviembre. Las líneas nacionales Ciudad-Conurbano mantendrán congelado el boleto.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Tarifas",
+        "Noviembre",
+        "Servicios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/02/noviembre-llega-con-aumentos-en-transporte-salud-alquileres-y-servicios",
+      "source_datetime": "2026-11-02T05:40:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "13",
+      "headline": "Estado y empresas definieron aumentos de tarifas para noviembre",
+      "summary": "El Estado y las empresas definieron incrementos de tarifas y servicios para noviembre. Los nuevos montos entran en vigencia el domingo 1 de noviembre.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Tarifas",
+        "Servicios",
+        "Noviembre"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/noviembre-llega-aumentos-colectivos-alquileres-prepagas-y-servicios-cuanto-impacta-el-bolsillo-n6337955",
+      "source_datetime": "2026-11-01T11:42:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "14",
+      "headline": "Luz, gas y agua del AMBA suben en noviembre",
+      "summary": "Usuarios de servicios públicos del AMBA enfrentarán incrementos en luz, gas y agua. Hay nuevos ajustes en evaluación. Muchos hogares mantienen subsidios.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "AMBA",
+        "Tarifas",
+        "Subsidios"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/cuanto-aumentaran-la-luz-el-gas-y-el-agua-en-noviembre-y-que-nuevos-ajustes-estan-en-evaluacion",
+      "source_datetime": "2026-11-01T15:39:57+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "15",
+      "headline": "Caputo se reúne con la UIA en medio de recesión y riesgo país",
+      "summary": "Existe recesión y alza del riesgo país. El dólar vuelve a la agenda empresaria. El Ministerio de Economía anticipa que no tomará medidas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "UIA",
+        "Recesión",
+        "Riesgo país"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/dolar-embargos-y-recesion-luis-caputo-va-la-uia-muchos-problemas-y-pocas-herramientas-n6340082",
+      "source_datetime": "2026-11-01T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "16",
+      "headline": "Gobierno busca financiamiento alternativo y administra el cambio",
+      "summary": "El ministro de Economía transmitió inquietud por el contexto global a Gabinete y empresarios. El Gobierno administra el tipo de cambio y busca fuentes de financiamiento alternativas.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Tipo de cambio",
+        "Financiamiento",
+        "Gobierno"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026",
+      "source_datetime": "2026-11-01T23:01:22+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "17",
+      "headline": "Santangelo advierte compras del BCRA por u$s10.000 millones en 2027",
+      "summary": "El economista cuestiona la liberación del acceso a dólares para ahorro y turismo. Advierte que el Banco Central deberá comprar al menos u$s10.000 millones en 2027.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR",
+        "BONOS"
+      ],
+      "tags": [
+        "Banco Central",
+        "Compras de dólares",
+        "Santangelo"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/rodolfo-santangelo-estamos-subsidiando-la-demanda-dolares-y-gravando-el-consumo-local-n6340145",
+      "source_datetime": "2026-11-01T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "18",
+      "headline": "Arranca la temporada de balances con protagonismo de Oil & Gas",
+      "summary": "Esta semana arranca la temporada de balances con el sector de Oil & Gas como protagonista.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES",
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Balances",
+        "Oil & Gas",
+        "Acciones"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/temporada-de-balances-que-espera-el-mercado-para-las-acciones-argentinas-y-que-datos-mirar",
+      "source_datetime": "2026-10-31T14:03:10+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "19",
+      "headline": "Galiani: la transformación necesita tiempo y continuidad",
+      "summary": "Galiani analiza el debate sobre las reservas del Banco Central y el atraso cambiario. Sostiene que una alianza política amplia es clave para crecer.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Galiani",
+        "Reservas",
+        "Atraso cambiario"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/sebastian-galiani-esta-transformacion-necesita-tiempo-y-continuidad",
+      "source_datetime": "2026-11-01T04:26:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "20",
+      "headline": "Mercado Pago, a un paso de ser banco tras aprobación técnica de su licencia",
+      "summary": "La Superintendencia de Entidades Financieras aprobó técnicamente la licencia pedida por Mercado Pago. El trámite final requiere el OK del Directorio del Banco Central.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Mercado Pago",
+        "Licencia bancaria",
+        "BCRA"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/29/mercado-pago-a-un-paso-de-convertirse-en-banco-el-bcra-dio-aprobacion-tecnica-a-la-licencia-pedida-por-la-empresa-de-marcos-galperin",
+      "source_datetime": "2026-10-31T19:58:53+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "21",
+      "headline": "BCRA compró USD 1.395 millones en octubre y reforzó las reservas",
+      "summary": "El Banco Central compró USD 1.395 millones en octubre, el mejor mes de compras de divisas desde julio. Hubo volatilidad cambiaria tras las elecciones en Brasil.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "BCRA",
+        "Reservas",
+        "Compras de divisas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/31/el-banco-central-compro-usd-1395-millones-en-octubre-y-reforzo-las-reservas",
+      "source_datetime": "2026-10-31T15:24:42+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "22",
+      "headline": "Dólar oficial abre el lunes 2 de noviembre con los mismos valores del cierre",
+      "summary": "La cotización del dólar oficial abre con los mismos valores que en su último día de cierre.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar oficial",
+        "Cotización"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar/a-cuanto-abre-el-dolar-el-lunes-2-de-noviembre-nid31102026",
+      "source_datetime": "2026-11-01T14:51:07+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "23",
+      "headline": "Dólar blue y financieros se mantienen iguales al último día hábil",
+      "summary": "La cotización de la moneda estadounidense se mantiene igual que en el último día hábil. Se registra también el comportamiento del dólar blue y de los dólares financieros.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Dólar blue",
+        "Dólares financieros",
+        "Cotización"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-1-de-noviembre-nid01112026",
+      "source_datetime": "2026-11-01T10:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "24",
+      "headline": "Gobierno espera que la actividad mejore de manera sostenida desde mayo",
+      "summary": "El Gobierno espera que la actividad mejore de manera sostenida en mayo. Economía promete medidas para reactivar el consumo el año próximo. Los pactos que reclama Caputo quedan postergados.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Consumo",
+        "Caputo"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/objetivo-mayo-karina-saca-a-milei-de-la-casa-rosada-y-lo-lleva-a-2027-nid01112026",
+      "source_datetime": "2026-11-01T11:01:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "25",
+      "headline": "Economistas proponen herramientas para reactivar sin modificar el rumbo",
+      "summary": "Cinco economistas analizan herramientas para estimular la actividad manteniendo el equilibrio fiscal. Entre las propuestas figuran liberar encajes para apuntalar el crédito y recalibrar la política monetaria.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "TASAS"
+      ],
+      "tags": [
+        "Actividad económica",
+        "Equilibrio fiscal",
+        "Política monetaria"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/que-se-puede-hacer-para-reactivar-la-economia-sin-modificar-el-rumbo-nid01112026",
+      "source_datetime": "2026-11-01T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "26",
+      "headline": "Riesgo país saltó casi 30% en octubre y cerró en 787 puntos",
+      "summary": "El riesgo país saltó casi 30% en octubre y cerró en 787 puntos, su nivel más alto del año. El Merval acumuló una caída de 4,9% en el mes. Presión externa, efecto Brasil e incertidumbre doméstica golpearon bonos y acciones.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Merval",
+        "Bonos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/mes-negro-para-los-mercados-el-riesgo-pais-salto-180-puntos-y-la-bolsa-termino-en-rojo-como-sigue",
+      "source_datetime": "2026-11-01T09:00:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "27",
+      "headline": "Consultoras estiman inflación de octubre entre 1,8% y 2%",
+      "summary": "Consultoras estiman que la inflación de octubre se habría ubicado entre 1,8% y 2%. El número sería similar al de septiembre. Los alimentos siguen presionando el índice.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "BONOS"
+      ],
+      "tags": [
+        "Inflación",
+        "Octubre",
+        "Alimentos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/estiman-que-la-inflacion-de-octubre-se-habria-ubicado-entre-el-18-y-el-2-nid01112026",
+      "source_datetime": "2026-11-01T10:32:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "29",
+      "headline": "Mercados miran elecciones legislativas en EE.UU. tras decisión de la Fed",
+      "summary": "Luego de que la Fed mantuviera sin cambios la tasa, el foco de los inversores estará puesto en las elecciones legislativas del próximo martes. A nivel local, el interrogante es el futuro del auxilio de Trump si los demócratas dominan el Congreso.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "TASAS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Fed",
+        "Elecciones legislativas",
+        "Estados Unidos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-mercado-concentra-todas-sus-miradas-en-estados-unidos-nid01112026",
+      "source_datetime": "2026-11-01T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "30",
+      "headline": "Exportaciones de carne bovina crecieron 36,9% en valor en nueve meses",
+      "summary": "Las exportaciones de carne bovina crecieron 36,9% en valor en los primeros nueve meses del año, con volúmenes 5,3% mayores. En septiembre los envíos retrocedieron frente a agosto. China concentró el 68% de las toneladas exportadas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Carne bovina",
+        "Exportaciones",
+        "China"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/las-exportaciones-carne-crecieron-casi-37-lo-que-va-2026-la-mejora-los-precios-n6340272",
+      "source_datetime": "2026-11-01T18:31:49+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "32",
+      "headline": "Gobierno debe cubrir hoy un vencimiento de USD 800 millones con el FMI",
+      "summary": "El Gobierno debe cubrir un vencimiento de USD 800 millones con el FMI. Con datos hasta el miércoles, el fisco contaba con depósitos suficientes para hacerlo. El fisco podría comprar dólares para mantener liquidez en sus cuentas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "FMI",
+        "Vencimiento",
+        "Fisco"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/02/el-gobierno-debera-cubrir-hoy-un-vencimiento-de-usd-800-millones-con-el-fmi",
+      "source_datetime": "2026-11-02T05:41:09+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "33",
+      "headline": "Debate sobre atraso cambiario: exportaciones crecen con caída del tipo real",
+      "summary": "Las exportaciones crecieron mientras caía el tipo de cambio real. La reducción de impuestos, la eliminación de restricciones regulatorias y la apertura de mercados reavivan el debate sobre competitividad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Tipo de cambio real",
+        "Competitividad",
+        "Exportaciones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/el-debate-sobre-el-atraso-cambiario-las-exportaciones-crecieron-mientras-caia-el-tipo-de-cambio-real",
+      "source_datetime": "2026-11-01T18:36:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "34",
+      "headline": "Consultoras recortan a 1% el crecimiento de la economía este año",
+      "summary": "Las consultoras privadas ajustaron sus pronósticos a la baja. La economía argentina crecería solo 1% este año. Advierten que la caída del tercer trimestre podría configurar una recesión técnica.",
+      "impact": "ALTO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Crecimiento",
+        "Recesión técnica",
+        "Pronósticos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/por-que-la-economia-argentina-creceria-solo-1-este-ano",
+      "source_datetime": "2026-11-01T17:13:01+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "35",
+      "headline": "Casi 4 de cada 10 empresas frenaron proyectos de servicios al exterior",
+      "summary": "Las multinacionales incorporan nuevas funciones y amplían su presencia internacional. Las restricciones de costos condicionan sus planes de expansión.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Servicios globales",
+        "Multinacionales",
+        "Inversiones"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/31/servicios-al-exterior-cuales-son-las-actividades-que-lideran-y-por-que-casi-4-de-cada-10-empresas-frenaron-proyectos",
+      "source_datetime": "2026-10-31T16:06:50+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "37",
+      "headline": "Devaluación del real alerta sobre la competitividad cambiaria del peso",
+      "summary": "La moneda del principal socio comercial cayó tras el triunfo electoral de Lula da Silva. La caída del real deterioró el índice de competitividad cambiaria que mide el BCRA.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "DOLAR"
+      ],
+      "tags": [
+        "Real brasileño",
+        "Competitividad cambiaria",
+        "Brasil"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/devaluacion-del-real-es-una-senal-de-alerta-para-el-peso-argentino",
+      "source_datetime": "2026-11-01T04:27:11+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "40",
+      "headline": "Binance reanudó retiros tras ciberataque y elevó al 95% la cobertura",
+      "summary": "Binance comenzó a normalizar sus operaciones luego de suspender los retiros por una intromisión con impacto estimado en u$s 6.300 millones. La cobertura de los fondos afectados fue elevada al 95%.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Binance",
+        "Ciberataque",
+        "Criptoactivos"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/ciberataque-a-binance-la-plataforma-reanudo-los-retiros-y-elevo-al-95-la-cobertura-de-los-fondos-afectados",
+      "source_datetime": "2026-11-01T14:43:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "42",
+      "headline": "Elecciones de medio término y lo que muestra el historial del S&P 500",
+      "summary": "Las elecciones de medio término pueden cambiar el escenario político de Washington por dos años. El historial del S&P 500 permite analizar qué pasó con las acciones tras cada elección.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "S&P 500",
+        "Elecciones de medio término",
+        "Washington"
+      ],
+      "is_argentina": true,
+      "source_name": "El Cronista",
+      "source_url": "https://www.cronista.com/finanzas-mercados/el-sp-500-despues-de-las-elecciones-de-medio-termino-lo-que-muestra-el-registro-historico",
+      "source_datetime": "2026-10-31T17:00:18+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "44",
+      "headline": "FIX SCR confirmó calificación AAA(arg) de largo plazo para Banco Nación",
+      "summary": "FIX SCR confirmó la nota AAA(arg) de largo plazo para el Banco Nación. La calificadora resaltó la fortaleza financiera, la capitalización, la liquidez y el liderazgo sistémico de la entidad.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Banco Nación",
+        "Calificación crediticia",
+        "FIX SCR"
+      ],
+      "is_argentina": true,
+      "source_name": "Ámbito Financiero",
+      "source_url": "https://www.ambito.com/economia/banco-nacion-mantiene-la-maxima-calificacion-crediticia-del-mercado-n6339948",
+      "source_datetime": "2026-11-02T03:00:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "45",
+      "headline": "El Gobierno prepara otra licitación de rutas y una reforma de Mercados de Capitales",
+      "summary": "El Gobierno prepara otra licitación de rutas nacionales y da forma a un paquete para mejorar el financiamiento. Luis Caputo quiere que soja, mercadería en depósito y prendas entre privados sirvan para conseguir financiamiento. Se prepara una reforma a la ley de Mercados de Capitales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "Obra pública",
+        "Mercados de Capitales",
+        "Financiamiento"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-gobierno-prepara-otra-licitacion-de-rutas-nacionales-y-da-forma-a-un-paquete-para-mejorar-el-nid01112026",
+      "source_datetime": "2026-11-02T00:06:35+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "49",
+      "headline": "El FBI acusa a Corea del Norte por el robo de más de US$6000 millones a Binance",
+      "summary": "El FBI acusó a Corea del Norte por el robo de más de US$6000 millones a Binance. El ataque fue perpetrado por el grupo TraderTraitor, según la agencia. Las acciones de la empresa cayeron casi un 10% tras lo sucedido.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Binance",
+        "Ciberataque",
+        "Corea del Norte"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/el-fbi-acuso-a-corea-del-norte-por-el-robo-de-mas-de-us6000-millones-a-binance-nid01112026",
+      "source_datetime": "2026-11-01T11:20:44+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "51",
+      "headline": "Opinión: merma del rodeo vacuno en Carlos Tejedor y factores políticos",
+      "summary": "En Carlos Tejedor, el stock tuvo una merma en los últimos 20 años. La merma se vinculó con diversos factores, entre ellos decisiones políticas.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "COMMODITIES"
+      ],
+      "tags": [
+        "Ganadería",
+        "Rodeo vacuno",
+        "Opinión"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/campo/opinion-perdimos-un-36-del-rodeo-vacuno-y-nadie-se-hace-cargo-nid01112026",
+      "source_datetime": "2026-11-01T09:30:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "53",
+      "headline": "La inversión en IA, uno de los mayores auges de infraestructura en EE.UU.",
+      "summary": "La inversión en IA es uno de los mayores auges en infraestructura de la historia de Estados Unidos. La disrupción supera las comparaciones con Internet, los autos o la electricidad.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "ACCIONES"
+      ],
+      "tags": [
+        "Inteligencia artificial",
+        "Infraestructura",
+        "Estados Unidos"
+      ],
+      "is_argentina": true,
+      "source_name": "La Nación Economía",
+      "source_url": "https://www.lanacion.com.ar/economia/contra-que-podemos-comparar-el-boom-de-la-ia-ya-no-alcanza-ni-internet-ni-la-electricidad-nid01112026",
+      "source_datetime": "2026-11-01T03:01:00+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "55",
+      "headline": "Consultoras advierten sobre Brasil, riesgo país y tensiones rumbo a 2027",
+      "summary": "La victoria de Lula, las elecciones de medio término en EE.UU. y la volatilidad global elevan la cautela de los inversores. Consultoras advierten sobre el frente fiscal brasileño y el riesgo país. Se mencionan tensiones que pueden marcar 2027.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS",
+        "DOLAR"
+      ],
+      "tags": [
+        "Riesgo país",
+        "Brasil",
+        "Elecciones EE.UU."
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/02/brasil-estados-unidos-y-los-riesgos-que-mira-la-argentina",
+      "source_datetime": "2026-11-02T05:40:47+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "58",
+      "headline": "Motos crecen 39% en el año mientras autos caen casi 13%",
+      "summary": "Casi 80.000 motovehículos registrados en octubre. El acumulado anual de motos está 39% por encima de 2025. El mercado de autos acumula una baja de casi 13% en el año.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Patentamientos",
+        "Motos",
+        "Autos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/el-mercado-de-motos-encadena-otro-mes-de-fuerte-crecimiento-mientras-los-autos-registran-su-mayor-caida-interanual-del-ano",
+      "source_datetime": "2026-11-01T21:38:24+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "60",
+      "headline": "Binance: retiros vuelven por fases y 95% de activos afectados está cubierto",
+      "summary": "Los retiros de Binance vuelven por fases. El 95% de los activos afectados ya fue cubierto. Aseguró que los usuarios no asumirán las pérdidas y que los depósitos continuaron operando.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Binance",
+        "Criptoactivos",
+        "Retiros"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/binance-informo-que-los-retiros-vuelven-por-fases-y-que-el-95-de-los-activos-afectados-ya-fue-cubierto",
+      "source_datetime": "2026-11-01T14:00:37+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "61",
+      "headline": "El Gobierno analiza destinar más fondos a bancos para crédito hipotecario",
+      "summary": "En las dos licitaciones del Fondo de Garantía de Sustentabilidad (FGS) las ofertas se concentraron en el segmento de mayor duración. Economía estudia ampliar esa alternativa. Economía prepara esquemas junto con organismos internacionales.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "TASAS"
+      ],
+      "tags": [
+        "Crédito hipotecario",
+        "FGS",
+        "Bancos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/el-gobierno-analiza-destinar-mas-fondos-a-los-bancos-para-impulsar-el-credito-hipotecario",
+      "source_datetime": "2026-11-01T13:16:13+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "62",
+      "headline": "Gobierno apuesta a reactivación del cuarto trimestre y PBI anual positivo",
+      "summary": "El cuarto trimestre mostrará una reactivación y permitirá que el PBI anual termine positivo. El desafío del Gobierno es aprovechar la ventana de los próximos seis meses antes que arranque a fondo el 'trade electoral'.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "BONOS",
+        "ACCIONES"
+      ],
+      "tags": [
+        "PBI",
+        "Reactivación",
+        "Gobierno"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/recuperacion-de-ingresos-mas-credito-y-freno-tarifario-los-pilares-del-plan-para-llegar-lo-mejor-posible-a-las-elecciones",
+      "source_datetime": "2026-11-01T04:28:15+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "63",
+      "headline": "BYD busca ser la marca número uno, entre tensiones arancelarias y polémicas",
+      "summary": "BYD no pone fechas, pero buscará ser rápida la marca número uno del mercado. Hay tensiones por el cupo con cero arancel para autos eléctricos e híbridos. Se mencionan polémicas por el origen chino de la empresa.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "BYD",
+        "Autos eléctricos",
+        "Arancel"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/clima-de-negocios-los-planes-de-la-automotriz-que-llego-al-pais-hace-un-ano-ya-entro-al-top-10-de-ventas-y-apuesta-a-ser-lider",
+      "source_datetime": "2026-11-01T04:27:58+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "64",
+      "headline": "Binance cubrió el 90% de los fondos perdidos y rehabilitará los retiros",
+      "summary": "La compañía informó que cubrió el 90% de los fondos perdidos y se comprometió a rehabilitar los retiros. Expertos advierten sobre posibles engaños digitales.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Binance",
+        "Hackeo",
+        "Criptomonedas"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/11/01/hackeo-en-binance-tres-claves-que-deben-tener-en-cuenta-los-usuarios-argentinos-de-la-plataforma-cripto",
+      "source_datetime": "2026-11-01T04:27:34+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "68",
+      "headline": "Binance asegura que responderá por US$6300 millones robados y usuarios no perderán",
+      "summary": "La plataforma de criptoactivos sufrió un ciberataque por USD 6.300 millones. Binance asegura que responderá por la totalidad de ese monto y que los usuarios no sufrirán pérdidas.",
+      "impact": "MEDIO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Binance",
+        "Ciberataque",
+        "Criptoactivos"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/31/binance-ya-recompro-el-90-de-los-activos-robados-por-los-hackers-cuando-se-reanudaran-los-retiros",
+      "source_datetime": "2026-10-31T18:37:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    },
+    {
+      "id_referencia": "69",
+      "headline": "Los diez autos más vendidos de octubre: mayoría con caída de ventas",
+      "summary": "La mayoría de los autos registró caída de ventas en octubre. Todos los modelos del ranking superaron las 1.000 unidades vendidas en octubre.",
+      "impact": "BAJO",
+      "asset_relevance": [
+        "NO_APLICA"
+      ],
+      "tags": [
+        "Autos",
+        "Ventas",
+        "Octubre"
+      ],
+      "is_argentina": true,
+      "source_name": "Infobae Economía",
+      "source_url": "https://www.infobae.com/economia/2026/10/31/cuales-fueron-los-diez-autos-mas-vendidos-en-octubre-tres-pick-ups-al-frente-y-solo-uno-en-el-top-ten-de-los-mas-baratos",
+      "source_datetime": "2026-10-31T15:00:56+00:00",
+      "status": "VALIDADO",
+      "verified": true,
+      "evidencia_source_snippet": ""
+    }
+  ],
+  "unverified_claims": [],
+  "missing_official_data": [],
+  "sources_consulted": [
+    "https://www.ambito.com/economia/la-fed-no-tiene-prisa-los-mercados-volvieron-trabajar-ella-n6340339",
+    "https://www.infobae.com/economia/2026/11/02/que-esperan-las-consultoras-privadas-para-el-dato-de-inflacion-de-octubre",
+    "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-lunes-2-de-noviembre-con-el-mep-y-el-ccl",
+    "https://www.ambito.com/economia/la-caida-la-industria-baja-demanda-interna-y-sueldos-dolares-altos-n6340338",
+    "https://www.ambito.com/economia/tras-las-criticas-javier-milei-domingo-cavallo-insistio-la-necesidad-acumular-reservas-y-pidio-compras-us15000-millones-n6340188",
+    "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-lunes-2-de-noviembre",
+    "https://www.infobae.com/economia/2026/11/01/brasil-ya-golpeo-a-los-activos-argentinos-y-eeuu-asoma-como-el-proximo-test-para-el-mercado-local",
+    "https://www.infobae.com/economia/2026/10/31/la-produccion-de-gas-alcanzo-un-record-historico-en-2026-por-la-explotacion-no-convencional-de-vaca-muerta",
+    "https://www.cronista.com/finanzas-mercados/banco-nacion-sale-a-captar-deuda-en-dolares-vence-en-el-proximo-gobierno",
+    "https://www.infobae.com/economia/2026/11/02/guerra-tasas-y-riesgo-pais-que-efectos-pueden-tener-en-la-argentina-las-elecciones-de-medio-termino-de-estados-unidos",
+    "https://www.infobae.com/economia/2026/11/02/noviembre-llega-con-aumentos-en-transporte-salud-alquileres-y-servicios",
+    "https://www.ambito.com/economia/noviembre-llega-aumentos-colectivos-alquileres-prepagas-y-servicios-cuanto-impacta-el-bolsillo-n6337955",
+    "https://www.infobae.com/economia/2026/11/01/cuanto-aumentaran-la-luz-el-gas-y-el-agua-en-noviembre-y-que-nuevos-ajustes-estan-en-evaluacion",
+    "https://www.ambito.com/economia/dolar-embargos-y-recesion-luis-caputo-va-la-uia-muchos-problemas-y-pocas-herramientas-n6340082",
+    "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026",
+    "https://www.ambito.com/economia/rodolfo-santangelo-estamos-subsidiando-la-demanda-dolares-y-gravando-el-consumo-local-n6340145",
+    "https://www.cronista.com/finanzas-mercados/temporada-de-balances-que-espera-el-mercado-para-las-acciones-argentinas-y-que-datos-mirar",
+    "https://www.infobae.com/economia/2026/11/01/sebastian-galiani-esta-transformacion-necesita-tiempo-y-continuidad",
+    "https://www.infobae.com/economia/2026/10/29/mercado-pago-a-un-paso-de-convertirse-en-banco-el-bcra-dio-aprobacion-tecnica-a-la-licencia-pedida-por-la-empresa-de-marcos-galperin",
+    "https://www.infobae.com/economia/2026/10/31/el-banco-central-compro-usd-1395-millones-en-octubre-y-reforzo-las-reservas",
+    "https://www.lanacion.com.ar/economia/dolar/a-cuanto-abre-el-dolar-el-lunes-2-de-noviembre-nid31102026",
+    "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-1-de-noviembre-nid01112026",
+    "https://www.lanacion.com.ar/economia/objetivo-mayo-karina-saca-a-milei-de-la-casa-rosada-y-lo-lleva-a-2027-nid01112026",
+    "https://www.lanacion.com.ar/economia/que-se-puede-hacer-para-reactivar-la-economia-sin-modificar-el-rumbo-nid01112026",
+    "https://www.cronista.com/finanzas-mercados/mes-negro-para-los-mercados-el-riesgo-pais-salto-180-puntos-y-la-bolsa-termino-en-rojo-como-sigue",
+    "https://www.lanacion.com.ar/economia/estiman-que-la-inflacion-de-octubre-se-habria-ubicado-entre-el-18-y-el-2-nid01112026",
+    "https://www.lanacion.com.ar/economia/el-mercado-concentra-todas-sus-miradas-en-estados-unidos-nid01112026",
+    "https://www.ambito.com/economia/las-exportaciones-carne-crecieron-casi-37-lo-que-va-2026-la-mejora-los-precios-n6340272",
+    "https://www.infobae.com/economia/2026/11/02/el-gobierno-debera-cubrir-hoy-un-vencimiento-de-usd-800-millones-con-el-fmi",
+    "https://www.infobae.com/economia/2026/11/01/el-debate-sobre-el-atraso-cambiario-las-exportaciones-crecieron-mientras-caia-el-tipo-de-cambio-real",
+    "https://www.infobae.com/economia/2026/11/01/por-que-la-economia-argentina-creceria-solo-1-este-ano",
+    "https://www.infobae.com/economia/2026/10/31/servicios-al-exterior-cuales-son-las-actividades-que-lideran-y-por-que-casi-4-de-cada-10-empresas-frenaron-proyectos",
+    "https://www.infobae.com/economia/2026/11/01/devaluacion-del-real-es-una-senal-de-alerta-para-el-peso-argentino",
+    "https://www.cronista.com/finanzas-mercados/ciberataque-a-binance-la-plataforma-reanudo-los-retiros-y-elevo-al-95-la-cobertura-de-los-fondos-afectados",
+    "https://www.cronista.com/finanzas-mercados/el-sp-500-despues-de-las-elecciones-de-medio-termino-lo-que-muestra-el-registro-historico",
+    "https://www.ambito.com/economia/banco-nacion-mantiene-la-maxima-calificacion-crediticia-del-mercado-n6339948",
+    "https://www.lanacion.com.ar/economia/el-gobierno-prepara-otra-licitacion-de-rutas-nacionales-y-da-forma-a-un-paquete-para-mejorar-el-nid01112026",
+    "https://www.lanacion.com.ar/economia/el-fbi-acuso-a-corea-del-norte-por-el-robo-de-mas-de-us6000-millones-a-binance-nid01112026",
+    "https://www.lanacion.com.ar/economia/campo/opinion-perdimos-un-36-del-rodeo-vacuno-y-nadie-se-hace-cargo-nid01112026",
+    "https://www.lanacion.com.ar/economia/contra-que-podemos-comparar-el-boom-de-la-ia-ya-no-alcanza-ni-internet-ni-la-electricidad-nid01112026",
+    "https://www.infobae.com/economia/2026/11/02/brasil-estados-unidos-y-los-riesgos-que-mira-la-argentina",
+    "https://www.infobae.com/economia/2026/11/02/plazo-fijo-cuanto-pagan-los-principales-bancos-por-depositos-a-30-dias",
+    "https://www.infobae.com/economia/2026/11/01/el-mercado-de-motos-encadena-otro-mes-de-fuerte-crecimiento-mientras-los-autos-registran-su-mayor-caida-interanual-del-ano",
+    "https://www.infobae.com/economia/2026/11/01/binance-informo-que-los-retiros-vuelven-por-fases-y-que-el-95-de-los-activos-afectados-ya-fue-cubierto",
+    "https://www.infobae.com/economia/2026/11/01/el-gobierno-analiza-destinar-mas-fondos-a-los-bancos-para-impulsar-el-credito-hipotecario",
+    "https://www.infobae.com/economia/2026/11/01/recuperacion-de-ingresos-mas-credito-y-freno-tarifario-los-pilares-del-plan-para-llegar-lo-mejor-posible-a-las-elecciones",
+    "https://www.infobae.com/economia/2026/11/01/clima-de-negocios-los-planes-de-la-automotriz-que-llego-al-pais-hace-un-ano-ya-entro-al-top-10-de-ventas-y-apuesta-a-ser-lider",
+    "https://www.infobae.com/economia/2026/11/01/hackeo-en-binance-tres-claves-que-deben-tener-en-cuenta-los-usuarios-argentinos-de-la-plataforma-cripto",
+    "https://www.infobae.com/economia/2026/10/31/binance-ya-recompro-el-90-de-los-activos-robados-por-los-hackers-cuando-se-reanudaran-los-retiros",
+    "https://www.infobae.com/economia/2026/10/31/cuales-fueron-los-diez-autos-mas-vendidos-en-octubre-tres-pick-ups-al-frente-y-solo-uno-en-el-top-ten-de-los-mas-baratos"
+  ]
+}
