@@ -5,21 +5,47 @@ Mínimo para armar una edición: 15 noticias.
 
 | Fecha | Recuperadas | Del archivo | Del feed de hoy | Día capturado anterior | Día capturado siguiente | ¿Alcanza para edición? |
 |---|---|---|---|---|---|---|
-| 2026-08-15 | 5 | 5 | 0 | 156 (2026-08-14) | 66 (2026-08-18) | no |
+| 2026-08-15 | 4 | 4 | 0 | 156 (2026-08-14) | 66 (2026-08-18) | no |
 | 2026-08-16 | 2 | 2 | 0 | 156 (2026-08-14) | 66 (2026-08-18) | no |
 | 2026-08-17 | 0 | 0 | 0 | 156 (2026-08-14) | 66 (2026-08-18) | no |
 | 2026-09-19 | 14 | 5 | 9 | 246 (2026-09-18) | 112 (2026-09-20) | no |
 | 2026-09-27 | 1 | 0 | 1 | 188 (2026-09-26) | 56 (2026-09-28) | no |
 | 2026-10-04 | 20 | 18 | 2 | 216 (2026-10-03) | 50 (2026-10-05) | sí |
-| 2026-10-11 | 6 | 2 | 4 | 218 (2026-10-10) | 60 (2026-10-12) | no |
+| 2026-10-11 | 6 | 3 | 3 | 218 (2026-10-10) | 60 (2026-10-12) | no |
 | 2026-10-21 | 8 | 1 | 7 | 71 (2026-10-20) | 57 (2026-10-22) | no |
 | 2026-11-09 | 1 | 1 | 0 | 140 (2026-11-08) | 57 (2026-11-10) | no |
-| 2026-11-14 | 23 | 6 | 17 | 97 (2026-11-13) | 77 (2026-11-15) | sí |
+| 2026-11-14 | 23 | 5 | 18 | 97 (2026-11-13) | 77 (2026-11-15) | sí |
+
+## Diagnóstico del archivo por feed (15/08 a 16/11)
+
+| Feed | Índice del archivo | Copias en el rango | Copias descargadas | Descargas fallidas |
+|---|---|---|---|---|
+| https://www.argentina.gob.ar/rss.xml | respondió | 0 | 0 | 0 |
+| https://www.indec.gob.ar/rss/ultimas_noticias.xml | respondió | 0 | 0 | 0 |
+| https://www.boletinoficial.gob.ar/rss/home | respondió | 0 | 0 | 0 |
+| https://www.ambito.com/rss/economia.xml | respondió | 0 | 0 | 0 |
+| https://www.cronista.com/files/rss/finanzas.xml | respondió | 0 | 0 | 0 |
+| https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml | respondió | 0 | 0 | 0 |
+| https://www.infobae.com/arc/outboundfeeds/rss/category/economia/?outputType=xml | respondió | 0 | 0 | 0 |
+| https://www.perfil.com/feed/economia | respondió | 1 | 1 | 0 |
+| https://www.cippec.org/feed/ | respondió | 0 | 0 | 0 |
+| https://www.fiel.org/rss_feed | respondió | 0 | 0 | 0 |
+| https://www.federalreserve.gov/feeds/press_all.xml | respondió | 9 | 3 | 0 |
+| https://www.imf.org/en/News/rss?language=eng | respondió | 0 | 0 | 0 |
+| https://www.ecb.europa.eu/rss/press.html | respondió | 56 | 14 | 2 |
+| https://www.sec.gov/news/pressreleases.rss | respondió | 8 | 4 | 0 |
+| https://www.sec.gov/news/speeches-statements.rss | respondió | 1 | 0 | 0 |
+| https://www.sec.gov/enforcement-litigation/litigation-releases/rss | respondió | 2 | 0 | 0 |
+| https://apps.bea.gov/rss/rss.xml | respondió | 5 | 0 | 1 |
+| https://www.bankofengland.co.uk/rss/news | respondió | 4 | 2 | 0 |
+| https://www.bankofengland.co.uk/rss/statistics | respondió | 0 | 0 | 0 |
+| https://www.fca.org.uk/news/rss.xml | respondió | 7 | 4 | 0 |
+| https://cepr.org/rss.xml | respondió | 0 | 0 | 0 |
+| https://www.piie.com/rss/update.xml | respondió | 26 | 6 | 0 |
 
 ## Por fuente (recuperadas · vecino anterior · vecino siguiente)
 
 **2026-08-15**
-- Banco Central Europeo: 1 · 0 · 0
 - El Cronista: 0 · 32 · 14
 - FCA News: 0 · 1 · 1
 - Federal Reserve: 1 · 1 · 0
