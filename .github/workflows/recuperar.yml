@@ -1,0 +1,79 @@
+# Prueba de recuperación de los días que la PC no capturó (no usa IA, no publica).
+#
+# Busca, en el Internet Archive y en los feeds de hoy, las noticias que la edición de cada
+# fecha habría descargado. Deja en la rama "prueba-recuperacion":
+# - resultados_recuperacion/INFORME_RECUPERACION.md: cuántas noticias aparecen por día y fuente
+#   (solo números y nombres de fuentes, nada del texto de los medios);
+# - insumos_recuperados.tar.gz.enc: las noticias encontradas, cifradas con INSUMOS_CLAVE
+#   (el repositorio es público y la política legal no permite republicar texto de los medios).
+#
+# Corre sola al subir cambios a la rama "prueba-recuperacion", o a mano desde Actions.
+
+name: Diario - recuperar días sin captura
+
+on:
+  push:
+    branches: [prueba-recuperacion]
+    paths: [".github/workflows/recuperar.yml", "scripts/recuperar_dias.py"]
+  workflow_dispatch:
+    inputs:
+      fechas:
+        description: "Fechas a buscar, separadas por coma"
+        default: "2026-08-15,2026-08-16,2026-08-17,2026-09-19,2026-09-27,2026-10-04,2026-10-11,2026-10-21,2026-11-09,2026-11-14"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diario-recuperar
+  cancel-in-progress: false
+
+jobs:
+  recuperar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: America/Argentina/Buenos_Aires
+      PYTHONIOENCODING: utf-8
+      INSUMOS_CLAVE: ${{ secrets.INSUMOS_CLAVE }}
+      FECHAS: ${{ inputs.fechas || '2026-08-15,2026-08-16,2026-08-17,2026-09-19,2026-09-27,2026-10-04,2026-10-11,2026-10-21,2026-11-09,2026-11-14' }}
+      INSUMOS: ${{ github.workspace }}/../insumos
+      SALIDA: ${{ github.workspace }}/../recuperacion
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Abrir las noticias guardadas (para comparar con los días vecinos)
+        run: |
+          if [ -z "$INSUMOS_CLAVE" ]; then
+            echo "::error::Falta el secreto INSUMOS_CLAVE."
+            exit 1
+          fi
+          git fetch --depth=1 origin insumos-atrasadas
+          git show FETCH_HEAD:insumos_atrasados.tar.gz.enc > "$RUNNER_TEMP/insumos.enc"
+          mkdir -p "$INSUMOS"
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass env:INSUMOS_CLAVE \
+            -in "$RUNNER_TEMP/insumos.enc" | tar -xz -C "$INSUMOS" --strip-components=1
+
+      - name: Buscar las noticias de esos días
+        run: python scripts/recuperar_dias.py --fechas "$FECHAS" --salida "$SALIDA" --insumos "$INSUMOS" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar el informe y las noticias cifradas en la rama prueba-recuperacion
+        run: |
+          git config user.name "diario-lagrancrisis[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p resultados_recuperacion
+          cp "$SALIDA/INFORME_RECUPERACION.md" resultados_recuperacion/
+          tar -czf "$RUNNER_TEMP/rec.tar.gz" -C "$SALIDA" insumos
+          openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -pass env:INSUMOS_CLAVE \
+            -in "$RUNNER_TEMP/rec.tar.gz" -out insumos_recuperados.tar.gz.enc
+          git add resultados_recuperacion insumos_recuperados.tar.gz.enc
+          git commit -q -m "Prueba de recuperación: informe y noticias cifradas"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
