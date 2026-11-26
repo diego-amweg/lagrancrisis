@@ -42,7 +42,7 @@ CDX = "https://web.archive.org/cdx/search/cdx"
 COPIA = "https://web.archive.org/web/{ts}id_/{url}"
 CABECERA = {"User-Agent": "diario-lagrancrisis-recuperacion/1.0 (+https://daily.lagrancrisis.com)"}
 COPIAS_POR_FECHA = 6
-PAUSA = 1.5
+PAUSA = 4.0
 
 
 def _pedir(url: str, params: dict | None = None, intentos: int = 4) -> requests.Response | None:
@@ -74,16 +74,24 @@ def _fuentes() -> list[dict]:
             for s in config.get(region, {}).get(tier, [])]
 
 
+DIAGNOSTICO: dict[str, dict] = {}
+
+
 def _copias(url: str, desde: datetime, hasta: datetime) -> list[str]:
+    diag = DIAGNOSTICO.setdefault(url, {"indice": "", "copias_en_rango": 0, "descargadas": 0, "fallidas": 0})
     r = _pedir(CDX, {"url": url, "from": desde.strftime("%Y%m%d%H%M%S"), "to": hasta.strftime("%Y%m%d%H%M%S"),
                      "output": "json", "filter": "statuscode:200", "collapse": "digest", "fl": "timestamp"})
     time.sleep(PAUSA)
     if r is None:
+        diag["indice"] = "sin respuesta"
         return []
     try:
-        filas = r.json()
+        filas = r.json() if r.text.strip() else []
     except ValueError:
+        diag["indice"] = "respuesta ilegible"
         return []
+    diag["indice"] = "respondió"
+    diag["copias_en_rango"] = max(0, len(filas) - 1)
     return [f[0] for f in filas[1:]]
 
 
@@ -150,6 +158,7 @@ def recuperar(fechas: list[date]) -> tuple[dict, dict]:
                     r = _pedir(COPIA.format(ts=marca, url=url))
                     time.sleep(PAUSA)
                     cache[clave_copia] = r.content if r is not None else b""
+                    DIAGNOSTICO[url]["descargadas" if cache[clave_copia] else "fallidas"] += 1
                 if cache[clave_copia]:
                     sumar(clave, _articulos(cache[clave_copia], fuente, inicio, fin), "archivo")
         # El feed de hoy.
@@ -204,7 +213,12 @@ def informe(resultado: dict, origen: dict, insumos: Path | None) -> str:
             detalle.append(f"- {n}: {por_fuente.get(n, 0)} · {ant[1][1].get(n, 0) if ant else '—'} · "
                            f"{sig[1][1].get(n, 0) if sig else '—'}")
         detalle.append("")
-    return "\n".join(lineas + detalle)
+    diag = ["", "## Diagnóstico del archivo por feed (15/08 a 16/11)", "",
+            "| Feed | Índice del archivo | Copias en el rango | Copias descargadas | Descargas fallidas |",
+            "|---|---|---|---|---|"]
+    for url, d in DIAGNOSTICO.items():
+        diag.append(f"| {url} | {d['indice']} | {d['copias_en_rango']} | {d['descargadas']} | {d['fallidas']} |")
+    return "\n".join(lineas + diag + detalle)
 
 
 def main() -> int:
