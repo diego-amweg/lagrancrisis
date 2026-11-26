@@ -12,7 +12,8 @@
 # Aviso de error: GitHub manda un correo cuando una corrida termina en rojo. Para no avisar
 # por fallas que se arreglan solas, los intentos 1 y 2 no se ponen en rojo si falla la IA o
 # una prueba: lo vuelve a intentar el siguiente. El último intento se pone en rojo si al
-# terminar no quedó publicada una edición completa del día.
+# terminar no quedó publicada una edición completa del día, o si salió como día sin
+# edición por tener menos de 15 noticias (suele indicar que alguna fuente dejó de andar).
 #
 # Claves (Settings > Secrets and variables > Actions): GEMINI_API_KEY y/o
 # ANTHROPIC_API_KEY. Opcional: la variable LGC_MODELS para cambiar los modelos
@@ -172,7 +173,11 @@ jobs:
       - name: Avisar si hoy no quedó una edición completa (último intento)
         if: always() && env.ULTIMO_INTENTO == 'true'
         run: |
-          if python3 scripts/edicion_completa.py "$FECHA"; then
+          DATA="docs/${FECHA//-//}/data.json"
+          if [ -f "$DATA" ] && grep -q '"status": "missing_documented"' "$DATA"; then
+            echo "::error::La edición $FECHA salió como día sin edición (menos de 15 noticias). Puede ser que alguna fuente haya dejado de responder: revisar."
+            exit 1
+          elif python3 scripts/edicion_completa.py "$FECHA"; then
             echo "La edición $FECHA está publicada y completa."
           else
             echo "::error::Último intento del día: la edición $FECHA no quedó publicada completa. Revisar esta corrida."

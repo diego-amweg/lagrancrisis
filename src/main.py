@@ -24,6 +24,7 @@ if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
 from src.builder import (render_daily_page, render_fallback_page,
+                         render_missing_page,
                          update_index_page)
 from src.classifier import classify_and_rank
 from src.dedupe import deduplicate_articles
@@ -855,6 +856,29 @@ def _enforce_summary_bounds(
     return _strip_meta_sentences(_sanitize_text(_strip_html(str(headline or ""))))
 
 
+RESUMEN_EJECUTIVO_MAX_CHARS = 900
+SUMMARY_MAX_CHARS = 700
+_FIN_DE_ORACION = re.compile(r"[.!?…](?=\s+[A-ZÁÉÍÓÚÑ¿¡\"“(]|\s*$)")
+
+
+def _cut_to_limit(text: str, limit: int) -> str:
+    """Corta un texto en la última oración completa que entra en el límite.
+
+    Regla del 26/11/2026: los límites de largo se hacen cumplir en el código, no solo
+    se le piden a la IA. Si no hay ninguna oración completa en al menos la mitad del
+    límite, corta en la última palabra que entra y agrega puntos suspensivos.
+    """
+    text = str(text or "").strip()
+    if len(text) <= limit:
+        return text
+    tramo = text[:limit]
+    finales = [m.end() for m in _FIN_DE_ORACION.finditer(text) if m.end() <= limit]
+    if finales and finales[-1] >= limit // 2:
+        return text[:finales[-1]].strip()
+    corte = tramo.rsplit(" ", 1)[0].rstrip(" ,;:-") if " " in tramo else tramo[: limit - 1]
+    return corte[: limit - 1] + "…"
+
+
 def remove_items_without_information(result: Dict) -> int:
     """Saca de la edición las noticias que quedaron sin nada que informar."""
     items = result.get("noticias_destacadas", [])
@@ -1260,7 +1284,9 @@ def _needs_spanish_normalization(headline: str, summary: str) -> bool:
 
 def sanitize_result_texts(result: Dict) -> None:
     """Aplica saneo de texto a campos de salida para evitar caracteres extraños."""
-    result["resumen_ejecutivo"] = _sanitize_text(result.get("resumen_ejecutivo", ""))
+    result["resumen_ejecutivo"] = _cut_to_limit(
+        _sanitize_text(result.get("resumen_ejecutivo", "")), RESUMEN_EJECUTIVO_MAX_CHARS
+    )
     result["cadena_de_razonamiento"] = _sanitize_text(result.get("cadena_de_razonamiento", ""))
 
     for item in result.get("noticias_destacadas", []):
@@ -1270,6 +1296,7 @@ def sanitize_result_texts(result: Dict) -> None:
             headline=str(item.get("headline", "")),
             evidence=str(item.get("evidencia_source_snippet", "")),
         )
+        item["summary"] = _cut_to_limit(item["summary"], SUMMARY_MAX_CHARS)
         item["source_name"] = _sanitize_text(item.get("source_name", ""))
         item["source_datetime"] = _sanitize_text(str(item.get("source_datetime", "")))
         item["tags"] = [_sanitize_text(t) for t in item.get("tags", []) if _sanitize_text(t)]
@@ -1783,12 +1810,12 @@ def run_pipeline(
                     "Publicando missing_documented en lugar de correr pipeline LLM."
                 )
                 output_path = DOCS_DIR / "index.html"
-                render_fallback_page(
+                render_missing_page(
                     date=TODAY,
-                    error_msg=(
-                        f"Jornada con baja actividad informativa "
-                        f"({len(articles_for_llm)} artículos disponibles). "
-                        "Edición no disponible."
+                    reason=(
+                        f"Ese día las fuentes publicaron muy pocas noticias "
+                        f"({len(articles_for_llm)}; el mínimo para armar una edición es "
+                        f"{MIN_ARTICLES_FOR_PIPELINE})."
                     ),
                     output_path=output_path,
                 )

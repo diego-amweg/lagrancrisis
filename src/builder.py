@@ -4,6 +4,7 @@
 # FIX: Usar paths relativos en lugar de absolutos para que funcionen localmente
 
 import json
+from html import escape
 import os
 from datetime import datetime
 from pathlib import Path
@@ -217,6 +218,46 @@ def render_fallback_page(date: str, error_msg: str, output_path: Path) -> Path:
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
     
+    return output_path
+
+
+def render_missing_page(date: str, reason: str, output_path: Path) -> Path:
+    """
+    Página de un día sin edición (faltante documentado). Dice por qué no hay edición,
+    sin prometer que va a aparecer: no es una falla pasajera.
+    """
+    html = f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Gran Crisis | {date}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <h1>LA GRAN CRISIS</h1>
+    <p class="tagline">Los datos no entran en pánico</p>
+    <time datetime="{date}" class="date">{date}</time>
+    <span class="badge fallback">Faltante documentado</span>
+  </header>
+  <main>
+    <section class="executive-summary">
+      <h2>No hay edición de este día</h2>
+      <p>{escape(reason)}</p>
+      <p>Preferimos dejar el día sin edición antes que armar una con datos incompletos.</p>
+    </section>
+  </main>
+  <footer>
+    <p><a href="/">← Inicio</a> | <a href="/archivo/">Historial</a> | <a href="/TERMINOS_DE_USO.html">Términos de uso</a></p>
+  </footer>
+</body>
+</html>"""
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
     return output_path
 
 

@@ -1,5 +1,5 @@
 <contexto_fundacional>
-<!-- Diario de La Gran Crisis (daily.lagrancrisis.com). Actualizado: 25/11/2026. -->
+<!-- Diario de La Gran Crisis (daily.lagrancrisis.com). Actualizado: 26/11/2026. -->
 
   <memoria_semantica>
 
@@ -48,7 +48,10 @@
         - diario.yml "Diario - edición diaria": tres intentos por día, 05:12, 07:13 y 10:13 de Argentina.
           Cada intento corre solo si la edición de hoy todavía no está publicada.
           Los dos primeros publican solo una edición completa; el tercero publica lo que haya salido.
-          Antes de armar corre las pruebas automáticas (20 pruebas); si fallan, no publica.
+          Antes de armar corre las pruebas automáticas (24 pruebas); si fallan, no publica.
+          Aviso de error: si el último intento no deja una edición completa publicada, o sale como día
+          sin edición (menos de 15 noticias), la corrida queda en rojo y GitHub manda un correo.
+          Los intentos 1 y 2 no avisan por fallas que se arreglan solas.
           También se corre a mano desde Actions ("Run workflow"), con fecha y opción de publicar.
         - atrasadas.yml "Diario - ediciones atrasadas": modo prueba (compara modelos, no publica)
           y modo reproceso (arma y publica las fechas pendientes, se relanza solo si no terminó).
@@ -84,6 +87,8 @@
           en el título (una fecha o un año no cuentan como dato).
         - No se publican noticias con fecha posterior a la de la edición.
         - Resumen ejecutivo: hasta 900 caracteres, sin relleno.
+        - Desde el 26/11/2026 el sistema hace cumplir los dos límites (700 y 900): si la IA se pasa,
+          corta en la última oración completa que entra.
       - Reemplaza la regla anterior "summary de 500 a 1000 caracteres" (generaba relleno).
     </directrices_editoriales>
 
@@ -135,23 +140,36 @@
           contenido legítimo; 2 frases interpretativas menores).
         - Se limpia la edición del 22/11 (89 → 87 noticias).
         - Se borra el 21/08 (había salido incompleto) para volver a armarlo una vez con el reproceso.
+      - 26/11/2026:
+        - 21/08 rearmado y completo (45 noticias).
+        - Control diario: el resumen de cada corrida en GitHub más el correo de aviso de error.
+          Reemplaza la revisión diaria y la hoja operativa que corrían en la PC.
+        - Prueba de recuperación de los 10 días sin captura desde copias del Internet Archive de los
+          mismos feeds: el archivo no guardó copias de Ámbito, Cronista, La Nación ni Infobae en esos tres
+          meses (una de Perfil). Se recuperaron de 0 a 23 noticias por día, contra 50 a 250 de un día normal.
+          Decisión: los 10 días quedan como faltante documentado, sin reconstrucción artificial.
+        - Los días sin edición tienen una página propia que explica el motivo (antes decía
+          "Procesamiento temporalmente no disponible, volvé en unos minutos").
+        - Se hacen cumplir en el código los límites de 900 caracteres del resumen ejecutivo y de 700 de
+          cada noticia (antes solo se le pedían a la IA: 62 de 185 ediciones pasaban los 900).
     </decisiones_tomadas>
 
     <estado_ediciones>
-      - Desde el 15/05/2026 hay edición publicada todos los días, salvo:
-        - 21/08: pendiente de volver a armar (correr "Diario - ediciones atrasadas" en modo reproceso).
-        - 10 días sin noticias capturadas (la PC no capturó nada): 15, 16 y 17/08; 19 y 27/09;
-          04, 11 y 21/10; 09 y 14/11. No tienen edición ni marca de "faltante documentado".
-      - 31/08 figura como faltante documentado: solo 12 noticias, por debajo del mínimo de 15 para armar edición.
+      - Desde el 15/05/2026 hay edición publicada todos los días, salvo 11 días como faltante documentado:
+        - 10 días sin noticias capturadas, que no se pudieron recuperar (ver decisiones del 26/11):
+          15, 16 y 17/08; 19 y 27/09;
+          04, 11 y 21/10; 09 y 14/11.
+        - 31/08: solo 12 noticias, por debajo del mínimo de 15 para armar edición.
+      - Los resúmenes ya publicados que pasan los límites (62 ediciones con resumen ejecutivo de más de 900;
+        72 noticias de más de 700 en la edición del 22/11, armada antes de las reglas del 23/11) siguen como están.
     </estado_ediciones>
 
     <proximo_hito>
-      - Confirmar que el 21/08 quedó bien armado después del reproceso.
       - Ver una semana de publicaciones automáticas seguidas sin intervención.
-      - Decidir (pendiente del usuario) si los 10 días sin captura llevan la marca de faltante documentado.
-      - Decidir (pendiente del usuario) qué reemplaza a la revisión diaria y a la hoja operativa,
-        que corrían en la PC y se apagaron el 22/11. Hoy el control es el resumen de cada corrida en GitHub.
-      - Borrar la rama insumos-atrasadas cuando no queden atrasadas.
+      - Comprobar que el correo de aviso de error le llega al usuario (prueba: correr la edición diaria a mano
+        con la fecha "x"; tiene que fallar enseguida y mandar el correo).
+      - Borrar las ramas insumos-atrasadas y prueba-recuperacion (ya no quedan atrasadas por armar).
+      - El enlace "Historial" del pie de las páginas de cada día apunta a /archivo/, que no existe.
     </proximo_hito>
 
     <solucion_de_problemas_comunes>

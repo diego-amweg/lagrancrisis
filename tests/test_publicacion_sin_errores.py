@@ -264,3 +264,41 @@ def test_una_fecha_en_el_titulo_no_cuenta_como_dato():
     assert has_no_information("Dólar blue, oficial, CCL y MEP del lunes 23 de noviembre", "")
     assert has_no_information("Calendario 23/11: pagos de ANSES", "")
     assert not has_no_information("El BCRA compró 90 millones", "")
+
+
+def test_resumen_ejecutivo_largo_se_corta_en_una_oracion_completa():
+    from src.main import _cut_to_limit
+    oracion = "El BCRA compró USD 120 millones en EE.UU. y otros mercados. "
+    texto = oracion * 30
+    cortado = _cut_to_limit(texto, 900)
+    assert len(cortado) <= 900
+    assert cortado.endswith("mercados.")
+    assert _cut_to_limit("Corto.", 900) == "Corto."
+
+
+def test_texto_sin_puntos_se_corta_en_una_palabra():
+    from src.main import _cut_to_limit
+    cortado = _cut_to_limit("palabra " * 200, 700)
+    assert len(cortado) <= 700
+    assert cortado.endswith("palabra…")
+
+
+def test_limites_se_aplican_al_publicar():
+    from src.main import sanitize_result_texts
+    result = {
+        "resumen_ejecutivo": "La inflación de octubre fue 2,1%. " * 60,
+        "cadena_de_razonamiento": "",
+        "noticias_destacadas": [{"headline": "Inflación", "summary": "El índice subió 2,1% en octubre. " * 40}],
+    }
+    sanitize_result_texts(result)
+    assert len(result["resumen_ejecutivo"]) <= 900
+    assert len(result["noticias_destacadas"][0]["summary"]) <= 700
+
+
+def test_dia_sin_edicion_no_promete_que_va_a_aparecer(tmp_path):
+    from src.builder import render_missing_page
+    salida = render_missing_page("2026-08-15", "No se capturaron noticias ese día.", tmp_path / "index.html")
+    html = salida.read_text(encoding="utf-8")
+    assert "Faltante documentado" in html
+    assert "No se capturaron noticias ese día." in html
+    assert "Volvé en unos minutos" not in html
