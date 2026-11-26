@@ -9,6 +9,11 @@
 #
 # También se puede correr a mano desde la pestaña Actions ("Run workflow").
 #
+# Aviso de error: GitHub manda un correo cuando una corrida termina en rojo. Para no avisar
+# por fallas que se arreglan solas, los intentos 1 y 2 no se ponen en rojo si falla la IA o
+# una prueba: lo vuelve a intentar el siguiente. El último intento se pone en rojo si al
+# terminar no quedó publicada una edición completa del día.
+#
 # Claves (Settings > Secrets and variables > Actions): GEMINI_API_KEY y/o
 # ANTHROPIC_API_KEY. Opcional: la variable LGC_MODELS para cambiar los modelos
 # y su orden sin tocar código.
@@ -105,11 +110,15 @@ jobs:
           fi
 
       - name: Pruebas (si fallan, no se publica)
+        id: pruebas
         if: env.SALTEAR == '0'
+        continue-on-error: ${{ env.AUTOMATICA == 'true' && env.ULTIMO_INTENTO != 'true' }}
         run: python -m pytest -q tests/test_publicacion_sin_errores.py
 
       - name: Armar la edición
-        if: env.SALTEAR == '0'
+        id: armar
+        if: env.SALTEAR == '0' && steps.pruebas.outcome == 'success'
+        continue-on-error: ${{ env.AUTOMATICA == 'true' && env.ULTIMO_INTENTO != 'true' }}
         run: python src/main.py --close --date "$FECHA"
 
       - name: ¿Salió completa?
@@ -127,7 +136,8 @@ jobs:
 
       - name: Publicar (guardar en GitHub; Cloudflare la sube al sitio)
         if: >-
-          success() && env.SALTEAR == '0' && (
+          success() && env.SALTEAR == '0' &&
+          steps.pruebas.outcome == 'success' && steps.armar.outcome == 'success' && (
             (env.AUTOMATICA != 'true' && inputs.publicar) ||
             (env.AUTOMATICA == 'true' && (env.COMPLETA == '1' || env.ULTIMO_INTENTO == 'true'))
           )
@@ -145,7 +155,7 @@ jobs:
 
       - name: Avisar que se espera al próximo intento
         if: success() && env.SALTEAR == '0' && env.AUTOMATICA == 'true' && env.COMPLETA == '0' && env.ULTIMO_INTENTO != 'true'
-        run: echo "::warning::La edición $FECHA salió incompleta. No se publica todavía; se reintenta en el próximo horario."
+        run: echo "::warning::La edición $FECHA no salió completa (o falló una prueba o la IA). No se publica todavía; se reintenta en el próximo horario."
 
       - name: Guardar registros de la corrida (30 días)
         if: always() && env.SALTEAR == '0'
@@ -158,3 +168,13 @@ jobs:
             ${{ env.CARPETA_EDICION }}/
           retention-days: 30
           if-no-files-found: warn
+
+      - name: Avisar si hoy no quedó una edición completa (último intento)
+        if: always() && env.ULTIMO_INTENTO == 'true'
+        run: |
+          if python3 scripts/edicion_completa.py "$FECHA"; then
+            echo "La edición $FECHA está publicada y completa."
+          else
+            echo "::error::Último intento del día: la edición $FECHA no quedó publicada completa. Revisar esta corrida."
+            exit 1
+          fi
